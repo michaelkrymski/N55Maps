@@ -32,3 +32,10 @@ Edit Log for Modifiedrev5.bin created by TunerPro.
 10/12/2024 17:12:55  Table:     Commanded WGDC (requires switch) changed.
 10/12/2024 17:24:51  Table:     Commanded WGDC (requires switch) changed.
 10/12/2024 17:25:41  Table:     Timing (main) changed.
+10/12/2024 20:06:27  Table:     Load ceiling (main) changed.
+10/12/2024 20:11:49  Table:     Enable Custom WGDC Override changed.
+10/12/2024 20:14:06  Table:     Timing (main) 3 changed.
+10/12/2024 20:14:07  Table:     Timing (main) 2 changed.
+10/12/2024 20:14:23  Table:     Load limit factor changed.
+10/12/2024 20:14:34  Table:     Load limit factor changed.
+10/12/2024 20:14:42  Table:     Load limit factor changed.
