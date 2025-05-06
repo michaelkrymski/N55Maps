@@ -13,3 +13,15 @@ Edit Log for Modifiedrev4.bin created by TunerPro.
 10/10/2024 01:05:20  Table:     Commanded WGDC (requires switch) changed.
 10/10/2024 14:15:05  Table:     Commanded WGDC (requires switch) changed.
 10/10/2024 14:18:41  Table:     Commanded WGDC (requires switch) changed.
+05/05/2025 18:15:56  Table:     Static Ethanol Content (Map 1) changed.
+05/05/2025 19:01:57  Table:     Load ceiling (main) changed.
+05/05/2025 19:11:32  Table:     Load limit factor changed.
+05/05/2025 19:12:15  Table:     Load limit factor changed.
+05/05/2025 19:22:46  Table:     Boost Limit Multiplier Ceiling changed.
+05/05/2025 19:22:56  Table:     Boost Limit multiplier changed.
+05/05/2025 22:19:21  Table:     Boost Ceiling changed.
+05/05/2025 22:22:07  Table:     Boost set limit changed.
+05/06/2025 00:18:37  Table:     Boost Ceiling changed.
+05/06/2025 00:29:57  Table:     Boost Limit Multiplier Ceiling changed.
+05/06/2025 00:30:08  Table:     Boost Limit multiplier changed.
+05/06/2025 00:32:01  Table:     Lambda target min changed.
