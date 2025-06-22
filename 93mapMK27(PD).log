@@ -1,0 +1,24 @@
+Edit Log for 93mapMK27(PD).bin created by TunerPro.
+**************************************************************************
+06/16/2025 20:56:50  Table:     Boost Ceiling changed.
+06/16/2025 20:56:51  Table:     Boost Limit Multiplier Ceiling changed.
+06/16/2025 21:01:16  Table:     WGDC P-Factor (Custom) changed.
+06/16/2025 21:01:17  Table:     WGDC Base (Custom) changed.
+06/16/2025 21:03:09  Table:     WGDC D-Factor (Custom) changed.
+06/16/2025 21:03:40  Table:     WGDC P-Factor (Custom) changed.
+06/16/2025 21:39:13  Table:     Fuel Scalar changed.
+06/16/2025 21:44:15  Table:     Timing (spool) 2 changed.
+06/16/2025 21:44:16  Table:     Timing (spool) changed.
+06/16/2025 21:45:46  Table:     Timing (main) 2 changed.
+06/16/2025 21:45:47  Table:     Timing (main) changed.
+06/16/2025 21:49:52  Table:     Timing (spool) changed.
+06/16/2025 21:49:56  Table:     Timing (spool) 2 changed.
+06/17/2025 00:43:10  Table:     Load to Torque limit changed.
+06/17/2025 00:43:11  Table:     Load to Torque limit 2 changed.
+06/17/2025 01:12:35  Table:     Load limit factor changed.
+06/17/2025 01:13:02  Table:     Load ceiling (super knock) changed.
+06/17/2025 01:20:46  Table:     Load target offset (overboost) changed.
+06/17/2025 01:22:30  Table:     Load limiting factor (IAT) changed.
+06/17/2025 22:55:42  Table:     Load ceiling (main) changed.
+06/20/2025 00:51:22  Table:     Load target offset (overboost) changed.
+06/21/2025 16:46:02  Table:     Fuel Scalar changed.
