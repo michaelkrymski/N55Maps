@@ -1,4 +1,4 @@
-<!-- Written 06/14/2025 18:09:21 -->
+<!-- Written 06/28/2025 03:11:16 -->
 <XDFFORMAT version="1.80">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -8513,8 +8513,8 @@
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.8">
-        <VAR id="X" />
+      <MATH equation="(x*0.8)-88">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
@@ -8657,7 +8657,7 @@
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.8">
+      <MATH equation="X-88">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -13253,7 +13253,7 @@
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X/8192">
+      <MATH equation="((X/8192)*14.504)-14.504">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -13264,7 +13264,7 @@
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X/2048">
+      <MATH equation="(X/65536)*100">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -13917,7 +13917,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
-    <title>Wastegate Position - f&#252;r Vorsteuerung bank 2</title>
+    <title>Wastegate Base Finalizer (Bank 2)</title>
     <description>KF_WGPOS_VST_b2</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="3" />
@@ -13943,7 +13943,7 @@
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X*0.00006103516">
+      <MATH equation="(X/65536)*400">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -14060,7 +14060,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
-    <title>Wastegate Position - f&#252;r Vorsteuerung</title>
+    <title>Wastegate Base Finalizer (Bank 1)</title>
     <description>KF_WGPOS_VST</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="3" />
@@ -14086,7 +14086,7 @@
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X*0.00006103516">
+      <MATH equation="X*0.006103516">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -14298,8 +14298,8 @@
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X/8192">
-        <VAR id="X" />
+      <MATH equation="(((x/8192)*14.504)-14.507)">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
@@ -14357,8 +14357,8 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x30">
-    <title>WGDC Base Before PID</title>
+  <XDFTABLE uniqueid="0x0" flags="0x10">
+    <title>WGDC Base</title>
     <description>KF_ATL_PVERD</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="3" />
@@ -14384,8 +14384,8 @@
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X/8192">
-        <VAR id="X" />
+      <MATH equation="(((x/8192)*14.504)-14.507)">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
@@ -14395,7 +14395,7 @@
       <min>0.000000</min>
       <max>63.999001</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.0009765625">
+      <MATH equation="((X/65536)*100)">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -41190,8 +41190,8 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x30">
-    <title>Compressor Map with Required Compressor / Turbine Power (Map 2)</title>
+  <XDFTABLE uniqueid="0x0" flags="0x10">
+    <title>WGDC Base (map 2)</title>
     <description>KF_ATL_PVERD (map 2)</description>
     <CATEGORYMEM index="0" category="39" />
     <CATEGORYMEM index="1" category="43" />
@@ -41205,7 +41205,7 @@
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X*0.03125/3.6">
+      <MATH equation="(X*0.03125)/3.6&#013;&#010;">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -41218,8 +41218,8 @@
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X/8192">
-        <VAR id="X" />
+      <MATH equation="(((x/8192)*14.504)-14.507)">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
@@ -41229,7 +41229,7 @@
       <min>0.000000</min>
       <max>63.999001</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.0009765625">
+      <MATH equation="((X/65536)*100)&#013;&#010;">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -41464,8 +41464,8 @@
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X/8192">
-        <VAR id="X" />
+      <MATH equation="(((x/8192)*14.504)-14.507)&#013;&#010;">
+        <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
