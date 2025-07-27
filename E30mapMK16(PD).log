@@ -1,0 +1,20 @@
+Edit Log for E30mapMK16(PD).bin created by TunerPro.
+**************************************************************************
+07/03/2025 13:19:22  Table:     HPFP P-Factor changed.
+07/03/2025 13:28:21  Table:     MSV Feedforward Offset changed.
+07/03/2025 13:28:32  Table:     MSV Feedforward Gain changed.
+07/04/2025 07:18:23  Table:     HPFP min. rail pressure undershoot changed.
+07/04/2025 07:29:26  Table:     MSV Feedforward Offset changed.
+07/04/2025 07:32:38  Table:     WGDC Base (Custom) changed.
+07/04/2025 07:44:11  Table:     WGDC Base (Custom) changed.
+07/04/2025 07:46:38  Table:     WGDC P-Factor (Custom) changed.
+07/04/2025 07:48:18  Table:     WGDC P-Factor (Custom) changed.
+07/04/2025 07:49:28  Table:     WGDC P-Factor (Custom) changed.
+07/04/2025 07:49:46  Table:     WGDC Base (Custom) changed.
+07/04/2025 07:51:33  Table:     WGDC Base (Custom) changed.
+07/04/2025 07:53:55  Table:     WGDC P-Factor (Custom) changed.
+07/04/2025 15:59:39  Table:     WGDC Base (Custom) changed.
+07/04/2025 15:59:41  Table:     WGDC P-Factor (Custom) changed.
+07/04/2025 16:05:49  Table:     Load to Torque limit changed.
+07/04/2025 16:05:56  Table:     Load to Torque limit 2 changed.
+07/04/2025 16:07:07  Table:     WGDC P-Factor (Custom) changed.

@@ -3,3 +3,24 @@ Edit Log for 93mapMK29(PD).bin created by TunerPro.
 06/22/2025 19:45:15  Table:     WGDC P-Factor (Custom) changed.
 06/22/2025 20:35:28  Table:     Fuel Scalar changed.
 06/22/2025 20:36:06  Table:     Lambda Limit Rich changed.
+07/12/2025 03:31:20  Table:     WGDC Base (Custom) changed.
+07/12/2025 03:31:26  Table:     WGDC P-Factor (Custom) changed.
+07/12/2025 03:31:46  Table:     WGDC D-Factor (Custom) changed.
+07/12/2025 03:32:47  Table:     WGDC P-Factor (Custom) - Boost Deviation changed.
+07/12/2025 03:33:22  Table:     WGDC P-Factor (Custom) (Antilag) - Boost Deviation changed.
+07/12/2025 03:33:32  Table:     WGDC D-Factor (Custom) (Antilag) - Boost Deviation Gradient changed.
+07/12/2025 03:33:36  Table:     WGDC D-Factor (Custom) (Antilag) - Boost Deviation changed.
+07/12/2025 03:33:59  Table:     Antilag Timing (Base) changed.
+07/12/2025 03:34:02  Table:     Antilag Timing Ramp Rate (*crk < 0) changed.
+07/12/2025 03:34:05  Table:     Antilag Timing Ramp Rate changed.
+07/12/2025 03:34:17  Table:     Antilag Timing (P-Factor) changed.
+07/12/2025 03:34:32  Table:     Turbine I-Factor Constant changed.
+07/12/2025 03:34:40  Table:     Antilag Start Delay changed.
+07/12/2025 03:34:43  Table:     Antilag Timeout changed.
+07/12/2025 03:34:46  Table:     Antilag Cooldown Timer changed.
+07/12/2025 03:34:50  Table:     Enable Antilag changed.
+07/12/2025 03:34:52  Table:     Antilag EGT Safety (Maximum) changed.
+07/12/2025 03:34:55  Table:     Antilag Coolant Safety (Maximum) changed.
+07/12/2025 03:34:58  Table:     Antilag Coolant Safety (Minimum) changed.
+07/12/2025 03:35:02  Table:     Antilag Fuel Target changed.
+07/12/2025 03:35:09  Table:     Antilag Boost Target changed.
