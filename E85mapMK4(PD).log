@@ -1,0 +1,11 @@
+Edit Log for E85mapMK4(PD).bin created by TunerPro.
+**************************************************************************
+07/27/2025 17:42:19  Table:     Gear Axis Variable Toggle changed.
+07/27/2025 17:48:54  Table:     Turbo pumping limit changed.
+07/27/2025 17:49:27  Table:     Boost Ceiling (Relative) (Gear x RPM) (Map 1) changed.
+07/27/2025 17:49:54  Table:     WGDC Base (Custom) changed.
+07/27/2025 17:50:10  Table:     Load limit factor changed.
+07/27/2025 17:58:35  Table:     Boost multiplier changed.
+07/27/2025 18:00:18  Table:     Boost Limit Multiplier Ceiling changed.
+07/27/2025 18:00:25  Table:     Boost Limit Multiplier Ceiling changed.
+07/27/2025 18:02:15  Table:     Mass flow ratio (ceiling) for diag sensor pressure in CP changed.
