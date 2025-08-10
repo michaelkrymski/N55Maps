@@ -81,7 +81,7 @@
     <CATEGORY index="0x48" name="N55 PWG Specific" />
   </XDFHEADER>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Filterkonstante f&#252;r die Leistungs- und Momentenanzeige</title>
+    <title>Filter Constant for Power and Torque Display</title>
     <description>KF_EDA_ANZ_SPORT_FILT_KONST</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -208,7 +208,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Filterkonstante f&#252;r die Leistungs- und Momentenanzeige X (autogen)</title>
+    <title>Filter Constant for Power and Torque Display X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -294,7 +294,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Filterkonstante f&#252;r die Leistungs- und Momentenanzeige Y (autogen)</title>
+    <title>Filter Constant for Power and Torque Display Y (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -337,7 +337,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Zeitkonstante zum Abschalten des Massenstromregler Hub</title>
+    <title>Time Constant for Switching Off Mass Flow Controller Hub</title>
     <description>K_ZK_MRVVTOFF</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -379,7 +379,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Obere Grenze der Massenstromadaption lernen Hub-NN</title>
+    <title>Upper Limit of Mass Flow Adaptation Learning Hub-NN</title>
     <description>K_MAREGVVTNN_MX</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -421,7 +421,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Grenze der Massenstromadaption lernen Hub-NN</title>
+    <title>Lower Limit of Mass Flow Adaptation Learning Hub-NN</title>
     <description>K_MAREGVVTNN_MN</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -463,7 +463,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Obere Grenze des Massenstromregler Hub (Mareg_pivvt)</title>
+    <title>Upper Limit of Mass Flow Controller Hub (Mareg_pivvt)</title>
     <description>K_MAREGVVTMX</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -505,7 +505,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Grenze des Massenstromregler Hub (Mareg_pivvt)</title>
+    <title>Lower Limit of Mass Flow Controller Hub (Mareg_pivvt)</title>
     <description>K_MAREGVVTMN</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -547,7 +547,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Obere Grenze des I-Anteil des Massenstromregler Hub (Mareg_vvti)</title>
+    <title>Upper Limit of I-Component of Mass Flow Controller Hub (Mareg_vvti)</title>
     <description>K_MAREGVVTIMX</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -589,7 +589,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Grenze des I-Anteil des Massenstromregler Hub (Mareg_vvti)</title>
+    <title>Lower Limit of I-Component of Mass Flow Controller Hub (Mareg_vvti)</title>
     <description>K_MAREGVVTIMN</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -631,7 +631,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Obere Lastschwelle f&#252;r Setzen der Bedingung Motor im Last-Fenster von HFM Puls 2</title>
+    <title>Upper Load Threshold for Setting Engine in Load Window Condition of HFM Pulse 2</title>
     <description>K_PULSRFVMX2</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -673,7 +673,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Obere Grenze der Motordrehzahl f&#252;r Setzen der Bedingung Motor im Last-Fenster von HFM Puls 2</title>
+    <title>Upper Engine Speed Limit for Setting Engine in Load Window Condition of HFM Pulse 2</title>
     <description>K_PULSNMX2</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -715,7 +715,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Grenze der Motordrehzahl f&#252;r Setzen der Bedingung Motor im Last-Fenster von HFM Puls 2</title>
+    <title>Lower Engine Speed Limit for Setting Engine in Load Window Condition of HFM Pulse 2</title>
     <description>K_PULSNMN2</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -757,7 +757,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Grenze des Druckverh&#228;ltnis an der Drosselklappe f&#252;r Setzen der Bedingung Motor im Last-Fenster von HFM Puls 2</title>
+    <title>Lower Throttle Pressure Ratio Limit for Setting Engine in Load Window Condition of HFM Pulse 2</title>
     <description>K_PSPVK_SOLLMN2</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -799,7 +799,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Obere Grenze der Massenstromadaption lernen DK-NN</title>
+    <title>Upper Limit of Mass Flow Adaptation Learning DK-NN</title>
     <description>K_MAREGDKNN_MX</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -841,7 +841,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Grenze der Massenstromadaption lernen DK-NN</title>
+    <title>Lower Limit of Mass Flow Adaptation Learning DK-NN</title>
     <description>K_MAREGDKNN_MN</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -883,7 +883,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Obere Grenze des Massenstromregler DK (Mareg_pidk_i)</title>
+    <title>Upper Limit of Mass Flow Controller DK (Mareg_pidk_i)</title>
     <description>K_MAREGDKMX</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -925,7 +925,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Grenze des Massenstromregler DK (Mareg_pidk_i)</title>
+    <title>Lower Limit of Mass Flow Controller DK (Mareg_pidk_i)</title>
     <description>K_MAREGDKMN</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -967,7 +967,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Obere Grenze des I-Anteil des Massenstromregler DK (Mareg_dki_i)</title>
+    <title>Upper Limit of I-Component of Mass Flow Controller DK (Mareg_dki_i)</title>
     <description>K_MAREGDKIMX</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1009,7 +1009,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Grenze des I-Anteil des Massenstromregler DK (Mareg_dki_i)</title>
+    <title>Lower Limit of I-Component of Mass Flow Controller DK (Mareg_dki_i)</title>
     <description>K_MAREGDKIMN</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1051,7 +1051,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Filterkonstante fuer Tvulv zum Erkennen der Tvulv Dynamik</title>
+    <title>Filter Constant for Tvulv to Detect Tvulv Dynamics</title>
     <description>K_FK_TVULV_GRAD</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1093,7 +1093,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Filterkonstante zum Zuschalten der Massenstromadaption aus dem Lolimot-KNN (DK und Hub)</title>
+    <title>Filter Constant for Activating Mass Flow Adaptation from Lolimot-KNN (DK and Hub)</title>
     <description>K_FK_NNON</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1135,7 +1135,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Filterkonstante zum Abschalten der Massenstromadaption aus dem Lolimot-KNN (DK und Hub)</title>
+    <title>Filter Constant for Deactivating Mass Flow Adaptation from Lolimot-KNN (DK and Hub)</title>
     <description>K_FK_NNOFF</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1177,7 +1177,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennfeld zur Ausblendung Kaltnachstartanreicherung Hochdruck5</title>
+    <title>Map for Suppressing Cold Start Enrichment High Pressure 5</title>
     <description>KF_KALTNST_AUSBL_HD_PF2</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1219,7 +1219,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennfeld zur Ausblendung Kaltnachstartanreicherung Hochdruck5 X (autogen)</title>
+    <title>Map for Suppressing Cold Start Enrichment High Pressure 5 X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1268,7 +1268,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennfeld zur Ausblendung Kaltnachstartanreicherung Hochdruck5 Y (autogen)</title>
+    <title>Map for Suppressing Cold Start Enrichment High Pressure 5 Y (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1358,7 +1358,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Konstante maximales Rf</title>
+    <title>Maximum Rf Constant</title>
     <description>K_RF_MAX</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1775,7 +1775,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Dies ist die Mindestfahrgeschwindigkeit fuer die Erkennung des Fahrzustands bei HS und DKG</title>
+    <title>Minimum Driving Speed for Detection of Driving State in HS and DKG</title>
     <description>K_KHNST_VMIN_DRV</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -4385,7 +4385,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Obere Drehzahlschwelle f. Aktivierung des Katheizmanagers</title>
+    <title>Upper RPM Threshold for Cat Heating Manager Activation</title>
     <description>K_NATLSVC_MX</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -4427,7 +4427,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Drehzahlschwelle f. Aktivierung des Katheizmanagers</title>
+    <title>Lower RPM Threshold for Cat Heating Manager Activation</title>
     <description>K_NATLSVC_MN</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -4675,7 +4675,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>minimale Umgebungstemperatur zur Priorisierung der BA HK</title>
+    <title>Minimum Ambient Temperature for Prioritizing BA HK</title>
     <description>K_WMTU_2</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -4757,7 +4757,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>minimale Umgebungstemperatur zur Priorisierung der BA HI</title>
+    <title>Minimum Ambient Temperature for Prioritizing BA HI</title>
     <description>K_WMTU_1</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5036,7 +5036,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Lastschwelle f&#252;r Setzen der Bedingung Motor im Last-Fenster von HFM Puls 2 X (autogen)</title>
+    <title>Lower Load Threshold for Setting Engine in Load Window Condition of HFM Pulse 2 X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -5079,7 +5079,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Lastschwelle f&#252;r Setzen der Bedingung Motor im Last-Fenster von HFM Puls 2</title>
+    <title>Lower Load Threshold for Setting Engine in Load Window Condition of HFM Pulse 2</title>
     <description>KL_PULSRFVMN2</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6160,7 +6160,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Minimale F&#252;llung f&#252;r F&#252;llungsbegrenzung aus Einspritz&#252;berwachung X (autogen)</title>
+    <title>Minimum Filling for Fill Limitation from Injection Monitoring X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6205,7 +6205,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Minimale F&#252;llung f&#252;r F&#252;llungsbegrenzung aus Einspritz&#252;berwachung</title>
+    <title>Minimum Filling for Fill Limitation from Injection Monitoring</title>
     <description>KL_RFMIN_KRSTSYS</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6793,7 +6793,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Korrektur Start Hoehe ueber Umgebungsdruck X (autogen)</title>
+    <title>Start Altitude Correction via Ambient Pressure X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -6836,7 +6836,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Korrektur Start Hoehe ueber Umgebungsdruck</title>
+    <title>Start Altitude Correction via Ambient Pressure</title>
     <description>KL_ST_HOEHE_PUMG</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7026,7 +7026,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennlinie Wirkungsgrad Lambda f&#252;r Rf konstant X (autogen)</title>
+    <title>Characteristic Curve Lambda Efficiency for Constant Rf X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7071,7 +7071,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennlinie Wirkungsgrad Lambda f&#252;r Rf konstant</title>
+    <title>Characteristic Curve Lambda Efficiency for Constant Rf</title>
     <description>KL_ETA_LAMBDA_RF</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7379,7 +7379,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Leerlaufdrehzahlvorgabe fuer Katheizen HOM_EE im Vorw&#228;rtsgang Y (autogen)</title>
+    <title>Idle Speed Specification for Cat Heating HOM_EE in Forward Gear Y (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7424,7 +7424,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Leerlaufdrehzahlvorgabe fuer Katheizen HOM_EE im Vorw&#228;rtsgang X (autogen)</title>
+    <title>Idle Speed Specification for Cat Heating HOM_EE in Forward Gear X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7467,7 +7467,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Leerlaufdrehzahlvorgabe fuer Katheizen HOM_EE im Vorw&#228;rtsgang</title>
+    <title>Idle Speed Specification for Cat Heating HOM_EE in Forward Gear</title>
     <description>KF_KHNST_NKW_LL_HOMEE_DRV</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7637,7 +7637,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Leerlaufdrehzahlvorgabe fuer Katheizen HOM_DOE im Vorw&#228;rtsgang Y (autogen)</title>
+    <title>Idle Speed Specification for Cat Heating HOM_DOE in Forward Gear Y (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7682,7 +7682,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Leerlaufdrehzahlvorgabe fuer Katheizen HOM_DOE im Vorw&#228;rtsgang X (autogen)</title>
+    <title>Idle Speed Specification for Cat Heating HOM_DOE in Forward Gear X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7725,7 +7725,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Leerlaufdrehzahlvorgabe fuer Katheizen HOM_DOE im Vorw&#228;rtsgang</title>
+    <title>Idle Speed Specification for Cat Heating HOM_DOE in Forward Gear</title>
     <description>KF_KHNST_NKW_LL_HOMDOE_DRV</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7766,7 +7766,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Leerlaufdrehzahlvorgabe fuer Katheizen HOM_DOE ausgekuppelt Y (autogen)</title>
+    <title>Idle Speed Specification for Cat Heating HOM_DOE Disengaged Y (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7811,7 +7811,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Leerlaufdrehzahlvorgabe fuer Katheizen HOM_DOE ausgekuppelt X (autogen)</title>
+    <title>Idle Speed Specification for Cat Heating HOM_DOE Disengaged X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7854,7 +7854,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Leerlaufdrehzahlvorgabe fuer Katheizen HOM_DOE ausgekuppelt</title>
+    <title>Idle Speed Specification for Cat Heating HOM_DOE Disengaged</title>
     <description>KF_KHNST_NKW_LL_HOMDOE</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15447,7 +15447,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Aktiv-Zeit Overboost Motordrehzahlabh&#228;ngig X (autogen)</title>
+    <title>Active Time Overboost Engine RPM Dependent X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15488,7 +15488,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Aktiv-Zeit Overboost Motordrehzahlabh&#228;ngig</title>
+    <title>Active Time Overboost Engine RPM Dependent</title>
     <description>KL_TDOBAKTIV</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15530,7 +15530,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Zeit f&#252;r Sperre Overboost nach Ausl&#246;sung X (autogen)</title>
+    <title>Time for Overboost Lock After Trigger X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15573,7 +15573,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Zeit f&#252;r Sperre Overboost nach Ausl&#246;sung</title>
+    <title>Time for Overboost Lock After Trigger</title>
     <description>KL_TDOBSPERR</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15615,7 +15615,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Reduktionsfaktor Overboostmoment &#252;ber TANS X (autogen)</title>
+    <title>Reduction Factor Overboost Torque via TANS X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15656,7 +15656,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Reduktionsfaktor Overboostmoment &#252;ber TANS</title>
+    <title>Reduction Factor Overboost Torque via TANS</title>
     <description>KL_FDMDMX_OB</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -18271,7 +18271,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennfeld f&#252;r Sprungfaktor im Schubbereich in der Funktions&#252;berwachung</title>
+    <title>Characteristic Map for Step Factor in Overrun Range in Function Monitoring</title>
     <description>MoF_facDAOvrRun_MAP</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -18312,7 +18312,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennfeld f&#252;r Sprungfaktor im Schubbereich in der Funktions&#252;berwachung X (autogen)</title>
+    <title>Characteristic Map for Step Factor in Overrun Range in Function Monitoring X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -18357,7 +18357,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennfeld f&#252;r Sprungfaktor im Schubbereich in der Funktions&#252;berwachung Y (autogen)</title>
+    <title>Characteristic Map for Step Factor in Overrun Range in Function Monitoring Y (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -18534,7 +18534,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennlinie maximales inneres Moment in der Funktions&#252;berwachung</title>
+    <title>Characteristic Curve Maximum Internal Torque in Function Monitoring</title>
     <description>MoF_rTrqInrMax_CUR</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -22277,7 +22277,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Schwelle Kraftstoffhochdruck &#252;ber Drehzahl f&#252;r Katschutz bei Tank leer X (autogen)</title>
+    <title>Fuel High Pressure Threshold over RPM for Cat Protection when Tank Empty X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -22320,7 +22320,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Schwelle Kraftstoffhochdruck &#252;ber Drehzahl f&#252;r Katschutz bei Tank leer</title>
+    <title>Fuel High Pressure Threshold over RPM for Cat Protection when Tank Empty</title>
     <description>KLTHAPHDP</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -22362,7 +22362,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>maximale obere Toleranz des Drucks vor DK</title>
+    <title>Maximum Upper Tolerance of Pressure before DK</title>
     <description>DPTPVDMX</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -22486,7 +22486,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Tastverh&#228;ltnis ab dem das Schubumluftventil &#246;ffnet</title>
+    <title>Duty Cycle at Which Overrun Air Valve Opens</title>
     <description>TVLDUVOS</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -22528,7 +22528,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Codewort Lambdasondenalterungsdiagnose (SHK) im OBDII-Mode (invers: Europa-Mode)</title>
+    <title>Codeword Lambda Sensor Aging Diagnosis (SHK) in OBDII Mode (inverse: Europe Mode)</title>
     <description>CDLASH</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -22610,7 +22610,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Codewort Diagnose Lambdasondenvertauscherkennung</title>
+    <title>Codeword Diagnosis Lambda Sensor Exchange Detection</title>
     <description>CDLSHV</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -22651,7 +22651,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Mindestdrehzahl f&#252;r Bereichspr&#252;fung HFM</title>
+    <title>Minimum RPM for HFM Range Check</title>
     <description>NMINRHFM</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -22950,7 +22950,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Minimal notwendige relative Kraftstoffmasse f&#252;r Plausibilisierung des Hochdrucksystems</title>
+    <title>Minimum Required Relative Fuel Mass for High Pressure System Plausibility Check</title>
     <description>RKMNHDP</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -23115,7 +23115,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Obere Schwelle der relativen Luftfuellung X (autogen)</title>
+    <title>Upper Threshold of Relative Air Filling X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -23157,7 +23157,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Obere Schwelle der relativen Luftfuellung</title>
+    <title>Upper Threshold of Relative Air Filling</title>
     <description>ExhMod_rLdMax_CUR</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -23199,7 +23199,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Schwelle der relativen Luftfuellung X (autogen)</title>
+    <title>Lower Threshold of Relative Air Filling X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -23241,7 +23241,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Untere Schwelle der relativen Luftfuellung</title>
+    <title>Lower Threshold of Relative Air Filling</title>
     <description>ExhMod_rLdMin_CUR</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -23283,7 +23283,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>minimaler Tankfuellstand fuer Tankdiagnosefunktionen</title>
+    <title>Minimum Tank Fill Level for Tank Diagnostic Functions</title>
     <description>FSTDMN</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -25409,7 +25409,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennfeld: Einflu&#223; Abgastemperatur beim Abstellen des Motors und Abstellzeit auf Kraftstofftemperatur Y (autogen)</title>
+    <title>Characteristic Map: Influence of Exhaust Gas Temperature During Engine Shutdown and Shutdown Time on Fuel Temperature Y (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -25452,7 +25452,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennfeld: Einflu&#223; Abgastemperatur beim Abstellen des Motors und Abstellzeit auf Kraftstofftemperatur X (autogen)</title>
+    <title>Characteristic Map: Influence of Exhaust Gas Temperature During Engine Shutdown and Shutdown Time on Fuel Temperature X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -25495,7 +25495,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennfeld: Einflu&#223; Abgastemperatur beim Abstellen des Motors und Abstellzeit auf Kraftstofftemperatur</title>
+    <title>Characteristic Map: Influence of Exhaust Gas Temperature During Engine Shutdown and Shutdown Time on Fuel Temperature</title>
     <description>inj.KFKTM</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -25954,7 +25954,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Anzugszeit f&#252;r stromreduzierte Ansteuerung</title>
+    <title>Pull-in Time for Current-Reduced Control</title>
     <description>MfVlv_tiPullinRecur_C</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26080,7 +26080,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennlinie maximales inneres Moment in der erweiterten &#220;berwachung</title>
+    <title>Characteristic Curve Maximum Internal Torque in Extended Monitoring</title>
     <description>MoX_rTrqInrMax_CUR</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26122,7 +26122,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Kennlinie maximales inneres Moment in der erweiterten &#220;berwachung X (autogen)</title>
+    <title>Characteristic Curve Maximum Internal Torque in Extended Monitoring X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26167,7 +26167,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Drehzahlgrenze f&#252;r Automatik-Getriebe bei Fehler Geschwindigkeitssignal</title>
+    <title>RPM Limit for Automatic Transmission on Speed Signal Error</title>
     <description>NMAXDVG</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26217,7 +26217,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>erh&#246;hte Drehzahlgrenze bei Funktionsanforderung Werkstatttest</title>
+    <title>Increased RPM Limit for Workshop Test Function Request</title>
     <description>NMAXFA</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26259,7 +26259,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Maximal zul&#228;ssige Motordrehzahl (station&#228;r)</title>
+    <title>Maximum Permissible Engine RPM (Stationary)</title>
     <description>NMAXGA</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26309,7 +26309,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Maximal zul&#228;ssige Motordrehzahl (station&#228;r) AT</title>
+    <title>Maximum Permissible Engine RPM (Stationary) AT</title>
     <description>NMAXGAAT</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26359,7 +26359,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Maximal zul&#228;ssige Motordrehzahl (station&#228;r) in AT Fahrzeugen, ohne erzwungener Hochschaltung.</title>
+    <title>Maximum Permissible Engine RPM (Stationary) in AT Vehicles, Without Forced Upshift</title>
     <description>NMAXGAATEXP</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26409,7 +26409,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Abgesenkte maximal zul&#228;ssige Motordrehzahl (station&#228;r)</title>
+    <title>Reduced Maximum Permissible Engine RPM (Stationary)</title>
     <description>NMAXGAGD</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26459,7 +26459,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Abgesenkte maximal zul&#228;ssige Motordrehzahl (station&#228;r) AT</title>
+    <title>Reduced Maximum Permissible Engine RPM (Stationary) AT</title>
     <description>NMAXGAGDAT</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26509,7 +26509,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Reduzierte, maximal zul&#228;ssige Motordrehzahl (station&#228;r) in AT Fahrzeugen, ohne erzwungener Hochschaltung.</title>
+    <title>Reduced Maximum Permissible Engine RPM (Stationary) in AT Vehicles, Without Forced Upshift</title>
     <description>NMAXGAGDATEXP</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26559,7 +26559,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Drehzahlgrenze bei HDR-Fehler</title>
+    <title>RPM Limit on HDR Error</title>
     <description>NMAXHDR</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26601,7 +26601,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Maximal zul&#228;ssige Motordrehzahl (kurzzeitige &#220;berh&#246;hung)</title>
+    <title>Maximum Permissible Engine RPM (Short-Term Overspeed)</title>
     <description>NMAXOGGA</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26651,7 +26651,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Maximal zul&#228;ssige Motordrehzahl (kurzzeitige &#220;berh&#246;hung) AT</title>
+    <title>Maximum Permissible Engine RPM (Short-Term Overspeed) AT</title>
     <description>NMAXOGGAAT</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26701,7 +26701,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Maximal zul&#228;ssige Motordrehzahl (kurze Erh&#246;herung) in AT Fahrzeugen, ohne erzwungener Hochschaltung</title>
+    <title>Maximum Permissible Engine RPM (Brief Elevation) in AT Vehicles, Without Forced Upshift</title>
     <description>NMAXOGGAATEXP</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26751,7 +26751,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Maximal zul&#228;ssige Motordrehzahl (kurzzeitige &#220;berh&#246;hung) AT GD</title>
+    <title>Maximum Permissible Engine RPM (Short-Term Overspeed) AT GD</title>
     <description>NMAXOGGAATGD</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26801,7 +26801,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Maximal zul&#228;ssige Motordrehzahl (kurze Erh&#246;herung) in AT Fahrzeugen, ohne erzwungener Hochschaltung am GD.</title>
+    <title>Maximum Permissible Engine RPM (Brief Elevation) in AT Vehicles, Without Forced Upshift at GD</title>
     <description>NMAXOGGAATGDEXP</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26851,7 +26851,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Maximal zul&#228;ssige Motordrehzahl (kurzzeitige &#220;berh&#246;hung) GD</title>
+    <title>Maximum Permissible Engine RPM (Short-Term Overspeed) GD</title>
     <description>NMAXOGGAGD</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26901,7 +26901,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Drehzahlgrenze durch SWT</title>
+    <title>RPM Limit by SWT</title>
     <description>NMAXSWT</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26943,7 +26943,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Drehzahlbegrenzung bei hoher Motortemperatur. X (autogen)</title>
+    <title>RPM Limitation at High Engine Temperature X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -26984,7 +26984,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Drehzahlbegrenzung bei hoher Motortemperatur.</title>
+    <title>RPM Limitation at High Engine Temperature</title>
     <description>NMAXTMM</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -27026,7 +27026,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Drehzahlbegrenzung bei hoher &#214;ltemperatur X (autogen)</title>
+    <title>RPM Limitation at High Oil Temperature X (autogen)</title>
     <CATEGORYMEM index="0" category="35" />
     <CATEGORYMEM index="1" category="36" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -27067,7 +27067,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
-    <title>Drehzahlbegrenzung bei hoher &#214;ltemperatur</title>
+    <title>RPM Limitation at High Oil Temperature</title>
     <description>NMAXTO</description>
     <CATEGORYMEM index="0" category="35" />
     <XDFAXIS id="x" uniqueid="0x0">
