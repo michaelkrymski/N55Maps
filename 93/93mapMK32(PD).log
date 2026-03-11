@@ -1,0 +1,32 @@
+Edit Log for 93mapMK32(PD).bin created by TunerPro.
+**************************************************************************
+06/23/2025 15:59:37  Table:     Fuel (Spool) changed.
+06/23/2025 16:00:19  Table:     Fuel (Spool) changed.
+06/26/2025 15:38:13  Table:     Boost Ceiling (Relative) (Map 2) changed.
+06/26/2025 15:38:45  Table:     Static Ethanol Content (Map 2) changed.
+06/26/2025 15:39:01  Table:     Inhibit BC Button Controls changed.
+06/26/2025 15:39:15  Table:     Antilag Boost Target changed.
+06/26/2025 15:39:36  Table:     WGDC P-Factor (Custom) changed.
+06/26/2025 15:39:48  Table:     Active Map Slots changed.
+06/26/2025 15:42:52  Table:     Fuel (Main) (Map 2) changed.
+06/26/2025 15:43:23  Table:     Fuel (Spool) (Map 2) changed.
+06/26/2025 15:46:57  Table:     Timing (Main) (Map 2) changed.
+06/26/2025 15:48:38  Table:     Timing (Main) (Path 2) (Map 2) - Load changed.
+06/26/2025 15:50:07  Table:     Timing (Spool) (Map 2) changed.
+06/26/2025 15:50:32  Table:     Timing (Spool) (Path 2) (Map 2) changed.
+06/26/2025 15:52:11  Table:     Timing (Main) (Path 2) (Map 2) changed.
+06/26/2025 15:54:46  Table:     Spool Mode Max RPM changed.
+06/26/2025 15:56:28  Table:     Boost Limit Multiplier Ceiling changed.
+06/27/2025 00:14:07  Table:     Enable Map Switch changed.
+06/27/2025 00:23:30  Table:     WGDC P-Factor (Custom) changed.
+06/27/2025 02:25:26  Table:     WGDC Base Before PID changed.
+06/27/2025 02:35:01  Table:     WGDC Base Before PID changed.
+06/27/2025 02:35:50  Table:     Compressor characteristic with required compressor / turbine power Y (autogen) changed.
+06/27/2025 02:42:58  Table:     Wastegate Position - für Vorsteuerung bank 2 changed.
+06/27/2025 02:49:53  Table:     Wastegate Base Finalizer (Bank 1) changed.
+06/27/2025 02:50:18  Table:     Wastegate Position - für Vorsteuerung Y (autogen) changed.
+06/27/2025 03:02:44  Table:     WGDC P-Factor part changed.
+06/27/2025 03:15:06  Table:     WGDC P-Factor changed.
+06/27/2025 03:16:15  Table:     WGDC P-Factor changed.
+06/27/2025 03:18:50  Table:     Enable Custom WGDC P and D Factors changed.
+06/27/2025 03:18:55  Table:     Enable Custom WGDC Override changed.

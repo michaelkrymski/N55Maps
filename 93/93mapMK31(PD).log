@@ -1,0 +1,37 @@
+Edit Log for 93mapMK31(PD).bin created by TunerPro.
+**************************************************************************
+06/23/2025 10:00:08  Table:     WGDC Base (Custom) (Antilag) changed.
+06/23/2025 10:02:20  Table:     WGDC D-Factor (Custom) (Antilag) changed.
+06/23/2025 14:42:24  Table:     WGDC P-Factor (Custom) (Antilag) changed.
+06/23/2025 14:45:21  Table:     Static Ethanol Content (Map 1) changed.
+06/23/2025 14:45:28  Table:     Static Ethanol Content (Map 1) changed.
+06/23/2025 14:45:31  Table:     Static Ethanol Content (Map 1) changed.
+06/23/2025 14:45:43  Table:     Static Ethanol Content (Map 1) changed.
+06/23/2025 14:46:00  Table:     Antilag Timeout changed.
+06/23/2025 14:46:11  Table:     Antilag Cooldown Timer changed.
+06/23/2025 14:46:11  Table:     Antilag Timeout changed.
+06/23/2025 14:51:37  Table:     Inhibit BC Button Controls changed.
+06/23/2025 14:56:04  Table:     Antilag Boost Target changed.
+06/23/2025 14:56:15  Table:     Enable Antilag changed.
+06/23/2025 14:56:29  Table:     Antilag Fuel Target changed.
+06/23/2025 14:56:39  Table:     Antilag Coolant Safety (Minimum) changed.
+06/23/2025 14:56:48  Table:     Antilag Coolant Safety (Maximum) changed.
+06/23/2025 14:57:02  Table:     Antilag EGT Safety (Maximum) changed.
+06/23/2025 14:57:13  Table:     Antilag Cooldown Timer changed.
+06/23/2025 14:57:19  Table:     Antilag Timeout changed.
+06/23/2025 14:57:30  Table:     Antilag Start Delay changed.
+06/23/2025 14:58:26  Table:     Turbine I-Factor (Maximum) changed.
+06/23/2025 14:58:38  Table:     Turbine I-Factor Constant changed.
+06/23/2025 15:00:39  Table:     Antilag Timing (P-Factor) changed.
+06/23/2025 15:01:02  Table:     Antilag Timing Ramp Rate changed.
+06/23/2025 15:01:15  Table:     Antilag Timing Ramp Rate (*crk < 0) changed.
+06/23/2025 15:02:38  Table:     Antilag Timing Ramp Rate changed.
+06/23/2025 15:02:42  Table:     Antilag Timing Ramp Rate (*crk < 0) changed.
+06/23/2025 15:02:55  Table:     Antilag Timing Ramp Rate (*crk < 0) changed.
+06/23/2025 15:05:08  Table:     Antilag Timing (P-Factor) - RPM changed.
+06/23/2025 15:05:09  Table:     Antilag Timing (Base) - RPM changed.
+06/23/2025 15:05:33  Table:     Antilag Timing (Base) - Boost Target changed.
+06/23/2025 15:06:43  Table:     Antilag Timing (P-Factor) - Boost Deviation changed.
+06/23/2025 15:11:26  Table:     Antilag Timing (Base) changed.
+06/23/2025 15:14:17  Table:     Antilag Timing (P-Factor) changed.
+06/23/2025 15:51:08  Table:     WGDC P-Factor (Custom) changed.

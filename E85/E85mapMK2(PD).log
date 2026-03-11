@@ -1,0 +1,15 @@
+Edit Log for E85mapMK2(PD).bin created by TunerPro.
+**************************************************************************
+07/21/2025 22:39:08  Table:     Fuel (Bank 1) changed.
+07/21/2025 22:39:09  Table:     Fuel (Bank 2) changed.
+07/21/2025 22:46:09  Table:     Timing (main) changed.
+07/21/2025 22:46:23  Table:     Timing (main) 2 changed.
+07/21/2025 22:46:48  Table:     Timing (main) 2 changed.
+07/21/2025 22:47:08  Table:     Timing (main) 3 changed.
+07/21/2025 22:47:28  Table:     Timing (spool) changed.
+07/21/2025 22:47:43  Table:     Timing (spool) 2 changed.
+07/21/2025 22:48:13  Table:     Enable Custom 3D Boost Ceiling Table changed.
+07/21/2025 22:49:21  Table:     Boost Ceiling (Relative) (Gear x RPM) (Map 1) - RPM changed.
+07/21/2025 22:49:31  Table:     Boost Ceiling (Relative) (Gear x RPM) (Map 1) - Gear changed.
+07/21/2025 22:55:13  Table:     Boost Ceiling (Relative) (Gear x RPM) (Map 1) changed.
+07/21/2025 22:56:52  Table:     Boost Limit Multiplier Ceiling changed.

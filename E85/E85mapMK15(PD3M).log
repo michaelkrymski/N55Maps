@@ -1,0 +1,10 @@
+Edit Log for E85mapMK15(PD3M).bin created by TunerPro.
+**************************************************************************
+08/21/2025 09:46:37  Table:     HPFP delivery rate changed.
+08/21/2025 09:55:29  Table:     MSV Feedforward Offset changed.
+08/21/2025 09:55:45  Table:     MSV Feedforward Gain changed.
+08/21/2025 09:56:34  Table:     HPFP min. rail pressure undershoot changed.
+08/21/2025 11:18:53  Table:     HPFP P-Factor Weighting changed.
+08/21/2025 11:19:45  Table:     HPFP I-Factor Weighting changed.
+08/21/2025 11:20:23  Table:     Fuel (Bank 2) changed.
+08/21/2025 11:20:24  Table:     Fuel (Bank 1) changed.

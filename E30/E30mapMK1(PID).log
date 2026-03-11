@@ -1,0 +1,37 @@
+Edit Log for E30mapMK1(PID).bin created by TunerPro.
+**************************************************************************
+06/27/2025 17:43:40  Table:     Static Ethanol Content (Map 1) changed.
+06/27/2025 17:44:39  Table:     Enable Map Switch changed.
+06/27/2025 17:44:43  Table:     Active Map Slots changed.
+06/27/2025 17:44:48  Table:     Static Ethanol Content (Map 1) changed.
+06/27/2025 17:44:53  Table:     Static Ethanol Content (Map 2) changed.
+06/27/2025 17:45:19  Table:     Compressor Map with Required Compressor / Turbine Power (Map 2) changed.
+06/27/2025 17:46:07  Table:     Boost Ceiling changed.
+06/27/2025 17:46:08  Table:     Boost Limit Multiplier Ceiling changed.
+06/27/2025 17:46:30  Table:     Boost Ceiling (Relative) (Map 2) changed.
+06/27/2025 17:46:59  Table:     Compressor Map with Required Compressor / Turbine Power (Map 2) - Boost Setpoint Factor changed.
+06/27/2025 17:51:11  Table:     WGDC P-Factor part changed.
+06/27/2025 17:51:43  Table:     WGDC P-Factor (Pressure Differential) (Map 2) changed.
+06/27/2025 17:54:07  Table:     WGDC P-Factor (Pressure Differential) (Map 2) changed.
+06/27/2025 17:54:41  Table:     WGDC D-Factor (Map 2) changed.
+06/27/2025 17:56:08  Table:     Fuel (Spool) (Map 2) changed.
+06/27/2025 17:56:41  Table:     Fuel (Main) (Map 2) changed.
+06/27/2025 17:57:01  Table:     Fuel Scalar (Map 2) changed.
+06/27/2025 17:59:04  Table:     Timing (Main) (Map 2) changed.
+06/27/2025 17:59:26  Table:     Timing (Main) (Path 2) (Map 2) changed.
+06/27/2025 17:59:59  Table:     Timing (Spool) (Map 2) changed.
+06/27/2025 18:00:15  Table:     Timing (Spool) (Path 2) (Map 2) changed.
+06/27/2025 18:54:04  Table:     Maximum Clutch Torque per Gear (Mode 2) (Map 2) changed.
+06/27/2025 18:54:05  Table:     Maximum Clutch Torque per Gear (Mode 1) (Map 2) changed.
+06/27/2025 18:56:39  Table:     Compressor Map with Required Compressor / Turbine Power (Map 2) changed.
+06/27/2025 19:21:47  Table:     WGDC Base Before Finalizer and PID changed.
+06/27/2025 20:05:06  Table:     Compressor characteristic with required compressor / turbine power Y (autogen) changed.
+06/27/2025 20:08:24  Table:     Compressor characteristic with required compressor / turbine power Y (autogen) changed.
+06/27/2025 20:11:35  Table:     WGDC Base (map 2) changed.
+06/27/2025 20:12:38  Table:     Compressor Map with Required Compressor / Turbine Power (Map 2) - Boost Setpoint Factor changed.
+06/27/2025 20:13:37  Table:     WGDC Base (map 2) changed.
+06/27/2025 20:28:25  Table:     WGDC P-Factor part changed.
+06/27/2025 20:29:02  Table:     WGDC P-Factor part changed.
+06/27/2025 21:22:43  Table:     WGDC P-Factor Y (autogen) changed.
+06/27/2025 21:23:36  Table:     WGDC P-Factor changed.
+06/27/2025 21:25:15  Table:     WGDC P-Factor (Pressure Differential) (Map 2) changed.

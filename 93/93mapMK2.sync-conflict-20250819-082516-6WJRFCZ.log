@@ -1,0 +1,48 @@
+Edit Log for 93mapMK2.bin created by TunerPro.
+**************************************************************************
+05/06/2025 17:07:48  Table:     Commanded WGDC (requires switch) changed.
+05/06/2025 17:16:00  Table:     Commanded WGDC (requires switch) changed.
+05/06/2025 23:15:25  Table:     Boost Limit multiplier changed.
+05/06/2025 23:15:39  Table:     Boost Limit Multiplier Ceiling changed.
+05/06/2025 23:15:43  Table:     Boost Ceiling changed.
+05/07/2025 01:25:41  Table:     Boost Ceiling changed.
+05/07/2025 01:25:51  Table:     Boost Limit Multiplier Ceiling changed.
+05/07/2025 01:26:04  Table:     Boost Limit multiplier changed.
+05/07/2025 01:33:23  Table:     Load to Torque limit 2 Y (autogen) changed.
+05/07/2025 01:33:24  Table:     Load to Torque limit Y (autogen) changed.
+05/07/2025 01:33:47  Table:     Load to Torque limit changed.
+05/07/2025 01:33:48  Table:     Load to Torque limit 2 changed.
+05/07/2025 11:14:51  Table:     Load to Torque limit 2 Y (autogen) changed.
+05/07/2025 11:14:52  Table:     Load to Torque limit Y (autogen) changed.
+05/07/2025 11:15:02  Table:     Load to Torque limit changed.
+05/07/2025 11:15:06  Table:     Load to Torque limit 2 changed.
+05/07/2025 11:15:41  Table:     Boost Limit Multiplier Ceiling changed.
+05/07/2025 11:16:15  Table:     Boost Limit multiplier changed.
+05/07/2025 11:16:46  Table:     Boost Ceiling changed.
+05/07/2025 11:17:36  Table:     Boost Ceiling changed.
+05/07/2025 11:17:42  Table:     Boost Limit Multiplier Ceiling changed.
+05/07/2025 11:17:45  Table:     Boost Ceiling changed.
+05/07/2025 11:17:53  Table:     Boost Limit Multiplier Ceiling changed.
+05/08/2025 11:09:39  Table:     Commanded WGDC (requires switch) changed.
+05/08/2025 12:52:35  Table:     Commanded WGDC (requires switch) changed.
+05/08/2025 17:55:36  Table:     Boost Ceiling changed.
+05/08/2025 17:55:47  Table:     Boost Limit Multiplier Ceiling changed.
+05/08/2025 17:56:00  Table:     Boost Limit Multiplier Ceiling changed.
+05/08/2025 17:56:04  Table:     Boost Ceiling changed.
+05/08/2025 17:57:32  Table:     Commanded WGDC (requires switch) changed.
+05/08/2025 17:57:48  Table:     Commanded WGDC (requires switch) changed.
+05/08/2025 18:04:44  Table:     Fuel (Bank 1) Load changed.
+05/08/2025 18:04:53  Table:     Fuel (Bank 2) Y (autogen) changed.
+05/08/2025 18:10:58  Table:     Fuel (Bank 1) changed.
+05/08/2025 18:10:59  Table:     Fuel (Bank 2) changed.
+05/08/2025 18:12:04  Table:     Fuel (Bank 2) changed.
+05/08/2025 18:12:05  Table:     Fuel (Bank 1) changed.
+05/08/2025 18:25:28  Table:     Timing (main) X (autogen) changed.
+05/08/2025 18:25:29  Table:     Timing (main) 3 X (autogen) changed.
+05/08/2025 18:25:30  Table:     Timing (main) 2 X (autogen) changed.
+05/08/2025 18:33:07  Table:     Fuel (Bank 2) changed.
+05/08/2025 18:33:09  Table:     Fuel (Bank 1) changed.
+05/08/2025 20:47:08  Table:     Timing (main) 3 changed.
+05/08/2025 20:47:10  Table:     Timing (main) 2 changed.
+05/08/2025 20:47:10  Table:     Timing (main) changed.
+05/08/2025 21:16:14  Table:     Performance gauge scaling changed.

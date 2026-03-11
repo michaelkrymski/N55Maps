@@ -1,0 +1,23 @@
+Edit Log for 93mapMK12(PID).bin created by TunerPro.
+**************************************************************************
+06/14/2025 07:53:44  Table:     Enable Custom WGDC P and D Factors changed.
+06/14/2025 07:53:45  Table:     Enable Custom WGDC Override changed.
+06/14/2025 07:55:01  Table:     WGDC P-Factor (Custom) - RPM changed.
+06/14/2025 07:55:10  Table:     WGDC Base (Custom) - RPM changed.
+06/14/2025 09:03:19  Table:     WGDC Base (Custom) changed.
+06/14/2025 09:07:44  Table:     WGDC Base (Custom) - Boost Target changed.
+06/14/2025 10:10:36  Table:     WGDC Base (Custom) changed.
+06/14/2025 10:15:20  Table:     WGDC P-Factor (Custom) - Boost Deviation changed.
+06/14/2025 11:17:40  Table:     WGDC P-Factor (Custom) changed.
+06/14/2025 11:19:33  Table:     WGDC P-Factor (Custom) changed.
+06/14/2025 11:27:21  Table:     WGDC Base (Custom) changed.
+06/14/2025 11:32:29  Table:     WGDC D-Factor (Custom) - Boost Deviation Gradient changed.
+06/14/2025 11:32:30  Table:     WGDC D-Factor (Custom) - Boost Deviation changed.
+06/14/2025 12:15:22  Table:     WGDC Base (Custom) (Antilag) - RPM changed.
+06/14/2025 12:15:23  Table:     WGDC P-Factor (Custom) (Antilag) - RPM changed.
+06/14/2025 12:15:40  Table:     WGDC Base (Custom) (Antilag) - Boost Target changed.
+06/14/2025 13:19:58  Table:     Antilag Boost Target changed.
+06/14/2025 13:20:15  Table:     Enable Antilag changed.
+06/14/2025 13:20:22  Table:     Antilag Boost Target changed.
+06/14/2025 13:29:17  Table:     WGDC Base (Custom) (Antilag) changed.
+06/14/2025 13:29:25  Table:     WGDC D-Factor (Custom) changed.

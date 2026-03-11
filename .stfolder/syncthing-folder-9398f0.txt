@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: tdepu-m5twd
+created: 2025-08-19T07:42:23-04:00

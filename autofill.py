@@ -1,130 +1,171 @@
-# import pyautogui
-# import time
-# import re
+# autofill_v2.py
+# Fast map autofill for grid editors: types values left->right, then home (left×N) and down.
+# Inputs: CSV/TSV (--csv), JSON/Python 2D array string (--array), clipboard (--from-clipboard), or stdin (--paste).
+# Defaults to ~3ms per action as requested.
 
-# def input_to_tunerpro_from_string(input_str, columns):
-#     """
-#     Types values from a tab/space-separated string into TunerPro row by row.
-#     Goes right for each column, then wraps left and down after each row.
-#     """
-#     # Clean and parse values
-#     values = re.split(r'[\t ]+', input_str.strip())
-
-#     print(f"Typing {len(values)} values with {columns} columns per row. Starting in 5 seconds...")
-#     time.sleep(1.5)
-
-#     for idx, val in enumerate(values):
-#         pyautogui.typewrite(str(val))
-#         pyautogui.press('right')
-
-#         # At the end of a row, wrap to the next line
-#         if (idx + 1) % columns == 0:
-#             for _ in range(columns):
-#                 pyautogui.press('left')
-#             pyautogui.press('down')
-# # Example usage:
-# # Paste this into your script and replace the string below with your axis values
-# input_to_tunerpro_from_string("3.061	4.332	4.410	4.555	4.601	4.710	4.950	5.275	5.800	7.530	13.248	24.712	38.084	52.443	63.280	73.227", columns=16)
-
-# input_to_tunerpro_from_string("3.271	4.694	4.883	5.139	5.270	5.470	5.667	5.865	6.381	8.168	13.667	25.143	38.896	53.513	64.516	74.609", columns=16)
-
-# input_to_tunerpro_from_string("3.554	5.112	5.339	5.640	5.779	5.992	6.180	6.349	7.042	9.010	14.182	25.726	39.835	54.651	65.765	75.948", columns=16)
-
-# input_to_tunerpro_from_string("3.845	5.516	5.736	6.036	6.180	6.404	6.662	6.941	7.671	9.682	14.645	26.134	40.656	55.753	67.055	77.400", columns=16)
-
-# input_to_tunerpro_from_string("4.073	5.785	5.922	6.152	6.412	6.746	7.069	7.384	8.246	10.301	15.060	26.471	41.460	56.863	68.379	78.912", columns=16)
-
-# input_to_tunerpro_from_string("4.420	6.281	6.432	6.679	6.790	6.990	7.314	7.721	8.649	11.009	15.779	26.984	42.596	58.493	70.404	81.311", columns=16)
-
-# import pyautogui
-# import time
-# import numpy as np
-
-# pyautogui.PAUSE = 0.01
-
-# # Define your breakpoints (for both axes)
-# breaks = np.array([-12, -10, -7, -5, -3, -2, -1, 0, 1, 2, 3, 5, 7, 10])
-
-# # Generate the D-factor table
-# table = np.zeros((len(breaks), len(breaks)))
-# for i, dev in enumerate(breaks):
-#     for j, grad in enumerate(breaks):
-#         if dev > 0 and grad > 0:
-#             # Overboost and getting worse: decrease WGDC (negative D)
-#             mag = max(abs(dev), abs(grad))
-#             table[i, j] = -min(10, 0.7 * mag)
-#         elif dev < 0 and grad < 0:
-#             # Underboost and getting worse: increase WGDC (positive D)
-#             mag = max(abs(dev), abs(grad))
-#             table[i, j] = min(10, 0.7 * mag)
-#         else:
-#             table[i, j] = 0
-# # Ensure the exact zero cell is zero
-# ix0 = np.where(breaks == 0)[0][0]
-# table[ix0, ix0] = 0
-
-# def input_table_to_tunerpro(table_2d):
-#     rows, cols = table_2d.shape
-#     print(f"Switch to TunerPro in 5 seconds (top-left cell selected).")
-#     time.sleep(5)
-#     for r in range(rows):
-#         for c in range(cols):
-#             val = table_2d[r, c]
-#             pyautogui.typewrite(str(round(val, 2)))
-#             pyautogui.press('right')
-#             time.sleep(0.05)
-#         for _ in range(cols):
-#             pyautogui.press('left')
-#         pyautogui.press('down')
-
-# # Run the auto-input
-# input_table_to_tunerpro(table)
-
-import numpy as np
-import pyautogui
 import time
+import csv
+import argparse
+import json
+import sys
+from typing import List, Any
 
-pyautogui.PAUSE = 0.01
+import pyautogui
+try:
+    import pyperclip
+    USE_CLIP = True
+except Exception:
+    USE_CLIP = False
 
-# Boost deviation Y-axis (rows), 14 breakpoints from -10 to 18
-boost_deviation = np.array([-10.0, -7.8, -5.7, -3.5, -1.4, 0.0, 2.9, 5.1, 7.2, 9.4, 11.5, 13.7, 15.8, 18.0])
-# RPM X-axis (columns), 16 breakpoints (update to your actual RPM axis if needed)
-rpm_axis = np.array([0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500])
 
-# Define one P-factor row for all columns (per your previous design)
-p_row = [
-    -25.0,   # -10.0
-    -21.0,   # -7.8
-    -17.0,   # -5.7
-    -13.0,   # -3.5
-    -6.0,    # -1.4
-     0.0,    #  0.0
-     7.0,    #  2.9
-    14.0,    #  5.1
-    23.0,    #  7.2
-    28.0,    #  9.4
-    34.0,    # 11.5
-    36.0,    # 13.7
-    37.0,    # 15.8
-    38.0     # 18.0
-]
+def press(key: str, n: int = 1, pause: float = 0.003):
+    for _ in range(n):
+        pyautogui.press(key)
+        if pause:
+            time.sleep(pause)
 
-# Build the table: 14 rows (boost deviation), 16 columns (RPM)
-p_map = np.tile(np.array(p_row).reshape(-1, 1), (1, 16))
+def paste_text(text: Any, pause: float = 0.003):
+    s = "" if text is None else str(text)
+    if USE_CLIP:
+        try:
+            pyperclip.copy(s)
+            pyautogui.hotkey('ctrl', 'v')
+        except Exception:
+            pyautogui.typewrite(s, interval=0.0)
+    else:
+        pyautogui.typewrite(s, interval=0.0)
+    if pause:
+        time.sleep(pause)
 
-def input_table_to_tunerpro(table_2d):
-    rows, cols = table_2d.shape
-    print(f"Switch to TunerPro in 5 seconds (top-left cell selected).")
-    time.sleep(5)
-    for r in range(rows):
-        for c in range(cols):
-            val = table_2d[r, c]
-            pyautogui.typewrite(str(round(val, 2)))
-            pyautogui.press('right')
-            time.sleep(0.05)
-        for _ in range(cols):
-            pyautogui.press('left')
-        pyautogui.press('down')
 
-# Auto-input into TunerPro
-input_table_to_tunerpro(p_map)
+def _normalize_rows(rows: List[List[str]]):
+    if not rows:
+        return
+    max_len = max(len(r) for r in rows)
+    for r in rows:
+        if len(r) < max_len:
+            r += [""] * (max_len - len(r))
+
+
+def load_table_csv(path: str, delimiter: str | None = None) -> List[List[str]]:
+    if delimiter is None:
+        with open(path, 'r', newline='', encoding='utf-8-sig') as f:
+            sample = f.read(2048)
+            try:
+                dialect = csv.Sniffer().sniff(sample, delimiters=",\t; ")
+                delimiter = dialect.delimiter
+            except Exception:
+                delimiter = ','
+    rows: List[List[str]] = []
+    with open(path, 'r', newline='', encoding='utf-8-sig') as f:
+        reader = csv.reader(f, delimiter=delimiter)
+        for row in reader:
+            if not row:
+                continue
+            rows.append([c.strip() for c in row])
+    _normalize_rows(rows)
+    return rows
+
+
+def parse_2d(text: str) -> List[List[str]]:
+    """Parse a 2D structure from JSON, Python-list-ish, or plain text block.
+    Accepts:
+      - JSON: [[1,2],[3,4]]
+      - Python-ish: [ [1, 2], [3, 4] ]
+      - Plain: lines separated by newlines; cells by comma/tab/semicolon/whitespace
+    """
+    t = text.strip()
+    # Try JSON
+    try:
+        data = json.loads(t)
+        if isinstance(data, list) and all(isinstance(r, list) for r in data):
+            rows = [[str(c).strip() for c in r] for r in data]
+            _normalize_rows(rows)
+            return rows
+    except Exception:
+        pass
+    # Try a restricted eval on Python-like lists
+    if t.startswith('[') and t.endswith(']'):
+        try:
+            data = eval(t, {"__builtins__": {}}, {})
+            if isinstance(data, list) and all(isinstance(r, list) for r in data):
+                rows = [[str(c).strip() for c in r] for r in data]
+                _normalize_rows(rows)
+                return rows
+        except Exception:
+            pass
+    # Fallback: split lines then pick a delimiter
+    lines = [ln for ln in t.splitlines() if ln.strip()]
+    rows: List[List[str]] = []
+    for ln in lines:
+        for sep in (',', '\t', ';'):
+            if sep in ln:
+                cells = [c.strip() for c in ln.split(sep)]
+                break
+        else:
+            cells = ln.split()
+        rows.append(cells)
+    _normalize_rows(rows)
+    return rows
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Autofill a 2D map into a grid using keyboard arrows.")
+    src = ap.add_mutually_exclusive_group(required=True)
+    src.add_argument("--csv", dest="csv_path", help="Path to CSV/TSV file containing the map.")
+    src.add_argument("--array", dest="array_text", help="JSON/Python-style 2D array, or a newline block.")
+    src.add_argument("--paste", action="store_true", help="Read a 2D block from STDIN until EOF (Ctrl-D/Ctrl-Z).")
+    src.add_argument("--from-clipboard", action="store_true", help="Read 2D data from clipboard (requires pyperclip).")
+
+    ap.add_argument("--delimiter", default=None, help="Delimiter for CSV (default: auto-detect).")
+    ap.add_argument("--delay", type=float, default=0.003, help="Per-keystroke pause in seconds (default 0.003).")
+    ap.add_argument("--clear", action="store_true", help="Backspace-clear each cell before typing.")
+    ap.add_argument("--countdown", type=float, default=3.0, help="Seconds to wait before starting (default 3).")
+
+    args = ap.parse_args()
+
+    # Load data
+    if args.csv_path:
+        table = load_table_csv(args.csv_path, delimiter=args.delimiter)
+    elif args.array_text:
+        table = parse_2d(args.array_text)
+    elif args.paste:
+        buf = sys.stdin.read()
+        table = parse_2d(buf)
+    else:  # from-clipboard
+        if not USE_CLIP:
+            print("pyperclip not available. Install it or use --paste/--array/--csv.")
+            sys.exit(1)
+        table = parse_2d(pyperclip.paste())
+
+    rows = len(table)
+    cols = len(table[0]) if rows else 0
+    if rows == 0 or cols == 0:
+        print("No data found to type.")
+        sys.exit(1)
+
+    # Configure pyautogui
+    pyautogui.FAILSAFE = True   # Move mouse to a corner to abort
+    pyautogui.PAUSE = 0.0       # no implicit delay; we handle it
+
+    print(f"Loaded table: {rows} rows x {cols} cols")
+    print(f"Starting in {args.countdown:.1f}s… click the TOP-LEFT target cell now. (Failsafe: move mouse to a screen corner)")
+    time.sleep(args.countdown)
+
+    for r_idx, row in enumerate(table):
+        for c_idx, val in enumerate(row):
+            if args.clear:
+                press('backspace', n=4, pause=args.delay)
+            if val != "":
+                paste_text(val, pause=args.delay)
+            press('right', n=1, pause=args.delay)
+        # go back to first column and down one row (except after last row)
+        press('left', n=cols, pause=args.delay)
+        if r_idx != rows - 1:
+            press('down', n=1, pause=args.delay)
+
+    print("Done.")
+
+
+if __name__ == "__main__":
+    main()
