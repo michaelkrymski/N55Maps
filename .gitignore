@@ -1,0 +1,13 @@
+*.lnk
+93_LATEST
+E30_LATEST
+E85_LATEST
+Flex_LATEST
+XDF
+*_LATEST.bin
+*_LATEST.log
+.shortcuts_config.json
+.stfolder/
+.sync-conflict-*
+.DS_Store
+Thumbs.db
