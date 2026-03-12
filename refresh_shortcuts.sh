@@ -31,7 +31,7 @@ config_save() {
 config_load() {
     # Returns space-separated list of enabled keys, or defaults
     if [[ -f "$CONFIG_FILE" ]]; then
-        grep -oP '"[^"]+"' "$CONFIG_FILE" | grep -v '"enabled"' | tr -d '"' | tr '\n' ' '
+        grep -oE '"[^"]+"' "$CONFIG_FILE" | grep -v '"enabled"' | tr -d '"' | tr '\n' ' '
     else
         echo "93 E30 E85 Flex XDF"
     fi
@@ -61,6 +61,9 @@ make_symlink() {
 #  Auto mode (called silently from save_map.sh)
 # ─────────────────────────────────────────────
 if [[ "${1:-}" == "--auto" ]]; then
+    for link in 93_LATEST E30_LATEST E85_LATEST Flex_LATEST XDF; do
+        [[ -L "$link" ]] && rm -f "$link"
+    done
     read -ra enabled <<< "$(config_load)"
     for key in "${enabled[@]}"; do
         case "$key" in
@@ -95,10 +98,16 @@ for i in "${!KEYS[@]}"; do
 done
 
 CURSOR=0
+_FIRST_DRAW=1
+# lines printed by draw(): 1 blank + 4 borders/titles + N items + 3 control lines + 1 bottom = N+9
+_UI_LINES=$(( ${#LABELS[@]} + 9 ))
 
 draw() {
-    # Move cursor to top of our block (saved position)
-    tput rc
+    if [[ $_FIRST_DRAW -eq 0 ]]; then
+        # Move cursor back up to the top of the UI block and clear downward
+        printf "\033[%dA\033[J" $_UI_LINES
+    fi
+    _FIRST_DRAW=0
 
     printf "\n"
     printf "  ┌─────────────────────────────────────────┐\n"
@@ -122,12 +131,11 @@ draw() {
     printf "  └─────────────────────────────────────────┘\n"
 }
 
-# Save cursor position, hide it, set raw input
-tput sc
+# Hide cursor, set raw input
 tput civis
 stty -echo -icanon min 1 time 0
 
-trap 'tput cnorm; stty echo icanon; tput rc; echo ""; exit' INT TERM EXIT
+trap 'tput cnorm; stty echo icanon; echo ""; exit' INT TERM EXIT
 
 draw
 
@@ -158,13 +166,12 @@ while true; do
             ;;
         [Gg])  # Git pull
             tput cnorm; stty echo icanon
-            tput rc
-            printf "\n\n\n\n\n\n\n\n\n\n"
+            printf "\033[%dA\033[J" $_UI_LINES
             echo "  Pulling from GitHub..."
             git -C "$SCRIPT_DIR" pull 2>&1 | sed 's/^/  /'
             echo ""
             sleep 1
-            tput sc
+            _FIRST_DRAW=1   # force full redraw after pull output
             tput civis
             stty -echo -icanon min 1 time 0
             ;;
@@ -183,8 +190,7 @@ stty echo icanon
 # ─────────────────────────────────────────────
 #  Apply selections
 # ─────────────────────────────────────────────
-tput rc
-printf "\n\n\n\n\n\n\n\n\n\n\n\n"
+printf "\033[%dA\033[J" $_UI_LINES
 
 selected_keys=()
 for i in "${!KEYS[@]}"; do
@@ -197,6 +203,11 @@ if [[ ${#selected_keys[@]} -eq 0 ]]; then
 fi
 
 config_save "${selected_keys[@]}"
+
+# Remove all existing root symlinks before recreating selected ones
+for link in 93_LATEST E30_LATEST E85_LATEST Flex_LATEST XDF; do
+    [[ -L "$link" ]] && rm -f "$link"
+done
 
 echo "  Creating symlinks..."
 echo ""
