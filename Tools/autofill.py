@@ -1,5 +1,5 @@
 # autofill_v2.py
-# Fast map autofill for grid editors: types values left->right, then home (leftÃ—N) and down.
+# Fast map autofill for grid editors: types values left->right, then home (left×N) and down.
 # Inputs: CSV/TSV (--csv), JSON/Python 2D array string (--array), clipboard (--from-clipboard), or stdin (--paste).
 # Defaults to ~3ms per action as requested.
 
@@ -68,14 +68,8 @@ def load_table_csv(path: str, delimiter: str | None = None) -> List[List[str]]:
 
 
 def parse_2d(text: str) -> List[List[str]]:
-    """Parse a 2D structure from JSON, Python-list-ish, or plain text block.
-    Accepts:
-      - JSON: [[1,2],[3,4]]
-      - Python-ish: [ [1, 2], [3, 4] ]
-      - Plain: lines separated by newlines; cells by comma/tab/semicolon/whitespace
-    """
+    """Parse a 2D structure from JSON, Python-list-ish, or plain text block."""
     t = text.strip()
-    # Try JSON
     try:
         data = json.loads(t)
         if isinstance(data, list) and all(isinstance(r, list) for r in data):
@@ -84,7 +78,6 @@ def parse_2d(text: str) -> List[List[str]]:
             return rows
     except Exception:
         pass
-    # Try a restricted eval on Python-like lists
     if t.startswith('[') and t.endswith(']'):
         try:
             data = eval(t, {"__builtins__": {}}, {})
@@ -94,7 +87,6 @@ def parse_2d(text: str) -> List[List[str]]:
                 return rows
         except Exception:
             pass
-    # Fallback: split lines then pick a delimiter
     lines = [ln for ln in t.splitlines() if ln.strip()]
     rows: List[List[str]] = []
     for ln in lines:
@@ -124,7 +116,6 @@ def main():
 
     args = ap.parse_args()
 
-    # Load data
     if args.csv_path:
         table = load_table_csv(args.csv_path, delimiter=args.delimiter)
     elif args.array_text:
@@ -132,7 +123,7 @@ def main():
     elif args.paste:
         buf = sys.stdin.read()
         table = parse_2d(buf)
-    else:  # from-clipboard
+    else:
         if not USE_CLIP:
             print("pyperclip not available. Install it or use --paste/--array/--csv.")
             sys.exit(1)
@@ -144,22 +135,20 @@ def main():
         print("No data found to type.")
         sys.exit(1)
 
-    # Configure pyautogui
-    pyautogui.FAILSAFE = True   # Move mouse to a corner to abort
-    pyautogui.PAUSE = 0.0       # no implicit delay; we handle it
+    pyautogui.FAILSAFE = True
+    pyautogui.PAUSE = 0.0
 
     print(f"Loaded table: {rows} rows x {cols} cols")
-    print(f"Starting in {args.countdown:.1f}sâ€¦ click the TOP-LEFT target cell now. (Failsafe: move mouse to a screen corner)")
+    print(f"Starting in {args.countdown:.1f}s… click the TOP-LEFT target cell now. (Failsafe: move mouse to a screen corner)")
     time.sleep(args.countdown)
 
     for r_idx, row in enumerate(table):
-        for c_idx, val in enumerate(row):
+        for val in row:
             if args.clear:
                 press('backspace', n=4, pause=args.delay)
             if val != "":
                 paste_text(val, pause=args.delay)
             press('right', n=1, pause=args.delay)
-        # go back to first column and down one row (except after last row)
         press('left', n=cols, pause=args.delay)
         if r_idx != rows - 1:
             press('down', n=1, pause=args.delay)

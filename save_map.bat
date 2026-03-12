@@ -1,111 +1,88 @@
 @echo off
-REM save_map.bat
-REM Windows equivalent of save_map.sh
-REM Saves a new tuning revision with auto-versioning
-REM Usage: save_map.bat "path\to\new.bin" ["commit message"]
-
 setlocal enabledelayedexpansion
 
-if "%~1"=="" (
-    echo Usage: save_map.bat "path\to\new.bin" ["commit message"]
-    echo Example: save_map.bat "C:\TunerPro\93mapMK30.bin" "New 93 octane tune"
-    exit /b 1
+set "ROOT=%~dp0"
+
+echo ============================================
+echo   N55Maps - Save New Map Revision
+echo ============================================
+echo.
+
+echo Which fuel type is this map for?
+echo   1. 93 octane
+echo   2. E30
+echo   3. E85
+echo   4. Flex  (MKMM)
+echo.
+set /p FUEL_CHOICE="Enter number (1-4): "
+
+if "!FUEL_CHOICE!"=="1" ( set "FUEL=93"   & set "PREFIX=93mapMK"  )
+if "!FUEL_CHOICE!"=="2" ( set "FUEL=E30"  & set "PREFIX=E30mapMK" )
+if "!FUEL_CHOICE!"=="3" ( set "FUEL=E85"  & set "PREFIX=E85mapMK" )
+if "!FUEL_CHOICE!"=="4" ( set "FUEL=Flex" & set "PREFIX=MKMM"     )
+
+if not defined FUEL (
+    echo Invalid choice. Exiting.
+    pause & exit /b 1
 )
 
-set "SOURCE_BIN=%~1"
-set "COMMIT_MSG=%~2"
-if "!COMMIT_MSG!"=="" set "COMMIT_MSG=Auto-saved new map revision"
+if not "!FUEL!"=="Flex" (
+    for /f %%N in ('powershell -NoProfile -Command ^
+        "$dir='%ROOT%!FUEL!'; $prefix='!PREFIX!'; " ^
+        "$files=Get-ChildItem $dir -Filter \"${prefix}*.bin\" ^| " ^
+        "Where-Object { $_.Name -notmatch '_LATEST' }; " ^
+        "$max=0; foreach ($f in $files) { " ^
+        "  if ($f.BaseName -match '${prefix}(\d+)') { " ^
+        "    $n=[int]$Matches[1]; if ($n -gt $max) { $max=$n } } }; " ^
+        "$max+1"') do set "nextRev=%%N"
 
-if not exist "!SOURCE_BIN!" (
-    echo ERROR: File not found: !SOURCE_BIN!
-    exit /b 1
-)
-
-set "BASENAME=%~nx1"
-
-REM Detect fuel type and extract variant
-set "FUEL_TYPE="
-set "CURRENT_VARIANT="
-set "DEST_DIR="
-
-if "!BASENAME:93map=!" neq "!BASENAME!" (
-    set "FUEL_TYPE=93"
-    set "DEST_DIR=93"
-    for /f "tokens=1 delims=." %%A in ("!BASENAME:93map=!") do set "CURRENT_VARIANT=%%A"
-) else if "!BASENAME:E30map=!" neq "!BASENAME!" (
-    set "FUEL_TYPE=E30"
-    set "DEST_DIR=E30"
-    for /f "tokens=1 delims=." %%A in ("!BASENAME:E30map=!") do set "CURRENT_VARIANT=%%A"
-) else if "!BASENAME:E85map=!" neq "!BASENAME!" (
-    set "FUEL_TYPE=E85"
-    set "DEST_DIR=E85"
-    for /f "tokens=1 delims=." %%A in ("!BASENAME:E85map=!") do set "CURRENT_VARIANT=%%A"
-) else if "!BASENAME:MKMM=!" neq "!BASENAME!" (
-    set "FUEL_TYPE=Flex"
-    set "DEST_DIR=Flex"
-) else if "!BASENAME:Modified=!" neq "!BASENAME!" (
-    set "FUEL_TYPE=Modified"
-    set "DEST_DIR=93"
+    set "NEWNAME=!PREFIX!!nextRev!(PD)"
+    echo.
+    echo Next revision detected as: !NEWNAME!
 ) else (
-    echo ERROR: Unrecognized filename format: !BASENAME!
-    exit /b 1
+    echo.
+    set /p "NEWNAME=Enter new MKMM variant name (e.g. MKMM(E40)): "
 )
 
 echo.
-echo Saving new !FUEL_TYPE! map revision...
-echo    Current variant: !CURRENT_VARIANT!
+echo Drag and drop your new .bin file onto this window, or type the full path:
+set /p "SRCFILE=Source .bin path: "
+set "SRCFILE=!SRCFILE:"=!"
 
-REM Create destination folder if it doesn't exist
-if not exist "!DEST_DIR!" mkdir "!DEST_DIR!"
-
-REM Find next revision number
-setlocal enabledelayedexpansion
-set "NEXT_REV=1"
-for /f "delims=" %%F in ('dir /b "!DEST_DIR!\*" 2^>nul ^| findstr /r "MK[0-9]"') do (
-    for /f "tokens=* delims=0123456789" %%G in ("%%F") do set "NEXT_REV=%%G"
+if not exist "!SRCFILE!" (
+    echo.
+    echo ERROR: File not found: !SRCFILE!
+    pause & exit /b 1
 )
 
-REM Generate new filename
-set "NEW_BASENAME=!BASENAME!"
-if "!FUEL_TYPE!"=="93" (
-    if not "!CURRENT_VARIANT:MK=!"=="!CURRENT_VARIANT!" (
-        set "NEW_BASENAME=93mapMK!NEXT_REV!(PD).bin"
-    )
-) else if "!FUEL_TYPE!"=="E30" (
-    set "NEW_BASENAME=E30mapMK!NEXT_REV!(PD).bin"
-) else if "!FUEL_TYPE!"=="E85" (
-    set "NEW_BASENAME=E85mapMK!NEXT_REV!(PD3M).bin"
+set "DESTDIR=%ROOT%!FUEL!"
+copy "!SRCFILE!" "!DESTDIR!\!NEWNAME!.bin" >nul
+echo   Saved: !FUEL!\!NEWNAME!.bin
+
+for %%F in ("!DESTDIR!\*_LATEST.bin") do del "%%F" 2>nul
+for %%F in ("!DESTDIR!\*_LATEST.log") do del "%%F" 2>nul
+copy "!DESTDIR!\!NEWNAME!.bin" "!DESTDIR!\!NEWNAME!_LATEST.bin" >nul
+echo   Marked as _LATEST
+
+echo.
+set /p "COMMITMSG=Git commit message (press Enter to skip): "
+
+if not "!COMMITMSG!"=="" (
+    git -C "%ROOT%" add "%ROOT%!FUEL!\"
+    git -C "%ROOT%" commit -m "!COMMITMSG!"
+    git -C "%ROOT%" push
+    echo   Pushed to GitHub.
+) else (
+    echo   Skipped git push.
 )
 
-REM Remove old _LATEST files
-if exist "!FUEL_TYPE!_LATEST" del "!FUEL_TYPE!_LATEST"
-if exist "!FUEL_TYPE!_LATEST.lnk" del "!FUEL_TYPE!_LATEST.lnk"
-for /f "delims=" %%F in ('dir /b "!DEST_DIR!\*_LATEST*" 2^>nul') do (
-    del "!DEST_DIR!\%%F"
-)
+echo.
+echo Refreshing shortcuts...
+call "%ROOT%refresh_shortcuts.bat" --auto
 
-REM Copy and rename
-set "NEW_FILE=!DEST_DIR!\!NEW_BASENAME!"
-set "NEW_LATEST=!DEST_DIR!\!NEW_BASENAME:.bin=_LATEST.bin!"
-
-copy "!SOURCE_BIN!" "!NEW_FILE!" >nul
-echo ✓ Saved: !NEW_FILE!
-echo ✓ Latest: !NEW_LATEST!
-
-REM Create .lnk shortcut in root (requires running with admin or use shell.CreateShortLink)
-REM For now, we'll just note the file location
-
-REM Optional git operations
-if exist ".git" (
-    setlocal
-    set /p DOPUSH="Commit and push to GitHub? (y/n): "
-    if /i "!DOPUSH!"=="y" (
-        git add "!DEST_DIR!\!NEW_BASENAME!" >nul 2>&1
-        git commit -m "!COMMIT_MSG!" >nul 2>&1
-        git push >nul 2>&1
-        echo ✓ Committed and pushed
-    )
-)
-
-echo ✓ Done!
-exit /b 0
+echo.
+echo ============================================
+echo   Done^!  !FUEL!\!NEWNAME!.bin is now latest.
+echo ============================================
+echo.
+pause
