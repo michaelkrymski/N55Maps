@@ -1,0 +1,93 @@
+{
+  "session": {
+    "session_id": "cea4ccddd10b4831b6f08903f2feffa6",
+    "created_at": "2026-04-08T01:11:30",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "Stock_TestCLI.bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 2,
+    "dirty_table_count": 2,
+    "dirty_table_ids": [
+      "table-0319-0x0",
+      "table-0320-0x0"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-08T01:11:31",
+      "table_id": "table-0321-0x0",
+      "table_title": "WGDC Base",
+      "operation": "axis_x_set",
+      "selection": {
+        "axis": "x",
+        "count": 16
+      },
+      "parameters": {
+        "values": [
+          8.333333333333334,
+          33.44618055555556,
+          55.0,
+          75.0,
+          94.609375,
+          115.72048611111111,
+          136.83159722222223,
+          157.75173611111111,
+          178.75,
+          199.91319444444443,
+          220.80729166666666,
+          241.80555555555554,
+          262.8298611111111,
+          283.88888888888886,
+          308.3333333333333,
+          347.22222222222223
+        ]
+      },
+      "summary": {
+        "changed_cell_count": 2,
+        "min_delta": 1.3368055555555571,
+        "max_delta": 2.638888888888893
+      }
+    },
+    {
+      "timestamp": "2026-04-08T01:11:31",
+      "table_id": "table-0321-0x0",
+      "table_title": "WGDC Base",
+      "operation": "axis_y_set",
+      "selection": {
+        "axis": "y",
+        "count": 20
+      },
+      "parameters": {
+        "values": [
+          0.15634570312499996,
+          1.4470458984374996,
+          2.5,
+          3.6,
+          4.348908203125001,
+          5.363409179687499,
+          6.377910156250001,
+          7.2490000000000006,
+          8.699045898437499,
+          10.019844726562498,
+          11.8895009765625,
+          13.486499023437501,
+          14.501,
+          15.951045898437501,
+          17.401091796875,
+          18.7944814453125,
+          20.912008789062504,
+          22.1017900390625,
+          24.2193173828125,
+          26.104908203125
+        ]
+      },
+      "summary": {
+        "changed_cell_count": 2,
+        "min_delta": 0.15050976562499985,
+        "max_delta": 0.15353613281249956
+      }
+    }
+  ]
+}

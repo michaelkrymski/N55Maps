@@ -1,0 +1,241 @@
+{
+  "session": {
+    "session_id": "f04b086a05c8490ca7119be2a6b7966a",
+    "created_at": "2026-04-09T22:53:15",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "compare-transfer-edited.bin",
+    "reference_bin_name": "Stock_N55LKS25.bin",
+    "has_reference_bin": true,
+    "pending_change_count": 10,
+    "dirty_table_count": 10,
+    "dirty_table_ids": [
+      "table-0513-0x70a",
+      "table-0532-0x71d",
+      "table-0574-0x747",
+      "table-0575-0x748",
+      "table-0576-0x749",
+      "table-0577-0x74a",
+      "table-0580-0x74d",
+      "table-0582-0x74f",
+      "table-0615-0x770",
+      "table-0616-0x771"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-09T23:24:10",
+      "table_id": "table-0513-0x70a",
+      "table_title": "Max. relative fuel mass for HPFP plausibility",
+      "operation": "transfer_reference",
+      "selection": {
+        "rows": 1,
+        "cols": 4
+      },
+      "parameters": {
+        "include_axes": true,
+        "reference_bin_name": "Stock_N55LKS25.bin",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 4,
+        "min_delta": 499.96875,
+        "max_delta": 600.0
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:24:29",
+      "table_id": "table-0574-0x747",
+      "table_title": "MSV Verz\u00f6gerungszeit in Abh\u00e4ngigkeit der Batteriespannung",
+      "operation": "transfer_reference",
+      "selection": {
+        "rows": 1,
+        "cols": 5
+      },
+      "parameters": {
+        "include_axes": true,
+        "reference_bin_name": "Stock_N55LKS25.bin",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 4,
+        "min_delta": 0.4500000000000002,
+        "max_delta": 0.6500000000000001
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:24:30",
+      "table_id": "table-0532-0x71d",
+      "table_title": "HPFP P-Factor",
+      "operation": "transfer_reference",
+      "selection": {
+        "rows": 1,
+        "cols": 6
+      },
+      "parameters": {
+        "include_axes": true,
+        "reference_bin_name": "Stock_N55LKS25.bin",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 6,
+        "min_delta": -0.809936526755,
+        "max_delta": -0.27001953235599996
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:24:32",
+      "table_id": "table-0575-0x748",
+      "table_title": "MSV Opening Delay (Battery Voltage)",
+      "operation": "transfer_reference",
+      "selection": {
+        "rows": 5,
+        "cols": 1
+      },
+      "parameters": {
+        "include_axes": true,
+        "reference_bin_name": "Stock_N55LKS25.bin",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 4,
+        "min_delta": 0.4500000000000002,
+        "max_delta": 0.6500000000000001
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:24:34",
+      "table_id": "table-0576-0x749",
+      "table_title": "Untere Grenze des Haltestroms des MSV",
+      "operation": "transfer_reference",
+      "selection": {
+        "rows": 1,
+        "cols": 1
+      },
+      "parameters": {
+        "include_axes": true,
+        "reference_bin_name": "Stock_N55LKS25.bin",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.31999999999999984,
+        "max_delta": 0.31999999999999984
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:24:34",
+      "table_id": "table-0577-0x74a",
+      "table_title": "MSV Minimum Hold Current",
+      "operation": "transfer_reference",
+      "selection": {
+        "rows": 1,
+        "cols": 1
+      },
+      "parameters": {
+        "include_axes": true,
+        "reference_bin_name": "Stock_N55LKS25.bin",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.31999999999999984,
+        "max_delta": 0.31999999999999984
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:24:36",
+      "table_id": "table-0580-0x74d",
+      "table_title": "Untere Grenze des Anzugsstroms des MSV",
+      "operation": "transfer_reference",
+      "selection": {
+        "rows": 6,
+        "cols": 5
+      },
+      "parameters": {
+        "include_axes": true,
+        "reference_bin_name": "Stock_N55LKS25.bin",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 30,
+        "min_delta": 0.7599999999999998,
+        "max_delta": 2.2800000000000002
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:24:37",
+      "table_id": "table-0582-0x74f",
+      "table_title": "MfVD Codeword",
+      "operation": "transfer_reference",
+      "selection": {
+        "rows": 1,
+        "cols": 1
+      },
+      "parameters": {
+        "include_axes": true,
+        "reference_bin_name": "Stock_N55LKS25.bin",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": -1.0,
+        "max_delta": -1.0
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:24:38",
+      "table_id": "table-0615-0x770",
+      "table_title": "MSV Feedforward Offset",
+      "operation": "transfer_reference",
+      "selection": {
+        "rows": 8,
+        "cols": 6
+      },
+      "parameters": {
+        "include_axes": true,
+        "reference_bin_name": "Stock_N55LKS25.bin",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 48,
+        "min_delta": -6.3,
+        "max_delta": -0.4
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:24:40",
+      "table_id": "table-0616-0x771",
+      "table_title": "MSV Feedforward Gain",
+      "operation": "transfer_reference",
+      "selection": {
+        "rows": 8,
+        "cols": 1
+      },
+      "parameters": {
+        "include_axes": true,
+        "reference_bin_name": "Stock_N55LKS25.bin",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 8,
+        "min_delta": -0.301452635484,
+        "max_delta": -0.278076170736
+      }
+    }
+  ],
+  "source_bin_name": "compare-transfer-edited.bin",
+  "reference_bin_name": "Stock_N55LKS25.bin",
+  "exported_bin_name": "compare-transfer-edited.bin",
+  "exported_at": "2026-04-09T23:25:42"
+}

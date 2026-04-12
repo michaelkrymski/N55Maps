@@ -1,0 +1,539 @@
+{
+  "session": {
+    "session_id": "88182b9917d14048ba575c604c43fb58",
+    "created_at": "2026-04-11T09:47:34",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "E85TorqueFix-edited.bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 24,
+    "dirty_table_count": 18,
+    "dirty_table_ids": [
+      "table-0049-0x539",
+      "table-0050-0x53a",
+      "table-0689-0x7b9",
+      "table-0690-0x7ba",
+      "table-0691-0x7bb",
+      "table-0704-0x7c8",
+      "table-0705-0x7c9",
+      "table-0706-0x7ca",
+      "table-0719-0x7d7",
+      "table-0720-0x7d8",
+      "table-0721-0x7d9",
+      "table-0781-0x815",
+      "table-0796-0x824",
+      "table-0967-0x8cf",
+      "table-0973-0x8d5",
+      "table-0979-0x8db",
+      "table-0983-0x8df",
+      "table-0991-0x8e7"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-11T09:48:19",
+      "table_id": "table-0967-0x8cf",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 0,
+        "col_end": 1,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 10
+      },
+      "summary": {
+        "changed_cell_count": 28,
+        "min_delta": 10.0,
+        "max_delta": 10.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:48:26",
+      "table_id": "table-0967-0x8cf",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 2,
+        "col_end": 2,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 17
+      },
+      "summary": {
+        "changed_cell_count": 14,
+        "min_delta": 17.0,
+        "max_delta": 17.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:48:40",
+      "table_id": "table-0967-0x8cf",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 3,
+        "col_end": 3,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 24.5
+      },
+      "summary": {
+        "changed_cell_count": 14,
+        "min_delta": 24.5,
+        "max_delta": 24.5
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:48:48",
+      "table_id": "table-0967-0x8cf",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 4,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 30
+      },
+      "summary": {
+        "changed_cell_count": 84,
+        "min_delta": 30.0,
+        "max_delta": 30.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:48:59",
+      "table_id": "table-0979-0x8db",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4) - Gear",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 9,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 9
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 9.0,
+        "max_delta": 9.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:49:03",
+      "table_id": "table-0979-0x8db",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4) - Gear",
+      "operation": "interpolate_x",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {},
+      "summary": {
+        "changed_cell_count": 8,
+        "min_delta": 1.0,
+        "max_delta": 8.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:49:09",
+      "table_id": "table-0973-0x8d5",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4) - RPM",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 500
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 500.0,
+        "max_delta": 500.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:49:14",
+      "table_id": "table-0973-0x8d5",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4) - RPM",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 13,
+        "col_end": 13,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 7000
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 7000.0,
+        "max_delta": 7000.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:49:18",
+      "table_id": "table-0973-0x8d5",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4) - RPM",
+      "operation": "interpolate_x",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 13,
+        "is_rectangular": true
+      },
+      "parameters": {},
+      "summary": {
+        "changed_cell_count": 12,
+        "min_delta": 1000.0,
+        "max_delta": 6500.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:54:52",
+      "table_id": "table-0689-0x7b9",
+      "table_title": "Fuel (Spool) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 12,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Spool)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 192,
+        "min_delta": -2.6460693359375007,
+        "max_delta": -0.46999999999999886
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:55:01",
+      "table_id": "table-0690-0x7ba",
+      "table_title": "Fuel (Spool) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 12,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Spool)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 192,
+        "min_delta": -2.6460693359375007,
+        "max_delta": -0.46999999999999886
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:55:07",
+      "table_id": "table-0691-0x7bb",
+      "table_title": "Fuel (Spool) (Map 4)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 12,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Spool)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 192,
+        "min_delta": -2.6460693359375007,
+        "max_delta": -0.46999999999999886
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:55:46",
+      "table_id": "table-0991-0x8e7",
+      "table_title": "Static Ethanol Content (Map 4)",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 85
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 85.0,
+        "max_delta": 85.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:57:28",
+      "table_id": "table-0705-0x7c9",
+      "table_title": "Fuel (Main) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 167,
+        "min_delta": 0.038432617187499574,
+        "max_delta": 0.07175292968750036
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:57:36",
+      "table_id": "table-0704-0x7c8",
+      "table_title": "Fuel (Main) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 167,
+        "min_delta": 0.038432617187499574,
+        "max_delta": 0.07175292968750036
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:57:51",
+      "table_id": "table-0050-0x53a",
+      "table_title": "Fuel (Bank 1)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 167,
+        "min_delta": 0.038432617187499574,
+        "max_delta": 0.07175292968750036
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:57:58",
+      "table_id": "table-0049-0x539",
+      "table_title": "Fuel (Bank 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 167,
+        "min_delta": 0.038432617187499574,
+        "max_delta": 0.07175292968750036
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:58:11",
+      "table_id": "table-0706-0x7ca",
+      "table_title": "Fuel (Main) (Map 4)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 167,
+        "min_delta": 0.07073242187500028,
+        "max_delta": 0.5892822265625011
+      }
+    },
+    {
+      "timestamp": "2026-04-11T09:58:21",
+      "table_id": "table-0983-0x8df",
+      "table_title": "Active Map Slots",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.0,
+        "max_delta": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T10:02:20",
+      "table_id": "table-0720-0x7d8",
+      "table_title": "Timing (Main) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (Main) (Map 3)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 60,
+        "min_delta": 1.0,
+        "max_delta": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T10:02:27",
+      "table_id": "table-0719-0x7d7",
+      "table_title": "Timing (Main) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (Main) (Map 3)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 60,
+        "min_delta": 1.0,
+        "max_delta": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T10:02:55",
+      "table_id": "table-0721-0x7d9",
+      "table_title": "Timing (Main) (Map 4)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (Main) (Map 3)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 60,
+        "min_delta": 1.0,
+        "max_delta": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T10:07:39",
+      "table_id": "table-0781-0x815",
+      "table_title": "Timing (Spool) (Map 4)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 10,
+        "cols": 14
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (Spool) (Map 4)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 134,
+        "min_delta": -9.0,
+        "max_delta": 13.0
+      }
+    },
+    {
+      "timestamp": "2026-04-11T10:07:49",
+      "table_id": "table-0796-0x824",
+      "table_title": "Timing (Spool) (Path 2) (Map 4)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 10,
+        "cols": 14
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (Spool) (Path 2) (Map 4)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 132,
+        "min_delta": -9.0,
+        "max_delta": 13.0
+      }
+    }
+  ],
+  "source_bin_name": "E85TorqueFix-edited.bin",
+  "reference_bin_name": null,
+  "exported_bin_name": "E85TorqueFix-edited-edited.bin",
+  "exported_at": "2026-04-11T10:08:56"
+}

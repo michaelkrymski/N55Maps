@@ -1,0 +1,932 @@
+{
+  "session": {
+    "session_id": "d8fc6dac4d474753af95337bfe70fef3",
+    "created_at": "2026-04-10T02:42:40",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "E85BaseMap-edited (1).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 42,
+    "dirty_table_count": 27,
+    "dirty_table_ids": [
+      "table-0361-0x672",
+      "table-0364-0x675",
+      "table-0370-0x67b",
+      "table-0376-0x681",
+      "table-0379-0x684",
+      "table-0718-0x7d7",
+      "table-0719-0x7d8",
+      "table-0720-0x7d9",
+      "table-0748-0x7f5",
+      "table-0749-0x7f6",
+      "table-0778-0x813",
+      "table-0779-0x814",
+      "table-0793-0x822",
+      "table-0794-0x823",
+      "table-0871-0x870",
+      "table-0872-0x871",
+      "table-0873-0x872",
+      "table-0886-0x87f",
+      "table-0887-0x880",
+      "table-0888-0x881",
+      "table-0963-0x8cc",
+      "table-0964-0x8cd",
+      "table-0965-0x8ce",
+      "table-0970-0x8d3",
+      "table-0971-0x8d4",
+      "table-0976-0x8d9",
+      "table-0977-0x8da"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-10T03:01:04",
+      "table_id": "table-0718-0x7d7",
+      "table_title": "Timing (Main) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Main) (Map 2)",
+        "x_axis_changed": 7,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 130,
+        "min_delta": -5.5,
+        "max_delta": 4.5
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:01:23",
+      "table_id": "table-0719-0x7d8",
+      "table_title": "Timing (Main) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Main) (Map 2)",
+        "x_axis_changed": 7,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 130,
+        "min_delta": -5.5,
+        "max_delta": 4.5
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:01:35",
+      "table_id": "table-0720-0x7d9",
+      "table_title": "Timing (Main) (Map 4)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Main) (Map 2)",
+        "x_axis_changed": 7,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 130,
+        "min_delta": -5.5,
+        "max_delta": 4.5
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:02:12",
+      "table_id": "table-0376-0x681",
+      "table_title": "Timing (main)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Main)",
+        "x_axis_changed": 7,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 130,
+        "min_delta": -5.5,
+        "max_delta": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:06:40",
+      "table_id": "table-0370-0x67b",
+      "table_title": "Timing (main) 2",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Main) (Path 2)",
+        "x_axis_changed": 16,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 265,
+        "min_delta": -16.0,
+        "max_delta": 10.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:10:22",
+      "table_id": "table-0370-0x67b",
+      "table_title": "Timing (main) 2",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Main) (Path 2)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 0,
+        "min_delta": 0.0,
+        "max_delta": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:12:33",
+      "table_id": "table-0748-0x7f5",
+      "table_title": "Timing (Main) (Path 2) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Main) (Path 2) (Map 2)",
+        "x_axis_changed": 20,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 276,
+        "min_delta": -15.0,
+        "max_delta": 11.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:12:49",
+      "table_id": "table-0749-0x7f6",
+      "table_title": "Timing (Main) (Path 2) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Main) (Path 2) (Map 2)",
+        "x_axis_changed": 20,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 276,
+        "min_delta": -15.0,
+        "max_delta": 11.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:15:11",
+      "table_id": "table-0364-0x675",
+      "table_title": "Timing (main) 3",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Main) (Path 3)",
+        "x_axis_changed": 16,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 266,
+        "min_delta": -19.0,
+        "max_delta": 14.5
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:26:31",
+      "table_id": "table-0379-0x684",
+      "table_title": "Timing (spool)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 10,
+        "cols": 14
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Spool)",
+        "x_axis_changed": 13,
+        "y_axis_changed": 9
+      },
+      "summary": {
+        "changed_cell_count": 134,
+        "min_delta": -9.0,
+        "max_delta": 13.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:26:57",
+      "table_id": "table-0778-0x813",
+      "table_title": "Timing (Spool) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 10,
+        "cols": 14
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Spool)",
+        "x_axis_changed": 13,
+        "y_axis_changed": 9
+      },
+      "summary": {
+        "changed_cell_count": 134,
+        "min_delta": -9.0,
+        "max_delta": 13.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:27:10",
+      "table_id": "table-0779-0x814",
+      "table_title": "Timing (Spool) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 10,
+        "cols": 14
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Spool)",
+        "x_axis_changed": 13,
+        "y_axis_changed": 9
+      },
+      "summary": {
+        "changed_cell_count": 134,
+        "min_delta": -9.0,
+        "max_delta": 13.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:28:39",
+      "table_id": "table-0361-0x672",
+      "table_title": "Timing (spool) 2",
+      "operation": "import_table",
+      "selection": {
+        "rows": 10,
+        "cols": 14
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Spool) (Path 2)",
+        "x_axis_changed": 13,
+        "y_axis_changed": 9
+      },
+      "summary": {
+        "changed_cell_count": 132,
+        "min_delta": -9.0,
+        "max_delta": 13.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:28:51",
+      "table_id": "table-0793-0x822",
+      "table_title": "Timing (Spool) (Path 2) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 10,
+        "cols": 14
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Spool) (Path 2)",
+        "x_axis_changed": 13,
+        "y_axis_changed": 9
+      },
+      "summary": {
+        "changed_cell_count": 132,
+        "min_delta": -9.0,
+        "max_delta": 13.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:29:00",
+      "table_id": "table-0794-0x823",
+      "table_title": "Timing (Spool) (Path 2) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 10,
+        "cols": 14
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Timing (Spool) (Path 2)",
+        "x_axis_changed": 13,
+        "y_axis_changed": 9
+      },
+      "summary": {
+        "changed_cell_count": 132,
+        "min_delta": -9.0,
+        "max_delta": 13.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:29:12",
+      "table_id": "table-0794-0x823",
+      "table_title": "Timing (Spool) (Path 2) (Map 3)",
+      "operation": "axis_x_set",
+      "selection": {
+        "axis": "x",
+        "count": 14
+      },
+      "parameters": {
+        "values": [
+          30,
+          50,
+          70,
+          80,
+          90,
+          100,
+          110,
+          120,
+          130,
+          140,
+          160,
+          180,
+          190,
+          200
+        ]
+      },
+      "summary": {
+        "changed_cell_count": 0,
+        "min_delta": 0.0,
+        "max_delta": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:30:46",
+      "table_id": "table-0871-0x870",
+      "table_title": "Maximum Clutch Torque per Gear (Mode 1) (Map 2)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 11,
+        "col_start": 0,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 900
+      },
+      "summary": {
+        "changed_cell_count": 120,
+        "min_delta": 490.0,
+        "max_delta": 595.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:30:57",
+      "table_id": "table-0886-0x87f",
+      "table_title": "Maximum Clutch Torque per Gear (Mode 2) (Map 2)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 11,
+        "col_start": 0,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 900
+      },
+      "summary": {
+        "changed_cell_count": 120,
+        "min_delta": 490.0,
+        "max_delta": 595.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:31:10",
+      "table_id": "table-0872-0x871",
+      "table_title": "Maximum Clutch Torque per Gear (Mode 1) (Map 3)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 11,
+        "col_start": 0,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 900
+      },
+      "summary": {
+        "changed_cell_count": 120,
+        "min_delta": 490.0,
+        "max_delta": 595.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:31:18",
+      "table_id": "table-0887-0x880",
+      "table_title": "Maximum Clutch Torque per Gear (Mode 2) (Map 3)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 11,
+        "col_start": 0,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 900
+      },
+      "summary": {
+        "changed_cell_count": 120,
+        "min_delta": 490.0,
+        "max_delta": 595.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:31:27",
+      "table_id": "table-0873-0x872",
+      "table_title": "Maximum Clutch Torque per Gear (Mode 1) (Map 4)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 11,
+        "col_start": 0,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 900
+      },
+      "summary": {
+        "changed_cell_count": 120,
+        "min_delta": 490.0,
+        "max_delta": 595.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:31:33",
+      "table_id": "table-0888-0x881",
+      "table_title": "Maximum Clutch Torque per Gear (Mode 2) (Map 4)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 11,
+        "col_start": 0,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 900
+      },
+      "summary": {
+        "changed_cell_count": 120,
+        "min_delta": 490.0,
+        "max_delta": 595.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:32:19",
+      "table_id": "table-0963-0x8cc",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 1)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 2,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 17
+      },
+      "summary": {
+        "changed_cell_count": 112,
+        "min_delta": -12.9992427199,
+        "max_delta": -0.9991830376000017
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:32:25",
+      "table_id": "table-0963-0x8cc",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 1)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 2,
+        "col_end": 2,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 15
+      },
+      "summary": {
+        "changed_cell_count": 14,
+        "min_delta": -2.0002356309000007,
+        "max_delta": -2.0002356309000007
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:32:42",
+      "table_id": "table-0976-0x8d9",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 2) - Gear",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 9,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 9
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 9.0,
+        "max_delta": 9.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:32:46",
+      "table_id": "table-0976-0x8d9",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 2) - Gear",
+      "operation": "interpolate_x",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {},
+      "summary": {
+        "changed_cell_count": 8,
+        "min_delta": 1.0,
+        "max_delta": 8.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:32:53",
+      "table_id": "table-0970-0x8d3",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 2) - RPM",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 13,
+        "col_end": 13,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 7000
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 7000.0,
+        "max_delta": 7000.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:32:57",
+      "table_id": "table-0970-0x8d3",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 2) - RPM",
+      "operation": "interpolate_x",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 13,
+        "is_rectangular": true
+      },
+      "parameters": {},
+      "summary": {
+        "changed_cell_count": 12,
+        "min_delta": 538.0,
+        "max_delta": 6462.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:33:12",
+      "table_id": "table-0970-0x8d3",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 2) - RPM",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 500
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 500.0,
+        "max_delta": 500.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:33:16",
+      "table_id": "table-0970-0x8d3",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 2) - RPM",
+      "operation": "interpolate_x",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 13,
+        "is_rectangular": true
+      },
+      "parameters": {},
+      "summary": {
+        "changed_cell_count": 12,
+        "min_delta": 38.0,
+        "max_delta": 462.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:33:40",
+      "table_id": "table-0964-0x8cd",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 2)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 0,
+        "col_end": 1,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 10
+      },
+      "summary": {
+        "changed_cell_count": 28,
+        "min_delta": 10.0,
+        "max_delta": 10.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:33:46",
+      "table_id": "table-0964-0x8cd",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 2)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 2,
+        "col_end": 2,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 17
+      },
+      "summary": {
+        "changed_cell_count": 14,
+        "min_delta": 17.0,
+        "max_delta": 17.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:33:53",
+      "table_id": "table-0964-0x8cd",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 2)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 3,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 23
+      },
+      "summary": {
+        "changed_cell_count": 98,
+        "min_delta": 23.0,
+        "max_delta": 23.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:34:03",
+      "table_id": "table-0977-0x8da",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 3) - Gear",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 9,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 9
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 9.0,
+        "max_delta": 9.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:34:07",
+      "table_id": "table-0977-0x8da",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 3) - Gear",
+      "operation": "interpolate_x",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {},
+      "summary": {
+        "changed_cell_count": 8,
+        "min_delta": 1.0,
+        "max_delta": 8.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:34:10",
+      "table_id": "table-0971-0x8d4",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 3) - RPM",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 500
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 500.0,
+        "max_delta": 500.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:34:13",
+      "table_id": "table-0971-0x8d4",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 3) - RPM",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 13,
+        "col_end": 13,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 7000
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 7000.0,
+        "max_delta": 7000.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:34:18",
+      "table_id": "table-0971-0x8d4",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 3) - RPM",
+      "operation": "interpolate_x",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 13,
+        "is_rectangular": true
+      },
+      "parameters": {},
+      "summary": {
+        "changed_cell_count": 12,
+        "min_delta": 1000.0,
+        "max_delta": 6500.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:34:25",
+      "table_id": "table-0965-0x8ce",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 3)",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 0,
+        "col_end": 1,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 10
+      },
+      "summary": {
+        "changed_cell_count": 28,
+        "min_delta": 10.0,
+        "max_delta": 10.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:34:30",
+      "table_id": "table-0965-0x8ce",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 3)",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 2,
+        "col_end": 2,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 17
+      },
+      "summary": {
+        "changed_cell_count": 14,
+        "min_delta": 17.0,
+        "max_delta": 17.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:34:36",
+      "table_id": "table-0965-0x8ce",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 3)",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 3,
+        "col_end": 3,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 23
+      },
+      "summary": {
+        "changed_cell_count": 14,
+        "min_delta": 23.0,
+        "max_delta": 23.0
+      }
+    },
+    {
+      "timestamp": "2026-04-10T03:34:41",
+      "table_id": "table-0965-0x8ce",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 3)",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 4,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 27
+      },
+      "summary": {
+        "changed_cell_count": 84,
+        "min_delta": 27.0,
+        "max_delta": 27.0
+      }
+    }
+  ],
+  "source_bin_name": "E85BaseMap-edited (1).bin",
+  "reference_bin_name": null,
+  "exported_bin_name": "E85BaseMap-edited-1-edited.bin",
+  "exported_at": "2026-04-10T03:34:47"
+}

@@ -1,0 +1,98 @@
+{
+  "session": {
+    "session_id": "9f36325d8164422586f79c01459c71cb",
+    "created_at": "2026-04-07T22:48:40",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "Stock_TestCLI.bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 4,
+    "dirty_table_count": 3,
+    "dirty_table_ids": [
+      "table-0061-0x0",
+      "table-0300-0x0",
+      "table-0321-0x0"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-07T23:37:10",
+      "table_id": "table-0061-0x0",
+      "table_title": "Boost Ceiling (Replaced)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0
+      },
+      "parameters": {
+        "value": 2.2
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.20000000000000018,
+        "max_delta": 0.20000000000000018
+      }
+    },
+    {
+      "timestamp": "2026-04-07T23:37:55",
+      "table_id": "table-0321-0x0",
+      "table_title": "WGDC Base",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 2,
+        "row_end": 3,
+        "col_start": 4,
+        "col_end": 5
+      },
+      "parameters": {
+        "value": 1.0
+      },
+      "summary": {
+        "changed_cell_count": 4,
+        "min_delta": 0.9999999999999998,
+        "max_delta": 1.0000000000000002
+      }
+    },
+    {
+      "timestamp": "2026-04-07T23:38:43",
+      "table_id": "table-0300-0x0",
+      "table_title": "WGDC P-Factor",
+      "operation": "multiply",
+      "selection": {
+        "row_start": 7,
+        "row_end": 9,
+        "col_start": 1,
+        "col_end": 3
+      },
+      "parameters": {
+        "value": 0.95
+      },
+      "summary": {
+        "changed_cell_count": 9,
+        "min_delta": -6.0,
+        "max_delta": -1.0
+      }
+    },
+    {
+      "timestamp": "2026-04-07T23:39:14",
+      "table_id": "table-0321-0x0",
+      "table_title": "WGDC Base",
+      "operation": "interpolate_x",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 3
+      },
+      "parameters": {},
+      "summary": {
+        "changed_cell_count": 2,
+        "min_delta": 0.027999999999999997,
+        "max_delta": 0.05199999999999999
+      }
+    }
+  ]
+}

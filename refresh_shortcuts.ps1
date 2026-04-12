@@ -130,23 +130,54 @@ Get-ChildItem -Path $Root -Filter "*.lnk" -ErrorAction SilentlyContinue | Remove
 # ─── Create new shortcuts ─────────────────────────────────────────────────────
 $ws = New-Object -ComObject WScript.Shell
 
+function Find-LatestShortcutTarget ($option) {
+    $searchDir = Join-Path $Root $option.Dir
+
+    if ($option.Key -eq "E85") {
+        $revisionsDir = Join-Path $searchDir "Revisions"
+        $latestRevision = Get-ChildItem -Path $revisionsDir -Filter "*.bin" -File -ErrorAction SilentlyContinue |
+                          Sort-Object LastWriteTime -Descending |
+                          Select-Object -First 1
+        if ($latestRevision) {
+            return @{
+                Match = $latestRevision
+                WorkingDirectory = $revisionsDir
+                DisplayPath = ($option.Dir + "\Revisions\" + $latestRevision.Name)
+            }
+        }
+    }
+
+    $match = Get-ChildItem -Path $searchDir -Filter $option.Filter -File -ErrorAction SilentlyContinue |
+             Sort-Object LastWriteTime -Descending |
+             Select-Object -First 1
+
+    if ($match) {
+        return @{
+            Match = $match
+            WorkingDirectory = $searchDir
+            DisplayPath = ($option.Dir + "\" + $match.Name)
+        }
+    }
+
+    return $null
+}
+
 foreach ($o in $allOptions) {
     if (-not $sel[$o.Key]) {
         Write-Host ("  -  " + $o.LnkName + " (skipped)") -ForegroundColor DarkGray
         continue
     }
 
-    $searchDir = Join-Path $Root $o.Dir
-    $match = Get-ChildItem -Path $searchDir -Filter $o.Filter -ErrorAction SilentlyContinue |
-             Select-Object -First 1
+    $target = Find-LatestShortcutTarget $o
 
-    if ($match) {
+    if ($target) {
+        $match               = $target.Match
         $lnkPath             = Join-Path $Root ($o.LnkName + ".lnk")
         $sc                  = $ws.CreateShortcut($lnkPath)
         $sc.TargetPath       = $match.FullName
-        $sc.WorkingDirectory = $searchDir
+        $sc.WorkingDirectory = $target.WorkingDirectory
         $sc.Save()
-        Write-Host ("  OK   " + $o.LnkName + ".lnk  ->  " + $o.Dir + "\" + $match.Name) -ForegroundColor Green
+        Write-Host ("  OK   " + $o.LnkName + ".lnk  ->  " + $target.DisplayPath) -ForegroundColor Green
     } else {
         Write-Host ("  !!   No file found for " + $o.Key + " in " + $o.Dir + "\") -ForegroundColor Red
     }

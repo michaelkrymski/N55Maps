@@ -1,0 +1,130 @@
+{
+  "session": {
+    "session_id": "56454ff0c81c4d899159ee7a49aba2f0",
+    "created_at": "2026-04-11T06:15:41",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "E85TorqueFix.bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 5,
+    "dirty_table_count": 4,
+    "dirty_table_ids": [
+      "table-0049-0x539",
+      "table-0050-0x53a",
+      "table-0704-0x7c8",
+      "table-0705-0x7c9"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-11T06:20:57",
+      "table_id": "table-0050-0x53a",
+      "table_title": "Fuel (Bank 1)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 167,
+        "min_delta": 0.029306640625000213,
+        "max_delta": 0.2614404296875019
+      }
+    },
+    {
+      "timestamp": "2026-04-11T06:23:17",
+      "table_id": "table-0050-0x53a",
+      "table_title": "Fuel (Bank 1)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 167,
+        "min_delta": -0.01904785156249922,
+        "max_delta": 0.23830566406249964
+      }
+    },
+    {
+      "timestamp": "2026-04-11T06:23:23",
+      "table_id": "table-0049-0x539",
+      "table_title": "Fuel (Bank 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 167,
+        "min_delta": 0.029306640625000213,
+        "max_delta": 0.4392822265625007
+      }
+    },
+    {
+      "timestamp": "2026-04-11T06:23:38",
+      "table_id": "table-0704-0x7c8",
+      "table_title": "Fuel (Main) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 167,
+        "min_delta": 0.029306640625000213,
+        "max_delta": 0.4392822265625007
+      }
+    },
+    {
+      "timestamp": "2026-04-11T06:23:47",
+      "table_id": "table-0705-0x7c9",
+      "table_title": "Fuel (Main) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 167,
+        "min_delta": 0.029306640625000213,
+        "max_delta": 0.4392822265625007
+      }
+    }
+  ],
+  "source_bin_name": "E85TorqueFix.bin",
+  "reference_bin_name": null,
+  "exported_bin_name": "E85TorqueFix-edited.bin",
+  "exported_at": "2026-04-11T06:25:23"
+}

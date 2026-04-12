@@ -35,7 +35,16 @@ config_load() {
 find_latest() {
     local dir="$1"
     local result
-    result=$(ls "$dir"/*_LATEST.bin 2>/dev/null | head -1)
+
+    if [[ "$dir" == "E85" && -d "$dir/Revisions" ]]; then
+        result=$(find "$dir/Revisions" -maxdepth 1 -type f -name "*.bin" -printf '%T@ %p\n' 2>/dev/null | sort -nr | head -1 | cut -d' ' -f2-)
+        if [[ -n "$result" ]]; then
+            echo "$result"
+            return
+        fi
+    fi
+
+    result=$(find "$dir" -maxdepth 1 -type f -name "*_LATEST.bin" -printf '%T@ %p\n' 2>/dev/null | sort -nr | head -1 | cut -d' ' -f2-)
     echo "$result"
 }
 

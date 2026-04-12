@@ -1,0 +1,41 @@
+{
+  "session": {
+    "session_id": "8740a01f8ad44982b5af32a2f9eb3e8e",
+    "created_at": "2026-04-09T22:18:05",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "Stock_TestCLI.bin",
+    "reference_bin_name": "Stock_TestCLIManual.bin",
+    "has_reference_bin": true,
+    "pending_change_count": 1,
+    "dirty_table_count": 0,
+    "dirty_table_ids": [],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-09T22:18:07",
+      "table_id": "table-0061-0x546",
+      "table_title": "Boost Ceiling (Replaced)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 2.0
+      },
+      "summary": {
+        "changed_cell_count": 0,
+        "min_delta": 0.0,
+        "max_delta": 0.0
+      }
+    }
+  ],
+  "source_bin_name": "Stock_TestCLI.bin",
+  "reference_bin_name": "Stock_TestCLIManual.bin",
+  "exported_bin_name": "smoke-export-edited.bin",
+  "exported_at": "2026-04-09T22:18:07"
+}

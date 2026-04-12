@@ -1,0 +1,15 @@
+{
+  "session": {
+    "session_id": "01d7280712674e439d48489ade4f9956",
+    "created_at": "2026-04-08T01:19:50",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "Stock_TestCLI.bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 0,
+    "dirty_table_count": 0,
+    "dirty_table_ids": [],
+    "export_ready": false
+  },
+  "pending_edits": []
+}

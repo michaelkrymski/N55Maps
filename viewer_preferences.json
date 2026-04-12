@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "favorites": {
+    "tables": [],
+    "families": []
+  },
+  "folders": [
+    {
+      "id": "folder-1775736678811",
+      "name": "Quick Start"
+    }
+  ],
+  "assignments": {
+    "folder-1775736678811": [
+      "wgdc base (custom)",
+      "wgdc p-factor (custom)",
+      "boost ceiling (relative) (gear x rpm) (map 1)",
+      "wgdc d-factor (custom)",
+      "enable custom 3d boost ceiling table",
+      "enable custom wgdc override",
+      "enable custom wgdc p and d factors",
+      "pvdmx - upper pressure threshold for range check",
+      "active map slots",
+      "enable map switch",
+      "modeled torque limit 1",
+      "modeled torque limit 2",
+      "torque request ceiling (auto)",
+      "boost ceiling (relative) (gear x rpm)",
+      "static ethanol content",
+      "load target offset (overboost)",
+      "load ceiling (main)",
+      "spool mode max rpm",
+      "inhibit bc button controls",
+      "enable port injection safety"
+    ]
+  }
+}

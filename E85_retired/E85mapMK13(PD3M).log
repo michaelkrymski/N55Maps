@@ -1,0 +1,69 @@
+Edit Log for E85mapMK13(PD3M).bin created by TunerPro.
+**************************************************************************
+08/18/2025 08:42:01  Table:     Boost Ceiling (Relative) (Gear x RPM) (Map 1) changed.
+08/18/2025 08:42:18  Table:     Boost set limit changed.
+08/18/2025 08:42:36  Table:     Boost Limit Multiplier Ceiling changed.
+08/18/2025 08:43:00  Table:     Boost Limit multiplier changed.
+08/18/2025 18:03:55  Table:     Boost Ceiling (Relative) (Gear x RPM) (Map 1) changed.
+08/18/2025 18:05:04  Table:     Timing (main) changed.
+08/18/2025 18:05:12  Table:     Timing (main) 3 changed.
+08/18/2025 18:05:21  Table:     Timing (main) 2 changed.
+08/19/2025 02:05:39  Table:     Fuel (Bank 1) changed.
+08/19/2025 02:05:51  Table:     Fuel (Bank 2) changed.
+08/19/2025 02:06:50  Table:     Turbo pumping limit changed.
+08/19/2025 08:51:55  Table:     Fuel (Bank 2) changed.
+08/19/2025 08:52:00  Table:     Fuel (Bank 1) changed.
+08/19/2025 09:02:17  Table:     Fuel (Bank 2) changed.
+08/19/2025 09:02:23  Table:     Fuel (Bank 1) changed.
+08/19/2025 09:26:01  Table:     HPFP min. rail pressure undershoot changed.
+08/19/2025 09:26:29  Table:     Rail pressure target (warm) changed.
+08/19/2025 09:26:37  Table:     Rail pressure target (cold/safe) changed.
+08/19/2025 09:26:53  Table:     HPFP delivery rate changed.
+08/19/2025 09:27:05  Table:     Schwelle Maximumfehler HDRKH changed.
+08/19/2025 09:27:08  Table:     Schwelle Minimumfehler HDRKH changed.
+08/19/2025 09:27:15  Table:     Schwelle Minimumfehler HDR changed.
+08/19/2025 09:27:24  Table:     Schwelle Maximumfehler HDR changed.
+08/19/2025 09:27:54  Table:     HPFP P-Factor Weighting changed.
+08/19/2025 09:28:19  Table:     HPFP P-Factor changed.
+08/19/2025 09:28:47  Table:     MSV Feedforward Offset changed.
+08/19/2025 09:29:00  Table:     MSV Feedforward Gain changed.
+08/19/2025 10:02:35  Table:     Timing (main) changed.
+08/19/2025 10:10:10  Table:     Timing (main) X (autogen) changed.
+08/19/2025 10:10:31  Table:     Timing (main) Y (autogen) changed.
+08/19/2025 10:11:38  Table:     Load limit factor changed.
+08/19/2025 10:12:01  Table:     Boost Limit multiplier changed.
+08/19/2025 11:21:44  Table:     Boost Limit multiplier changed.
+08/19/2025 11:21:51  Table:     Boost set limit changed.
+08/19/2025 11:25:25  Table:     Perf display scaling - torque changed.
+08/19/2025 11:25:26  Table:     Perf display scaling - power changed.
+08/19/2025 11:27:04  Table:     Mass flow ratio (ceiling) for diag sensor pressure in CP changed.
+08/19/2025 11:27:07  Table:     Mass flow ratio (ceiling) for diag MAF changed.
+08/19/2025 11:28:54  Table:     Boost Ceiling (Replaced) changed.
+08/19/2025 11:32:01  Table:     Lambda target min changed.
+08/19/2025 11:32:13  Table:     Lambda target min changed.
+08/19/2025 11:36:08  Table:     Lambda Limit Rich changed.
+08/19/2025 11:45:23  Table:     Timing (main) changed.
+08/19/2025 11:45:32  Table:     Timing (main) 2 changed.
+08/19/2025 11:45:36  Table:     Timing (main) 3 changed.
+08/19/2025 11:45:55  Table:     Timing (spool) changed.
+08/19/2025 11:46:00  Table:     Timing (spool) 2 changed.
+08/19/2025 11:47:00  Table:     Maximum fuer CltPrt_MdDec changed.
+08/19/2025 11:47:09  Table:     Maximalwert fuer Integralanteil PI Regler changed.
+08/19/2025 11:49:10  Table:     Torque Reduction Factor (RPM) changed.
+08/19/2025 11:49:28  Table:     Torque Reduction Factor (RPM) changed.
+08/19/2025 11:52:04  Table:     Max allowed raw speed for signal check changed.
+08/19/2025 11:55:04  Table:     Load ceiling (main) changed.
+08/19/2025 11:56:57  Table:     Load to Torque limit 2 changed.
+08/19/2025 11:56:58  Table:     Load to Torque limit changed.
+08/19/2025 12:00:16  Table:     Load limit factor changed.
+08/19/2025 12:00:27  Table:     Boost Limit Multiplier Ceiling changed.
+08/19/2025 12:01:22  Table:     Boost Limit Multiplier Ceiling changed.
+08/19/2025 12:01:48  Table:     Boost multiplier changed.
+08/19/2025 12:12:01  Table:     Timing (cold) changed.
+08/19/2025 12:12:02  Table:     Timing (main) changed.
+08/19/2025 12:12:57  Table:     Timing (main) 3 changed.
+08/19/2025 12:12:58  Table:     Timing (main) 2 changed.
+08/19/2025 12:14:28  Table:     Timing (spool) changed.
+08/19/2025 12:14:29  Table:     Timing (spool) 2 changed.
+08/19/2025 12:58:15  Table:     Boost multiplier changed.
+08/19/2025 13:02:17  Table:     Boost multiplier changed.

@@ -1,0 +1,29 @@
+Edit Log for E85v2.bin created by TunerPro.
+**************************************************************************
+04/08/2026 18:57:30  Table:     PVDMX - Upper Pressure Threshold for Range Check changed.
+04/08/2026 19:54:42  Table:     Enable Map Switch changed.
+04/08/2026 19:54:45  Table:     Active Map Slots changed.
+04/08/2026 19:54:57  Table:     Static Ethanol Content (Map 1) changed.
+04/08/2026 19:55:08  Table:     Static Ethanol Content (Map 2) changed.
+04/08/2026 19:55:14  Table:     Static Ethanol Content (Map 3) changed.
+04/08/2026 19:55:30  Table:     Boost Ceiling (Relative) (Gear x RPM) (Map 1) - RPM changed.
+04/08/2026 19:55:41  Table:     Boost Ceiling (Relative) (Gear x RPM) (Map 1) - Gear changed.
+04/08/2026 19:56:05  Table:     Boost Ceiling (Relative) (Gear x RPM) (Map 1) changed.
+04/08/2026 19:56:23  Table:     Modeled torque limit 2 changed.
+04/08/2026 19:56:28  Table:     Modeled torque limit 1 changed.
+04/08/2026 19:56:35  Table:     Torque request ceiling (Auto) changed.
+04/08/2026 19:56:45  Table:     Load target offset (overboost) changed.
+04/08/2026 19:57:15  Table:     Load ceiling (main) X (autogen) changed.
+04/08/2026 19:57:38  Table:     Load ceiling (main) changed.
+04/08/2026 19:58:06  Table:     Enable Custom WGDC Override changed.
+04/08/2026 19:58:10  Table:     Enable Custom WGDC P and D Factors changed.
+04/08/2026 19:58:16  Table:     WGDC Base (Custom) changed.
+04/08/2026 19:58:21  Table:     WGDC P-Factor (Custom) changed.
+04/08/2026 19:58:25  Table:     WGDC D-Factor (Custom) changed.
+04/08/2026 19:58:29  Table:     WGDC Base (Custom) (Antilag) changed.
+04/08/2026 19:58:34  Table:     WGDC P-Factor (Custom) (Antilag) changed.
+04/08/2026 19:58:39  Table:     WGDC D-Factor (Custom) (Antilag) changed.
+04/08/2026 19:59:01  Table:     Enable Custom 3D Boost Ceiling Table changed.
+04/08/2026 19:59:11  Table:     Enable Port Injection Safety changed.
+04/08/2026 19:59:19  Table:     Inhibit BC Button Controls changed.
+04/08/2026 19:59:34  Table:     Spool Mode Max RPM changed.

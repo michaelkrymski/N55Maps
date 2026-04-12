@@ -1,0 +1,131 @@
+{
+  "session": {
+    "session_id": "523e16b54d5b4b2ea22f4f43c211ad97",
+    "created_at": "2026-04-09T23:53:23",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "E85BaseMap.bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 5,
+    "dirty_table_count": 5,
+    "dirty_table_ids": [
+      "table-0048-0x539",
+      "table-0049-0x53a",
+      "table-0703-0x7c8",
+      "table-0704-0x7c9",
+      "table-0705-0x7ca"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-09T23:53:47",
+      "table_id": "table-0049-0x53a",
+      "table_title": "Fuel (Bank 1)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 13
+      },
+      "summary": {
+        "changed_cell_count": 180,
+        "min_delta": -2.789999999999999,
+        "max_delta": 1.6157226562500018
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:54:01",
+      "table_id": "table-0048-0x539",
+      "table_title": "Fuel (Bank 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 13
+      },
+      "summary": {
+        "changed_cell_count": 180,
+        "min_delta": -2.789999999999999,
+        "max_delta": 1.6157226562500018
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:54:27",
+      "table_id": "table-0703-0x7c8",
+      "table_title": "Fuel (Main) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 13
+      },
+      "summary": {
+        "changed_cell_count": 180,
+        "min_delta": -2.789999999999999,
+        "max_delta": 1.6157226562500018
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:54:57",
+      "table_id": "table-0704-0x7c9",
+      "table_title": "Fuel (Main) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 13
+      },
+      "summary": {
+        "changed_cell_count": 180,
+        "min_delta": -2.789999999999999,
+        "max_delta": 1.6157226562500018
+      }
+    },
+    {
+      "timestamp": "2026-04-09T23:55:09",
+      "table_id": "table-0705-0x7ca",
+      "table_title": "Fuel (Main) (Map 4)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 13
+      },
+      "summary": {
+        "changed_cell_count": 180,
+        "min_delta": -2.789999999999999,
+        "max_delta": 1.6157226562500018
+      }
+    }
+  ],
+  "source_bin_name": "E85BaseMap.bin",
+  "reference_bin_name": null,
+  "exported_bin_name": "E85BaseMap-edited.bin",
+  "exported_at": "2026-04-09T23:55:30"
+}

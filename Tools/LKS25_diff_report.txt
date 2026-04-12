@@ -1,0 +1,74 @@
+========================================================================
+N55 WinOLS Diff Report
+Original : C:\Users\Michael Krymski\Documents\N55Maps\Tools\Stock.bin
+Modified : C:\Users\Michael Krymski\Downloads\Stock_N55LKS25.bin
+XDF      : C:\Users\Michael Krymski\Documents\N55Maps\Tools\000021571DAA01.xdf
+========================================================================
+
+Total changed regions : 9
+  XDF-mapped (known)  : 9
+  Unmapped (unknown)  : 0
+Total changed bytes   : 174
+
+========================================================================
+SECTION 1 — CHANGES IN XDF-DEFINED TABLES
+========================================================================
+
+  [0x1C9F52–0x1C9F54]  3 bytes
+    XDF: MSV Maximum Delivery Angle  (z_axis)
+    ORIG: 28 00 42
+    MOD : 00 00 ec
+    INTERP: u16 LoHi: 40 -> 0 | u16 HiLo: 10240 -> 0 | i16 LoHi: 40 -> 0
+
+  [0x1CD46C–0x1CD473]  8 bytes
+    XDF: Max. relative fuel mass for HPFP plausibility  (z_axis)
+    ORIG: d5 14 00 19 00 19 00 19
+    MOD : 7f 3e 00 4b 00 4b 00 4b
+    INTERP: u16 LoHi: 5333 -> 15999 | u16 HiLo: 54548 -> 32574 | i16 LoHi: 5333 -> 15999
+
+  [0x1D0B4C–0x1D0B57]  12 bytes
+    XDF: HPFP I-Factor  (z_axis)
+    XDF: HPFP P-Factor  (z_axis)
+    ORIG: 66 56 66 26 cd 1c cd 1c 66 26 66 56
+    MOD : 7b 3c e1 1a 29 14 29 14 e1 1a 7b 3c
+    INTERP: u16 LoHi: 22118 -> 15483 | u16 HiLo: 26198 -> 31548 | i16 LoHi: 22118 -> 15483
+
+  [0x1D4070–0x1D4077]  8 bytes
+    XDF: MSV Opening Delay (Battery Voltage)  (y_axis)
+    ORIG: 3a 07 72 06 aa 05 78 05
+    MOD : fc 08 98 08 34 08 d0 07
+    INTERP: u16 LoHi: 1850 -> 2300 | u16 HiLo: 14855 -> 64520 | i16 LoHi: 1850 -> 2300
+
+  [0x1D4224–0x1D4224]  1 bytes
+    XDF: MSV Minimum Hold Current  (z_axis)
+    ORIG: 43
+    MOD : 4b
+    INTERP: u8: 67 -> 75
+
+  [0x1D4235–0x1D4252]  30 bytes
+    XDF: Untere Grenze des Anzugsstroms des MSV  (z_axis)
+    ORIG: 64 6c 71 71 6c 64 6c 71 71 6c 64 6c 71 71 6c 6c ...
+    MOD : 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d ...
+    INTERP: u16 LoHi: 27748 -> 40349 | u16 HiLo: 25708 -> 40349 | i16 LoHi: 27748 -> -25187
+
+  [0x1D427E–0x1D427E]  1 bytes
+    XDF: MfVD Codeword  (z_axis)
+    ORIG: bf
+    MOD : be
+    INTERP: u8: 191 -> 190
+
+  [0x1D6CE0–0x1D6D3E]  95 bytes
+    XDF: MSV Feedforward Offset  (z_axis)
+    ORIG: 05 00 14 00 23 00 37 00 3c 00 41 00 05 00 14 00 ...
+    MOD : 01 00 05 00 09 00 0e 00 0f 00 10 00 01 00 05 00 ...
+    INTERP: u16 LoHi: 5 -> 1 | u16 HiLo: 1280 -> 256 | i16 LoHi: 5 -> 1
+
+  [0x1D6D66–0x1D6D75]  16 bytes
+    XDF: MSV Feedforward Gain  (z_axis)
+    ORIG: c2 19 c2 19 10 19 1b 18 af 17 69 17 81 15 28 14
+    MOD : 77 06 77 06 46 06 04 06 e3 05 ac 04 33 03 ec 01
+    INTERP: u16 LoHi: 6594 -> 1655 | u16 HiLo: 49689 -> 30470 | i16 LoHi: 6594 -> 1655
+
+========================================================================
+SECTION 2 — UNKNOWN CHANGES (not in any XDF table)
+========================================================================
