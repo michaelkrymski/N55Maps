@@ -1,0 +1,563 @@
+{
+  "session": {
+    "session_id": "84e72596b6844e569844b9c94fc1527e",
+    "created_at": "2026-04-15T23:43:21",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "E85v4(Torque&Boost_Updates).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 12,
+    "dirty_table_count": 11,
+    "dirty_table_ids": [
+      "table-0047-0x537",
+      "table-0049-0x539",
+      "table-0050-0x53a",
+      "table-0689-0x7b9",
+      "table-0690-0x7ba",
+      "table-0691-0x7bb",
+      "table-0704-0x7c8",
+      "table-0705-0x7c9",
+      "table-0706-0x7ca",
+      "table-1094-0x94e",
+      "table-1096-0x950"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-15T23:43:46",
+      "table_id": "table-0050-0x53a",
+      "table_title": "Fuel (Bank 1)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 190,
+        "min_delta": -1.0713916015624996,
+        "max_delta": 0.25119628906250036
+      }
+    },
+    {
+      "timestamp": "2026-04-15T23:43:49",
+      "table_id": "table-0049-0x539",
+      "table_title": "Fuel (Bank 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 190,
+        "min_delta": -1.0713916015624996,
+        "max_delta": 0.25119628906250036
+      }
+    },
+    {
+      "timestamp": "2026-04-15T23:44:21",
+      "table_id": "table-0704-0x7c8",
+      "table_title": "Fuel (Main) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 190,
+        "min_delta": -1.0713916015624996,
+        "max_delta": 0.25119628906250036
+      }
+    },
+    {
+      "timestamp": "2026-04-15T23:44:26",
+      "table_id": "table-0705-0x7c9",
+      "table_title": "Fuel (Main) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 190,
+        "min_delta": -1.0713916015624996,
+        "max_delta": 0.25119628906250036
+      }
+    },
+    {
+      "timestamp": "2026-04-15T23:44:29",
+      "table_id": "table-0706-0x7ca",
+      "table_title": "Fuel (Main) (Map 4)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 17,
+        "cols": 18
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Bank 1)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 190,
+        "min_delta": -1.0713916015624996,
+        "max_delta": 0.25119628906250036
+      }
+    },
+    {
+      "timestamp": "2026-04-15T23:44:44",
+      "table_id": "table-0047-0x537",
+      "table_title": "Fuel (Spool)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 12,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Spool)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 192,
+        "min_delta": -0.001284179687498721,
+        "max_delta": 0.418339843750001
+      }
+    },
+    {
+      "timestamp": "2026-04-15T23:44:47",
+      "table_id": "table-0691-0x7bb",
+      "table_title": "Fuel (Spool) (Map 4)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 12,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Spool)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 192,
+        "min_delta": -0.001284179687498721,
+        "max_delta": 0.418339843750001
+      }
+    },
+    {
+      "timestamp": "2026-04-15T23:44:50",
+      "table_id": "table-0690-0x7ba",
+      "table_title": "Fuel (Spool) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 12,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Spool)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 192,
+        "min_delta": -0.001284179687498721,
+        "max_delta": 0.418339843750001
+      }
+    },
+    {
+      "timestamp": "2026-04-15T23:44:53",
+      "table_id": "table-0689-0x7b9",
+      "table_title": "Fuel (Spool) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 12,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel (Spool)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 192,
+        "min_delta": -0.001284179687498721,
+        "max_delta": 0.418339843750001
+      }
+    },
+    {
+      "timestamp": "2026-04-15T23:45:18",
+      "table_id": "table-1096-0x950",
+      "table_title": "WGDC Base (Custom) - Boost Target",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 19,
+        "col_end": 19,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 32
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 6.999120256999998,
+        "max_delta": 6.999120256999998
+      }
+    },
+    {
+      "timestamp": "2026-04-15T23:45:20",
+      "table_id": "table-1096-0x950",
+      "table_title": "WGDC Base (Custom) - Boost Target",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 18,
+        "col_end": 18,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 25
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.3008339376000002,
+        "max_delta": 1.3008339376000002
+      }
+    },
+    {
+      "timestamp": "2026-04-15T23:45:39",
+      "table_id": "table-1094-0x94e",
+      "table_title": "WGDC Base (Custom)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 19,
+        "row_end": 19,
+        "col_start": 0,
+        "col_end": 15,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 99.99
+      },
+      "summary": {
+        "changed_cell_count": 16,
+        "min_delta": 2.489389648437495,
+        "max_delta": 9.990610351562495
+      }
+    }
+  ],
+  "exports": [
+    {
+      "session": {
+        "session_id": "84e72596b6844e569844b9c94fc1527e",
+        "created_at": "2026-04-15T23:43:21",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "E85v4(Torque&Boost_Updates).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 12,
+        "dirty_table_count": 11,
+        "dirty_table_ids": [
+          "table-0047-0x537",
+          "table-0049-0x539",
+          "table-0050-0x53a",
+          "table-0689-0x7b9",
+          "table-0690-0x7ba",
+          "table-0691-0x7bb",
+          "table-0704-0x7c8",
+          "table-0705-0x7c9",
+          "table-0706-0x7ca",
+          "table-1094-0x94e",
+          "table-1096-0x950"
+        ],
+        "export_ready": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-04-15T23:43:46",
+          "table_id": "table-0050-0x53a",
+          "table_title": "Fuel (Bank 1)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 17,
+            "cols": 18
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel (Bank 1)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 190,
+            "min_delta": -1.0713916015624996,
+            "max_delta": 0.25119628906250036
+          }
+        },
+        {
+          "timestamp": "2026-04-15T23:43:49",
+          "table_id": "table-0049-0x539",
+          "table_title": "Fuel (Bank 2)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 17,
+            "cols": 18
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel (Bank 1)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 190,
+            "min_delta": -1.0713916015624996,
+            "max_delta": 0.25119628906250036
+          }
+        },
+        {
+          "timestamp": "2026-04-15T23:44:21",
+          "table_id": "table-0704-0x7c8",
+          "table_title": "Fuel (Main) (Map 2)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 17,
+            "cols": 18
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel (Bank 1)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 190,
+            "min_delta": -1.0713916015624996,
+            "max_delta": 0.25119628906250036
+          }
+        },
+        {
+          "timestamp": "2026-04-15T23:44:26",
+          "table_id": "table-0705-0x7c9",
+          "table_title": "Fuel (Main) (Map 3)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 17,
+            "cols": 18
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel (Bank 1)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 190,
+            "min_delta": -1.0713916015624996,
+            "max_delta": 0.25119628906250036
+          }
+        },
+        {
+          "timestamp": "2026-04-15T23:44:29",
+          "table_id": "table-0706-0x7ca",
+          "table_title": "Fuel (Main) (Map 4)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 17,
+            "cols": 18
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel (Bank 1)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 190,
+            "min_delta": -1.0713916015624996,
+            "max_delta": 0.25119628906250036
+          }
+        },
+        {
+          "timestamp": "2026-04-15T23:44:44",
+          "table_id": "table-0047-0x537",
+          "table_title": "Fuel (Spool)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 12,
+            "cols": 16
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel (Spool)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 192,
+            "min_delta": -0.001284179687498721,
+            "max_delta": 0.418339843750001
+          }
+        },
+        {
+          "timestamp": "2026-04-15T23:44:47",
+          "table_id": "table-0691-0x7bb",
+          "table_title": "Fuel (Spool) (Map 4)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 12,
+            "cols": 16
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel (Spool)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 192,
+            "min_delta": -0.001284179687498721,
+            "max_delta": 0.418339843750001
+          }
+        },
+        {
+          "timestamp": "2026-04-15T23:44:50",
+          "table_id": "table-0690-0x7ba",
+          "table_title": "Fuel (Spool) (Map 3)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 12,
+            "cols": 16
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel (Spool)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 192,
+            "min_delta": -0.001284179687498721,
+            "max_delta": 0.418339843750001
+          }
+        },
+        {
+          "timestamp": "2026-04-15T23:44:53",
+          "table_id": "table-0689-0x7b9",
+          "table_title": "Fuel (Spool) (Map 2)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 12,
+            "cols": 16
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel (Spool)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 192,
+            "min_delta": -0.001284179687498721,
+            "max_delta": 0.418339843750001
+          }
+        },
+        {
+          "timestamp": "2026-04-15T23:45:18",
+          "table_id": "table-1096-0x950",
+          "table_title": "WGDC Base (Custom) - Boost Target",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 19,
+            "col_end": 19,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 32
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 6.999120256999998,
+            "max_delta": 6.999120256999998
+          }
+        },
+        {
+          "timestamp": "2026-04-15T23:45:20",
+          "table_id": "table-1096-0x950",
+          "table_title": "WGDC Base (Custom) - Boost Target",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 18,
+            "col_end": 18,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 25
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 1.3008339376000002,
+            "max_delta": 1.3008339376000002
+          }
+        },
+        {
+          "timestamp": "2026-04-15T23:45:39",
+          "table_id": "table-1094-0x94e",
+          "table_title": "WGDC Base (Custom)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 19,
+            "row_end": 19,
+            "col_start": 0,
+            "col_end": 15,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 99.99
+          },
+          "summary": {
+            "changed_cell_count": 16,
+            "min_delta": 2.489389648437495,
+            "max_delta": 9.990610351562495
+          }
+        }
+      ],
+      "exported_at": "2026-04-15T23:46:17"
+    }
+  ]
+}
