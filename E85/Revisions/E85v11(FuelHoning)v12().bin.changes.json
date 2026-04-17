@@ -1,0 +1,297 @@
+{
+  "session": {
+    "session_id": "00029ed36aa047abb2b9e52fdfb0b00d",
+    "created_at": "2026-04-16T23:13:18",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "E85v11(FuelHoning).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 6,
+    "dirty_table_count": 4,
+    "dirty_table_ids": [
+      "table-0159-0x5a7",
+      "table-0674-0x7aa",
+      "table-0675-0x7ab",
+      "table-0676-0x7ac"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-16T23:13:31",
+      "table_id": "table-0159-0x5a7",
+      "table_title": "Fuel Scalar",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 11,
+        "row_end": 15,
+        "col_start": 15,
+        "col_end": 15,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.82
+      },
+      "summary": {
+        "changed_cell_count": 5,
+        "min_delta": 0.029991406539999987,
+        "max_delta": 0.08000972015999996
+      }
+    },
+    {
+      "timestamp": "2026-04-16T23:13:46",
+      "table_id": "table-0159-0x5a7",
+      "table_title": "Fuel Scalar",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 10,
+        "row_end": 15,
+        "col_start": 10,
+        "col_end": 15,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.03
+      },
+      "summary": {
+        "changed_cell_count": 36,
+        "min_delta": 0.029992625400000028,
+        "max_delta": 0.030014595600000082
+      }
+    },
+    {
+      "timestamp": "2026-04-16T23:13:52",
+      "table_id": "table-0159-0x5a7",
+      "table_title": "Fuel Scalar",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 9,
+        "row_end": 9,
+        "col_start": 15,
+        "col_end": 15,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.01
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.010003610499999982,
+        "max_delta": 0.010003610499999982
+      }
+    },
+    {
+      "timestamp": "2026-04-16T23:16:24",
+      "table_id": "table-0674-0x7aa",
+      "table_title": "Fuel Scalar (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 16,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel Scalar",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 256,
+        "min_delta": -1.4733840000058507e-05,
+        "max_delta": 0.11000972015999999
+      }
+    },
+    {
+      "timestamp": "2026-04-16T23:16:28",
+      "table_id": "table-0675-0x7ab",
+      "table_title": "Fuel Scalar (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 16,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel Scalar",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 256,
+        "min_delta": -1.4733840000058507e-05,
+        "max_delta": 0.11000972015999999
+      }
+    },
+    {
+      "timestamp": "2026-04-16T23:16:32",
+      "table_id": "table-0676-0x7ac",
+      "table_title": "Fuel Scalar (Map 4)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 16,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel Scalar",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 256,
+        "min_delta": -1.4733840000058507e-05,
+        "max_delta": 0.11000972015999999
+      }
+    }
+  ],
+  "exports": [
+    {
+      "session": {
+        "session_id": "00029ed36aa047abb2b9e52fdfb0b00d",
+        "created_at": "2026-04-16T23:13:18",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "E85v11(FuelHoning).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 6,
+        "dirty_table_count": 4,
+        "dirty_table_ids": [
+          "table-0159-0x5a7",
+          "table-0674-0x7aa",
+          "table-0675-0x7ab",
+          "table-0676-0x7ac"
+        ],
+        "export_ready": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-04-16T23:13:31",
+          "table_id": "table-0159-0x5a7",
+          "table_title": "Fuel Scalar",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 11,
+            "row_end": 15,
+            "col_start": 15,
+            "col_end": 15,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.82
+          },
+          "summary": {
+            "changed_cell_count": 5,
+            "min_delta": 0.029991406539999987,
+            "max_delta": 0.08000972015999996
+          }
+        },
+        {
+          "timestamp": "2026-04-16T23:13:46",
+          "table_id": "table-0159-0x5a7",
+          "table_title": "Fuel Scalar",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 10,
+            "row_end": 15,
+            "col_start": 10,
+            "col_end": 15,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.03
+          },
+          "summary": {
+            "changed_cell_count": 36,
+            "min_delta": 0.029992625400000028,
+            "max_delta": 0.030014595600000082
+          }
+        },
+        {
+          "timestamp": "2026-04-16T23:13:52",
+          "table_id": "table-0159-0x5a7",
+          "table_title": "Fuel Scalar",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 9,
+            "row_end": 9,
+            "col_start": 15,
+            "col_end": 15,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.01
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 0.010003610499999982,
+            "max_delta": 0.010003610499999982
+          }
+        },
+        {
+          "timestamp": "2026-04-16T23:16:24",
+          "table_id": "table-0674-0x7aa",
+          "table_title": "Fuel Scalar (Map 2)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 16,
+            "cols": 16
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel Scalar",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 256,
+            "min_delta": -1.4733840000058507e-05,
+            "max_delta": 0.11000972015999999
+          }
+        },
+        {
+          "timestamp": "2026-04-16T23:16:28",
+          "table_id": "table-0675-0x7ab",
+          "table_title": "Fuel Scalar (Map 3)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 16,
+            "cols": 16
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel Scalar",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 256,
+            "min_delta": -1.4733840000058507e-05,
+            "max_delta": 0.11000972015999999
+          }
+        },
+        {
+          "timestamp": "2026-04-16T23:16:32",
+          "table_id": "table-0676-0x7ac",
+          "table_title": "Fuel Scalar (Map 4)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 16,
+            "cols": 16
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel Scalar",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 256,
+            "min_delta": -1.4733840000058507e-05,
+            "max_delta": 0.11000972015999999
+          }
+        }
+      ],
+      "exported_at": "2026-04-16T23:16:37"
+    }
+  ]
+}
