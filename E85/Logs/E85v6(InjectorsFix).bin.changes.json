@@ -1,0 +1,253 @@
+{
+  "session": {
+    "session_id": "654f2511573b4ad38de4230bffa02ef3",
+    "created_at": "2026-04-16T19:25:34",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "E85v6(InjectorsFix).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 5,
+    "dirty_table_count": 3,
+    "dirty_table_ids": [
+      "table-0145-0x599",
+      "table-0148-0x59c",
+      "table-0159-0x5a7"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-16T19:27:30",
+      "table_id": "table-0159-0x5a7",
+      "table_title": "Fuel Scalar",
+      "operation": "import_table",
+      "selection": {
+        "rows": 16,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel Scalar",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 256,
+        "min_delta": -0.1900012956599999,
+        "max_delta": -0.03998909170000009
+      }
+    },
+    {
+      "timestamp": "2026-04-16T20:46:03",
+      "table_id": "table-0145-0x599",
+      "table_title": "Fuel start",
+      "operation": "import_table",
+      "selection": {
+        "rows": 12,
+        "cols": 12
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel start",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 141,
+        "min_delta": -0.048828125,
+        "max_delta": 3.1963281249999937
+      }
+    },
+    {
+      "timestamp": "2026-04-16T20:46:16",
+      "table_id": "table-0148-0x59c",
+      "table_title": "Fuel start comfort",
+      "operation": "import_table",
+      "selection": {
+        "rows": 12,
+        "cols": 8
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel start comfort",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 95,
+        "min_delta": -0.048828125,
+        "max_delta": 3.1963281249999937
+      }
+    },
+    {
+      "timestamp": "2026-04-16T20:47:38",
+      "table_id": "table-0148-0x59c",
+      "table_title": "Fuel start comfort",
+      "operation": "multiply",
+      "selection": {
+        "row_start": 0,
+        "row_end": 11,
+        "col_start": 3,
+        "col_end": 3,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1.02
+      },
+      "summary": {
+        "changed_cell_count": 12,
+        "min_delta": 1.366624999999999,
+        "max_delta": 1.8957812499999989
+      }
+    },
+    {
+      "timestamp": "2026-04-16T20:47:47",
+      "table_id": "table-0148-0x59c",
+      "table_title": "Fuel start comfort",
+      "operation": "multiply",
+      "selection": {
+        "row_start": 0,
+        "row_end": 11,
+        "col_start": 4,
+        "col_end": 5,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1.01
+      },
+      "summary": {
+        "changed_cell_count": 24,
+        "min_delta": 0.5323437500000026,
+        "max_delta": 0.7912656249999941
+      }
+    }
+  ],
+  "exports": [
+    {
+      "session": {
+        "session_id": "654f2511573b4ad38de4230bffa02ef3",
+        "created_at": "2026-04-16T19:25:34",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "E85v6(InjectorsFix).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 5,
+        "dirty_table_count": 3,
+        "dirty_table_ids": [
+          "table-0145-0x599",
+          "table-0148-0x59c",
+          "table-0159-0x5a7"
+        ],
+        "export_ready": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-04-16T19:27:30",
+          "table_id": "table-0159-0x5a7",
+          "table_title": "Fuel Scalar",
+          "operation": "import_table",
+          "selection": {
+            "rows": 16,
+            "cols": 16
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel Scalar",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 256,
+            "min_delta": -0.1900012956599999,
+            "max_delta": -0.03998909170000009
+          }
+        },
+        {
+          "timestamp": "2026-04-16T20:46:03",
+          "table_id": "table-0145-0x599",
+          "table_title": "Fuel start",
+          "operation": "import_table",
+          "selection": {
+            "rows": 12,
+            "cols": 12
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel start",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 141,
+            "min_delta": -0.048828125,
+            "max_delta": 3.1963281249999937
+          }
+        },
+        {
+          "timestamp": "2026-04-16T20:46:16",
+          "table_id": "table-0148-0x59c",
+          "table_title": "Fuel start comfort",
+          "operation": "import_table",
+          "selection": {
+            "rows": 12,
+            "cols": 8
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel start comfort",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 95,
+            "min_delta": -0.048828125,
+            "max_delta": 3.1963281249999937
+          }
+        },
+        {
+          "timestamp": "2026-04-16T20:47:38",
+          "table_id": "table-0148-0x59c",
+          "table_title": "Fuel start comfort",
+          "operation": "multiply",
+          "selection": {
+            "row_start": 0,
+            "row_end": 11,
+            "col_start": 3,
+            "col_end": 3,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 1.02
+          },
+          "summary": {
+            "changed_cell_count": 12,
+            "min_delta": 1.366624999999999,
+            "max_delta": 1.8957812499999989
+          }
+        },
+        {
+          "timestamp": "2026-04-16T20:47:47",
+          "table_id": "table-0148-0x59c",
+          "table_title": "Fuel start comfort",
+          "operation": "multiply",
+          "selection": {
+            "row_start": 0,
+            "row_end": 11,
+            "col_start": 4,
+            "col_end": 5,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 1.01
+          },
+          "summary": {
+            "changed_cell_count": 24,
+            "min_delta": 0.5323437500000026,
+            "max_delta": 0.7912656249999941
+          }
+        }
+      ],
+      "exported_at": "2026-04-16T20:48:41"
+    }
+  ]
+}
