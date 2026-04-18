@@ -21,3 +21,6 @@ XDF
 # OS metadata
 .DS_Store
 Thumbs.db
+
+# MHD Logs
+E85/MHDLogs/
