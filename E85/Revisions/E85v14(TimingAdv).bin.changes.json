@@ -1,0 +1,389 @@
+{
+  "session": {
+    "session_id": "09a4156687f24fcf9de656557b940c4b",
+    "created_at": "2026-04-18T01:52:21",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "E85v13(Leaner).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 8,
+    "dirty_table_count": 8,
+    "dirty_table_ids": [
+      "table-0371-0x67b",
+      "table-0377-0x681",
+      "table-0719-0x7d7",
+      "table-0720-0x7d8",
+      "table-0721-0x7d9",
+      "table-0749-0x7f5",
+      "table-0750-0x7f6",
+      "table-0751-0x7f7"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-18T01:53:16",
+      "table_id": "table-0377-0x681",
+      "table_title": "Timing (main)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (main)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 168,
+        "min_delta": 0.5,
+        "max_delta": 0.5
+      }
+    },
+    {
+      "timestamp": "2026-04-18T01:53:20",
+      "table_id": "table-0371-0x67b",
+      "table_title": "Timing (main) 2",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (main)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 270,
+        "min_delta": -11.0,
+        "max_delta": 22.5
+      }
+    },
+    {
+      "timestamp": "2026-04-18T01:54:30",
+      "table_id": "table-0719-0x7d7",
+      "table_title": "Timing (Main) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (Main) (Map 2)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 168,
+        "min_delta": 0.5,
+        "max_delta": 0.5
+      }
+    },
+    {
+      "timestamp": "2026-04-18T01:54:34",
+      "table_id": "table-0749-0x7f5",
+      "table_title": "Timing (Main) (Path 2) (Map 2)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (Main) (Map 2)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 350,
+        "min_delta": -11.0,
+        "max_delta": 22.5
+      }
+    },
+    {
+      "timestamp": "2026-04-18T01:54:39",
+      "table_id": "table-0720-0x7d8",
+      "table_title": "Timing (Main) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (Main) (Map 2)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 168,
+        "min_delta": 0.5,
+        "max_delta": 0.5
+      }
+    },
+    {
+      "timestamp": "2026-04-18T01:54:43",
+      "table_id": "table-0750-0x7f6",
+      "table_title": "Timing (Main) (Path 2) (Map 3)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (Main) (Map 2)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 350,
+        "min_delta": -11.0,
+        "max_delta": 22.5
+      }
+    },
+    {
+      "timestamp": "2026-04-18T01:54:47",
+      "table_id": "table-0721-0x7d9",
+      "table_title": "Timing (Main) (Map 4)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (Main) (Map 2)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 168,
+        "min_delta": 0.5,
+        "max_delta": 0.5
+      }
+    },
+    {
+      "timestamp": "2026-04-18T01:54:50",
+      "table_id": "table-0751-0x7f7",
+      "table_title": "Timing (Main) (Path 2) (Map 4)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 20,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Timing (Main) (Map 2)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 375,
+        "min_delta": -15.0,
+        "max_delta": 21.5
+      }
+    }
+  ],
+  "exports": [
+    {
+      "session": {
+        "session_id": "09a4156687f24fcf9de656557b940c4b",
+        "created_at": "2026-04-18T01:52:21",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "E85v13(Leaner).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 8,
+        "dirty_table_count": 8,
+        "dirty_table_ids": [
+          "table-0371-0x67b",
+          "table-0377-0x681",
+          "table-0719-0x7d7",
+          "table-0720-0x7d8",
+          "table-0721-0x7d9",
+          "table-0749-0x7f5",
+          "table-0750-0x7f6",
+          "table-0751-0x7f7"
+        ],
+        "export_ready": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-04-18T01:53:16",
+          "table_id": "table-0377-0x681",
+          "table_title": "Timing (main)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 20,
+            "cols": 16
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Timing (main)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 168,
+            "min_delta": 0.5,
+            "max_delta": 0.5
+          }
+        },
+        {
+          "timestamp": "2026-04-18T01:53:20",
+          "table_id": "table-0371-0x67b",
+          "table_title": "Timing (main) 2",
+          "operation": "import_table",
+          "selection": {
+            "rows": 20,
+            "cols": 16
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Timing (main)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 270,
+            "min_delta": -11.0,
+            "max_delta": 22.5
+          }
+        },
+        {
+          "timestamp": "2026-04-18T01:54:30",
+          "table_id": "table-0719-0x7d7",
+          "table_title": "Timing (Main) (Map 2)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 20,
+            "cols": 20
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Timing (Main) (Map 2)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 168,
+            "min_delta": 0.5,
+            "max_delta": 0.5
+          }
+        },
+        {
+          "timestamp": "2026-04-18T01:54:34",
+          "table_id": "table-0749-0x7f5",
+          "table_title": "Timing (Main) (Path 2) (Map 2)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 20,
+            "cols": 20
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Timing (Main) (Map 2)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 350,
+            "min_delta": -11.0,
+            "max_delta": 22.5
+          }
+        },
+        {
+          "timestamp": "2026-04-18T01:54:39",
+          "table_id": "table-0720-0x7d8",
+          "table_title": "Timing (Main) (Map 3)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 20,
+            "cols": 20
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Timing (Main) (Map 2)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 168,
+            "min_delta": 0.5,
+            "max_delta": 0.5
+          }
+        },
+        {
+          "timestamp": "2026-04-18T01:54:43",
+          "table_id": "table-0750-0x7f6",
+          "table_title": "Timing (Main) (Path 2) (Map 3)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 20,
+            "cols": 20
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Timing (Main) (Map 2)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 350,
+            "min_delta": -11.0,
+            "max_delta": 22.5
+          }
+        },
+        {
+          "timestamp": "2026-04-18T01:54:47",
+          "table_id": "table-0721-0x7d9",
+          "table_title": "Timing (Main) (Map 4)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 20,
+            "cols": 20
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Timing (Main) (Map 2)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 168,
+            "min_delta": 0.5,
+            "max_delta": 0.5
+          }
+        },
+        {
+          "timestamp": "2026-04-18T01:54:50",
+          "table_id": "table-0751-0x7f7",
+          "table_title": "Timing (Main) (Path 2) (Map 4)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 20,
+            "cols": 20
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Timing (Main) (Map 2)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 375,
+            "min_delta": -15.0,
+            "max_delta": 21.5
+          }
+        }
+      ],
+      "exported_at": "2026-04-18T01:55:12"
+    }
+  ]
+}
