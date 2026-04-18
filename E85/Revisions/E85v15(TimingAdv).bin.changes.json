@@ -1,0 +1,377 @@
+{
+  "session": {
+    "session_id": "edc820678c204329b5bcc647a99bbac8",
+    "created_at": "2026-04-18T02:45:04",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "E85v14(TimingAdv).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 8,
+    "dirty_table_count": 2,
+    "dirty_table_ids": [
+      "table-0211-0x5db",
+      "table-0214-0x5de"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-18T02:52:31",
+      "table_id": "table-0214-0x5de",
+      "table_title": "Load to Torque limit",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 16,
+        "row_end": 17,
+        "col_start": 0,
+        "col_end": 14,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": -25
+      },
+      "summary": {
+        "changed_cell_count": 30,
+        "min_delta": -25.0,
+        "max_delta": -25.0
+      }
+    },
+    {
+      "timestamp": "2026-04-18T02:52:36",
+      "table_id": "table-0214-0x5de",
+      "table_title": "Load to Torque limit",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 16,
+        "row_end": 17,
+        "col_start": 15,
+        "col_end": 19,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": -25
+      },
+      "summary": {
+        "changed_cell_count": 10,
+        "min_delta": -25.0,
+        "max_delta": -25.0
+      }
+    },
+    {
+      "timestamp": "2026-04-18T02:52:55",
+      "table_id": "table-0214-0x5de",
+      "table_title": "Load to Torque limit",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 14,
+        "row_end": 17,
+        "col_start": 0,
+        "col_end": 15,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": -25
+      },
+      "summary": {
+        "changed_cell_count": 64,
+        "min_delta": -25.0,
+        "max_delta": -25.0
+      }
+    },
+    {
+      "timestamp": "2026-04-18T02:53:00",
+      "table_id": "table-0214-0x5de",
+      "table_title": "Load to Torque limit",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 14,
+        "row_end": 17,
+        "col_start": 16,
+        "col_end": 19,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": -25
+      },
+      "summary": {
+        "changed_cell_count": 16,
+        "min_delta": -25.0,
+        "max_delta": -25.0
+      }
+    },
+    {
+      "timestamp": "2026-04-18T02:53:23",
+      "table_id": "table-0211-0x5db",
+      "table_title": "Load to Torque limit 2",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 14,
+        "row_end": 17,
+        "col_start": 0,
+        "col_end": 16,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": -25
+      },
+      "summary": {
+        "changed_cell_count": 68,
+        "min_delta": -25.0,
+        "max_delta": -25.0
+      }
+    },
+    {
+      "timestamp": "2026-04-18T02:53:28",
+      "table_id": "table-0211-0x5db",
+      "table_title": "Load to Torque limit 2",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 14,
+        "row_end": 17,
+        "col_start": 17,
+        "col_end": 19,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": -25
+      },
+      "summary": {
+        "changed_cell_count": 12,
+        "min_delta": -25.0,
+        "max_delta": -25.0
+      }
+    },
+    {
+      "timestamp": "2026-04-18T02:53:34",
+      "table_id": "table-0211-0x5db",
+      "table_title": "Load to Torque limit 2",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 16,
+        "row_end": 17,
+        "col_start": 0,
+        "col_end": 15,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": -25
+      },
+      "summary": {
+        "changed_cell_count": 32,
+        "min_delta": -25.0,
+        "max_delta": -25.0
+      }
+    },
+    {
+      "timestamp": "2026-04-18T02:53:39",
+      "table_id": "table-0211-0x5db",
+      "table_title": "Load to Torque limit 2",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 16,
+        "row_end": 17,
+        "col_start": 16,
+        "col_end": 19,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": -25
+      },
+      "summary": {
+        "changed_cell_count": 8,
+        "min_delta": -25.0,
+        "max_delta": -25.0
+      }
+    }
+  ],
+  "exports": [
+    {
+      "session": {
+        "session_id": "edc820678c204329b5bcc647a99bbac8",
+        "created_at": "2026-04-18T02:45:04",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "E85v14(TimingAdv).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 8,
+        "dirty_table_count": 2,
+        "dirty_table_ids": [
+          "table-0211-0x5db",
+          "table-0214-0x5de"
+        ],
+        "export_ready": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-04-18T02:52:31",
+          "table_id": "table-0214-0x5de",
+          "table_title": "Load to Torque limit",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 16,
+            "row_end": 17,
+            "col_start": 0,
+            "col_end": 14,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": -25
+          },
+          "summary": {
+            "changed_cell_count": 30,
+            "min_delta": -25.0,
+            "max_delta": -25.0
+          }
+        },
+        {
+          "timestamp": "2026-04-18T02:52:36",
+          "table_id": "table-0214-0x5de",
+          "table_title": "Load to Torque limit",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 16,
+            "row_end": 17,
+            "col_start": 15,
+            "col_end": 19,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": -25
+          },
+          "summary": {
+            "changed_cell_count": 10,
+            "min_delta": -25.0,
+            "max_delta": -25.0
+          }
+        },
+        {
+          "timestamp": "2026-04-18T02:52:55",
+          "table_id": "table-0214-0x5de",
+          "table_title": "Load to Torque limit",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 14,
+            "row_end": 17,
+            "col_start": 0,
+            "col_end": 15,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": -25
+          },
+          "summary": {
+            "changed_cell_count": 64,
+            "min_delta": -25.0,
+            "max_delta": -25.0
+          }
+        },
+        {
+          "timestamp": "2026-04-18T02:53:00",
+          "table_id": "table-0214-0x5de",
+          "table_title": "Load to Torque limit",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 14,
+            "row_end": 17,
+            "col_start": 16,
+            "col_end": 19,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": -25
+          },
+          "summary": {
+            "changed_cell_count": 16,
+            "min_delta": -25.0,
+            "max_delta": -25.0
+          }
+        },
+        {
+          "timestamp": "2026-04-18T02:53:23",
+          "table_id": "table-0211-0x5db",
+          "table_title": "Load to Torque limit 2",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 14,
+            "row_end": 17,
+            "col_start": 0,
+            "col_end": 16,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": -25
+          },
+          "summary": {
+            "changed_cell_count": 68,
+            "min_delta": -25.0,
+            "max_delta": -25.0
+          }
+        },
+        {
+          "timestamp": "2026-04-18T02:53:28",
+          "table_id": "table-0211-0x5db",
+          "table_title": "Load to Torque limit 2",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 14,
+            "row_end": 17,
+            "col_start": 17,
+            "col_end": 19,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": -25
+          },
+          "summary": {
+            "changed_cell_count": 12,
+            "min_delta": -25.0,
+            "max_delta": -25.0
+          }
+        },
+        {
+          "timestamp": "2026-04-18T02:53:34",
+          "table_id": "table-0211-0x5db",
+          "table_title": "Load to Torque limit 2",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 16,
+            "row_end": 17,
+            "col_start": 0,
+            "col_end": 15,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": -25
+          },
+          "summary": {
+            "changed_cell_count": 32,
+            "min_delta": -25.0,
+            "max_delta": -25.0
+          }
+        },
+        {
+          "timestamp": "2026-04-18T02:53:39",
+          "table_id": "table-0211-0x5db",
+          "table_title": "Load to Torque limit 2",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 16,
+            "row_end": 17,
+            "col_start": 16,
+            "col_end": 19,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": -25
+          },
+          "summary": {
+            "changed_cell_count": 8,
+            "min_delta": -25.0,
+            "max_delta": -25.0
+          }
+        }
+      ],
+      "exported_at": "2026-04-18T02:53:47"
+    }
+  ]
+}
