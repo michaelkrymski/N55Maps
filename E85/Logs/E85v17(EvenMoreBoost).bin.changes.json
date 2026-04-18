@@ -1,0 +1,665 @@
+{
+  "session": {
+    "session_id": "e44fb031ef044545969b37e4f10e40eb",
+    "created_at": "2026-04-18T18:46:47",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "E85v17(EvenMoreBoost).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 7,
+    "dirty_table_count": 1,
+    "dirty_table_ids": [
+      "table-0967-0x8cf"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-18T18:47:08",
+      "table_id": "table-0967-0x8cf",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 9,
+        "row_end": 13,
+        "col_start": 3,
+        "col_end": 3,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 2
+      },
+      "summary": {
+        "changed_cell_count": 5,
+        "min_delta": 2.0001728503000002,
+        "max_delta": 2.0001728503000002
+      }
+    },
+    {
+      "timestamp": "2026-04-18T18:47:19",
+      "table_id": "table-0967-0x8cf",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 5,
+        "col_start": 3,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 24
+      },
+      "summary": {
+        "changed_cell_count": 42,
+        "min_delta": -12.000179046900001,
+        "max_delta": -1.9998271496999998
+      }
+    },
+    {
+      "timestamp": "2026-04-18T18:47:27",
+      "table_id": "table-0967-0x8cf",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 6,
+        "row_end": 6,
+        "col_start": 3,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 26
+      },
+      "summary": {
+        "changed_cell_count": 7,
+        "min_delta": -10.000179046900001,
+        "max_delta": 0.00017285030000024904
+      }
+    },
+    {
+      "timestamp": "2026-04-18T18:47:32",
+      "table_id": "table-0967-0x8cf",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 7,
+        "row_end": 7,
+        "col_start": 4,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 28
+      },
+      "summary": {
+        "changed_cell_count": 6,
+        "min_delta": -8.000179046900001,
+        "max_delta": -8.000179046900001
+      }
+    },
+    {
+      "timestamp": "2026-04-18T18:47:40",
+      "table_id": "table-0967-0x8cf",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 8,
+        "row_end": 8,
+        "col_start": 3,
+        "col_end": 3,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 28
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 2.0001728503000002,
+        "max_delta": 2.0001728503000002
+      }
+    },
+    {
+      "timestamp": "2026-04-18T18:48:06",
+      "table_id": "table-0967-0x8cf",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 8,
+        "row_end": 8,
+        "col_start": 4,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 33
+      },
+      "summary": {
+        "changed_cell_count": 6,
+        "min_delta": -3.0001790469000014,
+        "max_delta": -3.0001790469000014
+      }
+    },
+    {
+      "timestamp": "2026-04-18T18:48:18",
+      "table_id": "table-0967-0x8cf",
+      "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 13,
+        "col_start": 1,
+        "col_end": 1,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 13
+      },
+      "summary": {
+        "changed_cell_count": 14,
+        "min_delta": 2.9996481028,
+        "max_delta": 2.9996481028
+      }
+    }
+  ],
+  "exports": [
+    {
+      "session": {
+        "session_id": "e44fb031ef044545969b37e4f10e40eb",
+        "created_at": "2026-04-18T18:46:47",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "E85v17(EvenMoreBoost).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 7,
+        "dirty_table_count": 1,
+        "dirty_table_ids": [
+          "table-0967-0x8cf"
+        ],
+        "export_ready": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-04-18T18:47:08",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 9,
+            "row_end": 13,
+            "col_start": 3,
+            "col_end": 3,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 2
+          },
+          "summary": {
+            "changed_cell_count": 5,
+            "min_delta": 2.0001728503000002,
+            "max_delta": 2.0001728503000002
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:47:19",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 5,
+            "col_start": 3,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 24
+          },
+          "summary": {
+            "changed_cell_count": 42,
+            "min_delta": -12.000179046900001,
+            "max_delta": -1.9998271496999998
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:47:27",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 6,
+            "row_end": 6,
+            "col_start": 3,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 26
+          },
+          "summary": {
+            "changed_cell_count": 7,
+            "min_delta": -10.000179046900001,
+            "max_delta": 0.00017285030000024904
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:47:32",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 7,
+            "row_end": 7,
+            "col_start": 4,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 28
+          },
+          "summary": {
+            "changed_cell_count": 6,
+            "min_delta": -8.000179046900001,
+            "max_delta": -8.000179046900001
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:47:40",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 8,
+            "row_end": 8,
+            "col_start": 3,
+            "col_end": 3,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 28
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 2.0001728503000002,
+            "max_delta": 2.0001728503000002
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:48:06",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 8,
+            "row_end": 8,
+            "col_start": 4,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 33
+          },
+          "summary": {
+            "changed_cell_count": 6,
+            "min_delta": -3.0001790469000014,
+            "max_delta": -3.0001790469000014
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:48:18",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 13,
+            "col_start": 1,
+            "col_end": 1,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 13
+          },
+          "summary": {
+            "changed_cell_count": 14,
+            "min_delta": 2.9996481028,
+            "max_delta": 2.9996481028
+          }
+        }
+      ],
+      "exported_at": "2026-04-18T18:50:41"
+    },
+    {
+      "session": {
+        "session_id": "e44fb031ef044545969b37e4f10e40eb",
+        "created_at": "2026-04-18T18:46:47",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "E85v17(EvenMoreBoost).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 7,
+        "dirty_table_count": 1,
+        "dirty_table_ids": [
+          "table-0967-0x8cf"
+        ],
+        "export_ready": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-04-18T18:47:08",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 9,
+            "row_end": 13,
+            "col_start": 3,
+            "col_end": 3,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 2
+          },
+          "summary": {
+            "changed_cell_count": 5,
+            "min_delta": 2.0001728503000002,
+            "max_delta": 2.0001728503000002
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:47:19",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 5,
+            "col_start": 3,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 24
+          },
+          "summary": {
+            "changed_cell_count": 42,
+            "min_delta": -12.000179046900001,
+            "max_delta": -1.9998271496999998
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:47:27",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 6,
+            "row_end": 6,
+            "col_start": 3,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 26
+          },
+          "summary": {
+            "changed_cell_count": 7,
+            "min_delta": -10.000179046900001,
+            "max_delta": 0.00017285030000024904
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:47:32",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 7,
+            "row_end": 7,
+            "col_start": 4,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 28
+          },
+          "summary": {
+            "changed_cell_count": 6,
+            "min_delta": -8.000179046900001,
+            "max_delta": -8.000179046900001
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:47:40",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 8,
+            "row_end": 8,
+            "col_start": 3,
+            "col_end": 3,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 28
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 2.0001728503000002,
+            "max_delta": 2.0001728503000002
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:48:06",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 8,
+            "row_end": 8,
+            "col_start": 4,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 33
+          },
+          "summary": {
+            "changed_cell_count": 6,
+            "min_delta": -3.0001790469000014,
+            "max_delta": -3.0001790469000014
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:48:18",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 13,
+            "col_start": 1,
+            "col_end": 1,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 13
+          },
+          "summary": {
+            "changed_cell_count": 14,
+            "min_delta": 2.9996481028,
+            "max_delta": 2.9996481028
+          }
+        }
+      ],
+      "exported_at": "2026-04-18T18:50:43"
+    },
+    {
+      "session": {
+        "session_id": "e44fb031ef044545969b37e4f10e40eb",
+        "created_at": "2026-04-18T18:46:47",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "E85v17(EvenMoreBoost).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 7,
+        "dirty_table_count": 1,
+        "dirty_table_ids": [
+          "table-0967-0x8cf"
+        ],
+        "export_ready": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-04-18T18:47:08",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 9,
+            "row_end": 13,
+            "col_start": 3,
+            "col_end": 3,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 2
+          },
+          "summary": {
+            "changed_cell_count": 5,
+            "min_delta": 2.0001728503000002,
+            "max_delta": 2.0001728503000002
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:47:19",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 5,
+            "col_start": 3,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 24
+          },
+          "summary": {
+            "changed_cell_count": 42,
+            "min_delta": -12.000179046900001,
+            "max_delta": -1.9998271496999998
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:47:27",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 6,
+            "row_end": 6,
+            "col_start": 3,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 26
+          },
+          "summary": {
+            "changed_cell_count": 7,
+            "min_delta": -10.000179046900001,
+            "max_delta": 0.00017285030000024904
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:47:32",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 7,
+            "row_end": 7,
+            "col_start": 4,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 28
+          },
+          "summary": {
+            "changed_cell_count": 6,
+            "min_delta": -8.000179046900001,
+            "max_delta": -8.000179046900001
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:47:40",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 8,
+            "row_end": 8,
+            "col_start": 3,
+            "col_end": 3,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 28
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 2.0001728503000002,
+            "max_delta": 2.0001728503000002
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:48:06",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 8,
+            "row_end": 8,
+            "col_start": 4,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 33
+          },
+          "summary": {
+            "changed_cell_count": 6,
+            "min_delta": -3.0001790469000014,
+            "max_delta": -3.0001790469000014
+          }
+        },
+        {
+          "timestamp": "2026-04-18T18:48:18",
+          "table_id": "table-0967-0x8cf",
+          "table_title": "Boost Ceiling (Relative) (Gear x RPM) (Map 4)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 13,
+            "col_start": 1,
+            "col_end": 1,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 13
+          },
+          "summary": {
+            "changed_cell_count": 14,
+            "min_delta": 2.9996481028,
+            "max_delta": 2.9996481028
+          }
+        }
+      ],
+      "exported_at": "2026-04-18T18:50:46"
+    }
+  ]
+}
