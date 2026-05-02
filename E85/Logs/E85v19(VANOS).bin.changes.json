@@ -1,0 +1,379 @@
+{
+  "session": {
+    "session_id": "31b79368343b4ca19ce514f9f04e4895",
+    "created_at": "2026-04-18T23:17:10",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "E85v18(RodBearingSafety).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 8,
+    "dirty_table_count": 3,
+    "dirty_table_ids": [
+      "table-0044-0x534",
+      "table-0193-0x5c9",
+      "table-0196-0x5cc"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-04-18T23:18:29",
+      "table_id": "table-0044-0x534",
+      "table_title": "Cat temp threshold to deactive cat warmup",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 30
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": -770.0,
+        "max_delta": -770.0
+      }
+    },
+    {
+      "timestamp": "2026-04-18T23:31:31",
+      "table_id": "table-0193-0x5c9",
+      "table_title": "Vanos IN (warm)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 16,
+        "cols": 12
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Vanos IN (warm)",
+        "x_axis_changed": 11,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 185,
+        "min_delta": -9.400000000000006,
+        "max_delta": 33.9
+      }
+    },
+    {
+      "timestamp": "2026-04-18T23:31:41",
+      "table_id": "table-0196-0x5cc",
+      "table_title": "Vanos EX (warm)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 16,
+        "cols": 12
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Vanos EX (warm)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 127,
+        "min_delta": -20.0,
+        "max_delta": 36.0
+      }
+    },
+    {
+      "timestamp": "2026-04-18T23:31:49",
+      "table_id": "table-0196-0x5cc",
+      "table_title": "Vanos EX (warm)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 16,
+        "cols": 12
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Vanos EX (warm)",
+        "x_axis_changed": 11,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 54,
+        "min_delta": 0.5,
+        "max_delta": 0.5
+      }
+    },
+    {
+      "timestamp": "2026-04-18T23:32:07",
+      "table_id": "table-0193-0x5c9",
+      "table_title": "Vanos IN (warm)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 16,
+        "cols": 12
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Vanos IN (warm)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 168,
+        "min_delta": -0.30000000000001137,
+        "max_delta": 0.3999999999999986
+      }
+    },
+    {
+      "timestamp": "2026-04-18T23:32:21",
+      "table_id": "table-0193-0x5c9",
+      "table_title": "Vanos IN (warm)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 16,
+        "cols": 12
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Vanos IN (warm)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 168,
+        "min_delta": -0.30000000000001137,
+        "max_delta": 0.3999999999999986
+      }
+    },
+    {
+      "timestamp": "2026-04-18T23:33:06",
+      "table_id": "table-0196-0x5cc",
+      "table_title": "Vanos EX (warm)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 16,
+        "cols": 12
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Vanos EX (warm)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 54,
+        "min_delta": 0.5,
+        "max_delta": 0.5
+      }
+    },
+    {
+      "timestamp": "2026-04-18T23:33:13",
+      "table_id": "table-0196-0x5cc",
+      "table_title": "Vanos EX (warm)",
+      "operation": "import_table",
+      "selection": {
+        "rows": 16,
+        "cols": 12
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Vanos EX (warm)",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 54,
+        "min_delta": 0.5,
+        "max_delta": 0.5
+      }
+    }
+  ],
+  "exports": [
+    {
+      "session": {
+        "session_id": "31b79368343b4ca19ce514f9f04e4895",
+        "created_at": "2026-04-18T23:17:10",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "E85v18(RodBearingSafety).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 8,
+        "dirty_table_count": 3,
+        "dirty_table_ids": [
+          "table-0044-0x534",
+          "table-0193-0x5c9",
+          "table-0196-0x5cc"
+        ],
+        "export_ready": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-04-18T23:18:29",
+          "table_id": "table-0044-0x534",
+          "table_title": "Cat temp threshold to deactive cat warmup",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 0,
+            "col_end": 0,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 30
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": -770.0,
+            "max_delta": -770.0
+          }
+        },
+        {
+          "timestamp": "2026-04-18T23:31:31",
+          "table_id": "table-0193-0x5c9",
+          "table_title": "Vanos IN (warm)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 16,
+            "cols": 12
+          },
+          "parameters": {
+            "mode": "values_and_axes",
+            "parsed_title": "Vanos IN (warm)",
+            "x_axis_changed": 11,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 185,
+            "min_delta": -9.400000000000006,
+            "max_delta": 33.9
+          }
+        },
+        {
+          "timestamp": "2026-04-18T23:31:41",
+          "table_id": "table-0196-0x5cc",
+          "table_title": "Vanos EX (warm)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 16,
+            "cols": 12
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Vanos EX (warm)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 127,
+            "min_delta": -20.0,
+            "max_delta": 36.0
+          }
+        },
+        {
+          "timestamp": "2026-04-18T23:31:49",
+          "table_id": "table-0196-0x5cc",
+          "table_title": "Vanos EX (warm)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 16,
+            "cols": 12
+          },
+          "parameters": {
+            "mode": "values_and_axes",
+            "parsed_title": "Vanos EX (warm)",
+            "x_axis_changed": 11,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 54,
+            "min_delta": 0.5,
+            "max_delta": 0.5
+          }
+        },
+        {
+          "timestamp": "2026-04-18T23:32:07",
+          "table_id": "table-0193-0x5c9",
+          "table_title": "Vanos IN (warm)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 16,
+            "cols": 12
+          },
+          "parameters": {
+            "mode": "values_and_axes",
+            "parsed_title": "Vanos IN (warm)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 168,
+            "min_delta": -0.30000000000001137,
+            "max_delta": 0.3999999999999986
+          }
+        },
+        {
+          "timestamp": "2026-04-18T23:32:21",
+          "table_id": "table-0193-0x5c9",
+          "table_title": "Vanos IN (warm)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 16,
+            "cols": 12
+          },
+          "parameters": {
+            "mode": "values_and_axes",
+            "parsed_title": "Vanos IN (warm)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 168,
+            "min_delta": -0.30000000000001137,
+            "max_delta": 0.3999999999999986
+          }
+        },
+        {
+          "timestamp": "2026-04-18T23:33:06",
+          "table_id": "table-0196-0x5cc",
+          "table_title": "Vanos EX (warm)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 16,
+            "cols": 12
+          },
+          "parameters": {
+            "mode": "values_and_axes",
+            "parsed_title": "Vanos EX (warm)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 54,
+            "min_delta": 0.5,
+            "max_delta": 0.5
+          }
+        },
+        {
+          "timestamp": "2026-04-18T23:33:13",
+          "table_id": "table-0196-0x5cc",
+          "table_title": "Vanos EX (warm)",
+          "operation": "import_table",
+          "selection": {
+            "rows": 16,
+            "cols": 12
+          },
+          "parameters": {
+            "mode": "values_and_axes",
+            "parsed_title": "Vanos EX (warm)",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 54,
+            "min_delta": 0.5,
+            "max_delta": 0.5
+          }
+        }
+      ],
+      "exported_at": "2026-04-18T23:35:27"
+    }
+  ]
+}
