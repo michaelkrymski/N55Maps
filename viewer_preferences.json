@@ -33,5 +33,20 @@
       "inhibit bc button controls",
       "enable port injection safety"
     ]
+  },
+  "log": {
+    "axis_mappings": {
+      "test-family": {
+        "x_column": "Load actual RAM",
+        "y_column": "RPM (rpm)"
+      }
+    },
+    "graph": {
+      "enabled_columns": [
+        "RPM (rpm)",
+        "Load actual RAM"
+      ]
+    },
+    "playback_speed": 1.5
   }
 }
