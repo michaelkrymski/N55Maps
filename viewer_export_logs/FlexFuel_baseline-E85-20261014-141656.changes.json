@@ -1,0 +1,305 @@
+{
+  "session": {
+    "session_id": "094d7cdc0a744b1b8da7d05b0a6f1c2a",
+    "created_at": "2026-10-14T12:13:48",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "FlexFuel_baseline(E85).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 13,
+    "dirty_table_count": 5,
+    "dirty_table_ids": [
+      "table-0985-0x8e1",
+      "table-0988-0x8e4",
+      "table-0992-0x8e8",
+      "table-0994-0x8ea",
+      "table-1081-0x941"
+    ],
+    "export_ready": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-10-14T14:11:20",
+      "table_id": "table-0985-0x8e1",
+      "table_title": "Enable FlexFuel",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.0,
+        "max_delta": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-10-14T14:11:39",
+      "table_id": "table-0988-0x8e4",
+      "table_title": "Static Ethanol Content (Map 1)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": -10.0,
+        "max_delta": -10.0
+      }
+    },
+    {
+      "timestamp": "2026-10-14T14:11:58",
+      "table_id": "table-1081-0x941",
+      "table_title": "Sensor Preset Selection",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.0,
+        "max_delta": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-10-14T14:12:02",
+      "table_id": "table-1081-0x941",
+      "table_title": "Sensor Preset Selection",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.0,
+        "max_delta": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-10-14T14:12:07",
+      "table_id": "table-1081-0x941",
+      "table_title": "Sensor Preset Selection",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": -1.0,
+        "max_delta": -1.0
+      }
+    },
+    {
+      "timestamp": "2026-10-14T14:12:11",
+      "table_id": "table-1081-0x941",
+      "table_title": "Sensor Preset Selection",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1
+      },
+      "summary": {
+        "changed_cell_count": 0,
+        "min_delta": 0.0,
+        "max_delta": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-10-14T14:13:29",
+      "table_id": "table-0994-0x8ea",
+      "table_title": "Start and Warmup Enrichment (Ethanol Compensation) - Ethanol Content",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 10
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 10.0,
+        "max_delta": 10.0
+      }
+    },
+    {
+      "timestamp": "2026-10-14T14:13:33",
+      "table_id": "table-0994-0x8ea",
+      "table_title": "Start and Warmup Enrichment (Ethanol Compensation) - Ethanol Content",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 9,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 85
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 85.0,
+        "max_delta": 85.0
+      }
+    },
+    {
+      "timestamp": "2026-10-14T14:13:38",
+      "table_id": "table-0994-0x8ea",
+      "table_title": "Start and Warmup Enrichment (Ethanol Compensation) - Ethanol Content",
+      "operation": "interpolate_x",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {},
+      "summary": {
+        "changed_cell_count": 8,
+        "min_delta": 18.0,
+        "max_delta": 77.0
+      }
+    },
+    {
+      "timestamp": "2026-10-14T14:13:54",
+      "table_id": "table-0994-0x8ea",
+      "table_title": "Start and Warmup Enrichment (Ethanol Compensation) - Ethanol Content",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 9,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 90
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 5.0,
+        "max_delta": 5.0
+      }
+    },
+    {
+      "timestamp": "2026-10-14T14:13:57",
+      "table_id": "table-0994-0x8ea",
+      "table_title": "Start and Warmup Enrichment (Ethanol Compensation) - Ethanol Content",
+      "operation": "interpolate_x",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {},
+      "summary": {
+        "changed_cell_count": 8,
+        "min_delta": 1.0,
+        "max_delta": 4.0
+      }
+    },
+    {
+      "timestamp": "2026-10-14T14:14:54",
+      "table_id": "table-0992-0x8e8",
+      "table_title": "Start and Warmup Enrichment (Ethanol Compensation)",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 0,
+        "row_end": 11,
+        "col_start": 0,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1
+      },
+      "summary": {
+        "changed_cell_count": 120,
+        "min_delta": 1.0,
+        "max_delta": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-10-14T14:16:46",
+      "table_id": "table-0992-0x8e8",
+      "table_title": "Start and Warmup Enrichment (Ethanol Compensation)",
+      "operation": "axis_y_set",
+      "selection": {
+        "axis": "y",
+        "count": 12
+      },
+      "parameters": {
+        "values": [
+          -40,
+          -35,
+          -30,
+          -20,
+          -10,
+          0,
+          10,
+          20,
+          30,
+          50,
+          70,
+          90
+        ]
+      },
+      "summary": {
+        "changed_cell_count": 11,
+        "min_delta": -40.0,
+        "max_delta": 90.0
+      }
+    }
+  ],
+  "source_bin_name": "FlexFuel_baseline(E85).bin",
+  "reference_bin_name": null,
+  "exported_bin_name": "FlexFuel_baseline-E85-edited.bin",
+  "exported_at": "2026-10-14T14:16:56"
+}
