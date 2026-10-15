@@ -1,0 +1,87 @@
+{
+  "session": {
+    "session_id": "0616e76f74384f2e98efde1830f18c8c",
+    "created_at": "2026-10-15T10:09:53",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "FlexFuelv2(FuelScalar-93).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 1,
+    "dirty_table_count": 1,
+    "dirty_table_ids": [
+      "table-0159-0x5a7"
+    ],
+    "export_ready": true,
+    "can_undo": true,
+    "fuel_banks_linked": true,
+    "fuel_bank_patch_available": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-10-15T10:10:54",
+      "table_id": "table-0159-0x5a7",
+      "table_title": "Fuel Scalar",
+      "operation": "import_table",
+      "selection": {
+        "rows": 16,
+        "cols": 16
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Fuel Scalar",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 249,
+        "min_delta": -0.0899951859999999,
+        "max_delta": 0.0030114127400000523
+      }
+    }
+  ],
+  "exports": [
+    {
+      "session": {
+        "session_id": "0616e76f74384f2e98efde1830f18c8c",
+        "created_at": "2026-10-15T10:09:53",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "FlexFuelv2(FuelScalar-93).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 1,
+        "dirty_table_count": 1,
+        "dirty_table_ids": [
+          "table-0159-0x5a7"
+        ],
+        "export_ready": true,
+        "can_undo": true,
+        "fuel_banks_linked": true,
+        "fuel_bank_patch_available": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-10-15T10:10:54",
+          "table_id": "table-0159-0x5a7",
+          "table_title": "Fuel Scalar",
+          "operation": "import_table",
+          "selection": {
+            "rows": 16,
+            "cols": 16
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Fuel Scalar",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 249,
+            "min_delta": -0.0899951859999999,
+            "max_delta": 0.0030114127400000523
+          }
+        }
+      ],
+      "exported_at": "2026-10-15T10:14:20"
+    }
+  ]
+}
