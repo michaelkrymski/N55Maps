@@ -1,0 +1,1183 @@
+++++11/1/2025 11:14:18 PM
+- DME active codes:
+118001 - Mixture control: Fuel-air mixture too lean.
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140101 - Combustion misfire, cylinder 1: Fuel injection is switched off.
+140110 - Combustion misfire, cylinder 1: detected.
+140301 - Combustion misfire, cylinder 3: Fuel injection is switched off.
+140310 - Combustion misfire, cylinder 3: detected.
+140401 - Combustion misfire, cylinder 4: Fuel injection is switched off.
+140410 - Combustion misfire, cylinder 4: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+140601 - Combustion misfire, cylinder 6: Fuel injection is switched off.
+140610 - Combustion misfire, cylinder 6: detected.
+152508 - Super-knocking, cylinder 5: Injection switch-off.
+152D08 - Super-knocking: Injection switch-off.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+213601 - Power management: Standby current violation.
+
+- DME inactive (shadow) codes:
+11CF30 - Mixture control: Multiple fault.
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+++++11/1/2025 11:14:18 PM
+- DME active codes:
+118001 - Mixture control: Fuel-air mixture too lean.
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140101 - Combustion misfire, cylinder 1: Fuel injection is switched off.
+140110 - Combustion misfire, cylinder 1: detected.
+140301 - Combustion misfire, cylinder 3: Fuel injection is switched off.
+140310 - Combustion misfire, cylinder 3: detected.
+140401 - Combustion misfire, cylinder 4: Fuel injection is switched off.
+140410 - Combustion misfire, cylinder 4: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+140601 - Combustion misfire, cylinder 6: Fuel injection is switched off.
+140610 - Combustion misfire, cylinder 6: detected.
+152508 - Super-knocking, cylinder 5: Injection switch-off.
+152D08 - Super-knocking: Injection switch-off.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+213601 - Power management: Standby current violation.
+
+- DME inactive (shadow) codes:
+11CF30 - Mixture control: Multiple fault.
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+++++11/1/2025 11:14:33 PM
+- DME active codes:
+None
+
+++++11/1/2025 11:14:33 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++11/1/2025 11:15:17 PM
+- DME active codes:
+None
+
+++++11/1/2025 11:15:17 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++3/4/2026 6:35:12 PM
+- DME active codes:
+102002 - Air volume, plausibility: Air volume too low.
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+108010 - Intake air temperature sensor, electrical: Signal not plausible.
+118001 - Mixture control: Fuel-air mixture too lean.
+122108 - Blow-off valve: Clamped closed.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+213601 - Power management: Standby current violation.
+213901 - Power management: Reduction or shutdown of individual power consumer.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+11CF30 - Mixture control: Multiple fault.
+135704 - Valvetronic system: Warning threshold value, feedback control deviation exceeded.
+1FB101 - Check Control message (ID 229): Vehicle battery charge low!.
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+++++3/4/2026 6:35:12 PM
+- DME active codes:
+102002 - Air volume, plausibility: Air volume too low.
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+108010 - Intake air temperature sensor, electrical: Signal not plausible.
+118001 - Mixture control: Fuel-air mixture too lean.
+122108 - Blow-off valve: Clamped closed.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+213601 - Power management: Standby current violation.
+213901 - Power management: Reduction or shutdown of individual power consumer.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+11CF30 - Mixture control: Multiple fault.
+135704 - Valvetronic system: Warning threshold value, feedback control deviation exceeded.
+1FB101 - Check Control message (ID 229): Vehicle battery charge low!.
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+- Transmission active codes:
+None
+
+++++3/15/2026 12:16:11 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+CDA426 - Message fault (status, distribution, longitudinal torque, front axle, rear axle, 19.3.4), DME/DDE receiver, VTG transmitter.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+11CF30 - Mixture control: Multiple fault.
+135704 - Valvetronic system: Warning threshold value, feedback control deviation exceeded.
+1FB101 - Check Control message (ID 229): Vehicle battery charge low!.
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+++++3/15/2026 12:16:11 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+CDA426 - Message fault (status, distribution, longitudinal torque, front axle, rear axle, 19.3.4), DME/DDE receiver, VTG transmitter.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+11CF30 - Mixture control: Multiple fault.
+135704 - Valvetronic system: Warning threshold value, feedback control deviation exceeded.
+1FB101 - Check Control message (ID 229): Vehicle battery charge low!.
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+- Transmission active codes:
+None
+
+++++3/15/2026 12:16:22 PM
+- DME active codes:
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+
+++++3/15/2026 12:16:22 PM
+- DME active codes:
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+
+- Transmission active codes:
+None
+
+++++3/23/2026 2:42:41 AM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+108010 - Intake air temperature sensor, electrical: Signal not plausible.
+118001 - Mixture control: Fuel-air mixture too lean.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+213601 - Power management: Standby current violation.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+11CF30 - Mixture control: Multiple fault.
+
+++++3/23/2026 2:42:41 AM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+108010 - Intake air temperature sensor, electrical: Signal not plausible.
+118001 - Mixture control: Fuel-air mixture too lean.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+213601 - Power management: Standby current violation.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+11CF30 - Mixture control: Multiple fault.
+
+- Transmission active codes:
+None
+
+++++4/10/2026 12:47:16 PM
+- DME active codes:
+None
+
+- DME inactive (shadow) codes:
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+++++4/10/2026 12:47:16 PM
+- DME active codes:
+None
+
+- DME inactive (shadow) codes:
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+- Transmission active codes:
+None
+
+++++4/10/2026 12:47:26 PM
+- DME active codes:
+None
+
+++++4/10/2026 12:47:26 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++4/10/2026 12:57:51 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+108010 - Intake air temperature sensor, electrical: Signal not plausible.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+++++4/10/2026 12:57:51 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+108010 - Intake air temperature sensor, electrical: Signal not plausible.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+- Transmission active codes:
+None
+
+++++4/10/2026 3:15:45 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+108010 - Intake air temperature sensor, electrical: Signal not plausible.
+118401 - Mixture control: Fuel-air mixture too lean, large deviation.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11CF30 - Mixture control: Multiple fault.
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+++++4/10/2026 3:15:45 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+108010 - Intake air temperature sensor, electrical: Signal not plausible.
+118401 - Mixture control: Fuel-air mixture too lean, large deviation.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11CF30 - Mixture control: Multiple fault.
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+- Transmission active codes:
+None
+
+++++4/10/2026 3:15:57 PM
+- DME active codes:
+None
+
+++++4/10/2026 3:15:57 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++4/10/2026 6:37:12 PM
+- DME active codes:
+118401 - Mixture control: Fuel-air mixture too lean, large deviation.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+
+- DME inactive (shadow) codes:
+11CF30 - Mixture control: Multiple fault.
+
+++++4/10/2026 6:37:12 PM
+- DME active codes:
+118401 - Mixture control: Fuel-air mixture too lean, large deviation.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+
+- DME inactive (shadow) codes:
+11CF30 - Mixture control: Multiple fault.
+
+- Transmission active codes:
+CF16D1 - Message (group fault 3 - effect on driving: none): receiver EGS, transmitter DSC .
+
+++++4/11/2026 6:33:08 AM
+- DME active codes:
+None
+
+++++4/11/2026 6:33:08 AM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++4/11/2026 6:36:22 AM
+- DME active codes:
+None
+
+++++4/11/2026 6:36:22 AM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++4/12/2026 8:02:08 PM
+- DME active codes:
+118001 - Mixture control: Fuel-air mixture too lean.
+118401 - Mixture control: Fuel-air mixture too lean, large deviation.
+119304 - Rail pressure sensor, plausibility: Pressure too high before engine start.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- DME inactive (shadow) codes:
+11CF30 - Mixture control: Multiple fault.
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+++++4/12/2026 8:02:08 PM
+- DME active codes:
+118001 - Mixture control: Fuel-air mixture too lean.
+118401 - Mixture control: Fuel-air mixture too lean, large deviation.
+119304 - Rail pressure sensor, plausibility: Pressure too high before engine start.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- DME inactive (shadow) codes:
+11CF30 - Mixture control: Multiple fault.
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+- Transmission active codes:
+None
+
+++++4/12/2026 8:02:28 PM
+- DME active codes:
+None
+
+++++4/12/2026 8:02:28 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++4/16/2026 9:51:14 PM
+- DME active codes:
+None
+
+++++4/16/2026 9:51:14 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+CF16D1 - Message (group fault 3 - effect on driving: none): receiver EGS, transmitter DSC .
+
+++++4/16/2026 11:02:15 PM
+- DME active codes:
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+++++4/16/2026 11:02:15 PM
+- DME active codes:
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+- Transmission active codes:
+CF16D1 - Message (group fault 3 - effect on driving: none): receiver EGS, transmitter DSC .
+
+++++4/16/2026 11:02:26 PM
+- DME active codes:
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+++++4/16/2026 11:02:26 PM
+- DME active codes:
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+- Transmission active codes:
+None
+
+++++4/16/2026 11:02:44 PM
+- DME active codes:
+None
+
+++++4/16/2026 11:02:44 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++4/16/2026 11:04:23 PM
+- DME active codes:
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+++++4/16/2026 11:04:23 PM
+- DME active codes:
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+- Transmission active codes:
+None
+
+++++4/16/2026 11:04:31 PM
+- DME active codes:
+None
+
+++++4/16/2026 11:04:31 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++4/16/2026 11:10:54 PM
+- DME active codes:
+None
+
+++++4/16/2026 11:10:54 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++4/19/2026 1:34:32 AM
+- DME active codes:
+102002 - Air volume, plausibility: Air volume too low.
+
+++++4/19/2026 1:34:32 AM
+- DME active codes:
+102002 - Air volume, plausibility: Air volume too low.
+
+- Transmission active codes:
+None
+
+++++5/5/2026 11:24:50 PM
+- DME active codes:
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- DME inactive (shadow) codes:
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+++++5/5/2026 11:24:50 PM
+- DME active codes:
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- DME inactive (shadow) codes:
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+++++5/5/2026 11:25:10 PM
+- DME active codes:
+None
+
+++++5/5/2026 11:25:10 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++5/9/2026 9:27:22 PM
+- DME active codes:
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+CD9904 - No message (vehicle speed, 55.3.4), receiver DME/DDE, transmitter ICM.
+CD9933 - No message (vehicle yaw rate, 56.0.2), receiver DME/DDE, transmitter ICM.
+CD9D04 - No message (longitudinal acceleration, center of gravity, 55.0.2), receiver DME/DDE, transmitter ICM.
+CD9E04 - No message (lateral acceleration, center of gravity, 55.0.2), receiver DME/DDE, transmitter ICM.
+CDA004 - No message (request, wheel torque, drive train, sum FAS, 33.1.4), receiver DME/DDE, transmitter ICM.
+CDA104 - No message (roadway inclination, 56.1.2), receiver DME/DDE, transmitter ICM.
+CDA404 - No message (actual steering angle, front axle, 57.1.2), receiver DME/DDE, transmitter ICM.
+
+- DME inactive (shadow) codes:
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+231501 - Fault entry: Send buffer full.
+
+++++5/9/2026 9:27:22 PM
+- DME active codes:
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+CD9904 - No message (vehicle speed, 55.3.4), receiver DME/DDE, transmitter ICM.
+CD9933 - No message (vehicle yaw rate, 56.0.2), receiver DME/DDE, transmitter ICM.
+CD9D04 - No message (longitudinal acceleration, center of gravity, 55.0.2), receiver DME/DDE, transmitter ICM.
+CD9E04 - No message (lateral acceleration, center of gravity, 55.0.2), receiver DME/DDE, transmitter ICM.
+CDA004 - No message (request, wheel torque, drive train, sum FAS, 33.1.4), receiver DME/DDE, transmitter ICM.
+CDA104 - No message (roadway inclination, 56.1.2), receiver DME/DDE, transmitter ICM.
+CDA404 - No message (actual steering angle, front axle, 57.1.2), receiver DME/DDE, transmitter ICM.
+
+- DME inactive (shadow) codes:
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+++++5/9/2026 9:27:33 PM
+- DME active codes:
+None
+
+++++5/9/2026 9:27:33 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++5/16/2026 8:31:30 AM
+- DME active codes:
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+++++5/16/2026 8:31:30 AM
+- DME active codes:
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- Transmission active codes:
+None
+
+++++5/22/2026 7:55:15 PM
+- DME active codes:
+118002 - Mixture control: Fuel-air mixture too rich.
+120308 - Charging pressure control, plausibility Pressure too low.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- DME inactive (shadow) codes:
+11CF30 - Mixture control: Multiple fault.
+
+++++5/22/2026 7:55:15 PM
+- DME active codes:
+118002 - Mixture control: Fuel-air mixture too rich.
+120308 - Charging pressure control, plausibility Pressure too low.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- DME inactive (shadow) codes:
+11CF30 - Mixture control: Multiple fault.
+
+- Transmission active codes:
+None
+
+++++5/28/2026 4:23:23 PM
+- DME active codes:
+102002 - Air volume, plausibility: Air volume too low.
+102A32 - Air mass flow sensor, operating range: Air volume too low.
+118002 - Mixture control: Fuel-air mixture too rich.
+122108 - Blow-off valve: Clamped closed.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- DME inactive (shadow) codes:
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+11CF30 - Mixture control: Multiple fault.
+
+++++5/28/2026 4:23:23 PM
+- DME active codes:
+102002 - Air volume, plausibility: Air volume too low.
+102A32 - Air mass flow sensor, operating range: Air volume too low.
+118002 - Mixture control: Fuel-air mixture too rich.
+122108 - Blow-off valve: Clamped closed.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- DME inactive (shadow) codes:
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+11CF30 - Mixture control: Multiple fault.
+
+- Transmission active codes:
+None
+
+++++5/28/2026 4:23:38 PM
+- DME active codes:
+None
+
+++++5/28/2026 4:23:38 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++5/28/2026 8:49:59 PM
+- DME active codes:
+None
+
+++++5/28/2026 8:49:59 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++5/28/2026 8:50:07 PM
+- DME active codes:
+None
+
+++++5/28/2026 8:50:07 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++9/26/2026 4:02:05 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+118002 - Mixture control: Fuel-air mixture too rich.
+133E10 - Valvetronic system: deactivated, adjustment fault too frequent.
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140002 - Combustion misfires, several cylinders: Damaging exhaust gas after starting up.
+140004 - Combustion misfires, several cylinders: Damaging exhaust gas.
+140010 - Combustion misfires, several cylinders: detected.
+140301 - Combustion misfire, cylinder 3: Fuel injection is switched off.
+140302 - Combustion misfire, cylinder 3: Damaging exhaust gas after starting up.
+140304 - Combustion misfire, cylinder 3: Damaging exhaust gas.
+140310 - Combustion misfire, cylinder 3: detected.
+140402 - Combustion misfire, cylinder 4: Damaging exhaust gas after starting up.
+140410 - Combustion misfire, cylinder 4: detected.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+213601 - Power management: Standby current violation.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+
+++++9/26/2026 4:02:26 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+118002 - Mixture control: Fuel-air mixture too rich.
+133E10 - Valvetronic system: deactivated, adjustment fault too frequent.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+11CF30 - Mixture control: Multiple fault.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 8:34:25 AM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+118002 - Mixture control: Fuel-air mixture too rich.
+133E10 - Valvetronic system: deactivated, adjustment fault too frequent.
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140002 - Combustion misfires, several cylinders: Damaging exhaust gas after starting up.
+140004 - Combustion misfires, several cylinders: Damaging exhaust gas.
+140010 - Combustion misfires, several cylinders: detected.
+140101 - Combustion misfire, cylinder 1: Fuel injection is switched off.
+140110 - Combustion misfire, cylinder 1: detected.
+140302 - Combustion misfire, cylinder 3: Damaging exhaust gas after starting up.
+140304 - Combustion misfire, cylinder 3: Damaging exhaust gas.
+140310 - Combustion misfire, cylinder 3: detected.
+140402 - Combustion misfire, cylinder 4: Damaging exhaust gas after starting up.
+140410 - Combustion misfire, cylinder 4: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 8:38:23 AM
+
+++++9/30/2026 8:38:40 AM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+118002 - Mixture control: Fuel-air mixture too rich.
+133E10 - Valvetronic system: deactivated, adjustment fault too frequent.
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140002 - Combustion misfires, several cylinders: Damaging exhaust gas after starting up.
+140004 - Combustion misfires, several cylinders: Damaging exhaust gas.
+140010 - Combustion misfires, several cylinders: detected.
+140101 - Combustion misfire, cylinder 1: Fuel injection is switched off.
+140110 - Combustion misfire, cylinder 1: detected.
+140302 - Combustion misfire, cylinder 3: Damaging exhaust gas after starting up.
+140304 - Combustion misfire, cylinder 3: Damaging exhaust gas.
+140310 - Combustion misfire, cylinder 3: detected.
+140402 - Combustion misfire, cylinder 4: Damaging exhaust gas after starting up.
+140410 - Combustion misfire, cylinder 4: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 8:38:53 AM
+- DME active codes:
+133E10 - Valvetronic system: deactivated, adjustment fault too frequent.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 8:43:30 AM
+- DME active codes:
+118002 - Mixture control: Fuel-air mixture too rich.
+133E10 - Valvetronic system: deactivated, adjustment fault too frequent.
+
+- DME inactive (shadow) codes:
+11CF30 - Mixture control: Multiple fault.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 10:22:47 AM
+- DME active codes:
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140301 - Combustion misfire, cylinder 3: Fuel injection is switched off.
+140310 - Combustion misfire, cylinder 3: detected.
+
+- DME inactive (shadow) codes:
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 10:22:59 AM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 10:23:18 AM
+- DME active codes:
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140301 - Combustion misfire, cylinder 3: Fuel injection is switched off.
+140310 - Combustion misfire, cylinder 3: detected.
+
+- DME inactive (shadow) codes:
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 11:55:31 AM
+- DME active codes:
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140301 - Combustion misfire, cylinder 3: Fuel injection is switched off.
+140310 - Combustion misfire, cylinder 3: detected.
+
+- DME inactive (shadow) codes:
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 11:55:53 AM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 11:56:11 AM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 11:56:19 AM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 11:56:32 AM
+- DME active codes:
+None
+
+- DME inactive (shadow) codes:
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 12:30:01 PM
+- DME active codes:
+None
+
+- DME inactive (shadow) codes:
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 12:30:15 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 12:30:30 PM
+- DME active codes:
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140301 - Combustion misfire, cylinder 3: Fuel injection is switched off.
+140310 - Combustion misfire, cylinder 3: detected.
+
+- DME inactive (shadow) codes:
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 12:30:43 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 12:32:08 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 12:33:52 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 12:38:50 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+108010 - Intake air temperature sensor, electrical: Signal not plausible.
+140002 - Combustion misfires, several cylinders: Damaging exhaust gas after starting up.
+140010 - Combustion misfires, several cylinders: detected.
+140302 - Combustion misfire, cylinder 3: Damaging exhaust gas after starting up.
+140310 - Combustion misfire, cylinder 3: detected.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 12:42:37 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 12:42:47 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 12:43:25 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 1:52:39 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+12B104 - Oxygen sensor heating before catalytic converter, activation: Line disconnection.
+140002 - Combustion misfires, several cylinders: Damaging exhaust gas after starting up.
+140010 - Combustion misfires, several cylinders: detected.
+140302 - Combustion misfire, cylinder 3: Damaging exhaust gas after starting up.
+140310 - Combustion misfire, cylinder 3: detected.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 1:52:50 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 1:53:39 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 5:16:56 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+140002 - Combustion misfires, several cylinders: Damaging exhaust gas after starting up.
+140004 - Combustion misfires, several cylinders: Damaging exhaust gas.
+140010 - Combustion misfires, several cylinders: detected.
+140302 - Combustion misfire, cylinder 3: Damaging exhaust gas after starting up.
+140304 - Combustion misfire, cylinder 3: Damaging exhaust gas.
+140310 - Combustion misfire, cylinder 3: detected.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+
+++++9/30/2026 5:17:42 PM
+- DME active codes:
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+
+- Transmission active codes:
+None
+
+
+++++10/10/2026 2:15:23 PM
+- DME active codes:
+102A01 - Hot film air mass meter, signal: Electrical fault.
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+112101 - Injector, cylinder 1, activation: Line disconnection.
+112201 - Injector, cylinder 2, activation: Line disconnection.
+112301 - Injector, cylinder 3, activation: Line disconnection.
+112401 - Injector, cylinder 4, activation: Line disconnection.
+112501 - Injector, cylinder 5, activation: Line disconnection.
+112601 - Injector, cylinder 6, activation: Line disconnection.
+12B104 - Oxygen sensor heating before catalytic converter, activation: Line disconnection.
+213601 - Power management: Standby current violation.
+CDA524 - No message (status of electric fuel pump, 0x335), DME receiver, EKP transmitter.
+
+- DME inactive (shadow) codes:
+108932 Unknown
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+1FB101 - Check Control message (ID 229): Vehicle battery charge low!.
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+231501 - Fault entry: Send buffer full.
+
+- Transmission active codes:
+None
+
+
+++++10/10/2026 2:15:33 PM
+- DME active codes:
+None
+
+- DME inactive (shadow) codes:
+1FB101 - Check Control message (ID 229): Vehicle battery charge low!.
+
+- Transmission active codes:
+None
+
+
+++++10/10/2026 2:16:55 PM
+- DME active codes:
+None
+
+- DME inactive (shadow) codes:
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+1FB101 - Check Control message (ID 229): Vehicle battery charge low!.
+
+- Transmission active codes:
+None
+
+
+++++10/11/2026 6:25:31 AM
+- DME active codes:
+1B9804 - Engine switch-off time, signal: Missing.
+CD840A - DME, PT-CAN: Communication fault.
+CDA322 - No message (units BN2020, 252.0.4 ), receiver DME/DDE, transmitter.
+CDA514 - No message (status, safety belt contact, seat occupancy, 0x297), receiver DME/DDE, transmitter ACSM.
+CDA524 - No message (status of electric fuel pump, 0x335), DME receiver, EKP transmitter.
+CDA804 - No message (relative time, 0x328), receiver DME/DDE, transmitter KOMBI.
+CDB204 - No message (ambient temperature, 0x2CA), receiver DME/DDE, transmitter KOMBI.
+
+- Transmission active codes:
+CF040A - EGS,PT-CAN: Line fault/ electrical fault.
+
+
+++++10/11/2026 6:25:42 AM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+
+++++10/15/2026 2:43:49 PM
+- DME active codes:
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+- DME inactive (shadow) codes:
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+
+- Transmission active codes:
+None
+
+
+++++10/15/2026 2:44:03 PM
+- DME active codes:
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+- DME inactive (shadow) codes:
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+
+- Transmission active codes:
+None
+
+
+++++10/15/2026 2:45:56 PM
+- DME active codes:
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+- DME inactive (shadow) codes:
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+
+- Transmission active codes:
+None
+
+
+++++10/15/2026 2:46:05 PM
+- DME active codes:
+None
+
+- DME inactive (shadow) codes:
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+- Transmission active codes:
+None
+
+
+++++10/15/2026 2:48:16 PM
+- DME active codes:
+None
+
+- DME inactive (shadow) codes:
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+- Transmission active codes:
+None
+
+
