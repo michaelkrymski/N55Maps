@@ -1,0 +1,4050 @@
+{
+  "calibration": {
+    "v5_sha256": "e6312c01a2316fe35ec5169f11db3d3da0c519e37c6de210dbaf448431252d7e",
+    "different_bytes": 38,
+    "changed_outside_pressure_outputs": [
+      "0x1b84c0"
+    ],
+    "FRKMIN_before": 0.8828125,
+    "FRKMIN_after": 0.8515625,
+    "pressure_axis_unchanged": true
+  },
+  "files": [
+    {
+      "path": "C:\\Users\\Michael Krymski\\Documents\\N55Maps\\DataLogging\\2026-10-16 14_26_27 000021571DAA01 FlexFuelv5InjectorFix-FuelMassFloor.bin.csv",
+      "sha256": "83c4f2190a2010094aa066681ac3827a1df129960dad9efbed95fe60cd3f8dca",
+      "rows": 7045,
+      "start": 0.737,
+      "end": 812.71,
+      "median_dt": 0.10999999999998522,
+      "max_dt": 19.033999999999992,
+      "configuration": {
+        "Current Map (-)": {
+          "1": 7045
+        },
+        "Ethanol Content (Active) (%)": {
+          "12": 7045
+        },
+        "Ethanol Content (CAN) (%)": {
+          "12": 7045
+        },
+        "Fuel Interpolation (-)": {
+          "0": 7045
+        },
+        "Fuel Scalar Interpolation (-)": {
+          "0": 7045
+        }
+      },
+      "torque_states": {
+        "Torque lim. 1 (-)": {
+          "0": 6981,
+          "8": 64
+        },
+        "Torque lim. 2 (-)": {
+          "0": 6981,
+          "8": 64
+        },
+        "Torque lim. 3 (-)": {
+          "0": 6803,
+          "4": 183,
+          "8": 59
+        }
+      },
+      "idle_like_all": {
+        "n": 2849,
+        "start": 10.757,
+        "end": 812.71,
+        "sample_duration_s": 311.88900000000007,
+        "rpm": {
+          "min": 655.0,
+          "median": 713.0,
+          "max": 900.0
+        },
+        "pedal": {
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.8
+        },
+        "load": {
+          "min": 17.5,
+          "median": 31.3,
+          "max": 41.4
+        },
+        "afr": {
+          "min": 9.55,
+          "median": 14.54,
+          "max": 15.41
+        },
+        "target": {
+          "min": 14.7,
+          "median": 14.71,
+          "max": 15.5
+        },
+        "stft": {
+          "min": -30.0,
+          "median": -16.7,
+          "max": 18.3
+        },
+        "ltft": {
+          "min": -30.0,
+          "median": 0.01,
+          "max": 0.01
+        },
+        "rail": {
+          "min": 1283.9,
+          "median": 1310.1,
+          "max": 1890.8
+        },
+        "rail_req": {
+          "min": 1308.9,
+          "median": 1309.1,
+          "max": 1880.1
+        },
+        "coolant": {
+          "min": 82.0,
+          "median": 178.0,
+          "max": 207.0
+        },
+        "iat": {
+          "min": 86.0,
+          "median": 93.0,
+          "max": 106.0
+        },
+        "hdi": {
+          "min": 0.11,
+          "median": 0.16,
+          "max": 0.26
+        },
+        "gear": {
+          "min": 0.0,
+          "median": 2.0,
+          "max": 7.0
+        },
+        "boost": {
+          "min": -0.1,
+          "median": 0.0,
+          "max": -0.0
+        },
+        "mode": {
+          "min": 2.0,
+          "median": 2.0,
+          "max": 2.0
+        },
+        "c6": {
+          "min": -0.4,
+          "median": 0.0,
+          "max": 0.0
+        },
+        "afr_ratio": {
+          "min": 0.647018970189702,
+          "median": 0.9891156462585033,
+          "max": 1.0482993197278911
+        },
+        "rail_error_psi": {
+          "min": -29.700000000000045,
+          "median": 0.2999999999999545,
+          "max": 22.5
+        },
+        "combined_trim_multiplier": {
+          "min": 0.6755,
+          "median": 0.8148369999999999,
+          "max": 1.1731173000000001
+        },
+        "scalar_lookup": {
+          "min": 1.0292146809895832,
+          "median": 1.040008544921875,
+          "max": 1.0410097961425782
+        },
+        "AFR_below_90pct_target_samples": 136,
+        "STFT_at_minus30_samples": 218,
+        "modes": {
+          "2": 2849
+        }
+      },
+      "cruise_like": {
+        "n": 876,
+        "start": 91.24,
+        "end": 698.393,
+        "sample_duration_s": 96.60900000000012,
+        "rpm": {
+          "min": 1300.0,
+          "median": 1432.0,
+          "max": 1968.0
+        },
+        "pedal": {
+          "min": 5.5,
+          "median": 21.2,
+          "max": 38.0
+        },
+        "load": {
+          "min": 20.3,
+          "median": 44.6,
+          "max": 83.3
+        },
+        "afr": {
+          "min": 11.87,
+          "median": 14.93,
+          "max": 17.17
+        },
+        "target": {
+          "min": 14.03,
+          "median": 15.08,
+          "max": 15.5
+        },
+        "stft": {
+          "min": -17.8,
+          "median": 0.0,
+          "max": 15.6
+        },
+        "ltft": {
+          "min": -24.85,
+          "median": 0.01,
+          "max": 0.01
+        },
+        "rail": {
+          "min": 2077.7,
+          "median": 2619.6000000000004,
+          "max": 2932.8
+        },
+        "rail_req": {
+          "min": 2086.8,
+          "median": 2619.3,
+          "max": 2900.5
+        },
+        "coolant": {
+          "min": 95.0,
+          "median": 199.0,
+          "max": 207.0
+        },
+        "iat": {
+          "min": 86.0,
+          "median": 95.0,
+          "max": 104.0
+        },
+        "hdi": {
+          "min": 0.18,
+          "median": 0.56,
+          "max": 0.87
+        },
+        "gear": {
+          "min": 1.0,
+          "median": 5.0,
+          "max": 6.0
+        },
+        "boost": {
+          "min": -0.2,
+          "median": 0.4,
+          "max": 1.2
+        },
+        "mode": {
+          "min": 2.0,
+          "median": 2.0,
+          "max": 20.0
+        },
+        "c6": {
+          "min": -7.5,
+          "median": 0.0,
+          "max": 0.0
+        },
+        "afr_ratio": {
+          "min": 0.7824402840542285,
+          "median": 0.9874003310425377,
+          "max": 1.1379080612924717
+        },
+        "rail_error_psi": {
+          "min": -116.10000000000036,
+          "median": 2.300000000000182,
+          "max": 91.90000000000009
+        },
+        "combined_trim_multiplier": {
+          "min": 0.7537543999999999,
+          "median": 1.0001,
+          "max": 1.1561156
+        },
+        "scalar_lookup": {
+          "min": 0.9038500467936198,
+          "median": 0.9314339294433593,
+          "max": 0.9997927001953125
+        },
+        "AFR_below_90pct_target_samples": 105,
+        "STFT_at_minus30_samples": 0,
+        "modes": {
+          "2": 874,
+          "20": 2
+        }
+      },
+      "idle_windows": {
+        "10-35": {
+          "n": 192,
+          "start": 10.757,
+          "end": 34.892,
+          "sample_duration_s": 20.125,
+          "rpm": {
+            "min": 704.0,
+            "median": 741.0,
+            "max": 891.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "load": {
+            "min": 18.9,
+            "median": 31.2,
+            "max": 35.8
+          },
+          "afr": {
+            "min": 9.55,
+            "median": 14.43,
+            "max": 14.93
+          },
+          "target": {
+            "min": 14.7,
+            "median": 14.71,
+            "max": 14.78
+          },
+          "stft": {
+            "min": -30.0,
+            "median": -30.0,
+            "max": 0.0
+          },
+          "ltft": {
+            "min": 0.01,
+            "median": 0.01,
+            "max": 0.01
+          },
+          "rail": {
+            "min": 1287.0,
+            "median": 1310.6,
+            "max": 1727.1
+          },
+          "rail_req": {
+            "min": 1309.3,
+            "median": 1309.3,
+            "max": 1715.0
+          },
+          "coolant": {
+            "min": 82.0,
+            "median": 82.0,
+            "max": 82.0
+          },
+          "iat": {
+            "min": 86.0,
+            "median": 86.0,
+            "max": 86.0
+          },
+          "hdi": {
+            "min": 0.11,
+            "median": 0.14,
+            "max": 0.19
+          },
+          "gear": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "boost": {
+            "min": -0.1,
+            "median": -0.1,
+            "max": -0.1
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.647018970189702,
+            "median": 0.9809653297076818,
+            "max": 1.0115176151761518
+          },
+          "rail_error_psi": {
+            "min": -22.299999999999955,
+            "median": 0.6000000000001364,
+            "max": 22.5
+          },
+          "combined_trim_multiplier": {
+            "min": 0.70007,
+            "median": 0.70007,
+            "max": 1.0001
+          },
+          "scalar_lookup": {
+            "min": 1.0296338399251301,
+            "median": 1.040008544921875,
+            "max": 1.040008544921875
+          },
+          "AFR_below_90pct_target_samples": 41,
+          "STFT_at_minus30_samples": 146,
+          "modes": {
+            "2": 192
+          }
+        },
+        "35-90": {
+          "n": 468,
+          "start": 35.002,
+          "end": 88.287,
+          "sample_duration_s": 53.395,
+          "rpm": {
+            "min": 706.0,
+            "median": 750.0,
+            "max": 820.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.4
+          },
+          "load": {
+            "min": 30.3,
+            "median": 34.9,
+            "max": 41.4
+          },
+          "afr": {
+            "min": 13.48,
+            "median": 14.71,
+            "max": 15.41
+          },
+          "target": {
+            "min": 14.7,
+            "median": 14.7,
+            "max": 14.71
+          },
+          "stft": {
+            "min": -30.0,
+            "median": -6.5,
+            "max": 3.4
+          },
+          "ltft": {
+            "min": -30.0,
+            "median": -20.605,
+            "max": 0.01
+          },
+          "rail": {
+            "min": 1283.9,
+            "median": 1311.0,
+            "max": 1390.7
+          },
+          "rail_req": {
+            "min": 1308.9,
+            "median": 1309.1,
+            "max": 1382.2
+          },
+          "coolant": {
+            "min": 82.0,
+            "median": 88.0,
+            "max": 93.0
+          },
+          "iat": {
+            "min": 86.0,
+            "median": 86.0,
+            "max": 86.0
+          },
+          "hdi": {
+            "min": 0.13,
+            "median": 0.15,
+            "max": 0.23
+          },
+          "gear": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 7.0
+          },
+          "boost": {
+            "min": -0.1,
+            "median": -0.1,
+            "max": -0.0
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.9163834126444595,
+            "median": 1.0006798096532972,
+            "max": 1.0482993197278911
+          },
+          "rail_error_psi": {
+            "min": -29.700000000000045,
+            "median": 1.25,
+            "max": 21.399999999999864
+          },
+          "combined_trim_multiplier": {
+            "min": 0.6755,
+            "median": 0.729576,
+            "max": 0.8433438
+          },
+          "scalar_lookup": {
+            "min": 1.040008544921875,
+            "median": 1.040008544921875,
+            "max": 1.0410097961425782
+          },
+          "AFR_below_90pct_target_samples": 0,
+          "STFT_at_minus30_samples": 72,
+          "modes": {
+            "2": 468
+          }
+        },
+        "400-500": {
+          "n": 484,
+          "start": 447.796,
+          "end": 499.938,
+          "sample_duration_s": 52.263000000000034,
+          "rpm": {
+            "min": 675.0,
+            "median": 707.0,
+            "max": 750.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "load": {
+            "min": 26.8,
+            "median": 30.3,
+            "max": 32.3
+          },
+          "afr": {
+            "min": 11.34,
+            "median": 14.5,
+            "max": 14.77
+          },
+          "target": {
+            "min": 14.7,
+            "median": 14.71,
+            "max": 15.44
+          },
+          "stft": {
+            "min": -23.1,
+            "median": -19.55,
+            "max": 0.0
+          },
+          "ltft": {
+            "min": 0.0,
+            "median": 0.01,
+            "max": 0.01
+          },
+          "rail": {
+            "min": 1287.2,
+            "median": 1309.25,
+            "max": 1328.5
+          },
+          "rail_req": {
+            "min": 1309.1,
+            "median": 1309.1,
+            "max": 1319.6
+          },
+          "coolant": {
+            "min": 198.0,
+            "median": 201.0,
+            "max": 205.0
+          },
+          "iat": {
+            "min": 97.0,
+            "median": 97.0,
+            "max": 99.0
+          },
+          "hdi": {
+            "min": 0.14,
+            "median": 0.16,
+            "max": 0.24
+          },
+          "gear": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "boost": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.7693351424694708,
+            "median": 0.9857239972807613,
+            "max": 1.0040788579197824
+          },
+          "rail_error_psi": {
+            "min": -21.899999999999864,
+            "median": 0.10000000000013642,
+            "max": 19.40000000000009
+          },
+          "combined_trim_multiplier": {
+            "min": 0.769,
+            "median": 0.8045401999999999,
+            "max": 1.0001
+          },
+          "scalar_lookup": {
+            "min": 1.035924560546875,
+            "median": 1.040008544921875,
+            "max": 1.040008544921875
+          },
+          "AFR_below_90pct_target_samples": 27,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 484
+          }
+        },
+        "700-813": {
+          "n": 735,
+          "start": 701.488,
+          "end": 812.71,
+          "sample_duration_s": 79.88100000000006,
+          "rpm": {
+            "min": 670.0,
+            "median": 712.0,
+            "max": 900.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.8
+          },
+          "load": {
+            "min": 17.5,
+            "median": 27.6,
+            "max": 32.1
+          },
+          "afr": {
+            "min": 14.15,
+            "median": 14.57,
+            "max": 14.93
+          },
+          "target": {
+            "min": 14.7,
+            "median": 14.71,
+            "max": 14.78
+          },
+          "stft": {
+            "min": 1.5,
+            "median": 13.1,
+            "max": 17.3
+          },
+          "ltft": {
+            "min": 0.01,
+            "median": 0.01,
+            "max": 0.01
+          },
+          "rail": {
+            "min": 1290.8,
+            "median": 1310.5,
+            "max": 1890.8
+          },
+          "rail_req": {
+            "min": 1309.9,
+            "median": 1309.9,
+            "max": 1880.1
+          },
+          "coolant": {
+            "min": 203.0,
+            "median": 205.0,
+            "max": 207.0
+          },
+          "iat": {
+            "min": 102.0,
+            "median": 104.0,
+            "max": 106.0
+          },
+          "hdi": {
+            "min": 0.12,
+            "median": 0.17,
+            "max": 0.25
+          },
+          "gear": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "boost": {
+            "min": -0.1,
+            "median": 0.0,
+            "max": -0.0
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.9580230196343941,
+            "median": 0.9904826648538408,
+            "max": 1.0149558123725355
+          },
+          "rail_error_psi": {
+            "min": -19.100000000000136,
+            "median": 0.1999999999998181,
+            "max": 16.0
+          },
+          "combined_trim_multiplier": {
+            "min": 1.0151014999999999,
+            "median": 1.1311131,
+            "max": 1.1731173000000001
+          },
+          "scalar_lookup": {
+            "min": 1.0292146809895832,
+            "median": 1.0362248535156249,
+            "max": 1.040008544921875
+          },
+          "AFR_below_90pct_target_samples": 0,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 735
+          }
+        }
+      },
+      "matched_idle": {
+        "10-35": {
+          "n": 8,
+          "start": 21.507,
+          "end": 26.402,
+          "sample_duration_s": 0.7949999999999946,
+          "rpm": {
+            "min": 730.0,
+            "median": 736.0,
+            "max": 740.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "load": {
+            "min": 30.6,
+            "median": 30.9,
+            "max": 31.0
+          },
+          "afr": {
+            "min": 14.32,
+            "median": 14.465,
+            "max": 14.6
+          },
+          "target": {
+            "min": 14.7,
+            "median": 14.71,
+            "max": 14.71
+          },
+          "stft": {
+            "min": -30.0,
+            "median": -30.0,
+            "max": -30.0
+          },
+          "ltft": {
+            "min": 0.01,
+            "median": 0.01,
+            "max": 0.01
+          },
+          "rail": {
+            "min": 1287.6,
+            "median": 1307.4,
+            "max": 1325.9
+          },
+          "rail_req": {
+            "min": 1309.3,
+            "median": 1309.3,
+            "max": 1309.3
+          },
+          "coolant": {
+            "min": 82.0,
+            "median": 82.0,
+            "max": 82.0
+          },
+          "iat": {
+            "min": 86.0,
+            "median": 86.0,
+            "max": 86.0
+          },
+          "hdi": {
+            "min": 0.12,
+            "median": 0.13,
+            "max": 0.15
+          },
+          "gear": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "boost": {
+            "min": -0.1,
+            "median": -0.1,
+            "max": -0.1
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.9734874235214139,
+            "median": 0.9833446634942216,
+            "max": 0.992522093813732
+          },
+          "rail_error_psi": {
+            "min": -21.700000000000045,
+            "median": -1.8999999999999773,
+            "max": 16.600000000000136
+          },
+          "combined_trim_multiplier": {
+            "min": 0.70007,
+            "median": 0.70007,
+            "max": 0.70007
+          },
+          "scalar_lookup": {
+            "min": 1.040008544921875,
+            "median": 1.040008544921875,
+            "max": 1.040008544921875
+          },
+          "AFR_below_90pct_target_samples": 0,
+          "STFT_at_minus30_samples": 8,
+          "modes": {
+            "2": 8
+          }
+        },
+        "35-90": {
+          "n": 0
+        },
+        "400-500": {
+          "n": 403,
+          "start": 447.917,
+          "end": 499.938,
+          "sample_duration_s": 42.731000000000165,
+          "rpm": {
+            "min": 682.0,
+            "median": 707.0,
+            "max": 740.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "load": {
+            "min": 27.9,
+            "median": 30.1,
+            "max": 31.0
+          },
+          "afr": {
+            "min": 11.34,
+            "median": 14.52,
+            "max": 14.77
+          },
+          "target": {
+            "min": 14.7,
+            "median": 14.71,
+            "max": 15.35
+          },
+          "stft": {
+            "min": -23.0,
+            "median": -19.4,
+            "max": 0.0
+          },
+          "ltft": {
+            "min": 0.0,
+            "median": 0.01,
+            "max": 0.01
+          },
+          "rail": {
+            "min": 1287.2,
+            "median": 1309.0,
+            "max": 1328.5
+          },
+          "rail_req": {
+            "min": 1309.1,
+            "median": 1309.1,
+            "max": 1317.5
+          },
+          "coolant": {
+            "min": 198.0,
+            "median": 201.0,
+            "max": 205.0
+          },
+          "iat": {
+            "min": 97.0,
+            "median": 97.0,
+            "max": 99.0
+          },
+          "hdi": {
+            "min": 0.14,
+            "median": 0.16,
+            "max": 0.24
+          },
+          "gear": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "boost": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.7693351424694708,
+            "median": 0.9870836165873554,
+            "max": 1.0040788579197824
+          },
+          "rail_error_psi": {
+            "min": -21.899999999999864,
+            "median": -0.09999999999990905,
+            "max": 19.40000000000009
+          },
+          "combined_trim_multiplier": {
+            "min": 0.770077,
+            "median": 0.8060806,
+            "max": 1.0001
+          },
+          "scalar_lookup": {
+            "min": 1.0367678833007812,
+            "median": 1.040008544921875,
+            "max": 1.040008544921875
+          },
+          "AFR_below_90pct_target_samples": 8,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 403
+          }
+        },
+        "700-813": {
+          "n": 520,
+          "start": 720.463,
+          "end": 792.927,
+          "sample_duration_s": 56.528000000000134,
+          "rpm": {
+            "min": 682.0,
+            "median": 710.5,
+            "max": 740.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "load": {
+            "min": 27.0,
+            "median": 27.9,
+            "max": 31.0
+          },
+          "afr": {
+            "min": 14.26,
+            "median": 14.56,
+            "max": 14.93
+          },
+          "target": {
+            "min": 14.7,
+            "median": 14.71,
+            "max": 14.71
+          },
+          "stft": {
+            "min": 7.7,
+            "median": 13.0,
+            "max": 17.3
+          },
+          "ltft": {
+            "min": 0.01,
+            "median": 0.01,
+            "max": 0.01
+          },
+          "rail": {
+            "min": 1291.6,
+            "median": 1310.1,
+            "max": 1325.0
+          },
+          "rail_req": {
+            "min": 1309.9,
+            "median": 1309.9,
+            "max": 1310.2
+          },
+          "coolant": {
+            "min": 203.0,
+            "median": 205.0,
+            "max": 207.0
+          },
+          "iat": {
+            "min": 104.0,
+            "median": 104.0,
+            "max": 106.0
+          },
+          "hdi": {
+            "min": 0.16,
+            "median": 0.18,
+            "max": 0.2
+          },
+          "gear": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "boost": {
+            "min": -0.1,
+            "median": 0.0,
+            "max": -0.0
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.9694085656016315,
+            "median": 0.9898028552005438,
+            "max": 1.0149558123725355
+          },
+          "rail_error_psi": {
+            "min": -18.300000000000182,
+            "median": 0.1999999999998181,
+            "max": 15.099999999999909
+          },
+          "combined_trim_multiplier": {
+            "min": 1.0771077,
+            "median": 1.130113,
+            "max": 1.1731173000000001
+          },
+          "scalar_lookup": {
+            "min": 1.03455322265625,
+            "median": 1.0366802978515623,
+            "max": 1.040008544921875
+          },
+          "AFR_below_90pct_target_samples": 0,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 520
+          }
+        }
+      },
+      "low_load_c6_below_minus6": {
+        "n": 44,
+        "start": 90.304,
+        "end": 597.608,
+        "sample_duration_s": 4.720999999999961,
+        "rpm": {
+          "min": 1155.0,
+          "median": 1459.5,
+          "max": 2270.0
+        },
+        "pedal": {
+          "min": 11.4,
+          "median": 22.2,
+          "max": 28.2
+        },
+        "load": {
+          "min": 31.3,
+          "median": 45.150000000000006,
+          "max": 54.1
+        },
+        "afr": {
+          "min": 11.72,
+          "median": 14.17,
+          "max": 17.08
+        },
+        "target": {
+          "min": 14.7,
+          "median": 14.91,
+          "max": 15.88
+        },
+        "stft": {
+          "min": -11.6,
+          "median": 0.0,
+          "max": 11.1
+        },
+        "ltft": {
+          "min": -24.85,
+          "median": -3.9450000000000003,
+          "max": 0.01
+        },
+        "rail": {
+          "min": 2205.2,
+          "median": 2632.2,
+          "max": 2835.6
+        },
+        "rail_req": {
+          "min": 2217.8,
+          "median": 2632.55,
+          "max": 2806.6
+        },
+        "coolant": {
+          "min": 93.0,
+          "median": 95.0,
+          "max": 201.0
+        },
+        "iat": {
+          "min": 86.0,
+          "median": 86.0,
+          "max": 100.0
+        },
+        "hdi": {
+          "min": 0.37,
+          "median": 0.53,
+          "max": 0.7
+        },
+        "gear": {
+          "min": 1.0,
+          "median": 2.0,
+          "max": 2.0
+        },
+        "boost": {
+          "min": -0.1,
+          "median": -0.1,
+          "max": 0.3
+        },
+        "mode": {
+          "min": 2.0,
+          "median": 2.0,
+          "max": 2.0
+        },
+        "c6": {
+          "min": -7.5,
+          "median": -6.8,
+          "max": -6.0
+        },
+        "afr_ratio": {
+          "min": 0.7860496311200537,
+          "median": 0.9488778466390406,
+          "max": 1.1379080612924717
+        },
+        "rail_error_psi": {
+          "min": -84.40000000000009,
+          "median": -4.0,
+          "max": 66.30000000000018
+        },
+        "combined_trim_multiplier": {
+          "min": 0.7568518,
+          "median": 0.96104505,
+          "max": 1.029732
+        },
+        "scalar_lookup": {
+          "min": 0.9264270690917968,
+          "median": 0.9335602154541016,
+          "max": 0.9574678955078125
+        },
+        "AFR_below_90pct_target_samples": 15,
+        "STFT_at_minus30_samples": 0,
+        "modes": {
+          "2": 44
+        }
+      },
+      "cylinder_correction_minima": {
+        "cyl1": -6.4,
+        "cyl2": -7.5,
+        "cyl3": -7.2,
+        "cyl4": -7.5,
+        "cyl5": -6.0,
+        "cyl6": -7.5
+      },
+      "c6_correction_runs_below_minus6": [
+        {
+          "start": 90.304,
+          "end": 93.088,
+          "duration": 2.783999999999992,
+          "n": 27
+        },
+        {
+          "start": 566.665,
+          "end": 568.083,
+          "duration": 1.4180000000000064,
+          "n": 14
+        },
+        {
+          "start": 597.403,
+          "end": 597.608,
+          "duration": 0.20499999999992724,
+          "n": 3
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\Michael Krymski\\Documents\\N55Maps\\DataLogging\\2026-10-16 14_50_23 000021571DAA01 FlexFuelv5InjectorFix-FuelMassFloor.bin.csv",
+      "sha256": "8817dc707f673a379309bcf896a1338adbc8374842e493d113d7ed7cb81d9108",
+      "rows": 3373,
+      "start": 0.628,
+      "end": 375.736,
+      "median_dt": 0.10800000000000409,
+      "max_dt": 4.129000000000019,
+      "configuration": {
+        "Current Map (-)": {
+          "1": 3373
+        },
+        "Ethanol Content (Active) (%)": {
+          "12": 2512,
+          "13": 861
+        },
+        "Ethanol Content (CAN) (%)": {
+          "12": 2512,
+          "13": 861
+        },
+        "Fuel Interpolation (-)": {
+          "0": 3373
+        },
+        "Fuel Scalar Interpolation (-)": {
+          "0": 3373
+        }
+      },
+      "torque_states": {
+        "Torque lim. 1 (-)": {
+          "0": 3295,
+          "8": 68,
+          "1": 10
+        },
+        "Torque lim. 2 (-)": {
+          "0": 3295,
+          "8": 68,
+          "1": 10
+        },
+        "Torque lim. 3 (-)": {
+          "0": 3237,
+          "4": 73,
+          "8": 51,
+          "1": 12
+        }
+      },
+      "idle_like_all": {
+        "n": 533,
+        "start": 50.473,
+        "end": 375.736,
+        "sample_duration_s": 57.55500000000008,
+        "rpm": {
+          "min": 658.0,
+          "median": 710.0,
+          "max": 900.0
+        },
+        "pedal": {
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0
+        },
+        "load": {
+          "min": 13.9,
+          "median": 27.7,
+          "max": 30.8
+        },
+        "afr": {
+          "min": 11.84,
+          "median": 14.47,
+          "max": 15.19
+        },
+        "target": {
+          "min": 14.7,
+          "median": 14.71,
+          "max": 15.49
+        },
+        "stft": {
+          "min": -15.7,
+          "median": -4.2,
+          "max": 10.8
+        },
+        "ltft": {
+          "min": -8.38,
+          "median": -4.39,
+          "max": -2.1
+        },
+        "rail": {
+          "min": 1293.6,
+          "median": 1312.2,
+          "max": 1908.1
+        },
+        "rail_req": {
+          "min": 1309.7,
+          "median": 1309.8,
+          "max": 1896.9
+        },
+        "coolant": {
+          "min": 187.0,
+          "median": 201.0,
+          "max": 205.0
+        },
+        "iat": {
+          "min": 115.0,
+          "median": 118.0,
+          "max": 120.0
+        },
+        "hdi": {
+          "min": 0.14,
+          "median": 0.23,
+          "max": 0.36
+        },
+        "gear": {
+          "min": 2.0,
+          "median": 2.0,
+          "max": 4.0
+        },
+        "boost": {
+          "min": -0.0,
+          "median": 0.0,
+          "max": -0.0
+        },
+        "mode": {
+          "min": 2.0,
+          "median": 2.0,
+          "max": 2.0
+        },
+        "c6": {
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0
+        },
+        "afr_ratio": {
+          "min": 0.7858990944372575,
+          "median": 0.9836845683208701,
+          "max": 1.0326308633582595
+        },
+        "rail_error_psi": {
+          "min": -17.200000000000045,
+          "median": 0.5,
+          "max": 19.700000000000045
+        },
+        "combined_trim_multiplier": {
+          "min": 0.7974956,
+          "median": 0.9198999999999999,
+          "max": 1.0721008
+        },
+        "scalar_lookup": {
+          "min": 1.027454630533854,
+          "median": 1.0364300537109374,
+          "max": 1.040008544921875
+        },
+        "AFR_below_90pct_target_samples": 84,
+        "STFT_at_minus30_samples": 0,
+        "modes": {
+          "2": 533
+        }
+      },
+      "cruise_like": {
+        "n": 491,
+        "start": 23.388,
+        "end": 360.687,
+        "sample_duration_s": 53.373000000000104,
+        "rpm": {
+          "min": 1302.0,
+          "median": 1451.0,
+          "max": 2168.0
+        },
+        "pedal": {
+          "min": 9.4,
+          "median": 19.2,
+          "max": 40.0
+        },
+        "load": {
+          "min": 20.0,
+          "median": 38.9,
+          "max": 84.5
+        },
+        "afr": {
+          "min": 13.06,
+          "median": 15.02,
+          "max": 16.82
+        },
+        "target": {
+          "min": 14.26,
+          "median": 15.09,
+          "max": 15.5
+        },
+        "stft": {
+          "min": -10.7,
+          "median": 2.8,
+          "max": 30.8
+        },
+        "ltft": {
+          "min": -16.05,
+          "median": -13.66,
+          "max": -1.28
+        },
+        "rail": {
+          "min": 2011.7,
+          "median": 2506.9,
+          "max": 2922.3
+        },
+        "rail_req": {
+          "min": 2016.4,
+          "median": 2504.2,
+          "max": 2900.3
+        },
+        "coolant": {
+          "min": 183.0,
+          "median": 203.0,
+          "max": 207.0
+        },
+        "iat": {
+          "min": 111.0,
+          "median": 115.0,
+          "max": 122.0
+        },
+        "hdi": {
+          "min": 0.35,
+          "median": 0.62,
+          "max": 1.07
+        },
+        "gear": {
+          "min": 2.0,
+          "median": 5.0,
+          "max": 6.0
+        },
+        "boost": {
+          "min": -0.3,
+          "median": 0.3,
+          "max": 3.3
+        },
+        "mode": {
+          "min": 2.0,
+          "median": 2.0,
+          "max": 20.0
+        },
+        "c6": {
+          "min": -5.7,
+          "median": 0.0,
+          "max": 0.0
+        },
+        "afr_ratio": {
+          "min": 0.8514915693904022,
+          "median": 0.9960552268244576,
+          "max": 1.1022280471821757
+        },
+        "rail_error_psi": {
+          "min": -78.90000000000009,
+          "median": 1.0,
+          "max": 50.19999999999982
+        },
+        "combined_trim_multiplier": {
+          "min": 0.7733180000000001,
+          "median": 0.8926814000000001,
+          "max": 1.1448924
+        },
+        "scalar_lookup": {
+          "min": 0.9035079447428385,
+          "median": 0.9344422225952148,
+          "max": 1.008803348795573
+        },
+        "AFR_below_90pct_target_samples": 18,
+        "STFT_at_minus30_samples": 0,
+        "modes": {
+          "2": 480,
+          "20": 11
+        }
+      },
+      "idle_windows": {
+        "0-100": {
+          "n": 57,
+          "start": 50.473,
+          "end": 99.946,
+          "sample_duration_s": 5.900000000000006,
+          "rpm": {
+            "min": 688.0,
+            "median": 711.0,
+            "max": 739.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "load": {
+            "min": 25.6,
+            "median": 27.6,
+            "max": 28.8
+          },
+          "afr": {
+            "min": 11.84,
+            "median": 12.81,
+            "max": 14.27
+          },
+          "target": {
+            "min": 14.71,
+            "median": 14.84,
+            "max": 15.46
+          },
+          "stft": {
+            "min": -13.8,
+            "median": -9.9,
+            "max": 0.0
+          },
+          "ltft": {
+            "min": -4.8,
+            "median": -4.38,
+            "max": -3.35
+          },
+          "rail": {
+            "min": 1295.3,
+            "median": 1312.3,
+            "max": 1340.7
+          },
+          "rail_req": {
+            "min": 1309.8,
+            "median": 1309.8,
+            "max": 1339.6
+          },
+          "coolant": {
+            "min": 199.0,
+            "median": 199.0,
+            "max": 203.0
+          },
+          "iat": {
+            "min": 118.0,
+            "median": 120.0,
+            "max": 120.0
+          },
+          "hdi": {
+            "min": 0.23,
+            "median": 0.25,
+            "max": 0.28
+          },
+          "gear": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "boost": {
+            "min": -0.0,
+            "median": 0.0,
+            "max": -0.0
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.7858990944372575,
+            "median": 0.8443860801050558,
+            "max": 0.9700883752549285
+          },
+          "rail_error_psi": {
+            "min": -14.5,
+            "median": 1.1000000000001364,
+            "max": 12.400000000000091
+          },
+          "combined_trim_multiplier": {
+            "min": 0.82296,
+            "median": 0.861356,
+            "max": 0.9665
+          },
+          "scalar_lookup": {
+            "min": 1.0336957194010417,
+            "median": 1.036256551106771,
+            "max": 1.038086669921875
+          },
+          "AFR_below_90pct_target_samples": 34,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 57
+          }
+        },
+        "100-250": {
+          "n": 419,
+          "start": 100.046,
+          "end": 231.816,
+          "sample_duration_s": 45.056000000000026,
+          "rpm": {
+            "min": 672.0,
+            "median": 709.0,
+            "max": 900.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "load": {
+            "min": 15.3,
+            "median": 27.8,
+            "max": 30.4
+          },
+          "afr": {
+            "min": 12.35,
+            "median": 14.58,
+            "max": 15.19
+          },
+          "target": {
+            "min": 14.7,
+            "median": 14.71,
+            "max": 15.49
+          },
+          "stft": {
+            "min": -15.7,
+            "median": -3.1,
+            "max": 10.8
+          },
+          "ltft": {
+            "min": -5.86,
+            "median": -4.44,
+            "max": -2.1
+          },
+          "rail": {
+            "min": 1293.6,
+            "median": 1311.4,
+            "max": 1908.1
+          },
+          "rail_req": {
+            "min": 1309.7,
+            "median": 1309.8,
+            "max": 1896.9
+          },
+          "coolant": {
+            "min": 198.0,
+            "median": 201.0,
+            "max": 205.0
+          },
+          "iat": {
+            "min": 117.0,
+            "median": 120.0,
+            "max": 120.0
+          },
+          "hdi": {
+            "min": 0.15,
+            "median": 0.23,
+            "max": 0.36
+          },
+          "gear": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "boost": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.8334409296320207,
+            "median": 0.9911624745071379,
+            "max": 1.0326308633582595
+          },
+          "rail_error_psi": {
+            "min": -17.200000000000045,
+            "median": 0.2999999999999545,
+            "max": 19.700000000000045
+          },
+          "combined_trim_multiplier": {
+            "min": 0.7974956,
+            "median": 0.9327023999999999,
+            "max": 1.0721008
+          },
+          "scalar_lookup": {
+            "min": 1.0286099243164062,
+            "median": 1.0365885416666667,
+            "max": 1.040008544921875
+          },
+          "AFR_below_90pct_target_samples": 50,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 419
+          }
+        },
+        "300-376": {
+          "n": 57,
+          "start": 365.997,
+          "end": 375.736,
+          "sample_duration_s": 6.599000000000046,
+          "rpm": {
+            "min": 658.0,
+            "median": 846.0,
+            "max": 899.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "load": {
+            "min": 13.9,
+            "median": 19.1,
+            "max": 30.8
+          },
+          "afr": {
+            "min": 13.74,
+            "median": 14.26,
+            "max": 14.93
+          },
+          "target": {
+            "min": 14.7,
+            "median": 14.72,
+            "max": 14.74
+          },
+          "stft": {
+            "min": -11.8,
+            "median": -6.0,
+            "max": 1.8
+          },
+          "ltft": {
+            "min": -8.38,
+            "median": -3.64,
+            "max": -2.85
+          },
+          "rail": {
+            "min": 1303.6,
+            "median": 1492.1,
+            "max": 1738.7
+          },
+          "rail_req": {
+            "min": 1312.4,
+            "median": 1491.9,
+            "max": 1733.4
+          },
+          "coolant": {
+            "min": 187.0,
+            "median": 187.0,
+            "max": 187.0
+          },
+          "iat": {
+            "min": 115.0,
+            "median": 115.0,
+            "max": 117.0
+          },
+          "hdi": {
+            "min": 0.14,
+            "median": 0.22,
+            "max": 0.25
+          },
+          "gear": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 4.0
+          },
+          "boost": {
+            "min": -0.0,
+            "median": 0.0,
+            "max": -0.0
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.9340584636301835,
+            "median": 0.9680923285811269,
+            "max": 1.014965986394558
+          },
+          "rail_error_psi": {
+            "min": -14.599999999999909,
+            "median": 2.2999999999999545,
+            "max": 11.600000000000136
+          },
+          "combined_trim_multiplier": {
+            "min": 0.850689,
+            "median": 0.9125519999999999,
+            "max": 0.9804358
+          },
+          "scalar_lookup": {
+            "min": 1.027454630533854,
+            "median": 1.0298694864908855,
+            "max": 1.040008544921875
+          },
+          "AFR_below_90pct_target_samples": 0,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 57
+          }
+        }
+      },
+      "matched_idle": {
+        "0-100": {
+          "n": 44,
+          "start": 50.473,
+          "end": 99.946,
+          "sample_duration_s": 4.544000000000004,
+          "rpm": {
+            "min": 688.0,
+            "median": 707.5,
+            "max": 739.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "load": {
+            "min": 27.0,
+            "median": 27.75,
+            "max": 28.8
+          },
+          "afr": {
+            "min": 12.13,
+            "median": 13.415,
+            "max": 14.27
+          },
+          "target": {
+            "min": 14.71,
+            "median": 14.765,
+            "max": 15.46
+          },
+          "stft": {
+            "min": -13.8,
+            "median": -10.7,
+            "max": 0.0
+          },
+          "ltft": {
+            "min": -4.8,
+            "median": -4.405,
+            "max": -3.94
+          },
+          "rail": {
+            "min": 1295.3,
+            "median": 1310.5500000000002,
+            "max": 1340.7
+          },
+          "rail_req": {
+            "min": 1309.8,
+            "median": 1309.8,
+            "max": 1339.6
+          },
+          "coolant": {
+            "min": 199.0,
+            "median": 199.0,
+            "max": 203.0
+          },
+          "iat": {
+            "min": 118.0,
+            "median": 120.0,
+            "max": 120.0
+          },
+          "hdi": {
+            "min": 0.23,
+            "median": 0.24,
+            "max": 0.28
+          },
+          "gear": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "boost": {
+            "min": -0.0,
+            "median": 0.0,
+            "max": -0.0
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.7858990944372575,
+            "median": 0.9085700708056506,
+            "max": 0.9700883752549285
+          },
+          "rail_error_psi": {
+            "min": -14.5,
+            "median": 0.20000000000004547,
+            "max": 12.400000000000091
+          },
+          "combined_trim_multiplier": {
+            "min": 0.82296,
+            "median": 0.85437545,
+            "max": 0.9606
+          },
+          "scalar_lookup": {
+            "min": 1.0355792236328125,
+            "median": 1.0364025268554689,
+            "max": 1.038086669921875
+          },
+          "AFR_below_90pct_target_samples": 21,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 44
+          }
+        },
+        "100-250": {
+          "n": 300,
+          "start": 100.046,
+          "end": 231.206,
+          "sample_duration_s": 31.553999999999974,
+          "rpm": {
+            "min": 680.0,
+            "median": 706.0,
+            "max": 740.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "load": {
+            "min": 27.0,
+            "median": 28.0,
+            "max": 30.4
+          },
+          "afr": {
+            "min": 12.35,
+            "median": 14.62,
+            "max": 15.19
+          },
+          "target": {
+            "min": 14.7,
+            "median": 14.71,
+            "max": 15.46
+          },
+          "stft": {
+            "min": -15.7,
+            "median": -7.9,
+            "max": 9.4
+          },
+          "ltft": {
+            "min": -5.82,
+            "median": -4.53,
+            "max": -3.44
+          },
+          "rail": {
+            "min": 1293.6,
+            "median": 1310.3,
+            "max": 1457.1
+          },
+          "rail_req": {
+            "min": 1309.7,
+            "median": 1309.8,
+            "max": 1451.9
+          },
+          "coolant": {
+            "min": 198.0,
+            "median": 201.0,
+            "max": 205.0
+          },
+          "iat": {
+            "min": 117.0,
+            "median": 120.0,
+            "max": 120.0
+          },
+          "hdi": {
+            "min": 0.21,
+            "median": 0.23,
+            "max": 0.28
+          },
+          "gear": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "boost": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.8361543669600542,
+            "median": 0.9938817131203262,
+            "max": 1.0326308633582595
+          },
+          "rail_error_psi": {
+            "min": -16.100000000000136,
+            "median": 0.049999999999954525,
+            "max": 14.100000000000136
+          },
+          "combined_trim_multiplier": {
+            "min": 0.7974956,
+            "median": 0.8801873,
+            "max": 1.0512246
+          },
+          "scalar_lookup": {
+            "min": 1.0350253499348958,
+            "median": 1.0367249247233072,
+            "max": 1.040008544921875
+          },
+          "AFR_below_90pct_target_samples": 22,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 300
+          }
+        },
+        "300-376": {
+          "n": 10,
+          "start": 373.937,
+          "end": 375.736,
+          "sample_duration_s": 1.2869999999999777,
+          "rpm": {
+            "min": 680.0,
+            "median": 699.0,
+            "max": 704.0
+          },
+          "pedal": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "load": {
+            "min": 27.4,
+            "median": 30.5,
+            "max": 30.8
+          },
+          "afr": {
+            "min": 13.75,
+            "median": 14.565,
+            "max": 14.93
+          },
+          "target": {
+            "min": 14.7,
+            "median": 14.71,
+            "max": 14.71
+          },
+          "stft": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.4
+          },
+          "ltft": {
+            "min": -8.38,
+            "median": -7.79,
+            "max": -5.11
+          },
+          "rail": {
+            "min": 1303.6,
+            "median": 1316.85,
+            "max": 1376.0
+          },
+          "rail_req": {
+            "min": 1312.4,
+            "median": 1319.6,
+            "max": 1375.3
+          },
+          "coolant": {
+            "min": 187.0,
+            "median": 187.0,
+            "max": 187.0
+          },
+          "iat": {
+            "min": 117.0,
+            "median": 117.0,
+            "max": 117.0
+          },
+          "hdi": {
+            "min": 0.22,
+            "median": 0.22,
+            "max": 0.23
+          },
+          "gear": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "boost": {
+            "min": -0.0,
+            "median": 0.0,
+            "max": -0.0
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "afr_ratio": {
+            "min": 0.9347382732834806,
+            "median": 0.9901427600271924,
+            "max": 1.014965986394558
+          },
+          "rail_error_psi": {
+            "min": -12.299999999999955,
+            "median": -3.099999999999909,
+            "max": 11.600000000000136
+          },
+          "combined_trim_multiplier": {
+            "min": 0.9162,
+            "median": 0.9227000000000001,
+            "max": 0.9489
+          },
+          "scalar_lookup": {
+            "min": 1.0352372233072917,
+            "median": 1.040008544921875,
+            "max": 1.040008544921875
+          },
+          "AFR_below_90pct_target_samples": 0,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 10
+          }
+        }
+      },
+      "low_load_c6_below_minus6": {
+        "n": 0
+      },
+      "cylinder_correction_minima": {
+        "cyl1": -7.5,
+        "cyl2": -7.5,
+        "cyl3": -6.0,
+        "cyl4": -7.5,
+        "cyl5": -7.5,
+        "cyl6": -5.7
+      },
+      "c6_correction_runs_below_minus6": [],
+      "pull_shift_times": [
+        290.331,
+        291.467,
+        292.627
+      ],
+      "pull_enriched_core": {
+        "n": 21,
+        "start": 289.587,
+        "end": 292.738,
+        "sample_duration_s": 2.2180000000000177,
+        "rpm": {
+          "min": 2918.0,
+          "median": 3646.0,
+          "max": 4202.0
+        },
+        "pedal": {
+          "min": 62.0,
+          "median": 74.1,
+          "max": 76.1
+        },
+        "load": {
+          "min": 101.2,
+          "median": 176.5,
+          "max": 195.8
+        },
+        "afr": {
+          "min": 10.59,
+          "median": 11.09,
+          "max": 13.65
+        },
+        "target": {
+          "min": 12.78,
+          "median": 12.92,
+          "max": 14.17
+        },
+        "stft": {
+          "min": -18.4,
+          "median": 0.0,
+          "max": 0.0
+        },
+        "ltft": {
+          "min": 0.0,
+          "median": 0.01,
+          "max": 0.01
+        },
+        "rail": {
+          "min": 2840.7,
+          "median": 2881.5,
+          "max": 2983.9
+        },
+        "rail_req": {
+          "min": 2900.0,
+          "median": 2900.0,
+          "max": 2900.0
+        },
+        "coolant": {
+          "min": 185.0,
+          "median": 187.0,
+          "max": 187.0
+        },
+        "iat": {
+          "min": 108.0,
+          "median": 111.0,
+          "max": 115.0
+        },
+        "hdi": {
+          "min": 0.99,
+          "median": 1.45,
+          "max": 1.6
+        },
+        "gear": {
+          "min": 2.0,
+          "median": 4.0,
+          "max": 5.0
+        },
+        "boost": {
+          "min": 4.3,
+          "median": 16.8,
+          "max": 19.4
+        },
+        "mode": {
+          "min": 2.0,
+          "median": 2.0,
+          "max": 20.0
+        },
+        "c6": {
+          "min": -4.2,
+          "median": -3.0,
+          "max": -1.2
+        },
+        "afr_ratio": {
+          "min": 0.7966834895457824,
+          "median": 0.853582554517134,
+          "max": 0.9763948497854077
+        },
+        "rail_error_psi": {
+          "min": -59.30000000000018,
+          "median": -18.5,
+          "max": 83.90000000000009
+        },
+        "combined_trim_multiplier": {
+          "min": 0.8160816000000001,
+          "median": 1.0001,
+          "max": 1.0001
+        },
+        "scalar_lookup": {
+          "min": 0.8500184814453124,
+          "median": 0.9027264398748225,
+          "max": 0.9248960371537641
+        },
+        "AFR_below_90pct_target_samples": 17,
+        "STFT_at_minus30_samples": 0,
+        "modes": {
+          "2": 20,
+          "20": 1
+        }
+      },
+      "pull_core_rich_runs": [
+        {
+          "start": 290.218,
+          "end": 290.539,
+          "duration": 0.32099999999996953,
+          "n": 4
+        },
+        {
+          "start": 291.047,
+          "end": 291.667,
+          "duration": 0.6199999999999477,
+          "n": 7
+        },
+        {
+          "start": 292.109,
+          "end": 292.627,
+          "duration": 0.5180000000000291,
+          "n": 6
+        }
+      ],
+      "pull_excluding_shifts_0.2s": {
+        "n": 10,
+        "start": 289.587,
+        "end": 292.327,
+        "sample_duration_s": 1.0660000000000878,
+        "rpm": {
+          "min": 2918.0,
+          "median": 3446.0,
+          "max": 4202.0
+        },
+        "pedal": {
+          "min": 62.0,
+          "median": 74.1,
+          "max": 75.3
+        },
+        "load": {
+          "min": 101.2,
+          "median": 162.6,
+          "max": 191.1
+        },
+        "afr": {
+          "min": 10.96,
+          "median": 11.475,
+          "max": 13.65
+        },
+        "target": {
+          "min": 12.81,
+          "median": 13.43,
+          "max": 14.17
+        },
+        "stft": {
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0
+        },
+        "ltft": {
+          "min": 0.0,
+          "median": 0.01,
+          "max": 0.01
+        },
+        "rail": {
+          "min": 2840.7,
+          "median": 2888.1,
+          "max": 2949.1
+        },
+        "rail_req": {
+          "min": 2900.0,
+          "median": 2900.0,
+          "max": 2900.0
+        },
+        "coolant": {
+          "min": 185.0,
+          "median": 187.0,
+          "max": 187.0
+        },
+        "iat": {
+          "min": 109.0,
+          "median": 111.0,
+          "max": 115.0
+        },
+        "hdi": {
+          "min": 0.99,
+          "median": 1.395,
+          "max": 1.6
+        },
+        "gear": {
+          "min": 2.0,
+          "median": 3.0,
+          "max": 4.0
+        },
+        "boost": {
+          "min": 4.3,
+          "median": 14.149999999999999,
+          "max": 19.4
+        },
+        "mode": {
+          "min": 2.0,
+          "median": 2.0,
+          "max": 20.0
+        },
+        "c6": {
+          "min": -4.2,
+          "median": -3.0,
+          "max": -1.2
+        },
+        "afr_ratio": {
+          "min": 0.7966834895457824,
+          "median": 0.8734757916338558,
+          "max": 0.9763948497854077
+        },
+        "rail_error_psi": {
+          "min": -59.30000000000018,
+          "median": -11.900000000000091,
+          "max": 49.09999999999991
+        },
+        "combined_trim_multiplier": {
+          "min": 1.0,
+          "median": 1.0001,
+          "max": 1.0001
+        },
+        "scalar_lookup": {
+          "min": 0.8500184814453124,
+          "median": 0.9070084130859375,
+          "max": 0.9248960371537641
+        },
+        "AFR_below_90pct_target_samples": 7,
+        "STFT_at_minus30_samples": 0,
+        "modes": {
+          "2": 9,
+          "20": 1
+        }
+      },
+      "pull_excluding_shifts_0.35s": {
+        "n": 5,
+        "start": 289.587,
+        "end": 292.217,
+        "sample_duration_s": 0.52800000000002,
+        "rpm": {
+          "min": 2918.0,
+          "median": 3350.0,
+          "max": 3469.0
+        },
+        "pedal": {
+          "min": 65.1,
+          "median": 74.1,
+          "max": 74.5
+        },
+        "load": {
+          "min": 101.2,
+          "median": 153.1,
+          "max": 176.8
+        },
+        "afr": {
+          "min": 10.97,
+          "median": 11.99,
+          "max": 13.65
+        },
+        "target": {
+          "min": 13.04,
+          "median": 13.76,
+          "max": 13.98
+        },
+        "stft": {
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0
+        },
+        "ltft": {
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.01
+        },
+        "rail": {
+          "min": 2842.1,
+          "median": 2881.5,
+          "max": 2922.7
+        },
+        "rail_req": {
+          "min": 2900.0,
+          "median": 2900.0,
+          "max": 2900.0
+        },
+        "coolant": {
+          "min": 185.0,
+          "median": 187.0,
+          "max": 187.0
+        },
+        "iat": {
+          "min": 109.0,
+          "median": 111.0,
+          "max": 115.0
+        },
+        "hdi": {
+          "min": 0.99,
+          "median": 1.3,
+          "max": 1.6
+        },
+        "gear": {
+          "min": 2.0,
+          "median": 3.0,
+          "max": 4.0
+        },
+        "boost": {
+          "min": 4.3,
+          "median": 12.7,
+          "max": 16.9
+        },
+        "mode": {
+          "min": 2.0,
+          "median": 2.0,
+          "max": 20.0
+        },
+        "c6": {
+          "min": -4.2,
+          "median": -3.0,
+          "max": -2.3
+        },
+        "afr_ratio": {
+          "min": 0.7966834895457824,
+          "median": 0.8726346433770015,
+          "max": 0.9763948497854077
+        },
+        "rail_error_psi": {
+          "min": -57.90000000000009,
+          "median": -18.5,
+          "max": 22.699999999999818
+        },
+        "combined_trim_multiplier": {
+          "min": 1.0,
+          "median": 1.0,
+          "max": 1.0001
+        },
+        "scalar_lookup": {
+          "min": 0.8775324584960937,
+          "median": 0.8930851912064987,
+          "max": 0.9248808957741478
+        },
+        "AFR_below_90pct_target_samples": 3,
+        "STFT_at_minus30_samples": 0,
+        "modes": {
+          "2": 4,
+          "20": 1
+        }
+      },
+      "pull_excluding_shifts_0.5s": {
+        "n": 3,
+        "start": 289.587,
+        "end": 292.109,
+        "sample_duration_s": 0.3180000000000405,
+        "rpm": {
+          "min": 2918.0,
+          "median": 3038.0,
+          "max": 3412.0
+        },
+        "pedal": {
+          "min": 74.1,
+          "median": 74.1,
+          "max": 74.5
+        },
+        "load": {
+          "min": 101.2,
+          "median": 105.5,
+          "max": 176.5
+        },
+        "afr": {
+          "min": 11.05,
+          "median": 13.24,
+          "max": 13.65
+        },
+        "target": {
+          "min": 13.76,
+          "median": 13.87,
+          "max": 13.98
+        },
+        "stft": {
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0
+        },
+        "ltft": {
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0
+        },
+        "rail": {
+          "min": 2861.5,
+          "median": 2894.7,
+          "max": 2922.7
+        },
+        "rail_req": {
+          "min": 2900.0,
+          "median": 2900.0,
+          "max": 2900.0
+        },
+        "coolant": {
+          "min": 185.0,
+          "median": 185.0,
+          "max": 187.0
+        },
+        "iat": {
+          "min": 109.0,
+          "median": 115.0,
+          "max": 115.0
+        },
+        "hdi": {
+          "min": 0.99,
+          "median": 1.02,
+          "max": 1.57
+        },
+        "gear": {
+          "min": 2.0,
+          "median": 2.0,
+          "max": 4.0
+        },
+        "boost": {
+          "min": 4.3,
+          "median": 4.8,
+          "max": 16.9
+        },
+        "mode": {
+          "min": 2.0,
+          "median": 2.0,
+          "max": 20.0
+        },
+        "c6": {
+          "min": -3.0,
+          "median": -2.3,
+          "max": -2.3
+        },
+        "afr_ratio": {
+          "min": 0.7966834895457824,
+          "median": 0.9622093023255814,
+          "max": 0.9763948497854077
+        },
+        "rail_error_psi": {
+          "min": -38.5,
+          "median": -5.300000000000182,
+          "max": 22.699999999999818
+        },
+        "combined_trim_multiplier": {
+          "min": 1.0,
+          "median": 1.0,
+          "max": 1.0
+        },
+        "scalar_lookup": {
+          "min": 0.8775324584960937,
+          "median": 0.8818924967447916,
+          "max": 0.923150870028409
+        },
+        "AFR_below_90pct_target_samples": 1,
+        "STFT_at_minus30_samples": 0,
+        "modes": {
+          "2": 2,
+          "20": 1
+        }
+      },
+      "pull_by_gear": {
+        "2": {
+          "n": 3,
+          "start": 289.587,
+          "end": 290.218,
+          "sample_duration_s": 0.3230000000000359,
+          "rpm": {
+            "min": 2918.0,
+            "median": 3038.0,
+            "max": 3814.0
+          },
+          "pedal": {
+            "min": 65.9,
+            "median": 74.1,
+            "max": 74.1
+          },
+          "load": {
+            "min": 101.2,
+            "median": 105.5,
+            "max": 141.1
+          },
+          "afr": {
+            "min": 11.63,
+            "median": 13.24,
+            "max": 13.65
+          },
+          "target": {
+            "min": 13.76,
+            "median": 13.81,
+            "max": 13.98
+          },
+          "stft": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "ltft": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.01
+          },
+          "rail": {
+            "min": 2847.7,
+            "median": 2894.7,
+            "max": 2922.7
+          },
+          "rail_req": {
+            "min": 2900.0,
+            "median": 2900.0,
+            "max": 2900.0
+          },
+          "coolant": {
+            "min": 185.0,
+            "median": 185.0,
+            "max": 185.0
+          },
+          "iat": {
+            "min": 115.0,
+            "median": 115.0,
+            "max": 115.0
+          },
+          "hdi": {
+            "min": 0.99,
+            "median": 1.02,
+            "max": 1.16
+          },
+          "gear": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "boost": {
+            "min": 4.3,
+            "median": 4.8,
+            "max": 9.7
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 20.0
+          },
+          "c6": {
+            "min": -2.3,
+            "median": -2.3,
+            "max": -1.5
+          },
+          "afr_ratio": {
+            "min": 0.8421433743664012,
+            "median": 0.9622093023255814,
+            "max": 0.9763948497854077
+          },
+          "rail_error_psi": {
+            "min": -52.30000000000018,
+            "median": -5.300000000000182,
+            "max": 22.699999999999818
+          },
+          "combined_trim_multiplier": {
+            "min": 1.0,
+            "median": 1.0,
+            "max": 1.0001
+          },
+          "scalar_lookup": {
+            "min": 0.8768698120117188,
+            "median": 0.8775324584960937,
+            "max": 0.8818924967447916
+          },
+          "AFR_below_90pct_target_samples": 1,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 2,
+            "20": 1
+          }
+        },
+        "3": {
+          "n": 7,
+          "start": 290.331,
+          "end": 291.357,
+          "sample_duration_s": 0.7359999999999332,
+          "rpm": {
+            "min": 3350.0,
+            "median": 3604.0,
+            "max": 4202.0
+          },
+          "pedal": {
+            "min": 62.0,
+            "median": 65.1,
+            "max": 65.1
+          },
+          "load": {
+            "min": 146.0,
+            "median": 153.1,
+            "max": 174.4
+          },
+          "afr": {
+            "min": 11.04,
+            "median": 11.2,
+            "max": 11.99
+          },
+          "target": {
+            "min": 12.81,
+            "median": 12.93,
+            "max": 13.74
+          },
+          "stft": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "ltft": {
+            "min": 0.01,
+            "median": 0.01,
+            "max": 0.01
+          },
+          "rail": {
+            "min": 2840.7,
+            "median": 2844.3,
+            "max": 2913.0
+          },
+          "rail_req": {
+            "min": 2900.0,
+            "median": 2900.0,
+            "max": 2900.0
+          },
+          "coolant": {
+            "min": 185.0,
+            "median": 187.0,
+            "max": 187.0
+          },
+          "iat": {
+            "min": 111.0,
+            "median": 111.0,
+            "max": 115.0
+          },
+          "hdi": {
+            "min": 1.21,
+            "median": 1.3,
+            "max": 1.47
+          },
+          "gear": {
+            "min": 3.0,
+            "median": 3.0,
+            "max": 3.0
+          },
+          "boost": {
+            "min": 11.0,
+            "median": 12.7,
+            "max": 15.9
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": -4.2,
+            "median": -3.8,
+            "max": -1.2
+          },
+          "afr_ratio": {
+            "min": 0.8446455505279035,
+            "median": 0.8723897911832946,
+            "max": 0.8894817073170732
+          },
+          "rail_error_psi": {
+            "min": -59.30000000000018,
+            "median": -55.69999999999982,
+            "max": 13.0
+          },
+          "combined_trim_multiplier": {
+            "min": 1.0001,
+            "median": 1.0001,
+            "max": 1.0001
+          },
+          "scalar_lookup": {
+            "min": 0.8500184814453124,
+            "median": 0.8930851912064987,
+            "max": 0.914120322265625
+          },
+          "AFR_below_90pct_target_samples": 7,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 7
+          }
+        },
+        "4": {
+          "n": 9,
+          "start": 291.467,
+          "end": 292.527,
+          "sample_duration_s": 0.9490000000000691,
+          "rpm": {
+            "min": 3412.0,
+            "median": 3646.0,
+            "max": 3866.0
+          },
+          "pedal": {
+            "min": 67.8,
+            "median": 74.5,
+            "max": 76.1
+          },
+          "load": {
+            "min": 176.5,
+            "median": 181.3,
+            "max": 195.2
+          },
+          "afr": {
+            "min": 10.59,
+            "median": 10.9,
+            "max": 12.95
+          },
+          "target": {
+            "min": 12.78,
+            "median": 12.81,
+            "max": 14.17
+          },
+          "stft": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "ltft": {
+            "min": 0.0,
+            "median": 0.01,
+            "max": 0.01
+          },
+          "rail": {
+            "min": 2849.5,
+            "median": 2881.5,
+            "max": 2949.1
+          },
+          "rail_req": {
+            "min": 2900.0,
+            "median": 2900.0,
+            "max": 2900.0
+          },
+          "coolant": {
+            "min": 187.0,
+            "median": 187.0,
+            "max": 187.0
+          },
+          "iat": {
+            "min": 108.0,
+            "median": 109.0,
+            "max": 111.0
+          },
+          "hdi": {
+            "min": 1.45,
+            "median": 1.57,
+            "max": 1.6
+          },
+          "gear": {
+            "min": 4.0,
+            "median": 4.0,
+            "max": 4.0
+          },
+          "boost": {
+            "min": 16.8,
+            "median": 17.2,
+            "max": 19.4
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": -3.8,
+            "median": -3.0,
+            "max": -2.7
+          },
+          "afr_ratio": {
+            "min": 0.7966834895457824,
+            "median": 0.8412576687116565,
+            "max": 0.9139026111503176
+          },
+          "rail_error_psi": {
+            "min": -50.5,
+            "median": -18.5,
+            "max": 49.09999999999991
+          },
+          "combined_trim_multiplier": {
+            "min": 1.0,
+            "median": 1.0001,
+            "max": 1.0001
+          },
+          "scalar_lookup": {
+            "min": 0.8933622864879261,
+            "median": 0.918353465909091,
+            "max": 0.9248960371537641
+          },
+          "AFR_below_90pct_target_samples": 8,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 9
+          }
+        },
+        "5": {
+          "n": 2,
+          "start": 292.627,
+          "end": 292.738,
+          "sample_duration_s": 0.20999999999997954,
+          "rpm": {
+            "min": 3746.0,
+            "median": 3775.5,
+            "max": 3805.0
+          },
+          "pedal": {
+            "min": 72.2,
+            "median": 73.15,
+            "max": 74.1
+          },
+          "load": {
+            "min": 189.3,
+            "median": 192.55,
+            "max": 195.8
+          },
+          "afr": {
+            "min": 10.66,
+            "median": 11.455,
+            "max": 12.25
+          },
+          "target": {
+            "min": 12.78,
+            "median": 12.78,
+            "max": 12.78
+          },
+          "stft": {
+            "min": -18.4,
+            "median": -18.25,
+            "max": -18.1
+          },
+          "ltft": {
+            "min": 0.01,
+            "median": 0.01,
+            "max": 0.01
+          },
+          "rail": {
+            "min": 2901.6,
+            "median": 2942.75,
+            "max": 2983.9
+          },
+          "rail_req": {
+            "min": 2900.0,
+            "median": 2900.0,
+            "max": 2900.0
+          },
+          "coolant": {
+            "min": 187.0,
+            "median": 187.0,
+            "max": 187.0
+          },
+          "iat": {
+            "min": 108.0,
+            "median": 108.0,
+            "max": 108.0
+          },
+          "hdi": {
+            "min": 1.45,
+            "median": 1.5,
+            "max": 1.55
+          },
+          "gear": {
+            "min": 5.0,
+            "median": 5.0,
+            "max": 5.0
+          },
+          "boost": {
+            "min": 18.1,
+            "median": 18.55,
+            "max": 19.0
+          },
+          "mode": {
+            "min": 2.0,
+            "median": 2.0,
+            "max": 2.0
+          },
+          "c6": {
+            "min": -2.7,
+            "median": -2.5,
+            "max": -2.3
+          },
+          "afr_ratio": {
+            "min": 0.8341158059467919,
+            "median": 0.8963223787167449,
+            "max": 0.958528951486698
+          },
+          "rail_error_psi": {
+            "min": 1.599999999999909,
+            "median": 42.75,
+            "max": 83.90000000000009
+          },
+          "combined_trim_multiplier": {
+            "min": 0.8160816000000001,
+            "median": 0.81758175,
+            "max": 0.8190818999999999
+          },
+          "scalar_lookup": {
+            "min": 0.9027264398748225,
+            "median": 0.9058435149591619,
+            "max": 0.9089605900435014
+          },
+          "AFR_below_90pct_target_samples": 1,
+          "STFT_at_minus30_samples": 0,
+          "modes": {
+            "2": 2
+          }
+        }
+      },
+      "pull_cylinder_corrections": {
+        "Cyl1 Timing Cor (*)": {
+          "min": 0.0,
+          "median": 0.0
+        },
+        "Cyl2 Timing Cor (*)": {
+          "min": 0.0,
+          "median": 0.0
+        },
+        "Cyl3 Timing Cor (*)": {
+          "min": 0.0,
+          "median": 0.0
+        },
+        "Cyl4 Timing Cor (*)": {
+          "min": -2.7,
+          "median": -1.2
+        },
+        "Cyl5 Timing Cor (*)": {
+          "min": 0.0,
+          "median": 0.0
+        },
+        "Cyl6 Timing Cor (*)": {
+          "min": -4.2,
+          "median": -3.0
+        }
+      },
+      "pull_samples": [
+        {
+          "Time": 289.067,
+          "RPM (rpm)": 2564,
+          "Accel Ped. Pos. (%)": 58.8,
+          "Load actual RAM": 88.1,
+          "Lambda bank 1 (AFR)": 15.02,
+          "Lambda target (AFR)": 16.0,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": -0.09,
+          "Rail pressure mean (PSI)": 2873.6,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 0.9,
+          "Gear (-)": 2,
+          "Boost (PSI)": 2.1,
+          "Fuel Mode (-)": 20,
+          "Cyl6 Timing Cor (*)": -3.4,
+          "afr_ratio": 0.93875,
+          "rail_error_psi": -26.40000000000009,
+          "scalar_lookup": 0.8925786844889323,
+          "Torque lim. 1 (-)": 1,
+          "Torque lim. 2 (-)": 1,
+          "Torque lim. 3 (-)": 1
+        },
+        {
+          "Time": 289.167,
+          "RPM (rpm)": 2618,
+          "Accel Ped. Pos. (%)": 58.4,
+          "Load actual RAM": 88.0,
+          "Lambda bank 1 (AFR)": 13.69,
+          "Lambda target (AFR)": 14.82,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": -0.05,
+          "Rail pressure mean (PSI)": 2888.7,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 0.93,
+          "Gear (-)": 2,
+          "Boost (PSI)": 2.5,
+          "Fuel Mode (-)": 20,
+          "Cyl6 Timing Cor (*)": -3.0,
+          "afr_ratio": 0.9237516869095816,
+          "rail_error_psi": -11.300000000000182,
+          "scalar_lookup": 0.8919755045572917,
+          "Torque lim. 1 (-)": 1,
+          "Torque lim. 2 (-)": 1,
+          "Torque lim. 3 (-)": 1
+        },
+        {
+          "Time": 289.287,
+          "RPM (rpm)": 2646,
+          "Accel Ped. Pos. (%)": 58.4,
+          "Load actual RAM": 91.3,
+          "Lambda bank 1 (AFR)": 13.62,
+          "Lambda target (AFR)": 14.09,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": -0.04,
+          "Rail pressure mean (PSI)": 2887.5,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 0.96,
+          "Gear (-)": 2,
+          "Boost (PSI)": 3.0,
+          "Fuel Mode (-)": 20,
+          "Cyl6 Timing Cor (*)": -3.0,
+          "afr_ratio": 0.9666430092264017,
+          "rail_error_psi": -12.5,
+          "scalar_lookup": 0.8901539611816407,
+          "Torque lim. 1 (-)": 1,
+          "Torque lim. 2 (-)": 1,
+          "Torque lim. 3 (-)": 1
+        },
+        {
+          "Time": 289.387,
+          "RPM (rpm)": 2686,
+          "Accel Ped. Pos. (%)": 62.4,
+          "Load actual RAM": 95.8,
+          "Lambda bank 1 (AFR)": 13.76,
+          "Lambda target (AFR)": 13.92,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": -0.03,
+          "Rail pressure mean (PSI)": 2885.0,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 0.98,
+          "Gear (-)": 2,
+          "Boost (PSI)": 3.4,
+          "Fuel Mode (-)": 20,
+          "Cyl6 Timing Cor (*)": -2.7,
+          "afr_ratio": 0.9885057471264368,
+          "rail_error_psi": -15.0,
+          "scalar_lookup": 0.8876482137044271,
+          "Torque lim. 1 (-)": 1,
+          "Torque lim. 2 (-)": 1,
+          "Torque lim. 3 (-)": 1
+        },
+        {
+          "Time": 289.487,
+          "RPM (rpm)": 2774,
+          "Accel Ped. Pos. (%)": 70.6,
+          "Load actual RAM": 99.1,
+          "Lambda bank 1 (AFR)": 13.53,
+          "Lambda target (AFR)": 13.83,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": -0.02,
+          "Rail pressure mean (PSI)": 2882.0,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 185,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 1.0,
+          "Gear (-)": 2,
+          "Boost (PSI)": 3.8,
+          "Fuel Mode (-)": 20,
+          "Cyl6 Timing Cor (*)": -2.7,
+          "afr_ratio": 0.9783080260303687,
+          "rail_error_psi": -18.0,
+          "scalar_lookup": 0.8851064554850261,
+          "Torque lim. 1 (-)": 1,
+          "Torque lim. 2 (-)": 1,
+          "Torque lim. 3 (-)": 1
+        },
+        {
+          "Time": 289.587,
+          "RPM (rpm)": 2918,
+          "Accel Ped. Pos. (%)": 74.1,
+          "Load actual RAM": 101.2,
+          "Lambda bank 1 (AFR)": 13.24,
+          "Lambda target (AFR)": 13.76,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.0,
+          "Rail pressure mean (PSI)": 2894.7,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 185,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 1.02,
+          "Gear (-)": 2,
+          "Boost (PSI)": 4.3,
+          "Fuel Mode (-)": 20,
+          "Cyl6 Timing Cor (*)": -2.3,
+          "afr_ratio": 0.9622093023255814,
+          "rail_error_psi": -5.300000000000182,
+          "scalar_lookup": 0.8818924967447916,
+          "Torque lim. 1 (-)": 1,
+          "Torque lim. 2 (-)": 1,
+          "Torque lim. 3 (-)": 1
+        },
+        {
+          "Time": 289.687,
+          "RPM (rpm)": 3038,
+          "Accel Ped. Pos. (%)": 74.1,
+          "Load actual RAM": 105.5,
+          "Lambda bank 1 (AFR)": 13.65,
+          "Lambda target (AFR)": 13.98,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.0,
+          "Rail pressure mean (PSI)": 2922.7,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 185,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 0.99,
+          "Gear (-)": 2,
+          "Boost (PSI)": 4.8,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -2.3,
+          "afr_ratio": 0.9763948497854077,
+          "rail_error_psi": 22.699999999999818,
+          "scalar_lookup": 0.8775324584960937,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 1
+        },
+        {
+          "Time": 289.797,
+          "RPM (rpm)": 3207,
+          "Accel Ped. Pos. (%)": 73.7,
+          "Load actual RAM": 110.8,
+          "Lambda bank 1 (AFR)": 14.41,
+          "Lambda target (AFR)": 14.87,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2901.0,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 185,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 0.97,
+          "Gear (-)": 2,
+          "Boost (PSI)": 5.6,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -2.3,
+          "afr_ratio": 0.96906523201076,
+          "rail_error_psi": 1.0,
+          "scalar_lookup": 0.874533583984375,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 1
+        },
+        {
+          "Time": 289.897,
+          "RPM (rpm)": 3347,
+          "Accel Ped. Pos. (%)": 71.8,
+          "Load actual RAM": 115.7,
+          "Lambda bank 1 (AFR)": 14.05,
+          "Lambda target (AFR)": 14.95,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2899.1,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 185,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 0.98,
+          "Gear (-)": 2,
+          "Boost (PSI)": 6.3,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -1.9,
+          "afr_ratio": 0.939799331103679,
+          "rail_error_psi": -0.900000000000091,
+          "scalar_lookup": 0.8898395941162109,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 1
+        },
+        {
+          "Time": 290.007,
+          "RPM (rpm)": 3480,
+          "Accel Ped. Pos. (%)": 71.0,
+          "Load actual RAM": 123.0,
+          "Lambda bank 1 (AFR)": 13.5,
+          "Lambda target (AFR)": 14.76,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2850.4,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 185,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 1.04,
+          "Gear (-)": 2,
+          "Boost (PSI)": 7.3,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -1.9,
+          "afr_ratio": 0.9146341463414634,
+          "rail_error_psi": -49.59999999999991,
+          "scalar_lookup": 0.9139705810546875,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 1
+        },
+        {
+          "Time": 290.117,
+          "RPM (rpm)": 3644,
+          "Accel Ped. Pos. (%)": 66.7,
+          "Load actual RAM": 132.3,
+          "Lambda bank 1 (AFR)": 12.42,
+          "Lambda target (AFR)": 14.41,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2835.0,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 185,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 1.11,
+          "Gear (-)": 2,
+          "Boost (PSI)": 8.4,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -1.9,
+          "afr_ratio": 0.8619014573213046,
+          "rail_error_psi": -65.0,
+          "scalar_lookup": 0.8959016650390625,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 290.218,
+          "RPM (rpm)": 3814,
+          "Accel Ped. Pos. (%)": 65.9,
+          "Load actual RAM": 141.1,
+          "Lambda bank 1 (AFR)": 11.63,
+          "Lambda target (AFR)": 13.81,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2847.7,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 185,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 1.16,
+          "Gear (-)": 2,
+          "Boost (PSI)": 9.7,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -1.5,
+          "afr_ratio": 0.8421433743664012,
+          "rail_error_psi": -52.30000000000018,
+          "scalar_lookup": 0.8768698120117188,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 290.331,
+          "RPM (rpm)": 3982,
+          "Accel Ped. Pos. (%)": 63.1,
+          "Load actual RAM": 146.2,
+          "Lambda bank 1 (AFR)": 11.2,
+          "Lambda target (AFR)": 13.26,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2843.8,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 185,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 1.22,
+          "Gear (-)": 3,
+          "Boost (PSI)": 11.0,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -1.5,
+          "afr_ratio": 0.8446455505279035,
+          "rail_error_psi": -56.19999999999982,
+          "scalar_lookup": 0.8855389404296875,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 290.433,
+          "RPM (rpm)": 4118,
+          "Accel Ped. Pos. (%)": 62.0,
+          "Load actual RAM": 146.0,
+          "Lambda bank 1 (AFR)": 11.09,
+          "Lambda target (AFR)": 12.92,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2883.4,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 185,
+          "IAT (*F)": 115,
+          "HDP I-Factor (-)": 1.25,
+          "Gear (-)": 3,
+          "Boost (PSI)": 11.2,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -1.2,
+          "afr_ratio": 0.858359133126935,
+          "rail_error_psi": -16.59999999999991,
+          "scalar_lookup": 0.8645720214843751,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 290.539,
+          "RPM (rpm)": 4202,
+          "Accel Ped. Pos. (%)": 62.0,
+          "Load actual RAM": 146.4,
+          "Lambda bank 1 (AFR)": 11.2,
+          "Lambda target (AFR)": 12.81,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2913.0,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 113,
+          "HDP I-Factor (-)": 1.21,
+          "Gear (-)": 3,
+          "Boost (PSI)": 11.0,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -1.2,
+          "afr_ratio": 0.8743169398907102,
+          "rail_error_psi": 13.0,
+          "scalar_lookup": 0.8500184814453124,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 4
+        },
+        {
+          "Time": 290.647,
+          "RPM (rpm)": 3782,
+          "Accel Ped. Pos. (%)": 63.1,
+          "Load actual RAM": 145.4,
+          "Lambda bank 1 (AFR)": 14.79,
+          "Lambda target (AFR)": 14.71,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2942.8,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 185,
+          "IAT (*F)": 113,
+          "HDP I-Factor (-)": 1.13,
+          "Gear (-)": 3,
+          "Boost (PSI)": 11.3,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -1.2,
+          "afr_ratio": 1.0054384772263765,
+          "rail_error_psi": 42.80000000000018,
+          "scalar_lookup": 0.8841790771484375,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 4
+        },
+        {
+          "Time": 290.747,
+          "RPM (rpm)": 3442,
+          "Accel Ped. Pos. (%)": 64.7,
+          "Load actual RAM": 145.1,
+          "Lambda bank 1 (AFR)": 16.39,
+          "Lambda target (AFR)": 19.83,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2964.6,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 113,
+          "HDP I-Factor (-)": 1.07,
+          "Gear (-)": 3,
+          "Boost (PSI)": 11.5,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -1.2,
+          "afr_ratio": 0.8265254664649522,
+          "rail_error_psi": 64.59999999999991,
+          "scalar_lookup": 0.883079287109375,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 4
+        },
+        {
+          "Time": 290.847,
+          "RPM (rpm)": 3181,
+          "Accel Ped. Pos. (%)": 65.1,
+          "Load actual RAM": 145.0,
+          "Lambda bank 1 (AFR)": 17.58,
+          "Lambda target (AFR)": 21.64,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.0,
+          "Rail pressure mean (PSI)": 2848.1,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 113,
+          "HDP I-Factor (-)": 1.17,
+          "Gear (-)": 3,
+          "Boost (PSI)": 11.7,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -1.2,
+          "afr_ratio": 0.8123844731977817,
+          "rail_error_psi": -51.90000000000009,
+          "scalar_lookup": 0.8803060302734375,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 4
+        },
+        {
+          "Time": 290.948,
+          "RPM (rpm)": 3302,
+          "Accel Ped. Pos. (%)": 65.1,
+          "Load actual RAM": 148.1,
+          "Lambda bank 1 (AFR)": 12.59,
+          "Lambda target (AFR)": 16.14,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.0,
+          "Rail pressure mean (PSI)": 2888.8,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 113,
+          "HDP I-Factor (-)": 1.24,
+          "Gear (-)": 3,
+          "Boost (PSI)": 11.9,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -4.2,
+          "afr_ratio": 0.7800495662949194,
+          "rail_error_psi": -11.199999999999818,
+          "scalar_lookup": 0.8858051416015624,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 291.047,
+          "RPM (rpm)": 3350,
+          "Accel Ped. Pos. (%)": 65.1,
+          "Load actual RAM": 153.1,
+          "Lambda bank 1 (AFR)": 11.99,
+          "Lambda target (AFR)": 13.74,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2842.1,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 111,
+          "HDP I-Factor (-)": 1.3,
+          "Gear (-)": 3,
+          "Boost (PSI)": 12.7,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -4.2,
+          "afr_ratio": 0.8726346433770015,
+          "rail_error_psi": -57.90000000000009,
+          "scalar_lookup": 0.8930851912064987,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 291.147,
+          "RPM (rpm)": 3423,
+          "Accel Ped. Pos. (%)": 65.1,
+          "Load actual RAM": 159.2,
+          "Lambda bank 1 (AFR)": 11.67,
+          "Lambda target (AFR)": 13.12,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2840.7,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 111,
+          "HDP I-Factor (-)": 1.37,
+          "Gear (-)": 3,
+          "Boost (PSI)": 13.7,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -4.2,
+          "afr_ratio": 0.8894817073170732,
+          "rail_error_psi": -59.30000000000018,
+          "scalar_lookup": 0.9019992613636364,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 291.247,
+          "RPM (rpm)": 3501,
+          "Accel Ped. Pos. (%)": 65.1,
+          "Load actual RAM": 166.0,
+          "Lambda bank 1 (AFR)": 11.28,
+          "Lambda target (AFR)": 12.93,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2844.3,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 111,
+          "HDP I-Factor (-)": 1.42,
+          "Gear (-)": 3,
+          "Boost (PSI)": 14.6,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -3.8,
+          "afr_ratio": 0.8723897911832946,
+          "rail_error_psi": -55.69999999999982,
+          "scalar_lookup": 0.9120175648082386,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 291.357,
+          "RPM (rpm)": 3604,
+          "Accel Ped. Pos. (%)": 65.1,
+          "Load actual RAM": 174.4,
+          "Lambda bank 1 (AFR)": 11.04,
+          "Lambda target (AFR)": 12.85,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2856.0,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 111,
+          "HDP I-Factor (-)": 1.47,
+          "Gear (-)": 3,
+          "Boost (PSI)": 15.9,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -3.8,
+          "afr_ratio": 0.8591439688715953,
+          "rail_error_psi": -44.0,
+          "scalar_lookup": 0.914120322265625,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 291.467,
+          "RPM (rpm)": 3714,
+          "Accel Ped. Pos. (%)": 67.8,
+          "Load actual RAM": 181.3,
+          "Lambda bank 1 (AFR)": 10.87,
+          "Lambda target (AFR)": 12.81,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2863.4,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 111,
+          "HDP I-Factor (-)": 1.51,
+          "Gear (-)": 4,
+          "Boost (PSI)": 16.8,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -3.8,
+          "afr_ratio": 0.8485558157689305,
+          "rail_error_psi": -36.59999999999991,
+          "scalar_lookup": 0.9088583386230469,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 291.567,
+          "RPM (rpm)": 3829,
+          "Accel Ped. Pos. (%)": 76.1,
+          "Load actual RAM": 188.2,
+          "Lambda bank 1 (AFR)": 10.59,
+          "Lambda target (AFR)": 12.79,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2873.9,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 111,
+          "HDP I-Factor (-)": 1.54,
+          "Gear (-)": 4,
+          "Boost (PSI)": 17.8,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -3.4,
+          "afr_ratio": 0.8279906176700548,
+          "rail_error_psi": -26.09999999999991,
+          "scalar_lookup": 0.8978792690207741,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 291.667,
+          "RPM (rpm)": 3866,
+          "Accel Ped. Pos. (%)": 75.3,
+          "Load actual RAM": 195.2,
+          "Lambda bank 1 (AFR)": 10.59,
+          "Lambda target (AFR)": 12.78,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2849.5,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 111,
+          "HDP I-Factor (-)": 1.53,
+          "Gear (-)": 4,
+          "Boost (PSI)": 18.8,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -3.4,
+          "afr_ratio": 0.8286384976525822,
+          "rail_error_psi": -50.5,
+          "scalar_lookup": 0.8933622864879261,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 4
+        },
+        {
+          "Time": 291.778,
+          "RPM (rpm)": 3688,
+          "Accel Ped. Pos. (%)": 75.3,
+          "Load actual RAM": 191.1,
+          "Lambda bank 1 (AFR)": 12.95,
+          "Lambda target (AFR)": 14.17,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2949.1,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 111,
+          "HDP I-Factor (-)": 1.45,
+          "Gear (-)": 4,
+          "Boost (PSI)": 19.4,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -3.4,
+          "afr_ratio": 0.9139026111503176,
+          "rail_error_psi": 49.09999999999991,
+          "scalar_lookup": 0.9177119711026278,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 4
+        },
+        {
+          "Time": 291.898,
+          "RPM (rpm)": 3410,
+          "Accel Ped. Pos. (%)": 74.1,
+          "Load actual RAM": 180.9,
+          "Lambda bank 1 (AFR)": 14.62,
+          "Lambda target (AFR)": 17.07,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2908.1,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 111,
+          "HDP I-Factor (-)": 1.44,
+          "Gear (-)": 4,
+          "Boost (PSI)": 18.3,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -3.4,
+          "afr_ratio": 0.8564733450497949,
+          "rail_error_psi": 8.099999999999909,
+          "scalar_lookup": 0.9285369689941406,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 4
+        },
+        {
+          "Time": 292.007,
+          "RPM (rpm)": 3416,
+          "Accel Ped. Pos. (%)": 74.5,
+          "Load actual RAM": 177.2,
+          "Lambda bank 1 (AFR)": 13.2,
+          "Lambda target (AFR)": 17.7,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.0,
+          "Rail pressure mean (PSI)": 2731.7,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 109,
+          "HDP I-Factor (-)": 1.53,
+          "Gear (-)": 4,
+          "Boost (PSI)": 17.1,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -3.4,
+          "afr_ratio": 0.7457627118644068,
+          "rail_error_psi": -168.30000000000018,
+          "scalar_lookup": 0.9241113689630681,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 292.109,
+          "RPM (rpm)": 3412,
+          "Accel Ped. Pos. (%)": 74.5,
+          "Load actual RAM": 176.5,
+          "Lambda bank 1 (AFR)": 11.05,
+          "Lambda target (AFR)": 13.87,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.0,
+          "Rail pressure mean (PSI)": 2861.5,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 109,
+          "HDP I-Factor (-)": 1.57,
+          "Gear (-)": 4,
+          "Boost (PSI)": 16.9,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -3.0,
+          "afr_ratio": 0.7966834895457824,
+          "rail_error_psi": -38.5,
+          "scalar_lookup": 0.923150870028409,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 292.217,
+          "RPM (rpm)": 3469,
+          "Accel Ped. Pos. (%)": 74.5,
+          "Load actual RAM": 176.8,
+          "Lambda bank 1 (AFR)": 10.97,
+          "Lambda target (AFR)": 13.04,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.0,
+          "Rail pressure mean (PSI)": 2881.5,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 109,
+          "HDP I-Factor (-)": 1.6,
+          "Gear (-)": 4,
+          "Boost (PSI)": 16.9,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -3.0,
+          "afr_ratio": 0.8412576687116565,
+          "rail_error_psi": -18.5,
+          "scalar_lookup": 0.9248808957741478,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 292.327,
+          "RPM (rpm)": 3520,
+          "Accel Ped. Pos. (%)": 74.5,
+          "Load actual RAM": 177.7,
+          "Lambda bank 1 (AFR)": 10.96,
+          "Lambda target (AFR)": 12.84,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2895.9,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 109,
+          "HDP I-Factor (-)": 1.6,
+          "Gear (-)": 4,
+          "Boost (PSI)": 17.0,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -3.0,
+          "afr_ratio": 0.853582554517134,
+          "rail_error_psi": -4.099999999999909,
+          "scalar_lookup": 0.9248960371537641,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 292.427,
+          "RPM (rpm)": 3584,
+          "Accel Ped. Pos. (%)": 74.5,
+          "Load actual RAM": 180.8,
+          "Lambda bank 1 (AFR)": 10.9,
+          "Lambda target (AFR)": 12.81,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2919.0,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 109,
+          "HDP I-Factor (-)": 1.58,
+          "Gear (-)": 4,
+          "Boost (PSI)": 17.2,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -2.7,
+          "afr_ratio": 0.8508977361436377,
+          "rail_error_psi": 19.0,
+          "scalar_lookup": 0.921983515625,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 292.527,
+          "RPM (rpm)": 3646,
+          "Accel Ped. Pos. (%)": 74.5,
+          "Load actual RAM": 184.4,
+          "Lambda bank 1 (AFR)": 10.75,
+          "Lambda target (AFR)": 12.79,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2897.7,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 108,
+          "HDP I-Factor (-)": 1.59,
+          "Gear (-)": 4,
+          "Boost (PSI)": 17.7,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -2.7,
+          "afr_ratio": 0.8405003909304144,
+          "rail_error_psi": -2.300000000000182,
+          "scalar_lookup": 0.918353465909091,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 292.627,
+          "RPM (rpm)": 3746,
+          "Accel Ped. Pos. (%)": 74.1,
+          "Load actual RAM": 189.3,
+          "Lambda bank 1 (AFR)": 10.66,
+          "Lambda target (AFR)": 12.78,
+          "STFT 1 (%)": -18.4,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2901.6,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 108,
+          "HDP I-Factor (-)": 1.55,
+          "Gear (-)": 5,
+          "Boost (PSI)": 18.1,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -2.7,
+          "afr_ratio": 0.8341158059467919,
+          "rail_error_psi": 1.599999999999909,
+          "scalar_lookup": 0.9089605900435014,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        },
+        {
+          "Time": 292.738,
+          "RPM (rpm)": 3805,
+          "Accel Ped. Pos. (%)": 72.2,
+          "Load actual RAM": 195.8,
+          "Lambda bank 1 (AFR)": 12.25,
+          "Lambda target (AFR)": 12.78,
+          "STFT 1 (%)": -18.1,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2983.9,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 108,
+          "HDP I-Factor (-)": 1.45,
+          "Gear (-)": 5,
+          "Boost (PSI)": 19.0,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -2.3,
+          "afr_ratio": 0.958528951486698,
+          "rail_error_psi": 83.90000000000009,
+          "scalar_lookup": 0.9027264398748225,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 4
+        },
+        {
+          "Time": 292.837,
+          "RPM (rpm)": 3623,
+          "Accel Ped. Pos. (%)": 42.7,
+          "Load actual RAM": 186.2,
+          "Lambda bank 1 (AFR)": 13.8,
+          "Lambda target (AFR)": 13.01,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 2951.1,
+          "Rail pressure req. (PSI)": 2900.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 108,
+          "HDP I-Factor (-)": 1.43,
+          "Gear (-)": 5,
+          "Boost (PSI)": 19.9,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -2.3,
+          "afr_ratio": 1.0607225211375866,
+          "rail_error_psi": 51.09999999999991,
+          "scalar_lookup": 0.9225177970747515,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 4
+        },
+        {
+          "Time": 292.937,
+          "RPM (rpm)": 3388,
+          "Accel Ped. Pos. (%)": 0.0,
+          "Load actual RAM": 87.8,
+          "Lambda bank 1 (AFR)": 15.97,
+          "Lambda target (AFR)": 16.39,
+          "STFT 1 (%)": 0.0,
+          "LTFT 1 (%)": 0.01,
+          "Rail pressure mean (PSI)": 3059.7,
+          "Rail pressure req. (PSI)": 2824.0,
+          "Coolant (*F)": 187,
+          "IAT (*F)": 108,
+          "HDP I-Factor (-)": 1.32,
+          "Gear (-)": 5,
+          "Boost (PSI)": 12.9,
+          "Fuel Mode (-)": 2,
+          "Cyl6 Timing Cor (*)": -0.4,
+          "afr_ratio": 0.9743746186699207,
+          "rail_error_psi": 235.69999999999982,
+          "scalar_lookup": 0.8968107299804687,
+          "Torque lim. 1 (-)": 0,
+          "Torque lim. 2 (-)": 0,
+          "Torque lim. 3 (-)": 0
+        }
+      ]
+    }
+  ]
+}
