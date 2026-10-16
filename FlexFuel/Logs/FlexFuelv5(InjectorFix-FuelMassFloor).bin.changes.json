@@ -1,0 +1,1097 @@
+{
+  "session": {
+    "session_id": "a2dc31cbd5b546e6b0dcc66710f260d1",
+    "created_at": "2026-10-15T16:47:44",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "FlexFuelv4(FuelScalar-93).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 25,
+    "dirty_table_count": 2,
+    "dirty_table_ids": [
+      "table-0544-0x728",
+      "table-1115-0x5f5e"
+    ],
+    "export_ready": true,
+    "can_undo": true,
+    "fuel_banks_linked": true,
+    "fuel_bank_patch_available": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-10-16T01:05:58",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 6.58
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.5800005119999998,
+        "max_delta": 1.5800005119999998
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:06:04",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 1,
+        "col_end": 1,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 6.03
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.5578324892000008,
+        "max_delta": 1.5578324892000008
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:06:10",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 2,
+        "col_end": 2,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 5.59
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.5074808867999998,
+        "max_delta": 1.5074808867999998
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:06:16",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 3,
+        "col_end": 3,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 4.97
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.1904593713999998,
+        "max_delta": 1.1904593713999998
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:06:25",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 4,
+        "col_end": 4,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 4.37
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.0367483882000004,
+        "max_delta": 1.0367483882000004
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:06:30",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 5,
+        "col_end": 5,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 3.84
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.1673928517999999,
+        "max_delta": 1.1673928517999999
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:06:40",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 6,
+        "col_end": 6,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 3.38
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.3800002048,
+        "max_delta": 1.3800002048
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:06:53",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 7,
+        "col_end": 7,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 3.01
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.1843165932,
+        "max_delta": 1.1843165932
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:07:04",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 8,
+        "col_end": 8,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 2.61
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 1.0289454744,
+        "max_delta": 1.0289454744
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:07:10",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 9,
+        "col_end": 9,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 2.32
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.9056935041999998,
+        "max_delta": 0.9056935041999998
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:07:16",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 10,
+        "col_end": 10,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1.96
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.6689845072,
+        "max_delta": 0.6689845072
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:07:21",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 11,
+        "col_end": 11,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1.72
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.5246876224000001,
+        "max_delta": 0.5246876224000001
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:07:28",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 12,
+        "col_end": 12,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1.49
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.37208019260000014,
+        "max_delta": 0.37208019260000014
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:07:39",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 13,
+        "col_end": 13,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1.295
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.24080088919999998,
+        "max_delta": 0.24080088919999998
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:07:51",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 14,
+        "col_end": 14,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 1.13
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.13000010239999993,
+        "max_delta": 0.13000010239999993
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:08:00",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 15,
+        "col_end": 15,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.9797
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.06954384320000007,
+        "max_delta": 0.06954384320000007
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:08:08",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 16,
+        "col_end": 16,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.844
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.0019590706000000013,
+        "max_delta": 0.0019590706000000013
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:08:18",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 17,
+        "col_end": 17,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.8
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.012890705600000052,
+        "max_delta": 0.012890705600000052
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:08:34",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 17,
+        "col_end": 17,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.729
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": -0.07104874620000001,
+        "max_delta": -0.07104874620000001
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:08:41",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 17,
+        "col_end": 17,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.8
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": 0.07099616840000011,
+        "max_delta": 0.07099616840000011
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:08:48",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 18,
+        "col_end": 18,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.729
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": -0.01294328339999995,
+        "max_delta": -0.01294328339999995
+      }
+    },
+    {
+      "timestamp": "2026-10-16T01:09:09",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 19,
+        "col_end": 19,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.625
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": -0.07861320919999992,
+        "max_delta": -0.07861320919999992
+      }
+    },
+    {
+      "timestamp": "2026-10-16T09:42:44",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "import_table",
+      "selection": {
+        "rows": 1,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_only",
+        "parsed_title": "Ti correction with variable fuel pressure",
+        "x_axis_changed": 0,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 18,
+        "min_delta": -0.004638671400000405,
+        "max_delta": 0.004638671399999517
+      }
+    },
+    {
+      "timestamp": "2026-10-16T13:39:23",
+      "table_id": "table-1115-0x5f5e",
+      "table_title": "Fuel mass monitor lower multiplier (FRKMIN_UM)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.8515625
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": -0.03125,
+        "max_delta": -0.03125
+      }
+    },
+    {
+      "timestamp": "2026-10-16T13:39:25",
+      "table_id": "table-1115-0x5f5e",
+      "table_title": "Fuel mass monitor lower multiplier (FRKMIN_UM)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.8515625
+      },
+      "summary": {
+        "changed_cell_count": 0,
+        "min_delta": 0.0,
+        "max_delta": 0.0
+      }
+    }
+  ],
+  "exports": [
+    {
+      "session": {
+        "session_id": "a2dc31cbd5b546e6b0dcc66710f260d1",
+        "created_at": "2026-10-15T16:47:44",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "FlexFuelv4(FuelScalar-93).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 25,
+        "dirty_table_count": 2,
+        "dirty_table_ids": [
+          "table-0544-0x728",
+          "table-1115-0x5f5e"
+        ],
+        "export_ready": true,
+        "can_undo": true,
+        "fuel_banks_linked": true,
+        "fuel_bank_patch_available": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-10-16T01:05:58",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 0,
+            "col_end": 0,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 6.58
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 1.5800005119999998,
+            "max_delta": 1.5800005119999998
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:06:04",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 1,
+            "col_end": 1,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 6.03
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 1.5578324892000008,
+            "max_delta": 1.5578324892000008
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:06:10",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 2,
+            "col_end": 2,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 5.59
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 1.5074808867999998,
+            "max_delta": 1.5074808867999998
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:06:16",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 3,
+            "col_end": 3,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 4.97
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 1.1904593713999998,
+            "max_delta": 1.1904593713999998
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:06:25",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 4,
+            "col_end": 4,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 4.37
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 1.0367483882000004,
+            "max_delta": 1.0367483882000004
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:06:30",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 5,
+            "col_end": 5,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 3.84
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 1.1673928517999999,
+            "max_delta": 1.1673928517999999
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:06:40",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 6,
+            "col_end": 6,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 3.38
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 1.3800002048,
+            "max_delta": 1.3800002048
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:06:53",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 7,
+            "col_end": 7,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 3.01
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 1.1843165932,
+            "max_delta": 1.1843165932
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:07:04",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 8,
+            "col_end": 8,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 2.61
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 1.0289454744,
+            "max_delta": 1.0289454744
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:07:10",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 9,
+            "col_end": 9,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 2.32
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 0.9056935041999998,
+            "max_delta": 0.9056935041999998
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:07:16",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 10,
+            "col_end": 10,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 1.96
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 0.6689845072,
+            "max_delta": 0.6689845072
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:07:21",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 11,
+            "col_end": 11,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 1.72
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 0.5246876224000001,
+            "max_delta": 0.5246876224000001
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:07:28",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 12,
+            "col_end": 12,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 1.49
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 0.37208019260000014,
+            "max_delta": 0.37208019260000014
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:07:39",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 13,
+            "col_end": 13,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 1.295
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 0.24080088919999998,
+            "max_delta": 0.24080088919999998
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:07:51",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 14,
+            "col_end": 14,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 1.13
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 0.13000010239999993,
+            "max_delta": 0.13000010239999993
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:08:00",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 15,
+            "col_end": 15,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.9797
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 0.06954384320000007,
+            "max_delta": 0.06954384320000007
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:08:08",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 16,
+            "col_end": 16,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.844
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 0.0019590706000000013,
+            "max_delta": 0.0019590706000000013
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:08:18",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 17,
+            "col_end": 17,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.8
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 0.012890705600000052,
+            "max_delta": 0.012890705600000052
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:08:34",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 17,
+            "col_end": 17,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.729
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": -0.07104874620000001,
+            "max_delta": -0.07104874620000001
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:08:41",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 17,
+            "col_end": 17,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.8
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": 0.07099616840000011,
+            "max_delta": 0.07099616840000011
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:08:48",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 18,
+            "col_end": 18,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.729
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": -0.01294328339999995,
+            "max_delta": -0.01294328339999995
+          }
+        },
+        {
+          "timestamp": "2026-10-16T01:09:09",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 19,
+            "col_end": 19,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.625
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": -0.07861320919999992,
+            "max_delta": -0.07861320919999992
+          }
+        },
+        {
+          "timestamp": "2026-10-16T09:42:44",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "import_table",
+          "selection": {
+            "rows": 1,
+            "cols": 20
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Ti correction with variable fuel pressure",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 18,
+            "min_delta": -0.004638671400000405,
+            "max_delta": 0.004638671399999517
+          }
+        },
+        {
+          "timestamp": "2026-10-16T13:39:23",
+          "table_id": "table-1115-0x5f5e",
+          "table_title": "Fuel mass monitor lower multiplier (FRKMIN_UM)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 0,
+            "col_end": 0,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.8515625
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": -0.03125,
+            "max_delta": -0.03125
+          }
+        },
+        {
+          "timestamp": "2026-10-16T13:39:25",
+          "table_id": "table-1115-0x5f5e",
+          "table_title": "Fuel mass monitor lower multiplier (FRKMIN_UM)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 0,
+            "col_end": 0,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.8515625
+          },
+          "summary": {
+            "changed_cell_count": 0,
+            "min_delta": 0.0,
+            "max_delta": 0.0
+          }
+        }
+      ],
+      "exported_at": "2026-10-16T13:40:22"
+    }
+  ]
+}

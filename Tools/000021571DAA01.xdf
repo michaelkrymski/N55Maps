@@ -53907,4 +53907,44 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 38.</description>
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
+  <XDFTABLE uniqueid="0x5f5e" flags="0x0">
+    <title>Fuel mass monitor lower multiplier (FRKMIN_UM)</title>
+    <description>FRKMIN_UM: lower multiplier for the fuel-mass safety monitor. Verified in the supplied J00B code at file offset 0x1B84C0. Unsigned 8-bit storage, physical value = raw / 128. The positive-reference lower-bound stage is approximately trunc(reference_raw * raw / 128) - RKO_UM_raw * 16, with saturation and other checks. This is not a direct minimum for Fuel Scalar table cells. Lowering it widens the permitted lower deviation in the monitored fuel quantity; it does not repair injector characterization or directly command fueling. Current audited raw value 113 = 0.8828125. No threshold change has been validated by this definition. Resolution is 0.0078125; exactly 0.85 is not representable.</description>
+    <CATEGORYMEM index="0" category="5" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <decimalpl>1</decimalpl>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.0" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <indexcount>1</indexcount>
+      <decimalpl>1</decimalpl>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.0" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1B84C0" mmedelementsizebits="8" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>7</decimalpl>
+      <min>0.0000000</min>
+      <max>1.9921875</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X/128">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  
 </XDFFORMAT>

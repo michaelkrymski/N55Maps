@@ -1,0 +1,1371 @@
+C:\Users\Michael Krymski\Documents\N55Maps\E85\Revisions\E85v6(InjectorsFix).bin
+29f19577dfd6054637879e7b121af305b3eec308c1496f3c92b3012e0f81e821
+CALLA segment reconstruction and relocated RAM helper mapping required.
+ST.T immediate rendering is unreliable in this decoder; retain raw bytes.
+
+Forward conversion and factor/offset selection
+802F2764 2028       sub.a        sp, #0x28
+802F2766 8f2420d0   sha          d13, d4, #2
+802F276A 09ab6808   ld.bu        d11, [sp]#0x28
+802F276E 8200       mov          d0, #0
+802F2770 59a62400   st.w         [sp]#0x24, d6
+802F2774 0249       mov          d9, d4
+802F2776 74a0       st.w         [sp], d0
+802F2778 1abd       add          d15, d13, d11
+802F277A 025c       mov          d12, d5
+802F277C 0278       mov          d8, d7
+802F277E 16ff       and          d15, #0xff
+802F2780 60fe       mov.a        a14, d15
+802F2782 f679       jnz          d7, #0x802f2794
+802F2784 820a       mov          d10, #0
+802F2786 c5dfaa10   lea          a15, #0xd000086a
+802F278A 01f400f6   addsc.a      a15, a15, d4, #0
+802F278E 0cf0       ld.bu        d15, [a15]#0
+802F2790 df0f0104   jeq          d15, #0, #0x802f2f92
+802F2794 09a4e608   ld.hu        d4, [sp]#0x26
+802F2798 0285       mov          d5, d8
+802F279A 8f042140   sha          d4, d4, #0x10
+802F279E 09afe408   ld.hu        d15, [sp]#0x24
+802F27A2 bbf0ffaf   mov.u        d10, #0xffff
+802F27A6 910000dc   movh.a       a13, #0xc000
+802F27AA a6f4       or           d4, d15
+802F27AC d9dde871   lea          a13, [a13]#0x1de8
+802F27B0 6dffc0fd   call         #0x802f2330
+802F27B4 9100002c   movh.a       a2, #0xc000
+802F27B8 0224       mov          d4, d2
+802F27BA 999c78a0   ld.a         a12, [a9]#0x6b8
+802F27BE d922f471   lea          a2, [a2]#0x1df4
+802F27C2 d9cf3ee0   lea          a15, [a12]#0x3be
+802F27C6 d9c400f0   lea          a4, [a12]#0x3c0
+802F27CA b422       st.h         [a2], d2
+802F27CC 09f5c008   ld.hu        d5, [a15]#0
+802F27D0 d9cf38e0   lea          a15, [a12]#0x3b8
+802F27D4 6dee3e2b   call         #0x800b7e50
+802F27D8 d9c436d0   lea          a4, [a12]#0x376
+802F27DC 0224       mov          d4, d2
+802F27DE 59027c88   st.w         [a0]#-0x79c4, d2
+802F27E2 6dee7b2b   call         #0x800b7ed8
+802F27E6 d9c41ac0   lea          a4, [a12]#0x31a
+802F27EA 022e       mov          d14, d2
+802F27EC 19047c88   ld.w         d4, [a0]#-0x79c4
+802F27F0 6dee9e2b   call         #0x800b7f2c
+802F27F4 3be00060   mov          d6, #0xe
+802F27F8 09f5c008   ld.hu        d5, [a15]#0
+802F27FC 0224       mov          d4, d2
+802F27FE 910000fc   movh.a       a15, #0xc000
+802F2802 edc08726   calla        #0x4d0e
+802F2806 09c54e68   ld.bu        d5, [a12]#0x18e
+802F280A d9ff8ab2   lea          a15, [a15]#0x2aca
+802F280E 022f       mov          d15, d2
+802F2810 01c50056   addsc.a      a5, a12, d5, #0
+802F2814 d9c40f60   lea          a4, [a12]#0x18f
+802F2818 0804       ld.bu        d4, [a15]#0
+802F281A d9550f60   lea          a5, [a5]#0x18f
+802F281E 6dee6e31   call         #0x800b8afa
+802F2822 8276       mov          d6, #7
+802F2824 02f4       mov          d4, d15
+802F2826 0225       mov          d5, d2
+802F2828 25d2b710   st.b         #0xd0000877, d2
+802F282C edc08726   calla        #0x4d0e
+802F2830 0284       mov          d4, d8
+802F2832 0225       mov          d5, d2
+802F2834 3b900060   mov          d6, #9
+802F2838 edc08726   calla        #0x4d0e
+802F283C 3bf01c50   mov          d5, #0x1cf
+802F2840 0224       mov          d4, d2
+802F2842 3ba00060   mov          d6, #0xa
+802F2846 edc08726   calla        #0x4d0e
+802F284A 0ba280f1   min          d15, d2, d10
+802F284E acd0       st.h         [a13]#0, d15
+802F2850 da80       mov          d15, #0x80
+802F2852 0228       mov          d8, d2
+802F2854 5ffc1800   jeq          d12, d15, #0x802f2884
+802F2858 8fcc1ff0   sh           d15, d12, #-4
+802F285C d90f7c89   lea          a15, [a0]#-0x69c4
+802F2860 0224       mov          d4, d2
+802F2862 8255       mov          d5, #5
+802F2864 8216       mov          d6, #1
+802F2866 133920ff   madd         d15, d15, d9, #3
+802F286A edc08726   calla        #0x4d0e
+802F286E 8200       mov          d0, #0
+802F2870 c2ff       add          d15, #-1
+802F2872 37f08800   insert       d0, d0, d15, #1, #8
+802F2876 0b2a40f1   ge           d15, d10, d2
+802F287A 01f000f6   addsc.a      a15, a15, d0, #0
+802F287E abf29fff   sel          d15, d15, d2, #-1
+802F2882 a80f       st.h         [a15]#0, d15
+802F2884 0cc1       ld.bu        d15, [a12]#1
+802F2886 6e15       jz           d15, #0x802f28b0
+802F2888 bb80deff   mov.u        d15, #0xfde8
+802F288C 09d4c008   ld.hu        d4, [a13]#0
+802F2890 3f4f6580   jlt.u        d15, d4, #0x802f295a
+802F2894 d9cf20a0   lea          a15, [a12]#0x2a0
+802F2898 d9c422a0   lea          a4, [a12]#0x2a2
+802F289C 09f5c008   ld.hu        d5, [a15]#0
+802F28A0 d9c522a0   lea          a5, [a12]#0x2a2
+802F28A4 01550156   addsc.a      a5, a5, d5, #1
+802F28A8 6deef530   call         #0x800b8a92
+802F28AC 0228       mov          d8, d2
+802F28AE 3c56       j            #0x802f295a
+802F28B0 d9c31860   lea          a3, [a12]#0x198
+802F28B4 8205       mov          d5, #0
+802F28B6 09d4c008   ld.hu        d4, [a13]#0
+802F28BA 8201       mov          d1, #0
+802F28BC 09c0d668   ld.hu        d0, [a12]#0x196
+802F28C0 093fc008   ld.hu        d15, [a3]#0
+802F28C4 d9c43870   lea          a4, [a12]#0x1f8
+802F28C8 7f4f4180   jge.u        d15, d4, #0x802f294a
+802F28CC d93ffeff   lea          a15, [a3]#-2
+802F28D0 01f001f6   addsc.a      a15, a15, d0, #1
+802F28D4 0203       mov          d3, d0
+802F28D6 09ffc008   ld.hu        d15, [a15]#0
+802F28DA 7ff43680   jge.u        d4, d15, #0x802f2946
+802F28DE 5a53       sub          d15, d3, d5
+802F28E0 8fff1f20   sh           d2, d15, #-1
+802F28E4 0b238000   sub          d0, d3, d2
+802F28E8 013001f6   addsc.a      a15, a3, d0, #1
+802F28EC 09ffc008   ld.hu        d15, [a15]#0
+802F28F0 7ff40480   jge.u        d4, d15, #0x802f28f8
+802F28F4 0203       mov          d3, d0
+802F28F6 3c0b       j            #0x802f290c
+802F28F8 0b520000   add          d0, d2, d5
+802F28FC 013001f6   addsc.a      a15, a3, d0, #1
+802F2900 09ffc008   ld.hu        d15, [a15]#0
+802F2904 0bf430f1   lt.u         d15, d4, d15
+802F2908 2b05405f   sel          d5, d15, d5, d0
+802F290C df02e9ff   jne          d2, #0, #0x802f28de
+802F2910 01350126   addsc.a      a2, a3, d5, #1
+802F2914 092fc008   ld.hu        d15, [a2]#0
+802F2918 5f4f1900   jeq          d15, d4, #0x802f294a
+802F291C 0920c008   ld.hu        d0, [a2]#0
+802F2920 0b048000   sub          d0, d4, d0
+802F2924 013301f6   addsc.a      a15, a3, d3, #1
+802F2928 8f002100   sha          d0, d0, #0x10
+802F292C 09ffc008   ld.hu        d15, [a15]#0
+802F2930 0921c008   ld.hu        d1, [a2]#0
+802F2934 521f       sub          d15, d15, d1
+802F2936 4bf0a020   dvinit.u     e2, d0, d15
+802F293A a03f       mov.a        a15, #3
+802F293C 6bf0e022   dvstep.u     e2, e2, d15
+802F2940 fcfe       loop         a15, 0x802f293c
+802F2942 0221       mov          d1, d2
+802F2944 3c03       j            #0x802f294a
+802F2946 8bf01f50   add          d5, d0, #-1
+802F294A 8f052140   sha          d4, d5, #0x10
+802F294E 4214       add          d4, d1
+802F2950 6deec42a   call         #0x800b7ed8
+802F2954 37025020   extr         d2, d2, #0, #0x10
+802F2958 2228       adds         d8, d2
+802F295A 9100002c   movh.a       a2, #0xc000
+802F295E 999c78a0   ld.a         a12, [a9]#0x6b8
+802F2962 d90f0af9   lea          a15, [a0]#-0x6c36
+802F2966 d922e871   lea          a2, [a2]#0x1de8
+802F296A 09c6c208   ld.hu        d6, [a12]#2
+802F296E 09c7c408   ld.hu        d7, [a12]#4
+802F2972 1a76       add          d15, d6, d7
+802F2974 0924c008   ld.hu        d4, [a2]#0
+802F2978 09f5c008   ld.hu        d5, [a15]#0
+802F297C d9c40600   lea          a4, [a12]#6
+802F2980 d9c50600   lea          a5, [a12]#6
+802F2984 01560156   addsc.a      a5, a5, d6, #1
+802F2988 d9c60600   lea          a6, [a12]#6
+802F298C 5066       addsc.a      a6, a6, d15, #1
+802F298E 6dee0e32   call         #0x800b8daa
+802F2992 0284       mov          d4, d8
+802F2994 0225       mov          d5, d2
+802F2996 3bf00060   mov          d6, #0xf
+802F299A edc08726   calla        #0x4d0e
+802F299E 22e2       adds         d2, d14
+802F29A0 8255       mov          d5, #5
+802F29A2 0224       mov          d4, d2
+802F29A4 8216       mov          d6, #1
+802F29A6 edc08726   calla        #0x4d0e
+802F29AA 14c0       ld.bu        d0, [a12]
+802F29AC 020f       mov          d15, d0
+802F29AE 0228       mov          d8, d2
+802F29B0 ae0b       jnz.t        d15, #0, #0x802f29c6
+802F29B2 6f105c00   jz.t         d0, #1, #0x802f2a6a
+802F29B6 821f       mov          d15, #1
+802F29B8 d90f9c0a   lea          a15, [a0]#-0x57e4
+802F29BC 0f9f10f0   sha          d15, d15, d9
+802F29C0 0800       ld.bu        d0, [a15]#0
+802F29C2 260f       and          d15, d0
+802F29C4 ee53       jnz          d15, #0x802f2a6a
+802F29C6 c5dfaa10   lea          a15, #0xd000086a
+802F29CA 01f900f6   addsc.a      a15, a15, d9, #0
+802F29CE 0cf0       ld.bu        d15, [a15]#0
+802F29D0 ee05       jnz          d15, #0x802f29da
+802F29D2 0294       mov          d4, d9
+802F29D4 8205       mov          d5, #0
+802F29D6 6d00040b   call         #0x802f3fde
+802F29DA 910000fc   movh.a       a15, #0xc000
+802F29DE 3b000004   mov          d0, #0x4000
+802F29E2 9100002c   movh.a       a2, #0xc000
+802F29E6 89a09808   st.h         [sp]#0x18, d0
+802F29EA d9ff7402   lea          a15, [a15]#0x2434
+802F29EE 89a0a208   st.h         [sp]#0x22, d0
+802F29F2 01fd00f6   addsc.a      a15, a15, d13, #0
+802F29F6 d922e871   lea          a2, [a2]#0x1de8
+802F29FA d9c42af0   lea          a4, [a12]#0x3ea
+802F29FE 84ff       ld.h         d15, [a15+]
+802F2A00 0924c008   ld.hu        d4, [a2]#0
+802F2A04 acad       st.h         [sp]#0x1a, d15
+802F2A06 acae       st.h         [sp]#0x1c, d15
+802F2A08 8cf0       ld.h         d15, [a15]#0
+802F2A0A d9cf28f0   lea          a15, [a12]#0x3e8
+802F2A0E acaf       st.h         [sp]#0x1e, d15
+802F2A10 89afa008   st.h         [sp]#0x20, d15
+802F2A14 09f5c008   ld.hu        d5, [a15]#0
+802F2A18 910000fc   movh.a       a15, #0xc000
+802F2A1C 6dee1a2a   call         #0x800b7e50
+802F2A20 d9a41800   lea          a4, [sp]#0x18
+802F2A24 0224       mov          d4, d2
+802F2A26 d9ff0e12   lea          a15, [a15]#0x204e
+802F2A2A 59024098   st.w         [a0]#-0x79c0, d2
+802F2A2E 6dee7f2a   call         #0x800b7f2c
+802F2A32 01fd00f6   addsc.a      a15, a15, d13, #0
+802F2A36 0285       mov          d5, d8
+802F2A38 3be00060   mov          d6, #0xe
+802F2A3C 0224       mov          d4, d2
+802F2A3E edc08726   calla        #0x4d0e
+802F2A42 84ff       ld.h         d15, [a15+]
+802F2A44 8200       mov          d0, #0
+802F2A46 d9a40c00   lea          a4, [sp]#0xc
+802F2A4A 0228       mov          d8, d2
+802F2A4C 19044098   ld.w         d4, [a0]#-0x79c0
+802F2A50 aca7       st.h         [sp]#0xe, d15
+802F2A52 aca8       st.h         [sp]#0x10, d15
+802F2A54 8cf0       ld.h         d15, [a15]#0
+802F2A56 89a08c08   st.h         [sp]#0xc, d0
+802F2A5A 89a09608   st.h         [sp]#0x16, d0
+802F2A5E aca9       st.h         [sp]#0x12, d15
+802F2A60 acaa       st.h         [sp]#0x14, d15
+802F2A62 6dee3b2a   call         #0x800b7ed8
+802F2A66 2282       adds         d2, d8
+802F2A68 3c02       j            #0x802f2a6c
+802F2A6A 0282       mov          d2, d8
+802F2A6C 0225       mov          d5, d2
+802F2A6E 910000fc   movh.a       a15, #0xc000
+802F2A72 3bc00060   mov          d6, #0xc
+802F2A76 d9ff5412   lea          a15, [a15]#0x2454
+802F2A7A 09f4c008   ld.hu        d4, [a15]#0
+802F2A7E edc08726   calla        #0x4d0e
+802F2A82 022a       mov          d10, d2
+
+Two pause curves and duration-dependent weighting
+802F2B5C 999f78a0   ld.a         a15, [a9]#0x6b8
+802F2B60 09f5fc58   ld.hu        d5, [a15]#0x17c
+802F2B64 09f0fa58   ld.hu        d0, [a15]#0x17a
+802F2B68 6205       subs         d5, d0
+802F2B6A 8b054053   max          d5, d5, #0
+802F2B6E 3235       sat.hu       d5
+802F2B70 37057050   extr.u       d5, d5, #0, #0x10
+802F2B74 9100002c   movh.a       a2, #0xc000
+802F2B78 d922e871   lea          a2, [a2]#0x1de8
+802F2B7C 092fc008   ld.hu        d15, [a2]#0
+802F2B80 620f       subs         d15, d0
+802F2B82 8b0f40f3   max          d15, d15, #0
+802F2B86 323f       sat.hu       d15
+802F2B88 8204       mov          d4, #0
+802F2B8A 910000dc   movh.a       a13, #0xc000
+802F2B8E 910000cc   movh.a       a12, #0xc000
+802F2B92 37f41044   insert       d4, d4, d15, #8, #0x10
+802F2B96 d9dd8cb2   lea          a13, [a13]#0x2acc
+802F2B9A d9ccec71   lea          a12, [a12]#0x1dec
+802F2B9E edc00028   calla        #0x5000
+802F2BA2 910000ec   movh.a       a14, #0xc000
+802F2BA6 d9f202d0   lea          a2, [a15]#0x342
+802F2BAA 34d2       st.b         [a13], d2
+802F2BAC d9eef071   lea          a14, [a14]#0x1df0
+802F2BB0 d9f404d0   lea          a4, [a15]#0x344
+802F2BB4 0925c008   ld.hu        d5, [a2]#0
+802F2BB8 09e4c008   ld.hu        d4, [a14]#0
+802F2BBC d9f510d0   lea          a5, [a15]#0x350
+802F2BC0 6dee4f2f   call         #0x800b8a5e
+802F2BC4 d9f21cd0   lea          a2, [a15]#0x35c
+802F2BC8 d9f41ed0   lea          a4, [a15]#0x35e
+802F2BCC b4c2       st.h         [a12], d2
+802F2BCE d9f52ad0   lea          a5, [a15]#0x36a
+802F2BD2 910000fc   movh.a       a15, #0xc000
+802F2BD6 0925c008   ld.hu        d5, [a2]#0
+802F2BDA 09e4c008   ld.hu        d4, [a14]#0
+802F2BDE d9ffea71   lea          a15, [a15]#0x1dea
+802F2BE2 6dee3e2f   call         #0x800b8a5e
+802F2BE6 14d5       ld.bu        d5, [a13]
+802F2BE8 8204       mov          d4, #0
+802F2BEA 0226       mov          d6, d2
+802F2BEC 94c7       ld.h         d7, [a12]
+802F2BEE a802       st.h         [a15]#0, d2
+802F2BF0 910000fc   movh.a       a15, #0xc000
+802F2BF4 edc03d29   calla        #0x527a
+802F2BF8 8255       mov          d5, #5
+802F2BFA 37025020   extr         d2, d2, #0, #0x10
+802F2BFE d9ffee71   lea          a15, [a15]#0x1dee
+802F2C02 8216       mov          d6, #1
+802F2C04 0224       mov          d4, d2
+802F2C06 a802       st.h         [a15]#0, d2
+802F2C08 edc08726   calla        #0x4d0e
+802F2C0C 222a       adds         d10, d2
+
+CVO correction calculated and stored separately
+802F2C9A 013b00f6   addsc.a      a15, a3, d11, #0
+802F2C9E 89a90408   st.b         [sp]#4, d9
+802F2CA2 538a2c00   mul          d0, d10, #0xc8
+802F2CA6 89ab0608   st.b         [sp]#6, d11
+802F2CAA d9a40400   lea          a4, [sp]#4
+802F2CAE 8ba00f00   add          d0, d0, #0xfa
+802F2CB2 0cf0       ld.bu        d15, [a15]#0
+802F2CB4 d90f5889   lea          a15, [a0]#-0x69e8
+802F2CB8 2ca5       st.b         [sp]#5, d15
+802F2CBA 7b400bf2   movh         d15, #0x20b4
+802F2CBE 1b1fd4fd   addi         d15, d15, #-0x22bf
+802F2CC2 73f06800   mul.u        e0, d0, d15
+802F2CC6 8fa11ff0   sh           d15, d1, #-6
+802F2CCA 7802       st.w         [sp]#8, d15
+802F2CCC 133920fb   madd         d15, d11, d9, #3
+802F2CD0 6d009e12   call         #0x802f520c
+802F2CD4 50ff       addsc.a      a15, a15, d15, #1
+802F2CD6 a802       st.h         [a15]#0, d2
+
+Caller selects CVO contribution using same runtime mask
+802F02AC 999f78a0   ld.a         a15, [a9]#0x6b8
+802F02B0 0cf0       ld.bu        d15, [a15]#0
+802F02B2 6e13       jz           d15, #0x802f02d8
+802F02B4 2e19       jz.t         d15, #1, #0x802f02c6
+802F02B6 821f       mov          d15, #1
+802F02B8 d90f9c0a   lea          a15, [a0]#-0x57e4
+802F02BC 0f9f10f0   sha          d15, d15, d9
+802F02C0 0800       ld.bu        d0, [a15]#0
+802F02C2 260f       and          d15, d0
+802F02C4 ee0a       jnz          d15, #0x802f02d8
+802F02C6 c5dfaa10   lea          a15, #0xd000086a
+802F02CA 01f900f6   addsc.a      a15, a15, d9, #0
+802F02CE 0cf0       ld.bu        d15, [a15]#0
+802F02D0 df1f1180   jne          d15, #1, #0x802f02f2
+802F02D4 6f3d0f00   jz.t         d13, #3, #0x802f02f2
+802F02D8 0294       mov          d4, d9
+802F02DA 8215       mov          d5, #1
+802F02DC 6d00811e   call         #0x802f3fde
+802F02E0 ff3a0980   jge.u        d10, #3, #0x802f02f2
+802F02E4 133920fa   madd         d15, d10, d9, #3
+802F02E8 d90f5889   lea          a15, [a0]#-0x69e8
+802F02EC 50ff       addsc.a      a15, a15, d15, #1
+802F02EE 8cf0       ld.h         d15, [a15]#0
+802F02F0 22f8       adds         d8, d15
+
+CVO correction calculation, enable conditions and bounds
+802F520C 2010       sub.a        sp, #0x10
+802F520E 05dfa5d4   ld.bu        d15, #0xd0000b65
+802F5212 820e       mov          d14, #0
+802F5214 820b       mov          d11, #0
+802F5216 404c       mov.aa       a12, a4
+802F5218 820d       mov          d13, #0
+802F521A 8208       mov          d8, #0
+802F521C 6f1fb400   jz.t         d15, #1, #0x802f5384
+802F5220 910000dc   movh.a       a13, #0xc000
+802F5224 bbf0ffff   mov.u        d15, #0xffff
+802F5228 1449       ld.bu        d9, [a4]
+802F522A 0294       mov          d4, d9
+802F522C 09464108   ld.bu        d6, [a4]#1
+802F5230 d9ddab22   lea          a13, [a13]#0x28ab
+802F5234 094a4208   ld.bu        d10, [a4]#2
+802F5238 14d5       ld.bu        d5, [a13]
+802F523A 6dff7cfa   call         #0x802f4732
+802F523E 999444b0   ld.a         a4, [a9]#0x6c4
+802F5242 022c       mov          d12, d2
+802F5244 09c44108   ld.bu        d4, [a12]#1
+802F5248 09457608   ld.bu        d5, [a4]#0x36
+802F524C d9443700   lea          a4, [a4]#0x37
+802F5250 6dee2416   call         #0x800b7e98
+802F5254 999f68a0   ld.a         a15, [a9]#0x6a8
+802F5258 0224       mov          d4, d2
+802F525A d9f43420   lea          a4, [a15]#0xb4
+802F525E 6dee6716   call         #0x800b7f2c
+802F5262 5ff20500   jeq          d2, d15, #0x802f526c
+802F5266 4cc1       ld.w         d15, [a12]#4
+802F5268 0bf230e1   lt.u         d14, d2, d15
+802F526C ba0c       eq           d15, d12, #0
+802F526E 0800       ld.bu        d0, [a15]#0
+802F5270 8b1000f4   and.eq       d15, d0, #1
+802F5274 6e0a       jz           d15, #0x802f5288
+802F5276 f6e9       jnz          d14, #0x802f5288
+802F5278 821b       mov          d11, #1
+802F527A 09f05c28   ld.bu        d0, [a15]#0x9c
+802F527E 0fab10f0   sha          d15, d11, d10
+802F5282 260f       and          d15, d0
+802F5284 8b0f20d2   ne           d13, d15, #0
+802F5288 8b0a0002   eq           d0, d10, #0
+802F528C 05dfa9d4   ld.bu        d15, #0xd0000b69
+802F5290 870f01f0   and.t        d15, d15, #1, d0, #0
+802F5294 6e15       jz           d15, #0x802f52be
+802F5296 c5df8820   lea          a15, #0xd0000888
+802F529A 01f900f6   addsc.a      a15, a15, d9, #0
+802F529E 0cf0       ld.bu        d15, [a15]#0
+802F52A0 5e33       jne          d15, #3, #0x802f52a6
+802F52A2 820b       mov          d11, #0
+802F52A4 820d       mov          d13, #0
+802F52A6 c2cf       add          d15, #-4
+802F52A8 16ff       and          d15, #0xff
+802F52AA bf2f0880   jlt.u        d15, #2, #0x802f52ba
+802F52AE d90f1fcb   lea          a15, [a0]#-0x4ce1
+802F52B2 01f900f6   addsc.a      a15, a15, d9, #0
+802F52B6 0cf0       ld.bu        d15, [a15]#0
+802F52B8 5e23       jne          d15, #2, #0x802f52be
+802F52BA 820b       mov          d11, #0
+802F52BC 821d       mov          d13, #1
+802F52BE 0fdba0f0   or           d15, d11, d13
+802F52C2 6e61       jz           d15, #0x802f5384
+802F52C4 df1b0980   jne          d11, #1, #0x802f52d6
+802F52C8 0294       mov          d4, d9
+802F52CA 14d5       ld.bu        d5, [a13]
+802F52CC 09c64108   ld.bu        d6, [a12]#1
+802F52D0 6dff92f8   call         #0x802f43f4
+802F52D4 0228       mov          d8, d2
+802F52D6 df1d0b80   jne          d13, #1, #0x802f52ec
+802F52DA 133920fa   madd         d15, d10, d9, #3
+802F52DE d90f328b   lea          a15, [a0]#-0x4dce
+802F52E2 50ff       addsc.a      a15, a15, d15, #1
+802F52E4 8cf0       ld.h         d15, [a15]#0
+802F52E6 128f       add          d15, d15, d8
+802F52E8 370f5080   extr         d8, d15, #0, #0x10
+802F52EC 999f68a0   ld.a         a15, [a9]#0x6a8
+802F52F0 09ff5f28   ld.bu        d15, [a15]#0x9f
+802F52F4 6e0d       jz           d15, #0x802f530e
+802F52F6 0294       mov          d4, d9
+802F52F8 09f5c038   ld.hu        d5, [a15]#0xc0
+802F52FC d9f40230   lea          a4, [a15]#0xc2
+802F5300 d9f50e30   lea          a5, [a15]#0xce
+802F5304 6deead1b   call         #0x800b8a5e
+802F5308 4282       add          d2, d8
+802F530A 37025080   extr         d8, d2, #0, #0x10
+802F530E 910000dc   movh.a       a13, #0xc000
+802F5312 0cc1       ld.bu        d15, [a12]#1
+802F5314 89a90408   st.b         [sp]#4, d9
+802F5318 d9ddab22   lea          a13, [a13]#0x28ab
+802F531C 2ca5       st.b         [sp]#5, d15
+802F531E 89aa0908   st.b         [sp]#9, d10
+802F5322 0cd0       ld.bu        d15, [a13]#0
+802F5324 2ca6       st.b         [sp]#6, d15
+802F5326 09f2ac28   ld.h         d2, [a15]#0xac
+802F532A 3f280600   jlt          d8, d2, #0x802f5336
+802F532E 09ffae28   ld.h         d15, [a15]#0xae
+802F5332 7f8f1900   jge          d15, d8, #0x802f5364
+802F5336 7a82       lt           d15, d2, d8
+802F5338 09f0ae28   ld.h         d0, [a15]#0xae
+802F533C 0b808001   min          d0, d0, d8
+802F5340 d9a40400   lea          a4, [sp]#4
+802F5344 8234       mov          d4, #3
+802F5346 2b2040ff   sel          d15, d15, d0, d2
+802F534A 6dff7cfd   call         #0x802f4e42
+802F534E 0294       mov          d4, d9
+802F5350 14d5       ld.bu        d5, [a13]
+802F5352 370f5080   extr         d8, d15, #0, #0x10
+802F5356 09c64108   ld.bu        d6, [a12]#1
+802F535A 6dffecf9   call         #0x802f4732
+802F535E 7628       jz           d2, #0x802f536e
+802F5360 8208       mov          d8, #0
+802F5362 3c08       j            #0x802f5372
+802F5364 8234       mov          d4, #3
+802F5366 d9a40400   lea          a4, [sp]#4
+802F536A 6dff6bf7   call         #0x802f4240
+802F536E 9ae8       add          d15, d8, #-2
+802F5370 0e82       jltz         d8, #0x802f5374
+802F5372 9a28       add          d15, d8, #2
+802F5374 8f1f3e00   sha          d0, d15, #-0x1f
+802F5378 8f201e00   sh           d0, d0, #-0x1e
+802F537C 420f       add          d15, d0
+802F537E 370f5021   extr         d2, d15, #2, #0x10
+802F5382 0228       mov          d8, d2
+802F5384 0282       mov          d2, d8
+802F5386 0090       ret          
+
+CVO cylinder eligibility mask calculation and packed return
+802F47B4 2020       sub.a        sp, #0x20
+802F47B6 daff       mov          d15, #0xff
+802F47B8 999f68a0   ld.a         a15, [a9]#0x6a8
+802F47BC 8200       mov          d0, #0
+802F47BE 7802       st.w         [sp]#8, d15
+802F47C0 0248       mov          d8, d4
+802F47C2 59a00c00   st.w         [sp]#0xc, d0
+802F47C6 820e       mov          d14, #0
+802F47C8 09ff5f38   ld.bu        d15, [a15]#0xdf
+802F47CC ee6f       jnz          d15, #0x802f48aa
+802F47CE 999f44b0   ld.a         a15, [a9]#0x6c4
+802F47D2 8245       mov          d5, #4
+802F47D4 05dfafc4   ld.bu        d15, #0xd0000b2f
+802F47D8 3bf003e0   mov          d14, #0x3f
+802F47DC 370fe161   extr.u       d6, d15, #3, #1
+802F47E0 a01e       mov.a        a14, #1
+802F47E2 d9fc0410   lea          a12, [a15]#0x44
+802F47E6 d90f9a0a   lea          a15, [a0]#-0x57e6
+802F47EA 40c4       mov.aa       a4, a12
+802F47EC 0804       ld.bu        d4, [a15]#0
+802F47EE 6dffadfb   call         #0x802f3f48
+802F47F2 89a21808   st.b         [sp]#0x18, d2
+802F47F6 bf421780   jlt.u        d2, #4, #0x802f4824
+802F47FA 0284       mov          d4, d8
+802F47FC 40c4       mov.aa       a4, a12
+802F47FE 8245       mov          d5, #4
+802F4800 6dffb9fb   call         #0x802f3f72
+802F4804 370250f0   extr         d15, d2, #0, #0x10
+802F4808 acae       st.h         [sp]#0x1c, d15
+802F480A 89a29008   st.h         [sp]#0x10, d2
+802F480E 09af5c08   ld.bu        d15, [sp]#0x1c
+802F4812 09a05d08   ld.bu        d0, [sp]#0x1d
+802F4816 89af1808   st.b         [sp]#0x18, d15
+802F481A 5ff00500   jeq          d0, d15, #0x802f4824
+802F481E a02e       mov.a        a14, #2
+802F4820 89a01908   st.b         [sp]#0x19, d0
+802F4824 820c       mov          d12, #0
+802F4826 80e0       mov.d        d0, a14
+802F4828 7f0cbd80   jge.u        d12, d0, #0x802f49a2
+802F482C d9ac1800   lea          a12, [sp]#0x18
+802F4830 820b       mov          d11, #0
+802F4832 820a       mov          d10, #0
+802F4834 821f       mov          d15, #1
+802F4836 8209       mov          d9, #0
+802F4838 0faf10d0   sha          d13, d15, d10
+802F483C 8f0d6001   nor          d0, d13, #0
+802F4840 600d       mov.a        a13, d0
+802F4842 0fde80f0   and          d15, d14, d13
+802F4846 6e24       jz           d15, #0x802f488e
+802F4848 14c4       ld.bu        d4, [a12]
+802F484A 135420f9   madd         d15, d9, d4, #5
+802F484E d902347b   lea          a2, [a0]#-0x4e0c
+802F4852 102f       addsc.a      a15, a2, d15, #0
+802F4854 0cf0       ld.bu        d15, [a15]#0
+802F4856 6e1c       jz           d15, #0x802f488e
+802F4858 8210       mov          d0, #1
+802F485A 370a6880   extr.u       d8, d10, #0, #8
+802F485E 0f9010f0   sha          d15, d0, d9
+802F4862 0286       mov          d6, d8
+802F4864 0ffba0f0   or           d15, d11, d15
+802F4868 370f68b0   extr.u       d11, d15, #0, #8
+802F486C 370968f0   extr.u       d15, d9, #0, #8
+802F4870 02f5       mov          d5, d15
+802F4872 6d00f112   call         #0x802f6e54
+802F4876 7627       jz           d2, #0x802f4884
+802F4878 02f5       mov          d5, d15
+802F487A 14c4       ld.bu        d4, [a12]
+802F487C 0286       mov          d6, d8
+802F487E 6d003e12   call         #0x802f6cfa
+802F4882 7626       jz           d2, #0x802f488e
+802F4884 80d0       mov.d        d0, a13
+802F4886 0f0e80f0   and          d15, d14, d0
+802F488A 370f68e0   extr.u       d14, d15, #0, #8
+802F488E c219       add          d9, #1
+802F4890 bf59d9ff   jlt.u        d9, #5, #0x802f4842
+802F4894 c21a       add          d10, #1
+802F4896 ab0e80eb   sel          d14, d11, d14, #0
+802F489A bf6acdff   jlt.u        d10, #6, #0x802f4834
+802F489E c21c       add          d12, #1
+802F48A0 b01c       add.a        a12, #1
+802F48A2 80ef       mov.d        d15, a14
+802F48A4 3ffcc6ff   jlt.u        d12, d15, #0x802f4830
+802F48A8 3c7d       j            #0x802f49a2
+802F48AA 820d       mov          d13, #0
+802F48AC 999244b0   ld.a         a2, [a9]#0x6c4
+802F48B0 a01e       mov.a        a14, #1
+802F48B2 89a28409   st.a         [sp]#4, a2
+802F48B6 99a20400   ld.a         a2, [sp]#4
+802F48BA 820c       mov          d12, #0
+802F48BC a00d       mov.a        a13, #0
+802F48BE 820b       mov          d11, #0
+802F48C0 3bf00f90   mov          d9, #0xff
+802F48C4 a00c       mov.a        a12, #0
+802F48C6 8208       mov          d8, #0
+802F48C8 d92f0410   lea          a15, [a2]#0x44
+802F48CC 99a20400   ld.a         a2, [sp]#4
+802F48D0 04f4       ld.bu        d4, [a15+]
+802F48D2 d9240410   lea          a4, [a2]#0x44
+802F48D6 09254318   ld.bu        d5, [a2]#0x43
+802F48DA 6deedf1a   call         #0x800b7e98
+802F48DE 999468a0   ld.a         a4, [a9]#0x6a8
+802F48E2 0224       mov          d4, d2
+802F48E4 d9441b30   lea          a4, [a4]#0xdb
+802F48E8 6dee421b   call         #0x800b7f6c
+802F48EC 0b9230f1   lt.u         d15, d2, d9
+802F48F0 8b0220f4   and.ne       d15, d2, #0
+802F48F4 6e0b       jz           d15, #0x802f490a
+802F48F6 80e0       mov.d        d0, a14
+802F48F8 0f8010f0   sha          d15, d0, d8
+802F48FC 19a00c00   ld.w         d0, [sp]#0xc
+802F4900 260f       and          d15, d0
+802F4902 ee04       jnz          d15, #0x802f490a
+802F4904 370868b0   extr.u       d11, d8, #0, #8
+802F4908 0229       mov          d9, d2
+802F490A c218       add          d8, #1
+802F490C bf48e0ff   jlt.u        d8, #4, #0x802f48cc
+802F4910 80e0       mov.d        d0, a14
+802F4912 8209       mov          d9, #0
+802F4914 0fb010f0   sha          d15, d0, d11
+802F4918 19a00c00   ld.w         d0, [sp]#0xc
+802F491C 0ff0a0f0   or           d15, d0, d15
+802F4920 16ff       and          d15, #0xff
+802F4922 7803       st.w         [sp]#0xc, d15
+802F4924 7b0000fd   movh         d15, #0xd000
+802F4928 1b4f1ff4   addi         d15, d15, #0x41f4
+802F492C 135b20ff   madd         d15, d15, d11, #5
+802F4930 60ff       mov.a        a15, d15
+802F4932 04ff       ld.bu        d15, [a15+]
+802F4934 6e1f       jz           d15, #0x802f4972
+802F4936 80e0       mov.d        d0, a14
+802F4938 37096880   extr.u       d8, d9, #0, #8
+802F493C 0f9010a0   sha          d10, d0, d9
+802F4940 02b4       mov          d4, d11
+802F4942 0285       mov          d5, d8
+802F4944 0faca0f0   or           d15, d12, d10
+802F4948 6d00ae12   call         #0x802f6ea4
+802F494C 02b4       mov          d4, d11
+802F494E 0285       mov          d5, d8
+802F4950 370f68c0   extr.u       d12, d15, #0, #8
+802F4954 022f       mov          d15, d2
+802F4956 6d00f511   call         #0x802f6d40
+802F495A 80d0       mov.d        d0, a13
+802F495C a62f       or           d15, d2
+802F495E a620       or           d0, d2
+802F4960 600d       mov.a        a13, d0
+802F4962 3bf00300   mov          d0, #0x3f
+802F4966 7e06       jne          d15, d0, #0x802f4972
+802F4968 80c0       mov.d        d0, a12
+802F496A 0fa0a0f0   or           d15, d0, d10
+802F496E 16ff       and          d15, #0xff
+802F4970 60fc       mov.a        a12, d15
+802F4972 c219       add          d9, #1
+802F4974 bf59dfff   jlt.u        d9, #5, #0x802f4932
+802F4978 80c0       mov.d        d0, a12
+802F497A 3a0c       eq           d15, d12, d0
+802F497C 8b0c20f4   and.ne       d15, d12, #0
+802F4980 6e07       jz           d15, #0x802f498e
+802F4982 80df       mov.d        d15, a13
+802F4984 59ab0800   st.w         [sp]#8, d11
+802F4988 460f       nor          d15
+802F498A 8fff03e1   and          d14, d15, #0x3f
+802F498E c21d       add          d13, #1
+802F4990 19a00800   ld.w         d0, [sp]#8
+802F4994 8bf00ff2   eq           d15, d0, #0xff
+802F4998 370d68d0   extr.u       d13, d13, #0, #8
+802F499C 8b4d60f4   and.lt.u     d15, d13, #4
+802F49A0 ee8b       jnz          d15, #0x802f48b6
+802F49A2 5802       ld.w         d15, [sp]#8
+802F49A4 89ae1408   st.b         [sp]#0x14, d14
+802F49A8 89af1508   st.b         [sp]#0x15, d15
+802F49AC 09a29408   ld.h         d2, [sp]#0x14
+802F49B0 0090       ret          
+
+CVO eligibility bitfield helpers
+802F6CFA 13542045   madd         d4, d5, d4, #5
+802F6CFE d90f3cfb   lea          a15, [a0]#-0x4c04
+802F6D02 8212       mov          d2, #1
+802F6D04 01f400f6   addsc.a      a15, a15, d4, #0
+802F6D08 0f621020   sha          d2, d2, d6
+802F6D0C 0cf0       ld.bu        d15, [a15]#0
+802F6D0E 26f2       and          d2, d15
+802F6D10 8b022022   ne           d2, d2, #0
+802F6D14 0090       ret          
+802F6D16 13542045   madd         d4, d5, d4, #5
+802F6D1A d90f3cfb   lea          a15, [a0]#-0x4c04
+802F6D1E 82ef       mov          d15, #-2
+802F6D20 01f400f6   addsc.a      a15, a15, d4, #0
+802F6D24 17ff80f6   dextr        d15, d15, d15, d6
+802F6D28 0800       ld.bu        d0, [a15]#0
+802F6D2A 26f0       and          d0, d15
+802F6D2C 2800       st.b         [a15]#0, d0
+802F6D2E 913000f8   movh.a       a15, #0x8003
+802F6D32 d9ff6853   lea          a15, [a15]#0x3568
+802F6D36 01f402f6   addsc.a      a15, a15, d4, #2
+802F6D3A c80f       ld.a         a15, [a15]#0
+802F6D3C 2800       st.b         [a15]#0, d0
+802F6D3E 0090       ret          
+802F6D40 13542045   madd         d4, d5, d4, #5
+802F6D44 d90f3cfb   lea          a15, [a0]#-0x4c04
+802F6D48 01f400f6   addsc.a      a15, a15, d4, #0
+802F6D4C 0802       ld.bu        d2, [a15]#0
+802F6D4E 0090       ret          
+802F6D50 13542045   madd         d4, d5, d4, #5
+802F6D54 d90f3cfb   lea          a15, [a0]#-0x4c04
+802F6D58 01f400f6   addsc.a      a15, a15, d4, #0
+802F6D5C 2806       st.b         [a15]#0, d6
+802F6D5E 913000f8   movh.a       a15, #0x8003
+802F6D62 d9ff6853   lea          a15, [a15]#0x3568
+802F6D66 01f402f6   addsc.a      a15, a15, d4, #2
+802F6D6A c80f       ld.a         a15, [a15]#0
+802F6D6C 2806       st.b         [a15]#0, d6
+802F6D6E 0090       ret          
+802F6D70 912000fd   movh.a       a15, #0xd002
+802F6D74 13542045   madd         d4, d5, d4, #5
+802F6D78 821f       mov          d15, #1
+802F6D7A d9ff1038   lea          a15, [a15]#-0x7f30
+802F6D7E 01f400f6   addsc.a      a15, a15, d4, #0
+802F6D82 0f6f10f0   sha          d15, d15, d6
+802F6D86 d9ff9060   lea          a15, [a15]#0x990
+802F6D8A 0800       ld.bu        d0, [a15]#0
+802F6D8C a6f0       or           d0, d15
+802F6D8E 2800       st.b         [a15]#0, d0
+802F6D90 d90f5e0b   lea          a15, [a0]#-0x4be2
+802F6D94 01f400f6   addsc.a      a15, a15, d4, #0
+802F6D98 2800       st.b         [a15]#0, d0
+802F6D9A 0090       ret          
+802F6D9C 912000fd   movh.a       a15, #0xd002
+802F6DA0 13542045   madd         d4, d5, d4, #5
+802F6DA4 8212       mov          d2, #1
+802F6DA6 d9ff1038   lea          a15, [a15]#-0x7f30
+802F6DAA 01f400f6   addsc.a      a15, a15, d4, #0
+802F6DAE 0f621020   sha          d2, d2, d6
+802F6DB2 d9ff9060   lea          a15, [a15]#0x990
+802F6DB6 0cf0       ld.bu        d15, [a15]#0
+802F6DB8 26f2       and          d2, d15
+802F6DBA 8b022022   ne           d2, d2, #0
+802F6DBE 0090       ret          
+802F6DC0 912000fd   movh.a       a15, #0xd002
+802F6DC4 13542045   madd         d4, d5, d4, #5
+802F6DC8 82ef       mov          d15, #-2
+802F6DCA d9ff1038   lea          a15, [a15]#-0x7f30
+802F6DCE 01f400f6   addsc.a      a15, a15, d4, #0
+802F6DD2 17ff80f6   dextr        d15, d15, d15, d6
+802F6DD6 d9ff9060   lea          a15, [a15]#0x990
+802F6DDA 0800       ld.bu        d0, [a15]#0
+802F6DDC 26f0       and          d0, d15
+802F6DDE 2800       st.b         [a15]#0, d0
+802F6DE0 d90f5e0b   lea          a15, [a0]#-0x4be2
+802F6DE4 01f400f6   addsc.a      a15, a15, d4, #0
+802F6DE8 2800       st.b         [a15]#0, d0
+802F6DEA 0090       ret          
+802F6DEC 912000fd   movh.a       a15, #0xd002
+802F6DF0 13542045   madd         d4, d5, d4, #5
+802F6DF4 d9ff1038   lea          a15, [a15]#-0x7f30
+802F6DF8 01f400f6   addsc.a      a15, a15, d4, #0
+802F6DFC d9ff9060   lea          a15, [a15]#0x990
+802F6E00 0802       ld.bu        d2, [a15]#0
+802F6E02 0090       ret          
+802F6E04 912000fd   movh.a       a15, #0xd002
+802F6E08 13542045   madd         d4, d5, d4, #5
+802F6E0C d9ff1038   lea          a15, [a15]#-0x7f30
+802F6E10 01f400f6   addsc.a      a15, a15, d4, #0
+802F6E14 d9ff9060   lea          a15, [a15]#0x990
+802F6E18 2806       st.b         [a15]#0, d6
+802F6E1A d90f5e0b   lea          a15, [a0]#-0x4be2
+802F6E1E 01f400f6   addsc.a      a15, a15, d4, #0
+802F6E22 2806       st.b         [a15]#0, d6
+802F6E24 0090       ret          
+802F6E26 821f       mov          d15, #1
+802F6E28 913000f8   movh.a       a15, #0x8003
+802F6E2C 0f6f10f0   sha          d15, d15, d6
+802F6E30 d9ff4883   lea          a15, [a15]#0x3608
+802F6E34 01f402f6   addsc.a      a15, a15, d4, #2
+802F6E38 c80f       ld.a         a15, [a15]#0
+802F6E3A 01f500f6   addsc.a      a15, a15, d5, #0
+802F6E3E 13542055   madd         d5, d5, d4, #5
+802F6E42 0800       ld.bu        d0, [a15]#0
+802F6E44 a6f0       or           d0, d15
+802F6E46 2800       st.b         [a15]#0, d0
+802F6E48 d90f720b   lea          a15, [a0]#-0x4bce
+802F6E4C 01f500f6   addsc.a      a15, a15, d5, #0
+802F6E50 2800       st.b         [a15]#0, d0
+802F6E52 0090       ret          
+802F6E54 8212       mov          d2, #1
+802F6E56 913000f8   movh.a       a15, #0x8003
+802F6E5A 0f621020   sha          d2, d2, d6
+802F6E5E d9ff4883   lea          a15, [a15]#0x3608
+802F6E62 01f402f6   addsc.a      a15, a15, d4, #2
+802F6E66 c80f       ld.a         a15, [a15]#0
+802F6E68 01f500f6   addsc.a      a15, a15, d5, #0
+802F6E6C 0cf0       ld.bu        d15, [a15]#0
+802F6E6E 26f2       and          d2, d15
+802F6E70 8b022022   ne           d2, d2, #0
+802F6E74 0090       ret          
+802F6E76 82ef       mov          d15, #-2
+802F6E78 913000f8   movh.a       a15, #0x8003
+802F6E7C 17ff80f6   dextr        d15, d15, d15, d6
+802F6E80 d9ff4883   lea          a15, [a15]#0x3608
+802F6E84 01f402f6   addsc.a      a15, a15, d4, #2
+802F6E88 c80f       ld.a         a15, [a15]#0
+802F6E8A 01f500f6   addsc.a      a15, a15, d5, #0
+802F6E8E 13542055   madd         d5, d5, d4, #5
+802F6E92 0800       ld.bu        d0, [a15]#0
+802F6E94 26f0       and          d0, d15
+802F6E96 2800       st.b         [a15]#0, d0
+802F6E98 d90f720b   lea          a15, [a0]#-0x4bce
+802F6E9C 01f500f6   addsc.a      a15, a15, d5, #0
+802F6EA0 2800       st.b         [a15]#0, d0
+802F6EA2 0090       ret          
+802F6EA4 913000f8   movh.a       a15, #0x8003
+802F6EA8 d9ff4883   lea          a15, [a15]#0x3608
+802F6EAC 01f402f6   addsc.a      a15, a15, d4, #2
+802F6EB0 c80f       ld.a         a15, [a15]#0
+802F6EB2 01f500f6   addsc.a      a15, a15, d5, #0
+802F6EB6 0802       ld.bu        d2, [a15]#0
+802F6EB8 0090       ret          
+802F6EBA 913000f8   movh.a       a15, #0x8003
+802F6EBE d9ff4883   lea          a15, [a15]#0x3608
+802F6EC2 01f402f6   addsc.a      a15, a15, d4, #2
+802F6EC6 c80f       ld.a         a15, [a15]#0
+802F6EC8 01f500f6   addsc.a      a15, a15, d5, #0
+802F6ECC 13542055   madd         d5, d5, d4, #5
+802F6ED0 2806       st.b         [a15]#0, d6
+802F6ED2 d90f720b   lea          a15, [a0]#-0x4bce
+802F6ED6 01f500f6   addsc.a      a15, a15, d5, #0
+802F6EDA 2806       st.b         [a15]#0, d6
+802F6EDC 0090       ret          
+
+Successful processing sets completion bit
+802F5C26 d9ac1c00   lea          a12, [sp]#0x1c
+802F5C2A d90f328b   lea          a15, [a0]#-0x4dce
+802F5C2E 01f101f6   addsc.a      a15, a15, d1, #1
+802F5C32 40c4       mov.aa       a4, a12
+802F5C34 8cf0       ld.h         d15, [a15]#0
+802F5C36 6dff6bf5   call         #0x802f470c
+802F5C3A df021200   jeq          d2, #0, #0x802f5c5e
+802F5C3E 14c4       ld.bu        d4, [a12]
+802F5C40 09a56008   ld.bu        d5, [sp]#0x20
+802F5C44 09a65f08   ld.bu        d6, [sp]#0x1f
+802F5C48 6d001707   call         #0x802f6a76
+802F5C4C 60f2       mov.a        a2, d15
+802F5C4E 01220226   addsc.a      a2, a2, d2, #2
+802F5C52 8022       mov.d        d2, a2
+802F5C54 40c4       mov.aa       a4, a12
+802F5C56 37025040   extr         d4, d2, #0, #0x10
+802F5C5A 6dffa2fa   call         #0x802f519e
+802F5C5E 09af5c08   ld.bu        d15, [sp]#0x1c
+802F5C62 d90f08bb   lea          a15, [a0]#-0x4d38
+802F5C66 10ff       addsc.a      a15, a15, d15, #0
+802F5C68 0cf0       ld.bu        d15, [a15]#0
+802F5C6A c21f       add          d15, #1
+802F5C6C 280f       st.b         [a15]#0, d15
+802F5C6E 09a55f08   ld.bu        d5, [sp]#0x1f
+802F5C72 09a65c08   ld.bu        d6, [sp]#0x1c
+802F5C76 09a46008   ld.bu        d4, [sp]#0x20
+802F5C7A d9af1c00   lea          a15, [sp]#0x1c
+802F5C7E 6d00d408   call         #0x802f6e26
+802F5C82 8264       mov          d4, #6
+802F5C84 40f4       mov.aa       a4, a15
+802F5C86 6dffddf2   call         #0x802f4240
+802F5C8A 8254       mov          d4, #5
+802F5C8C 40f4       mov.aa       a4, a15
+802F5C8E 6dffd9f2   call         #0x802f4240
+
+Substitute flags clear path
+802F5EF6 8208       mov          d8, #0
+802F5EF8 820f       mov          d15, #0
+802F5EFA 02f4       mov          d4, d15
+802F5EFC c21f       add          d15, #1
+802F5EFE 0285       mov          d5, d8
+802F5F00 8206       mov          d6, #0
+802F5F02 16ff       and          d15, #0xff
+802F5F04 6d002607   call         #0x802f6d50
+802F5F08 bf4ff9ff   jlt.u        d15, #4, #0x802f5efa
+802F5F0C c218       add          d8, #1
+802F5F0E 37086880   extr.u       d8, d8, #0, #8
+802F5F12 bf58f3ff   jlt.u        d8, #5, #0x802f5ef8
+802F5F16 0090       ret          
+
+Separate injector-adaptation mass/time conversion
+802A295C 3700e1f6   extr.u       d15, d0, #0xd, #1
+802A2960 370f6810   extr.u       d1, d15, #0, #8
+802A2964 df01c101   jeq          d1, #0, #0x802a2ce6
+802A2968 d90ff0ec   lea          a15, [a0]#-0x3050
+802A296C 91900148   movh.a       a4, #0x8019
+802A2970 05cbc544   ld.bu        d11, #0xc0000d05
+802A2974 8cf0       ld.h         d15, [a15]#0
+802A2976 d90ff2ec   lea          a15, [a0]#-0x304e
+802A297A d944aec4   lea          a4, [a4]#0x4b2e
+802A297E 8800       ld.h         d0, [a15]#0
+802A2980 520f       sub          d15, d15, d0
+802A2982 918001f8   movh.a       a15, #0x8018
+802A2986 322f       sat.h        d15
+802A2988 370f50f0   extr         d15, d15, #0, #0x10
+802A298C d9ff48a3   lea          a15, [a15]#0x3688
+802A2990 09f0c008   ld.hu        d0, [a15]#0
+802A2994 e20f       mul          d15, d0
+802A2996 d90ffedc   lea          a15, [a0]#-0x3082
+802A299A 8f1f3e00   sha          d0, d15, #-0x1f
+802A299E 8fd01e00   sh           d0, d0, #-0x13
+802A29A2 420f       add          d15, d0
+802A29A4 05c07efc   ld.hu        d0, #0xc00007fe
+802A29A8 8f3f3ff0   sha          d15, d15, #-0xd
+802A29AC 322f       sat.h        d15
+802A29AE 370f50f0   extr         d15, d15, #0, #0x10
+802A29B2 a80f       st.h         [a15]#0, d15
+802A29B4 918001f8   movh.a       a15, #0x8018
+802A29B8 d9ff6483   lea          a15, [a15]#0x3624
+802A29BC 09f2c008   ld.hu        d2, [a15]#0
+802A29C0 e220       mul          d0, d2
+802A29C2 d90fa89c   lea          a15, [a0]#-0x3598
+802A29C6 7ba0ad20   movh         d2, #0xada
+802A29CA 09f4c008   ld.hu        d4, [a15]#0
+802A29CE 1bd2f42a   addi         d2, d2, #-0x50b3
+802A29D2 d90f98ac   lea          a15, [a0]#-0x3568
+802A29D6 73206800   mul.u        e0, d0, d2
+802A29DA 8fb11f00   sh           d0, d1, #-5
+802A29DE 3230       sat.hu       d0
+802A29E0 37007000   extr.u       d0, d0, #0, #0x10
+802A29E4 e20f       mul          d15, d0
+802A29E6 8f1f3e00   sha          d0, d15, #-0x1f
+802A29EA 8fe01e00   sh           d0, d0, #-0x12
+802A29EE 420f       add          d15, d0
+802A29F0 6dfe6ae8   call         #0x8027fac4
+802A29F4 91900148   movh.a       a4, #0x8019
+802A29F8 8f2f3ff0   sha          d15, d15, #-0xe
+802A29FC 8804       ld.h         d4, [a15]#0
+802A29FE 322f       sat.h        d15
+802A2A00 370f50f0   extr         d15, d15, #0, #0x10
+802A2A04 d944e204   lea          a4, [a4]#0x4c22
+802A2A08 d90fc0ec   lea          a15, [a0]#-0x3080
+802A2A0C e22f       mul          d15, d2
+
+DMC correction calculation and factor/offset copies
+802A306A d90efd8e   lea          a14, [a0]#-0x11c3
+802A306E 0ce0       ld.bu        d15, [a14]#0
+802A3070 df0fb700   jeq          d15, #0, #0x802a31de
+802A3074 820a       mov          d10, #0
+802A3076 918001d8   movh.a       a13, #0x8018
+802A307A 800b       mov.d        d11, a0
+802A307C 1b6bfbbc   addi         d11, d11, #-0x304a
+802A3080 d9dd56a3   lea          a13, [a13]#0x3696
+802A3084 0ce0       ld.bu        d15, [a14]#0
+802A3086 8b0a0001   rsub         d0, d10, #0
+802A308A 0f0f10f0   sha          d15, d15, d0
+802A308E 6f0fa300   jz.t         d15, #0, #0x802a31d4
+802A3092 8f1a2010   sha          d1, d10, #1
+802A3096 912000fd   movh.a       a15, #0xd002
+802A309A d9fff68d   lea          a15, [a15]#-0x21ca
+802A309E 01f100c6   addsc.a      a12, a15, d1, #0
+802A30A2 911000fd   movh.a       a15, #0xd001
+802A30A6 d9ff16ea   lea          a15, [a15]#-0x5c6a
+802A30AA 01f100f6   addsc.a      a15, a15, d1, #0
+802A30AE 09f0c008   ld.hu        d0, [a15]#0
+802A30B2 919001f8   movh.a       a15, #0x8019
+802A30B6 d9fffd04   lea          a15, [a15]#0x4c3d
+802A30BA 0cf0       ld.bu        d15, [a15]#0
+802A30BC ee02       jnz          d15, #0x802a30c0
+802A30BE f609       jnz          d0, #0x802a30d0
+802A30C0 918001f8   movh.a       a15, #0x8018
+802A30C4 d9ff6683   lea          a15, [a15]#0x3626
+802A30C8 01f100f6   addsc.a      a15, a15, d1, #0
+802A30CC 09f0c008   ld.hu        d0, [a15]#0
+802A30D0 918001f8   movh.a       a15, #0x8018
+802A30D4 91900148   movh.a       a4, #0x8019
+802A30D8 d9ff58a3   lea          a15, [a15]#0x3698
+802A30DC d944aec4   lea          a4, [a4]#0x4b2e
+802A30E0 09ffc008   ld.hu        d15, [a15]#0
+802A30E4 5af0       sub          d15, d0, d15
+802A30E6 918001f8   movh.a       a15, #0x8018
+802A30EA d9ff5ca3   lea          a15, [a15]#0x369c
+802A30EE 09f0c008   ld.hu        d0, [a15]#0
+802A30F2 e20f       mul          d15, d0
+802A30F4 918001f8   movh.a       a15, #0x8018
+802A30F8 8f1f3e00   sha          d0, d15, #-0x1f
+802A30FC d9ff5aa3   lea          a15, [a15]#0x369a
+802A3100 8f101f00   sh           d0, d0, #-0xf
+802A3104 09f4c008   ld.hu        d4, [a15]#0
+802A3108 918001f8   movh.a       a15, #0x8018
+802A310C 420f       add          d15, d0
+802A310E 6dfedbe4   call         #0x8027fac4
+802A3112 d9ff50a3   lea          a15, [a15]#0x3690
+802A3116 8fff3ef0   sha          d15, d15, #-0x11
+802A311A 91900148   movh.a       a4, #0x8019
+802A311E 8804       ld.h         d4, [a15]#0
+802A3120 e22f       mul          d15, d2
+802A3122 d944e204   lea          a4, [a4]#0x4c22
+802A3126 918001f8   movh.a       a15, #0x8018
+802A312A 8f1f3e00   sha          d0, d15, #-0x1f
+802A312E d9ff52a3   lea          a15, [a15]#0x3692
+802A3132 8fc01e00   sh           d0, d0, #-0x14
+802A3136 420f       add          d15, d0
+802A3138 6dfe25e6   call         #0x8027fd82
+802A313C 60b2       mov.a        a2, d11
+802A313E 8f4f3ff0   sha          d15, d15, #-0xc
+802A3142 91900148   movh.a       a4, #0x8019
+802A3146 94d9       ld.h         d9, [a13]
+802A3148 94d8       ld.h         d8, [a13]
+802A314A e22f       mul          d15, d2
+802A314C d944a0d4   lea          a4, [a4]#0x4b60
+802A3150 8f1f3e00   sha          d0, d15, #-0x1f
+802A3154 8f001f00   sh           d0, d0, #-0x10
+802A3158 420f       add          d15, d0
+802A315A 8f0f3ff0   sha          d15, d15, #-0x10
+802A315E 322f       sat.h        d15
+802A3160 370f50f0   extr         d15, d15, #0, #0x10
+802A3164 ac20       st.h         [a2]#0, d15
+802A3166 42f9       add          d9, d15
+802A3168 0b09e047   sat.h        d4, d9
+802A316C 37045040   extr         d4, d4, #0, #0x10
+802A3170 a2f8       sub          d8, d15
+802A3172 6dfe28e5   call         #0x8027fbc2
+802A3176 0b08e047   sat.h        d4, d8
+802A317A 37045040   extr         d4, d4, #0, #0x10
+802A317E 91900148   movh.a       a4, #0x8019
+802A3182 4229       add          d9, d2
+802A3184 d944a0d4   lea          a4, [a4]#0x4b60
+802A3188 6dfe1de5   call         #0x8027fbc2
+802A318C 8cf0       ld.h         d15, [a15]#0
+802A318E 4228       add          d8, d2
+802A3190 918001f8   movh.a       a15, #0x8018
+802A3194 a298       sub          d8, d9
+802A3196 d9ff54a3   lea          a15, [a15]#0x3694
+802A319A 3228       sat.h        d8
+802A319C 37085080   extr         d8, d8, #0, #0x10
+802A31A0 0bf8a087   max.h        d8, d8, d15
+802A31A4 3b0071f2   mov          d15, #0x2710
+802A31A8 8800       ld.h         d0, [a15]#0
+802A31AA 37085080   extr         d8, d8, #0, #0x10
+802A31AE 0b088087   min.h        d8, d8, d0
+802A31B2 7b100008   movh         d0, #0x8001
+802A31B6 37085080   extr         d8, d8, #0, #0x10
+802A31BA 1b300000   addi         d0, d0, #3
+802A31BE e2f8       mul          d8, d15
+802A31C0 73086a00   mul          e0, d8, d0
+802A31C4 1a18       add          d15, d8, d1
+802A31C6 8f183e80   sha          d8, d8, #-0x1f
+802A31CA 8f2f3ff0   sha          d15, d15, #-0xe
+802A31CE 528f       sub          d15, d15, d8
+802A31D0 322f       sat.h        d15
+802A31D2 acc0       st.h         [a12]#0, d15
+802A31D4 c21a       add          d10, #1
+802A31D6 370a68a0   extr.u       d10, d10, #0, #8
+802A31DA bf6a55ff   jlt.u        d10, #6, #0x802a3084
+802A31DE 91900158   movh.a       a5, #0x8019
+802A31E2 8201       mov          d1, #0
+802A31E4 9120003d   movh.a       a3, #0xd002
+802A31E8 d906caec   lea          a6, [a0]#-0x3076
+802A31EC d955d414   lea          a5, [a5]#0x4c54
+802A31F0 d904d8fc   lea          a4, [a0]#-0x3028
+802A31F4 d933f68d   lea          a3, [a3]#-0x21ca
+802A31F8 8f212000   sha          d0, d1, #2
+802A31FC 015000f6   addsc.a      a15, a5, d0, #0
+802A3200 01600026   addsc.a      a2, a6, d0, #0
+802A3204 84ff       ld.h         d15, [a15+]
+802A3206 a42f       st.h         [a2+], d15
+802A3208 8cf0       ld.h         d15, [a15]#0
+802A320A 014000f6   addsc.a      a15, a4, d0, #0
+802A320E ac20       st.h         [a2]#0, d15
+802A3210 01310126   addsc.a      a2, a3, d1, #1
+802A3214 c211       add          d1, #1
+802A3216 8c20       ld.h         d15, [a2]#0
+802A3218 37016810   extr.u       d1, d1, #0, #8
+802A321C a4ff       st.h         [a15+], d15
+802A321E a80f       st.h         [a15]#0, d15
+802A3220 bf61ecff   jlt.u        d1, #6, #0x802a31f8
+
+Eligibility result transferred to duration-routing mask
+802F68E8 6dffc7ee   call         #0x802f4676
+802F68EC 02f4       mov          d4, d15
+802F68EE 022a       mov          d10, d2
+802F68F0 6dffecee   call         #0x802f46c8
+802F68F4 0804       ld.bu        d4, [a15]#0
+802F68F6 022b       mov          d11, d2
+802F68F8 d90f20fb   lea          a15, [a0]#-0x4c20
+802F68FC 6dff5cef   call         #0x802f47b4
+802F6900 05d3a5d4   ld.bu        d3, #0xd0000b65
+802F6904 89a28808   st.h         [sp]#8, d2
+802F6908 09a94808   ld.bu        d9, [sp]#8
+802F690C 2808       st.b         [a15]#0, d8
+802F690E d90f21fb   lea          a15, [a0]#-0x4c1f
+802F6912 280f       st.b         [a15]#0, d15
+802F6914 d90f2efb   lea          a15, [a0]#-0x4c12
+802F6918 280e       st.b         [a15]#0, d14
+802F691A d90f2ffb   lea          a15, [a0]#-0x4c11
+802F691E 280d       st.b         [a15]#0, d13
+802F6920 6f135400   jz.t         d3, #1, #0x802f69c8
+802F6924 d90f80c9   lea          a15, [a0]#-0x6500
+802F6928 d902287b   lea          a2, [a0]#-0x4e18
+802F692C 09f0c008   ld.hu        d0, [a15]#0
+802F6930 092fc008   ld.hu        d15, [a2]#0
+802F6934 5ff02000   jeq          d0, d15, #0x802f6974
+802F6938 09a14c08   ld.bu        d1, [sp]#0xc
+802F693C ff611c80   jge.u        d1, #6, #0x802f6974
+802F6940 d90f18db   lea          a15, [a0]#-0x4ca8
+802F6944 01f10126   addsc.a      a2, a15, d1, #1
+802F6948 d90f24db   lea          a15, [a0]#-0x4c9c
+802F694C 9420       ld.h         d0, [a2]
+802F694E 370070f0   extr.u       d15, d0, #0, #0x10
+802F6952 09f2c008   ld.hu        d2, [a15]#0
+802F6956 7f2f0480   jge.u        d15, d2, #0x802f695e
+802F695A 9a10       add          d15, d0, #1
+802F695C ac20       st.h         [a2]#0, d15
+802F695E 092fc008   ld.hu        d15, [a2]#0
+802F6962 7e29       jne          d15, d2, #0x802f6974
+802F6964 8210       mov          d0, #1
+802F6966 d90f26db   lea          a15, [a0]#-0x4c9a
+802F696A 0f101000   sha          d0, d0, d1
+802F696E 0cf0       ld.bu        d15, [a15]#0
+802F6970 a60f       or           d15, d0
+802F6972 280f       st.b         [a15]#0, d15
+802F6974 6f132a00   jz.t         d3, #1, #0x802f69c8
+802F6978 05df9ff4   ld.bu        d15, #0xd0000bdf
+802F697C 6f7f2600   jz.t         d15, #7, #0x802f69c8
+802F6980 d90f27db   lea          a15, [a0]#-0x4c99
+802F6984 0cf0       ld.bu        d15, [a15]#0
+802F6986 6e21       jz           d15, #0x802f69c8
+802F6988 d90fca49   lea          a15, [a0]#-0x62f6
+802F698C d90210db   lea          a2, [a0]#-0x4cb0
+802F6990 8801       ld.h         d1, [a15]#0
+802F6992 37017000   extr.u       d0, d1, #0, #0x10
+802F6996 092fc008   ld.hu        d15, [a2]#0
+802F699A 7ff00780   jge.u        d0, d15, #0x802f69a8
+802F699E 820f       mov          d15, #0
+802F69A0 d90f12db   lea          a15, [a0]#-0x4cae
+802F69A4 ac20       st.h         [a2]#0, d15
+802F69A6 a80f       st.h         [a15]#0, d15
+802F69A8 092fc008   ld.hu        d15, [a2]#0
+802F69AC c26f       add          d15, #6
+802F69AE 3ff00d00   jlt          d0, d15, #0x802f69c8
+802F69B2 d90312db   lea          a3, [a0]#-0x4cae
+802F69B6 d90f14db   lea          a15, [a0]#-0x4cac
+802F69BA 9430       ld.h         d0, [a3]
+802F69BC 8cf0       ld.h         d15, [a15]#0
+802F69BE 7ff00580   jge.u        d0, d15, #0x802f69c8
+802F69C2 9a10       add          d15, d0, #1
+802F69C4 b421       st.h         [a2], d1
+802F69C6 ac30       st.h         [a3]#0, d15
+802F69C8 da3f       mov          d15, #0x3f
+802F69CA d90f26db   lea          a15, [a0]#-0x4c9a
+802F69CE 0800       ld.bu        d0, [a15]#0
+802F69D0 5ff00680   jne          d0, d15, #0x802f69dc
+802F69D4 821f       mov          d15, #1
+802F69D6 d90f27db   lea          a15, [a0]#-0x4c99
+802F69DA 280f       st.b         [a15]#0, d15
+802F69DC d90f14db   lea          a15, [a0]#-0x4cac
+802F69E0 09f0c008   ld.hu        d0, [a15]#0
+802F69E4 d90f12db   lea          a15, [a0]#-0x4cae
+802F69E8 09ffc008   ld.hu        d15, [a15]#0
+802F69EC 5ff00680   jne          d0, d15, #0x802f69f8
+802F69F0 821f       mov          d15, #1
+802F69F2 d90f16db   lea          a15, [a0]#-0x4caa
+802F69F6 280f       st.b         [a15]#0, d15
+802F69F8 d90f16db   lea          a15, [a0]#-0x4caa
+802F69FC 0cf0       ld.bu        d15, [a15]#0
+802F69FE 6e05       jz           d15, #0x802f6a08
+802F6A00 d90f27db   lea          a15, [a0]#-0x4c99
+802F6A04 0cf0       ld.bu        d15, [a15]#0
+802F6A06 ee07       jnz          d15, #0x802f6a14
+802F6A08 d91fb0c8   lea          a15, [a1]#-0x74d0
+802F6A0C 8804       ld.h         d4, [a15]#0
+802F6A0E 6dec7faf   call         #0x8008c90c
+802F6A12 f626       jnz          d2, #0x802f6a1e
+802F6A14 d91faec8   lea          a15, [a1]#-0x74d2
+802F6A18 8804       ld.h         d4, [a15]#0
+802F6A1A 6deccdb0   call         #0x8008cbb4
+802F6A1E d90f80c9   lea          a15, [a0]#-0x6500
+802F6A22 8cf0       ld.h         d15, [a15]#0
+802F6A24 d90f287b   lea          a15, [a0]#-0x4e18
+802F6A28 a80f       st.h         [a15]#0, d15
+802F6A2A 8bf903f2   eq           d15, d9, #0x3f
+802F6A2E d90f9d0a   lea          a15, [a0]#-0x57e3
+802F6A32 2e04       jz.t         d15, #0, #0x802f6a3a
+802F6A34 d5d8a5c0   st.t         #0xd0000b25, #0, #1
+802F6A38 3c03       j            #0x802f6a3e
+802F6A3A d5d0a5c0   st.t         #0xd0000b25, #0, #1
+802F6A3E 280a       st.b         [a15]#0, d10
+802F6A40 d90f9e0a   lea          a15, [a0]#-0x57e2
+802F6A44 280b       st.b         [a15]#0, d11
+802F6A46 d90f9c0a   lea          a15, [a0]#-0x57e4
+802F6A4A 2809       st.b         [a15]#0, d9
+
+Reverse conversion shares pressure/MK2TE/density/delay
+800A4080 2008       sub.a        sp, #8
+800A4082 59a40400   st.w         [sp]#4, d4
+800A4086 0258       mov          d8, d5
+800A4088 8205       mov          d5, #0
+800A408A 910000fc   movh.a       a15, #0xc000
+800A408E 09a4c608   ld.hu        d4, [sp]#6
+800A4092 8f042140   sha          d4, d4, #0x10
+800A4096 09afc408   ld.hu        d15, [sp]#4
+800A409A d9fff471   lea          a15, [a15]#0x1df4
+800A409E a6f4       or           d4, d15
+800A40A0 6d124871   call         #0x802f2330
+800A40A4 999c78a0   ld.a         a12, [a9]#0x6b8
+800A40A8 0224       mov          d4, d2
+800A40AA a802       st.h         [a15]#0, d2
+800A40AC d9cf3ee0   lea          a15, [a12]#0x3be
+800A40B0 d9c400f0   lea          a4, [a12]#0x3c0
+800A40B4 09f5c008   ld.hu        d5, [a15]#0
+800A40B8 d9cf38e0   lea          a15, [a12]#0x3b8
+800A40BC 6d00ca9e   call         #0x800b7e50
+800A40C0 d9c41ac0   lea          a4, [a12]#0x31a
+800A40C4 0224       mov          d4, d2
+800A40C6 59027c88   st.w         [a0]#-0x79c4, d2
+800A40CA 6d00319f   call         #0x800b7f2c
+800A40CE 3be00060   mov          d6, #0xe
+800A40D2 09f5c008   ld.hu        d5, [a15]#0
+800A40D6 0224       mov          d4, d2
+800A40D8 910000fc   movh.a       a15, #0xc000
+800A40DC edc08726   calla        #0x4d0e
+800A40E0 09c54e68   ld.bu        d5, [a12]#0x18e
+800A40E4 d9ff8ab2   lea          a15, [a15]#0x2aca
+800A40E8 022f       mov          d15, d2
+800A40EA 01c50056   addsc.a      a5, a12, d5, #0
+800A40EE d9c40f60   lea          a4, [a12]#0x18f
+800A40F2 0804       ld.bu        d4, [a15]#0
+800A40F4 d9550f60   lea          a5, [a5]#0x18f
+800A40F8 d90f206b   lea          a15, [a0]#-0x4e60
+800A40FC 6d00ffa4   call         #0x800b8afa
+800A4100 8276       mov          d6, #7
+800A4102 02f4       mov          d4, d15
+800A4104 0225       mov          d5, d2
+800A4106 25d2b710   st.b         #0xd0000877, d2
+800A410A edc08726   calla        #0x4d0e
+800A410E 09ffc008   ld.hu        d15, [a15]#0
+800A4112 0229       mov          d9, d2
+800A4114 6e0c       jz           d15, #0x800a412c
+800A4116 7e8b       jne          d15, d8, #0x800a412c
+800A4118 09cff658   ld.hu        d15, [a12]#0x176
+800A411C 09c0fe58   ld.hu        d0, [a12]#0x17e
+800A4120 0b0f30f0   adds.u       d15, d15, d0
+800A4124 323f       sat.hu       d15
+800A4126 370fef20   extr.u       d2, d15, #1, #0xf
+800A412A 3c1e       j            #0x800a4166
+800A412C 999c78a0   ld.a         a12, [a9]#0x6b8
+800A4130 19047c88   ld.w         d4, [a0]#-0x79c4
+800A4134 d9c436d0   lea          a4, [a12]#0x376
+800A4138 6d00d09e   call         #0x800b7ed8
+800A413C 0b28a020   subs         d2, d8, d2
+800A4140 8b024023   max          d2, d2, #0
+800A4144 3232       sat.hu       d2
+800A4146 37027020   extr.u       d2, d2, #0, #0x10
+800A414A d90f5089   lea          a15, [a0]#-0x69f0
+800A414E d9c43e30   lea          a4, [a12]#0xfe
+800A4152 0224       mov          d4, d2
+800A4154 a802       st.h         [a15]#0, d2
+800A4156 09c5fc38   ld.hu        d5, [a12]#0xfc
+800A415A d9c53e30   lea          a5, [a12]#0xfe
+800A415E 01550156   addsc.a      a5, a5, d5, #1
+800A4162 6d0098a4   call         #0x800b8a92
+800A4166 8f022140   sha          d4, d2, #0x10
+800A416A 3bd05650   mov          d5, #0x56d
+800A416E edc0da27   calla        #0x4fb4
+800A4172 0295       mov          d5, d9
+800A4174 53822140   mul          d4, d2, #0x18
+800A4178 9dc0a227   ja           #0x4f44
+
+Transfer of adaptation factor/offset arrays to interface
+80361CCA 9100004c   movh.a       a4, #0xc000
+80361CCE 8202       mov          d2, #0
+80361CD0 9100003d   movh.a       a3, #0xd000
+80361CD4 8213       mov          d3, #1
+80361CD6 25dfac30   st.b         #0xd00008ec, d15
+80361CDA d9443402   lea          a4, [a4]#0x2034
+80361CDE d933cae5   lea          a3, [a3]#0x5f8a
+80361CE2 8201       mov          d1, #0
+80361CE4 8f122040   sha          d4, d2, #1
+80361CE8 0b140000   add          d0, d4, d1
+80361CEC 820f       mov          d15, #0
+80361CEE 370f88f0   insert       d15, d15, d0, #1, #8
+80361CF2 103f       addsc.a      a15, a3, d15, #0
+80361CF4 1042       addsc.a      a2, a4, d15, #0
+80361CF6 8cf0       ld.h         d15, [a15]#0
+80361CF8 ac20       st.h         [a2]#0, d15
+80361CFA 0b3130f0   adds.u       d15, d1, d3
+80361CFE 321f       sat.bu       d15
+80361D00 370f6810   extr.u       d1, d15, #0, #8
+80361D04 bf21f2ff   jlt.u        d1, #2, #0x80361ce8
+80361D08 0b3230f0   adds.u       d15, d2, d3
+80361D0C 321f       sat.bu       d15
+80361D0E 370f6820   extr.u       d2, d15, #0, #8
+80361D12 bf62e8ff   jlt.u        d2, #6, #0x80361ce2
+80361D16 9100004c   movh.a       a4, #0xc000
+80361D1A 8202       mov          d2, #0
+80361D1C 8213       mov          d3, #1
+80361D1E 9100003d   movh.a       a3, #0xd000
+80361D22 d9440e12   lea          a4, [a4]#0x204e
+80361D26 d933d8f5   lea          a3, [a3]#0x5fd8
+80361D2A 8201       mov          d1, #0
+80361D2C 8f122040   sha          d4, d2, #1
+80361D30 0b140000   add          d0, d4, d1
+80361D34 820f       mov          d15, #0
+80361D36 370f88f0   insert       d15, d15, d0, #1, #8
+80361D3A 103f       addsc.a      a15, a3, d15, #0
+80361D3C 1042       addsc.a      a2, a4, d15, #0
+80361D3E 8cf0       ld.h         d15, [a15]#0
+80361D40 ac20       st.h         [a2]#0, d15
+80361D42 0b3130f0   adds.u       d15, d1, d3
+80361D46 321f       sat.bu       d15
+80361D48 370f6810   extr.u       d1, d15, #0, #8
+80361D4C bf21f2ff   jlt.u        d1, #2, #0x80361d30
+80361D50 0b3230f0   adds.u       d15, d2, d3
+80361D54 321f       sat.bu       d15
+80361D56 370f6820   extr.u       d2, d15, #0, #8
+80361D5A bf62e8ff   jlt.u        d2, #6, #0x80361d2a
+
+Factor interface to final cylinder correction array
+803766EA 910000fc   movh.a       a15, #0xc000
+803766EE 7b0000ac   movh         d10, #0xc000
+803766F2 910000dc   movh.a       a13, #0xc000
+803766F6 7b00008c   movh         d8, #0xc000
+803766FA 7b00009c   movh         d9, #0xc000
+803766FE 910000ec   movh.a       a14, #0xc000
+80376702 820f       mov          d15, #0
+80376704 d9ffe0b2   lea          a15, [a15]#0x2ee0
+80376708 1bfaeda2   addi         d10, d10, #0x2edf
+8037670C d9dddeb2   lea          a13, [a13]#0x2ede
+80376710 1b480382   addi         d8, d8, #0x2034
+80376714 d9eee0b2   lea          a14, [a14]#0x2ee0
+80376718 1b494392   addi         d9, d9, #0x2434
+8037671C 280f       st.b         [a15]#0, d15
+8037671E 820f       mov          d15, #0
+80376720 2cd0       st.b         [a13]#0, d15
+80376722 0ce0       ld.bu        d15, [a14]#0
+80376724 861f       sha          d15, #1
+80376726 14d0       ld.bu        d0, [a13]
+80376728 0b0f30f0   adds.u       d15, d15, d0
+8037672C 321f       sat.bu       d15
+8037672E 16ff       and          d15, #0xff
+80376730 60a2       mov.a        a2, d10
+80376732 8f1f2000   sha          d0, d15, #1
+80376736 2c20       st.b         [a2]#0, d15
+80376738 600f       mov.a        a15, d0
+8037673A 01f900c6   addsc.a      a12, a15, d9, #0
+8037673E 999f64f0   ld.a         a15, [a9]#0x7e4
+80376742 0cf0       ld.bu        d15, [a15]#0
+80376744 6f0f1200   jz.t         d15, #0, #0x80376768
+80376748 6002       mov.a        a2, d0
+8037674A 012800f6   addsc.a      a15, a2, d8, #0
+8037674E 3bf00060   mov          d6, #0xf
+80376752 09f4c008   ld.hu        d4, [a15]#0
+80376756 910000fc   movh.a       a15, #0xc000
+8037675A d9ff7202   lea          a15, [a15]#0x2432
+8037675E 09f5c008   ld.hu        d5, [a15]#0
+80376762 edc02929   calla        #0x5252
+80376766 3c05       j            #0x80376770
+80376768 6002       mov.a        a2, d0
+8037676A 012800f6   addsc.a      a15, a2, d8, #0
+8037676E 8802       ld.h         d2, [a15]#0
+80376770 b4c2       st.h         [a12], d2
+80376772 8210       mov          d0, #1
+80376774 0cd0       ld.bu        d15, [a13]#0
+80376776 0b0f30f0   adds.u       d15, d15, d0
+8037677A 321f       sat.bu       d15
+8037677C 16ff       and          d15, #0xff
+8037677E 2cd0       st.b         [a13]#0, d15
+80376780 bf2fd1ff   jlt.u        d15, #2, #0x80376722
+80376784 0ce0       ld.bu        d15, [a14]#0
+80376786 0b0f30f0   adds.u       d15, d15, d0
+8037678A 321f       sat.bu       d15
+8037678C 16ff       and          d15, #0xff
+8037678E 2ce0       st.b         [a14]#0, d15
+80376790 bf6fc7ff   jlt.u        d15, #6, #0x8037671e
+80376794 0090       ret          
+
+Manual factor/default and offset-source copies
+802A31DE 91900158   movh.a       a5, #0x8019
+802A31E2 8201       mov          d1, #0
+802A31E4 9120003d   movh.a       a3, #0xd002
+802A31E8 d906caec   lea          a6, [a0]#-0x3076
+802A31EC d955d414   lea          a5, [a5]#0x4c54
+802A31F0 d904d8fc   lea          a4, [a0]#-0x3028
+802A31F4 d933f68d   lea          a3, [a3]#-0x21ca
+802A31F8 8f212000   sha          d0, d1, #2
+802A31FC 015000f6   addsc.a      a15, a5, d0, #0
+802A3200 01600026   addsc.a      a2, a6, d0, #0
+802A3204 84ff       ld.h         d15, [a15+]
+802A3206 a42f       st.h         [a2+], d15
+802A3208 8cf0       ld.h         d15, [a15]#0
+802A320A 014000f6   addsc.a      a15, a4, d0, #0
+802A320E ac20       st.h         [a2]#0, d15
+802A3210 01310126   addsc.a      a2, a3, d1, #1
+802A3214 c211       add          d1, #1
+802A3216 8c20       ld.h         d15, [a2]#0
+802A3218 37016810   extr.u       d1, d1, #0, #8
+802A321C a4ff       st.h         [a15+], d15
+802A321E a80f       st.h         [a15]#0, d15
+802A3220 bf61ecff   jlt.u        d1, #6, #0x802a31f8

@@ -1,0 +1,529 @@
+Read-only J00B static-disassembly evidence
+Source: E85/Revisions/E85v6(InjectorsFix).bin
+SHA256: 29f19577dfd6054637879e7b121af305b3eec308c1496f3c92b3012e0f81e821
+Decoder: Capstone 5.0.7, TriCore 1.3.1
+FLASH address = 0x80000000 + file offset for the code excerpts below.
+RAM helper source/destination taken from copy descriptor at file offset 0x51888.
+CALLA annotations reconstruct the full target segment from instruction bytes.
+
+
+Differential pressure calculation
+File offsets 0x2F2330 to 0x2F2422 (exclusive)
+802F2330  2008      sub.a        sp, #8
+802F2332  910000fc  movh.a       a15, #0xc000
+802F2336  0258      mov          d8, d5
+802F2338  3bc012f0  mov          d15, #0x12c
+802F233C  59a40400  st.w         [sp]#4, d4
+802F2340  d9ffc661  lea          a15, [a15]#0x1d86
+802F2344  09fcc008  ld.hu        d12, [a15]#0
+802F2348  d90f50b9  lea          a15, [a0]#-0x6930
+802F234C  09f1c008  ld.hu        d1, [a15]#0
+802F2350  d90fb609  lea          a15, [a0]#-0x67ca
+802F2354  8806      ld.h         d6, [a15]#0
+802F2356  910000fc  movh.a       a15, #0xc000
+802F235A  d9ffb1f2  lea          a15, [a15]#0x2bf1
+802F235E  0800      ld.bu        d0, [a15]#0
+802F2360  22f0      adds         d0, d15
+802F2362  09aa8408  ld.h         d10, [sp]#4
+802F2366  09a9c608  ld.hu        d9, [sp]#6
+802F236A  73018a40  muls         d4, d1, d0
+802F236E  bbf0ffff  mov.u        d15, #0xffff
+802F2372  999c78a0  ld.a         a12, [a9]#0x6b8
+802F2376  d9cf3ce0  lea          a15, [a12]#0x3bc
+802F237A  09f5c008  ld.hu        d5, [a15]#0
+802F237E  d90f5489  lea          a15, [a0]#-0x69ec
+802F2382  edc04428  calla        #0x5088 ; encoded full target 0xC0005088
+802F2386  8235      mov          d5, #3
+802F2388  0224      mov          d4, d2
+802F238A  3b803e60  mov          d6, #0x3e8
+802F238E  edc04428  calla        #0x5088 ; encoded full target 0xC0005088
+802F2392  a808      st.h         [a15]#0, d8
+802F2394  0284      mov          d4, d8
+802F2396  d9cf1890  lea          a15, [a12]#0x258
+802F239A  022b      mov          d11, d2
+802F239C  d9c41a90  lea          a4, [a12]#0x25a
+802F23A0  09f5c008  ld.hu        d5, [a15]#0
+802F23A4  910000fc  movh.a       a15, #0xc000
+802F23A8  d9c51a90  lea          a5, [a12]#0x25a
+802F23AC  01550156  addsc.a      a5, a5, d5, #1
+802F23B0  6dee7133  call         #0x800b8a92
+802F23B4  d9fff271  lea          a15, [a15]#0x1df2
+802F23B8  5ff90580  jne          d9, d15, #0x802f23c2
+802F23BC  0b2a20f0  adds         d15, d10, d2
+802F23C0  3c03      j            #0x802f23c6
+802F23C2  0b2aa0f0  subs         d15, d10, d2
+802F23C6  322f      sat.h        d15
+802F23C8  8b0fe0f1  absdifs      d15, d15, #0
+802F23CC  322f      sat.h        d15
+802F23CE  999278a0  ld.a         a2, [a9]#0x6b8
+802F23D2  a80f      st.h         [a15]#0, d15
+802F23D4  bbf0ffff  mov.u        d15, #0xffff
+802F23D8  d92f2e90  lea          a15, [a2]#0x26e
+802F23DC  d9243090  lea          a4, [a2]#0x270
+802F23E0  09f5c008  ld.hu        d5, [a15]#0
+802F23E4  910000fc  movh.a       a15, #0xc000
+802F23E8  d9253090  lea          a5, [a2]#0x270
+802F23EC  01550156  addsc.a      a5, a5, d5, #1
+802F23F0  d9fff271  lea          a15, [a15]#0x1df2
+802F23F4  09f4c008  ld.hu        d4, [a15]#0
+802F23F8  d90f5689  lea          a15, [a0]#-0x69ea
+802F23FC  6dee4b33  call         #0x800b8a92
+802F2400  3ba00060  mov          d6, #0xa
+802F2404  02b4      mov          d4, d11
+802F2406  0225      mov          d5, d2
+802F2408  edc08726  calla        #0x4d0e ; encoded full target 0xC0004D0E
+802F240C  0bf280f1  min          d15, d2, d15
+802F2410  a80f      st.h         [a15]#0, d15
+802F2412  0b2ca020  subs         d2, d12, d2
+802F2416  8b024023  max          d2, d2, #0
+802F241A  3232      sat.hu       d2
+802F241C  37027020  extr.u       d2, d2, #0, #0x10
+802F2420  0090      ret          
+
+Injector duration calculation through correction selection
+File offsets 0x2F2764 to 0x2F2A84 (exclusive)
+802F2764  2028      sub.a        sp, #0x28
+802F2766  8f2420d0  sha          d13, d4, #2
+802F276A  09ab6808  ld.bu        d11, [sp]#0x28
+802F276E  8200      mov          d0, #0
+802F2770  59a62400  st.w         [sp]#0x24, d6
+802F2774  0249      mov          d9, d4
+802F2776  74a0      st.w         [sp], d0
+802F2778  1abd      add          d15, d13, d11
+802F277A  025c      mov          d12, d5
+802F277C  0278      mov          d8, d7
+802F277E  16ff      and          d15, #0xff
+802F2780  60fe      mov.a        a14, d15
+802F2782  f679      jnz          d7, #0x802f2794
+802F2784  820a      mov          d10, #0
+802F2786  c5dfaa10  lea          a15, #0xd000086a
+802F278A  01f400f6  addsc.a      a15, a15, d4, #0
+802F278E  0cf0      ld.bu        d15, [a15]#0
+802F2790  df0f0104  jeq          d15, #0, #0x802f2f92
+802F2794  09a4e608  ld.hu        d4, [sp]#0x26
+802F2798  0285      mov          d5, d8
+802F279A  8f042140  sha          d4, d4, #0x10
+802F279E  09afe408  ld.hu        d15, [sp]#0x24
+802F27A2  bbf0ffaf  mov.u        d10, #0xffff
+802F27A6  910000dc  movh.a       a13, #0xc000
+802F27AA  a6f4      or           d4, d15
+802F27AC  d9dde871  lea          a13, [a13]#0x1de8
+802F27B0  6dffc0fd  call         #0x802f2330
+802F27B4  9100002c  movh.a       a2, #0xc000
+802F27B8  0224      mov          d4, d2
+802F27BA  999c78a0  ld.a         a12, [a9]#0x6b8
+802F27BE  d922f471  lea          a2, [a2]#0x1df4
+802F27C2  d9cf3ee0  lea          a15, [a12]#0x3be
+802F27C6  d9c400f0  lea          a4, [a12]#0x3c0
+802F27CA  b422      st.h         [a2], d2
+802F27CC  09f5c008  ld.hu        d5, [a15]#0
+802F27D0  d9cf38e0  lea          a15, [a12]#0x3b8
+802F27D4  6dee3e2b  call         #0x800b7e50
+802F27D8  d9c436d0  lea          a4, [a12]#0x376
+802F27DC  0224      mov          d4, d2
+802F27DE  59027c88  st.w         [a0]#-0x79c4, d2
+802F27E2  6dee7b2b  call         #0x800b7ed8
+802F27E6  d9c41ac0  lea          a4, [a12]#0x31a
+802F27EA  022e      mov          d14, d2
+802F27EC  19047c88  ld.w         d4, [a0]#-0x79c4
+802F27F0  6dee9e2b  call         #0x800b7f2c
+802F27F4  3be00060  mov          d6, #0xe
+802F27F8  09f5c008  ld.hu        d5, [a15]#0
+802F27FC  0224      mov          d4, d2
+802F27FE  910000fc  movh.a       a15, #0xc000
+802F2802  edc08726  calla        #0x4d0e ; encoded full target 0xC0004D0E
+802F2806  09c54e68  ld.bu        d5, [a12]#0x18e
+802F280A  d9ff8ab2  lea          a15, [a15]#0x2aca
+802F280E  022f      mov          d15, d2
+802F2810  01c50056  addsc.a      a5, a12, d5, #0
+802F2814  d9c40f60  lea          a4, [a12]#0x18f
+802F2818  0804      ld.bu        d4, [a15]#0
+802F281A  d9550f60  lea          a5, [a5]#0x18f
+802F281E  6dee6e31  call         #0x800b8afa
+802F2822  8276      mov          d6, #7
+802F2824  02f4      mov          d4, d15
+802F2826  0225      mov          d5, d2
+802F2828  25d2b710  st.b         #0xd0000877, d2
+802F282C  edc08726  calla        #0x4d0e ; encoded full target 0xC0004D0E
+802F2830  0284      mov          d4, d8
+802F2832  0225      mov          d5, d2
+802F2834  3b900060  mov          d6, #9
+802F2838  edc08726  calla        #0x4d0e ; encoded full target 0xC0004D0E
+802F283C  3bf01c50  mov          d5, #0x1cf
+802F2840  0224      mov          d4, d2
+802F2842  3ba00060  mov          d6, #0xa
+802F2846  edc08726  calla        #0x4d0e ; encoded full target 0xC0004D0E
+802F284A  0ba280f1  min          d15, d2, d10
+802F284E  acd0      st.h         [a13]#0, d15
+802F2850  da80      mov          d15, #0x80
+802F2852  0228      mov          d8, d2
+802F2854  5ffc1800  jeq          d12, d15, #0x802f2884
+802F2858  8fcc1ff0  sh           d15, d12, #-4
+802F285C  d90f7c89  lea          a15, [a0]#-0x69c4
+802F2860  0224      mov          d4, d2
+802F2862  8255      mov          d5, #5
+802F2864  8216      mov          d6, #1
+802F2866  133920ff  madd         d15, d15, d9, #3
+802F286A  edc08726  calla        #0x4d0e ; encoded full target 0xC0004D0E
+802F286E  8200      mov          d0, #0
+802F2870  c2ff      add          d15, #-1
+802F2872  37f08800  insert       d0, d0, d15, #1, #8
+802F2876  0b2a40f1  ge           d15, d10, d2
+802F287A  01f000f6  addsc.a      a15, a15, d0, #0
+802F287E  abf29fff  sel          d15, d15, d2, #-1
+802F2882  a80f      st.h         [a15]#0, d15
+802F2884  0cc1      ld.bu        d15, [a12]#1
+802F2886  6e15      jz           d15, #0x802f28b0
+802F2888  bb80deff  mov.u        d15, #0xfde8
+802F288C  09d4c008  ld.hu        d4, [a13]#0
+802F2890  3f4f6580  jlt.u        d15, d4, #0x802f295a
+802F2894  d9cf20a0  lea          a15, [a12]#0x2a0
+802F2898  d9c422a0  lea          a4, [a12]#0x2a2
+802F289C  09f5c008  ld.hu        d5, [a15]#0
+802F28A0  d9c522a0  lea          a5, [a12]#0x2a2
+802F28A4  01550156  addsc.a      a5, a5, d5, #1
+802F28A8  6deef530  call         #0x800b8a92
+802F28AC  0228      mov          d8, d2
+802F28AE  3c56      j            #0x802f295a
+802F28B0  d9c31860  lea          a3, [a12]#0x198
+802F28B4  8205      mov          d5, #0
+802F28B6  09d4c008  ld.hu        d4, [a13]#0
+802F28BA  8201      mov          d1, #0
+802F28BC  09c0d668  ld.hu        d0, [a12]#0x196
+802F28C0  093fc008  ld.hu        d15, [a3]#0
+802F28C4  d9c43870  lea          a4, [a12]#0x1f8
+802F28C8  7f4f4180  jge.u        d15, d4, #0x802f294a
+802F28CC  d93ffeff  lea          a15, [a3]#-2
+802F28D0  01f001f6  addsc.a      a15, a15, d0, #1
+802F28D4  0203      mov          d3, d0
+802F28D6  09ffc008  ld.hu        d15, [a15]#0
+802F28DA  7ff43680  jge.u        d4, d15, #0x802f2946
+802F28DE  5a53      sub          d15, d3, d5
+802F28E0  8fff1f20  sh           d2, d15, #-1
+802F28E4  0b238000  sub          d0, d3, d2
+802F28E8  013001f6  addsc.a      a15, a3, d0, #1
+802F28EC  09ffc008  ld.hu        d15, [a15]#0
+802F28F0  7ff40480  jge.u        d4, d15, #0x802f28f8
+802F28F4  0203      mov          d3, d0
+802F28F6  3c0b      j            #0x802f290c
+802F28F8  0b520000  add          d0, d2, d5
+802F28FC  013001f6  addsc.a      a15, a3, d0, #1
+802F2900  09ffc008  ld.hu        d15, [a15]#0
+802F2904  0bf430f1  lt.u         d15, d4, d15
+802F2908  2b05405f  sel          d5, d15, d5, d0
+802F290C  df02e9ff  jne          d2, #0, #0x802f28de
+802F2910  01350126  addsc.a      a2, a3, d5, #1
+802F2914  092fc008  ld.hu        d15, [a2]#0
+802F2918  5f4f1900  jeq          d15, d4, #0x802f294a
+802F291C  0920c008  ld.hu        d0, [a2]#0
+802F2920  0b048000  sub          d0, d4, d0
+802F2924  013301f6  addsc.a      a15, a3, d3, #1
+802F2928  8f002100  sha          d0, d0, #0x10
+802F292C  09ffc008  ld.hu        d15, [a15]#0
+802F2930  0921c008  ld.hu        d1, [a2]#0
+802F2934  521f      sub          d15, d15, d1
+802F2936  4bf0a020  dvinit.u     e2, d0, d15
+802F293A  a03f      mov.a        a15, #3
+802F293C  6bf0e022  dvstep.u     e2, e2, d15
+802F2940  fcfe      loop         a15, 0x802f293c
+802F2942  0221      mov          d1, d2
+802F2944  3c03      j            #0x802f294a
+802F2946  8bf01f50  add          d5, d0, #-1
+802F294A  8f052140  sha          d4, d5, #0x10
+802F294E  4214      add          d4, d1
+802F2950  6deec42a  call         #0x800b7ed8
+802F2954  37025020  extr         d2, d2, #0, #0x10
+802F2958  2228      adds         d8, d2
+802F295A  9100002c  movh.a       a2, #0xc000
+802F295E  999c78a0  ld.a         a12, [a9]#0x6b8
+802F2962  d90f0af9  lea          a15, [a0]#-0x6c36
+802F2966  d922e871  lea          a2, [a2]#0x1de8
+802F296A  09c6c208  ld.hu        d6, [a12]#2
+802F296E  09c7c408  ld.hu        d7, [a12]#4
+802F2972  1a76      add          d15, d6, d7
+802F2974  0924c008  ld.hu        d4, [a2]#0
+802F2978  09f5c008  ld.hu        d5, [a15]#0
+802F297C  d9c40600  lea          a4, [a12]#6
+802F2980  d9c50600  lea          a5, [a12]#6
+802F2984  01560156  addsc.a      a5, a5, d6, #1
+802F2988  d9c60600  lea          a6, [a12]#6
+802F298C  5066      addsc.a      a6, a6, d15, #1
+802F298E  6dee0e32  call         #0x800b8daa
+802F2992  0284      mov          d4, d8
+802F2994  0225      mov          d5, d2
+802F2996  3bf00060  mov          d6, #0xf
+802F299A  edc08726  calla        #0x4d0e ; encoded full target 0xC0004D0E
+802F299E  22e2      adds         d2, d14
+802F29A0  8255      mov          d5, #5
+802F29A2  0224      mov          d4, d2
+802F29A4  8216      mov          d6, #1
+802F29A6  edc08726  calla        #0x4d0e ; encoded full target 0xC0004D0E
+802F29AA  14c0      ld.bu        d0, [a12]
+802F29AC  020f      mov          d15, d0
+802F29AE  0228      mov          d8, d2
+802F29B0  ae0b      jnz.t        d15, #0, #0x802f29c6
+802F29B2  6f105c00  jz.t         d0, #1, #0x802f2a6a
+802F29B6  821f      mov          d15, #1
+802F29B8  d90f9c0a  lea          a15, [a0]#-0x57e4
+802F29BC  0f9f10f0  sha          d15, d15, d9
+802F29C0  0800      ld.bu        d0, [a15]#0
+802F29C2  260f      and          d15, d0
+802F29C4  ee53      jnz          d15, #0x802f2a6a
+802F29C6  c5dfaa10  lea          a15, #0xd000086a
+802F29CA  01f900f6  addsc.a      a15, a15, d9, #0
+802F29CE  0cf0      ld.bu        d15, [a15]#0
+802F29D0  ee05      jnz          d15, #0x802f29da
+802F29D2  0294      mov          d4, d9
+802F29D4  8205      mov          d5, #0
+802F29D6  6d00040b  call         #0x802f3fde
+802F29DA  910000fc  movh.a       a15, #0xc000
+802F29DE  3b000004  mov          d0, #0x4000
+802F29E2  9100002c  movh.a       a2, #0xc000
+802F29E6  89a09808  st.h         [sp]#0x18, d0
+802F29EA  d9ff7402  lea          a15, [a15]#0x2434
+802F29EE  89a0a208  st.h         [sp]#0x22, d0
+802F29F2  01fd00f6  addsc.a      a15, a15, d13, #0
+802F29F6  d922e871  lea          a2, [a2]#0x1de8
+802F29FA  d9c42af0  lea          a4, [a12]#0x3ea
+802F29FE  84ff      ld.h         d15, [a15+]
+802F2A00  0924c008  ld.hu        d4, [a2]#0
+802F2A04  acad      st.h         [sp]#0x1a, d15
+802F2A06  acae      st.h         [sp]#0x1c, d15
+802F2A08  8cf0      ld.h         d15, [a15]#0
+802F2A0A  d9cf28f0  lea          a15, [a12]#0x3e8
+802F2A0E  acaf      st.h         [sp]#0x1e, d15
+802F2A10  89afa008  st.h         [sp]#0x20, d15
+802F2A14  09f5c008  ld.hu        d5, [a15]#0
+802F2A18  910000fc  movh.a       a15, #0xc000
+802F2A1C  6dee1a2a  call         #0x800b7e50
+802F2A20  d9a41800  lea          a4, [sp]#0x18
+802F2A24  0224      mov          d4, d2
+802F2A26  d9ff0e12  lea          a15, [a15]#0x204e
+802F2A2A  59024098  st.w         [a0]#-0x79c0, d2
+802F2A2E  6dee7f2a  call         #0x800b7f2c
+802F2A32  01fd00f6  addsc.a      a15, a15, d13, #0
+802F2A36  0285      mov          d5, d8
+802F2A38  3be00060  mov          d6, #0xe
+802F2A3C  0224      mov          d4, d2
+802F2A3E  edc08726  calla        #0x4d0e ; encoded full target 0xC0004D0E
+802F2A42  84ff      ld.h         d15, [a15+]
+802F2A44  8200      mov          d0, #0
+802F2A46  d9a40c00  lea          a4, [sp]#0xc
+802F2A4A  0228      mov          d8, d2
+802F2A4C  19044098  ld.w         d4, [a0]#-0x79c0
+802F2A50  aca7      st.h         [sp]#0xe, d15
+802F2A52  aca8      st.h         [sp]#0x10, d15
+802F2A54  8cf0      ld.h         d15, [a15]#0
+802F2A56  89a08c08  st.h         [sp]#0xc, d0
+802F2A5A  89a09608  st.h         [sp]#0x16, d0
+802F2A5E  aca9      st.h         [sp]#0x12, d15
+802F2A60  acaa      st.h         [sp]#0x14, d15
+802F2A62  6dee3b2a  call         #0x800b7ed8
+802F2A66  2282      adds         d2, d8
+802F2A68  3c02      j            #0x802f2a6c
+802F2A6A  0282      mov          d2, d8
+802F2A6C  0225      mov          d5, d2
+802F2A6E  910000fc  movh.a       a15, #0xc000
+802F2A72  3bc00060  mov          d6, #0xc
+802F2A76  d9ff5412  lea          a15, [a15]#0x2454
+802F2A7A  09f4c008  ld.hu        d4, [a15]#0
+802F2A7E  edc08726  calla        #0x4d0e ; encoded full target 0xC0004D0E
+802F2A82  022a      mov          d10, d2
+
+Inverse/reference calculation
+File offsets 0xA4080 to 0xA417C (exclusive)
+800A4080  2008      sub.a        sp, #8
+800A4082  59a40400  st.w         [sp]#4, d4
+800A4086  0258      mov          d8, d5
+800A4088  8205      mov          d5, #0
+800A408A  910000fc  movh.a       a15, #0xc000
+800A408E  09a4c608  ld.hu        d4, [sp]#6
+800A4092  8f042140  sha          d4, d4, #0x10
+800A4096  09afc408  ld.hu        d15, [sp]#4
+800A409A  d9fff471  lea          a15, [a15]#0x1df4
+800A409E  a6f4      or           d4, d15
+800A40A0  6d124871  call         #0x802f2330
+800A40A4  999c78a0  ld.a         a12, [a9]#0x6b8
+800A40A8  0224      mov          d4, d2
+800A40AA  a802      st.h         [a15]#0, d2
+800A40AC  d9cf3ee0  lea          a15, [a12]#0x3be
+800A40B0  d9c400f0  lea          a4, [a12]#0x3c0
+800A40B4  09f5c008  ld.hu        d5, [a15]#0
+800A40B8  d9cf38e0  lea          a15, [a12]#0x3b8
+800A40BC  6d00ca9e  call         #0x800b7e50
+800A40C0  d9c41ac0  lea          a4, [a12]#0x31a
+800A40C4  0224      mov          d4, d2
+800A40C6  59027c88  st.w         [a0]#-0x79c4, d2
+800A40CA  6d00319f  call         #0x800b7f2c
+800A40CE  3be00060  mov          d6, #0xe
+800A40D2  09f5c008  ld.hu        d5, [a15]#0
+800A40D6  0224      mov          d4, d2
+800A40D8  910000fc  movh.a       a15, #0xc000
+800A40DC  edc08726  calla        #0x4d0e ; encoded full target 0xC0004D0E
+800A40E0  09c54e68  ld.bu        d5, [a12]#0x18e
+800A40E4  d9ff8ab2  lea          a15, [a15]#0x2aca
+800A40E8  022f      mov          d15, d2
+800A40EA  01c50056  addsc.a      a5, a12, d5, #0
+800A40EE  d9c40f60  lea          a4, [a12]#0x18f
+800A40F2  0804      ld.bu        d4, [a15]#0
+800A40F4  d9550f60  lea          a5, [a5]#0x18f
+800A40F8  d90f206b  lea          a15, [a0]#-0x4e60
+800A40FC  6d00ffa4  call         #0x800b8afa
+800A4100  8276      mov          d6, #7
+800A4102  02f4      mov          d4, d15
+800A4104  0225      mov          d5, d2
+800A4106  25d2b710  st.b         #0xd0000877, d2
+800A410A  edc08726  calla        #0x4d0e ; encoded full target 0xC0004D0E
+800A410E  09ffc008  ld.hu        d15, [a15]#0
+800A4112  0229      mov          d9, d2
+800A4114  6e0c      jz           d15, #0x800a412c
+800A4116  7e8b      jne          d15, d8, #0x800a412c
+800A4118  09cff658  ld.hu        d15, [a12]#0x176
+800A411C  09c0fe58  ld.hu        d0, [a12]#0x17e
+800A4120  0b0f30f0  adds.u       d15, d15, d0
+800A4124  323f      sat.hu       d15
+800A4126  370fef20  extr.u       d2, d15, #1, #0xf
+800A412A  3c1e      j            #0x800a4166
+800A412C  999c78a0  ld.a         a12, [a9]#0x6b8
+800A4130  19047c88  ld.w         d4, [a0]#-0x79c4
+800A4134  d9c436d0  lea          a4, [a12]#0x376
+800A4138  6d00d09e  call         #0x800b7ed8
+800A413C  0b28a020  subs         d2, d8, d2
+800A4140  8b024023  max          d2, d2, #0
+800A4144  3232      sat.hu       d2
+800A4146  37027020  extr.u       d2, d2, #0, #0x10
+800A414A  d90f5089  lea          a15, [a0]#-0x69f0
+800A414E  d9c43e30  lea          a4, [a12]#0xfe
+800A4152  0224      mov          d4, d2
+800A4154  a802      st.h         [a15]#0, d2
+800A4156  09c5fc38  ld.hu        d5, [a12]#0xfc
+800A415A  d9c53e30  lea          a5, [a12]#0xfe
+800A415E  01550156  addsc.a      a5, a5, d5, #1
+800A4162  6d0098a4  call         #0x800b8a92
+800A4166  8f022140  sha          d4, d2, #0x10
+800A416A  3bd05650  mov          d5, #0x56d
+800A416E  edc0da27  calla        #0x4fb4 ; encoded full target 0xC0004FB4
+800A4172  0295      mov          d5, d9
+800A4174  53822140  mul          d4, d2, #0x18
+800A4178  9dc0a227  ja           #0x4f44
+
+Calibration table default initialization
+File offsets 0xDE694 to 0xDE6B8 (exclusive)
+800DE694  820f      mov          d15, #0
+800DE696  915000f8  movh.a       a15, #0x8005
+800DE69A  59cf0c10  st.w         [a12]#0x4c, d15
+800DE69E  6cca      st.w         [a12]#0x28, d15
+800DE6A0  d9ff20f3  lea          a15, [a15]#0x33e0
+800DE6A4  6ccb      st.w         [a12]#0x2c, d15
+800DE6A6  6ccc      st.w         [a12]#0x30, d15
+800DE6A8  4800      ld.w         d0, [a15]#0
+800DE6AA  4cc9      ld.w         d15, [a12]#0x24
+800DE6AC  3e06      jeq          d15, d0, #0x800de6b8
+800DE6AE  821f      mov          d15, #1
+800DE6B0  89cf1318  st.b         [a12]#0x53, d15
+800DE6B4  59c02400  st.w         [a12]#0x24, d0
+
+Default pointer-table selection
+File offsets 0xDE5EC to 0xDE606 (exclusive)
+800DE5EC  4cd9      ld.w         d15, [a13]#0x24
+800DE5EE  6cd7      st.w         [a13]#0x1c, d15
+800DE5F0  6cd8      st.w         [a13]#0x20, d15
+800DE5F2  820f      mov          d15, #0
+800DE5F4  acd8      st.h         [a13]#0x10, d15
+800DE5F6  acd9      st.h         [a13]#0x12, d15
+800DE5F8  820f      mov          d15, #0
+800DE5FA  6cd3      st.w         [a13]#0xc, d15
+800DE5FC  6cda      st.w         [a13]#0x28, d15
+800DE5FE  8204      mov          d4, #0
+800DE600  6cdb      st.w         [a13]#0x2c, d15
+800DE602  6d00d702  call         #0x800debb0
+
+Calibration register selection
+File offsets 0xDEA14 to 0xDEA54 (exclusive)
+800DEA14  7b000002  movh         d0, #0x2000
+800DEA18  912000fd  movh.a       a15, #0xd002
+800DEA1C  99ffd47a  ld.a         a15, [a15]#-0x522c
+800DEA20  d9f21c00  lea          a2, [a15]#0x1c
+800DEA24  01240226  addsc.a      a2, a2, d4, #2
+800DEA28  4c20      ld.w         d15, [a2]#0
+800DEA2A  8f4f1e10  sh           d1, d15, #-0x1c
+800DEA2E  402f      mov.aa       a15, a2
+800DEA30  8b810012  eq           d1, d1, #8
+800DEA34  2b0f0011  cadd         d1, d1, d15, d0
+800DEA38  4d40e00f  mfcr         d0, #0xfe04
+800DEA3C  8f0050f1  or           d15, d0, #0x100
+800DEA40  cd4fe00f  mtcr         #-0x1fc, d15
+800DEA44  0d00c004  isync        
+800DEA48  6019      mov.a        a9, d1
+800DEA4A  cd40e00f  mtcr         #-0x1fc, d0
+800DEA4E  0d00c004  isync        
+800DEA52  0090      ret          
+
+Axis-index lookup wrapper
+File offsets 0xB7E50 to 0xB7E74 (exclusive)
+800B7E50  2008      sub.a        sp, #8
+800B7E52  37047040  extr.u       d4, d4, #0, #0x10
+800B7E56  4045      mov.aa       a5, a4
+800B7E58  37057050  extr.u       d5, d5, #0, #0x10
+800B7E5C  d9a40400  lea          a4, [sp]#4
+800B7E60  6d009f09  call         #0x800b919e
+800B7E64  09a2c408  ld.hu        d2, [sp]#4
+800B7E68  8f022120  sha          d2, d2, #0x10
+800B7E6C  09afc608  ld.hu        d15, [sp]#6
+800B7E70  a6f2      or           d2, d15
+800B7E72  0090      ret          
+
+Signed output interpolation wrapper
+File offsets 0xB7ED8 to 0xB7EF4 (exclusive)
+800B7ED8  2008      sub.a        sp, #8
+800B7EDA  8f041ff0  sh           d15, d4, #-0x10
+800B7EDE  4045      mov.aa       a5, a4
+800B7EE0  d9a40400  lea          a4, [sp]#4
+800B7EE4  aca2      st.h         [sp]#4, d15
+800B7EE6  89a48608  st.h         [sp]#6, d4
+800B7EEA  6d001506  call         #0x800b8b14
+800B7EEE  37025020  extr         d2, d2, #0, #0x10
+800B7EF2  0090      ret          
+
+Unsigned output interpolation wrapper
+File offsets 0xB7F2C to 0xB7F48 (exclusive)
+800B7F2C  2008      sub.a        sp, #8
+800B7F2E  8f041ff0  sh           d15, d4, #-0x10
+800B7F32  4045      mov.aa       a5, a4
+800B7F34  d9a40400  lea          a4, [sp]#4
+800B7F38  aca2      st.h         [sp]#4, d15
+800B7F3A  89a48608  st.h         [sp]#6, d4
+800B7F3E  6d002006  call         #0x800b8b7e
+800B7F42  37027020  extr.u       d2, d2, #0, #0x10
+800B7F46  0090      ret          
+
+Fixed-point multiply helper copied into RAM
+File offsets 0x21196 to 0x211D2 (exclusive)
+C0004D0E  8b064003  max          d0, d6, #0
+C0004D12  df001600  jeq          d0, #0, #0xc0004d3e
+C0004D16  8bf00303  min          d0, d0, #0x3f
+C0004D1A  73546a20  mul          e2, d4, d5
+C0004D1E  8b000201  rsub         d0, d0, #0x20
+C0004D22  4e04      jgtz         d0, #0xc0004d2a
+C0004D24  0f031020  sha          d2, d3, d0
+C0004D28  3c10      j            #0xc0004d48
+C0004D2A  0f03d0f1  cls          d15, d3
+C0004D2E  7f0f0b00  jge          d15, d0, #0xc0004d44
+C0004D32  3703c1ff  extr         d15, d3, #0x1f, #1
+C0004D36  7b000028  movh         d2, #0x8000
+C0004D3A  caf2      caddn        d2, d15, #-1
+C0004D3C  3c06      j            #0xc0004d48
+C0004D3E  73548a20  muls         d2, d4, d5
+C0004D42  3c03      j            #0xc0004d48
+C0004D44  17238020  dextr        d2, d3, d2, d0
+C0004D48  0090      ret          
+
+Pointer and calibration evidence
+File 0x533E0: 80114EA4 00000276 89824B97
+File 0x11555C: 801D16D4 801D1ACC 801D1AD2
+File 0x51888: C0004980 80020E08 000021D0
+File 0x1D16D4: 02 01 0c 00 08 00 5e 01
+File 0x1D1ADA: 07 00 b0 04 02 62 87 00
+File 0x1D186A: 30 00 46 00 64 00 7d 00
+File 0x1D1974: 1e 00 00 00 2b 00 46 00
+File 0x1D1A8C: 63 22 10 0e 3f 01 14 00 90 01 1c 02

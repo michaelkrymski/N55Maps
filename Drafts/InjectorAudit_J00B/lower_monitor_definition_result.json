@@ -1,0 +1,11 @@
+{
+  "definition_uniqueid": "0x5f5e",
+  "definition_title": "Fuel mass monitor lower multiplier (FRKMIN_UM)",
+  "address": "0x1B84C0",
+  "equation": "X/128",
+  "working_bin_unchanged": true,
+  "working_bin_sha256": "1b815f9b5e7c39a043c236db17fbae899f3c0b565efc5eae9f066566eac28f17",
+  "raw": 113,
+  "only_draft_field_changed": "source_xdf_b64",
+  "backup_directory": "C:\\Users\\Michael Krymski\\Documents\\N55Maps\\Drafts\\InjectorAudit_J00B\\XDF_definition_backup"
+}

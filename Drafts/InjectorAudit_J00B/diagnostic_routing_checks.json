@@ -1,0 +1,217 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\Michael Krymski\\Documents\\N55Maps\\E85\\Revisions\\E85v6(InjectorsFix).bin",
+      "sha256": "29f19577dfd6054637879e7b121af305b3eec308c1496f3c92b3012e0f81e821",
+      "all_examined_code_identical_to_v6": true,
+      "manufacturer_table_base": "0x1c2064",
+      "fault_type_table_base": "0x1c61b0",
+      "gkc_rlc_debounce_and_reset_limit_bytes": [
+        13,
+        13,
+        0,
+        0
+      ],
+      "events": [
+        {
+          "branch_name_from_older_definitions": "Gkc",
+          "internal_reaction_id": "0x3031",
+          "handle_file_offset": "0x30872",
+          "handle": "0x848f",
+          "event_index": 1167,
+          "event_index_hex": "0x48f",
+          "manufacturer_word_offset": "0x1c2982",
+          "manufacturer_word": "0x1f05",
+          "fault_type_offset": "0x1c663f",
+          "fault_type_byte": "0x21",
+          "assembled_dtc": "1F0521"
+        },
+        {
+          "branch_name_from_older_definitions": "Rlc",
+          "internal_reaction_id": "0x3032",
+          "handle_file_offset": "0x30868",
+          "handle": "0x8494",
+          "event_index": 1172,
+          "event_index_hex": "0x494",
+          "manufacturer_word_offset": "0x1c298c",
+          "manufacturer_word": "0x1f05",
+          "fault_type_offset": "0x1c6644",
+          "fault_type_byte": "0x25",
+          "assembled_dtc": "1F0525"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\Michael Krymski\\Documents\\N55Maps\\E85\\Revisions\\E85v11(FuelHoning).bin",
+      "sha256": "10d2d4b773de5994c449accd8eb8a59a1f3616536df15f29548c5361c1ad8ba4",
+      "all_examined_code_identical_to_v6": true,
+      "manufacturer_table_base": "0x1c2064",
+      "fault_type_table_base": "0x1c61b0",
+      "gkc_rlc_debounce_and_reset_limit_bytes": [
+        13,
+        13,
+        0,
+        0
+      ],
+      "events": [
+        {
+          "branch_name_from_older_definitions": "Gkc",
+          "internal_reaction_id": "0x3031",
+          "handle_file_offset": "0x30872",
+          "handle": "0x848f",
+          "event_index": 1167,
+          "event_index_hex": "0x48f",
+          "manufacturer_word_offset": "0x1c2982",
+          "manufacturer_word": "0x1f05",
+          "fault_type_offset": "0x1c663f",
+          "fault_type_byte": "0x21",
+          "assembled_dtc": "1F0521"
+        },
+        {
+          "branch_name_from_older_definitions": "Rlc",
+          "internal_reaction_id": "0x3032",
+          "handle_file_offset": "0x30868",
+          "handle": "0x8494",
+          "event_index": 1172,
+          "event_index_hex": "0x494",
+          "manufacturer_word_offset": "0x1c298c",
+          "manufacturer_word": "0x1f05",
+          "fault_type_offset": "0x1c6644",
+          "fault_type_byte": "0x25",
+          "assembled_dtc": "1F0525"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\Michael Krymski\\Documents\\N55Maps\\E85\\Revisions\\E85v12(FuelHoning).bin",
+      "sha256": "a3519573b3ce93392f70a468b6de17ee2c8f762570ac8b196c72dad3606fa8c2",
+      "all_examined_code_identical_to_v6": true,
+      "manufacturer_table_base": "0x1c2064",
+      "fault_type_table_base": "0x1c61b0",
+      "gkc_rlc_debounce_and_reset_limit_bytes": [
+        13,
+        13,
+        0,
+        0
+      ],
+      "events": [
+        {
+          "branch_name_from_older_definitions": "Gkc",
+          "internal_reaction_id": "0x3031",
+          "handle_file_offset": "0x30872",
+          "handle": "0x848f",
+          "event_index": 1167,
+          "event_index_hex": "0x48f",
+          "manufacturer_word_offset": "0x1c2982",
+          "manufacturer_word": "0x1f05",
+          "fault_type_offset": "0x1c663f",
+          "fault_type_byte": "0x21",
+          "assembled_dtc": "1F0521"
+        },
+        {
+          "branch_name_from_older_definitions": "Rlc",
+          "internal_reaction_id": "0x3032",
+          "handle_file_offset": "0x30868",
+          "handle": "0x8494",
+          "event_index": 1172,
+          "event_index_hex": "0x494",
+          "manufacturer_word_offset": "0x1c298c",
+          "manufacturer_word": "0x1f05",
+          "fault_type_offset": "0x1c6644",
+          "fault_type_byte": "0x25",
+          "assembled_dtc": "1F0525"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\Michael Krymski\\Documents\\N55Maps\\FlexFuel\\Revisions\\FlexFuelv4(FuelScalar-93).bin",
+      "sha256": "d9cf1757971ab83804d532ff9eb46c1ce2c3f5e4bbb77a5090698905614dac14",
+      "all_examined_code_identical_to_v6": true,
+      "manufacturer_table_base": "0x1c2064",
+      "fault_type_table_base": "0x1c61b0",
+      "gkc_rlc_debounce_and_reset_limit_bytes": [
+        13,
+        13,
+        0,
+        0
+      ],
+      "events": [
+        {
+          "branch_name_from_older_definitions": "Gkc",
+          "internal_reaction_id": "0x3031",
+          "handle_file_offset": "0x30872",
+          "handle": "0x848f",
+          "event_index": 1167,
+          "event_index_hex": "0x48f",
+          "manufacturer_word_offset": "0x1c2982",
+          "manufacturer_word": "0x1f05",
+          "fault_type_offset": "0x1c663f",
+          "fault_type_byte": "0x21",
+          "assembled_dtc": "1F0521"
+        },
+        {
+          "branch_name_from_older_definitions": "Rlc",
+          "internal_reaction_id": "0x3032",
+          "handle_file_offset": "0x30868",
+          "handle": "0x8494",
+          "event_index": 1172,
+          "event_index_hex": "0x494",
+          "manufacturer_word_offset": "0x1c298c",
+          "manufacturer_word": "0x1f05",
+          "fault_type_offset": "0x1c6644",
+          "fault_type_byte": "0x25",
+          "assembled_dtc": "1F0525"
+        }
+      ]
+    }
+  ],
+  "code_ranges": [
+    [
+      403248,
+      403456,
+      "Bounds write failure flag in scratch field +26"
+    ],
+    [
+      404682,
+      405132,
+      "Monitor debounce, reaction and status bits"
+    ],
+    [
+      487866,
+      488066,
+      "Status bits to diagnostic reporting handles"
+    ],
+    [
+      568604,
+      569188,
+      "Diagnostic reporter masks handle to low 12-bit event index"
+    ],
+    [
+      745770,
+      746030,
+      "Internal reaction context capture and system/debug reaction"
+    ],
+    [
+      883164,
+      883184,
+      "Manufacturer/OBD two-byte DTC table selector"
+    ],
+    [
+      883592,
+      883618,
+      "Fault-type byte getter"
+    ],
+    [
+      579594,
+      579690,
+      "Stored event to assembled 24-bit DTC"
+    ],
+    [
+      914432,
+      914542,
+      "Explicit manufacturer DTC assembly and output array"
+    ]
+  ],
+  "dtc_assembly": "(manufacturer_word << 8) | fault_type_byte",
+  "no_bin_files_modified": true
+}

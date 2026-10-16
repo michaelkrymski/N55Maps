@@ -1,0 +1,94 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\Michael Krymski\\Documents\\N55Maps\\E85\\Revisions\\E85v6(InjectorsFix).bin",
+      "sha256": "29f19577dfd6054637879e7b121af305b3eec308c1496f3c92b3012e0f81e821",
+      "code_ranges_identical_to_v6": true,
+      "selectors": {
+        "0x194a83": 2,
+        "0x19510d": 0,
+        "0x1b84bb": 1
+      }
+    },
+    {
+      "path": "C:\\Users\\Michael Krymski\\Documents\\N55Maps\\E85\\Revisions\\E85v11(FuelHoning).bin",
+      "sha256": "10d2d4b773de5994c449accd8eb8a59a1f3616536df15f29548c5361c1ad8ba4",
+      "code_ranges_identical_to_v6": true,
+      "selectors": {
+        "0x194a83": 2,
+        "0x19510d": 0,
+        "0x1b84bb": 1
+      }
+    },
+    {
+      "path": "C:\\Users\\Michael Krymski\\Documents\\N55Maps\\E85\\Revisions\\E85v12(FuelHoning).bin",
+      "sha256": "a3519573b3ce93392f70a468b6de17ee2c8f762570ac8b196c72dad3606fa8c2",
+      "code_ranges_identical_to_v6": true,
+      "selectors": {
+        "0x194a83": 2,
+        "0x19510d": 0,
+        "0x1b84bb": 1
+      }
+    },
+    {
+      "path": "C:\\Users\\Michael Krymski\\Documents\\N55Maps\\FlexFuel\\Revisions\\FlexFuelv4(FuelScalar-93).bin",
+      "sha256": "d9cf1757971ab83804d532ff9eb46c1ce2c3f5e4bbb77a5090698905614dac14",
+      "code_ranges_identical_to_v6": true,
+      "selectors": {
+        "0x194a83": 2,
+        "0x19510d": 0,
+        "0x1b84bb": 1
+      }
+    }
+  ],
+  "ranges": [
+    [
+      136354,
+      136464,
+      "RAM helper C000501A: signed multiply/divide and saturation"
+    ],
+    [
+      2254078,
+      2254100,
+      "Default scalar pointer initialization"
+    ],
+    [
+      2678550,
+      2679532,
+      "Normal fuel calculation and scalar multiplication"
+    ],
+    [
+      2682934,
+      2683344,
+      "Normal output selection and overrides"
+    ],
+    [
+      689648,
+      689840,
+      "Normal output conversion to monitor interface"
+    ],
+    [
+      691100,
+      691138,
+      "Learned-correction interface conversion"
+    ],
+    [
+      401536,
+      401936,
+      "Monitor normal input and adaptation selection"
+    ],
+    [
+      402680,
+      403460,
+      "Monitor correction selection, reference and bounds"
+    ]
+  ],
+  "stock_path": "C:\\Users\\Michael Krymski\\Downloads\\WBA1J9C5XGV696132_000021571DAA01.bin",
+  "stock_sha256": "29913adc8a323e58d9ee4064f163fcb18c8894a7c8d32ec2d41a80735e4fd0a2",
+  "stock_and_ff_lengths": [
+    4194304,
+    4194304
+  ],
+  "ff_vs_stock_changed_bytes": 48179,
+  "ff_vs_stock_changed_bytes_outside_180000_1fffff": 0
+}
