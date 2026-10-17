@@ -1194,3 +1194,37 @@ None
 None
 
 
+++++10/16/2026 4:32:12 PM
+- DME active codes:
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+- DME inactive (shadow) codes:
+11A401 - Fuel high pressure during fuel injection release: Pressure too low.
+11B401 - Fuel high pressure or after enabling injection (2nd ambient condition set after delay): Pressure too low.
+
+- Transmission active codes:
+CF16D1 - Message (group fault 3 - effect on driving: none): receiver EGS, transmitter DSC .
+
+
+++++10/16/2026 4:32:41 PM
+- DME active codes:
+None
+
+- DME inactive (shadow) codes:
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+- Transmission active codes:
+None
+
+
+++++10/16/2026 4:45:16 PM
+- DME active codes:
+None
+
+- DME inactive (shadow) codes:
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+- Transmission active codes:
+None
+
+
