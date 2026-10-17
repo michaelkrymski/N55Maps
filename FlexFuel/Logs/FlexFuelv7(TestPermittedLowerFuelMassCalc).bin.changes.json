@@ -1,0 +1,131 @@
+{
+  "session": {
+    "session_id": "21c5b0e1a9a045bf964ffae544f4ff52",
+    "created_at": "2026-10-17T07:32:17",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "FlexFuelv6(BoostLoweredMap1).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 2,
+    "dirty_table_count": 2,
+    "dirty_table_ids": [
+      "table-0159-0x5a7",
+      "table-1115-0x5f5e"
+    ],
+    "export_ready": true,
+    "can_undo": true,
+    "fuel_banks_linked": true,
+    "fuel_bank_patch_available": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-10-17T07:34:18",
+      "table_id": "table-1115-0x5f5e",
+      "table_title": "Fuel mass monitor lower multiplier (FRKMIN_UM)",
+      "operation": "set_cells",
+      "selection": {
+        "row_start": 0,
+        "row_end": 0,
+        "col_start": 0,
+        "col_end": 0,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.796875
+      },
+      "summary": {
+        "changed_cell_count": 1,
+        "min_delta": -0.0546875,
+        "max_delta": -0.0546875
+      }
+    },
+    {
+      "timestamp": "2026-10-17T07:34:51",
+      "table_id": "table-0159-0x5a7",
+      "table_title": "Fuel Scalar",
+      "operation": "add_constant",
+      "selection": {
+        "row_start": 8,
+        "row_end": 15,
+        "col_start": 10,
+        "col_end": 15,
+        "is_rectangular": true
+      },
+      "parameters": {
+        "value": 0.01
+      },
+      "summary": {
+        "changed_cell_count": 48,
+        "min_delta": 0.0050084936199999985,
+        "max_delta": 0.014999946240000006
+      }
+    }
+  ],
+  "exports": [
+    {
+      "session": {
+        "session_id": "21c5b0e1a9a045bf964ffae544f4ff52",
+        "created_at": "2026-10-17T07:32:17",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "FlexFuelv6(BoostLoweredMap1).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 2,
+        "dirty_table_count": 2,
+        "dirty_table_ids": [
+          "table-0159-0x5a7",
+          "table-1115-0x5f5e"
+        ],
+        "export_ready": true,
+        "can_undo": true,
+        "fuel_banks_linked": true,
+        "fuel_bank_patch_available": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-10-17T07:34:18",
+          "table_id": "table-1115-0x5f5e",
+          "table_title": "Fuel mass monitor lower multiplier (FRKMIN_UM)",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 0,
+            "col_start": 0,
+            "col_end": 0,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.796875
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": -0.0546875,
+            "max_delta": -0.0546875
+          }
+        },
+        {
+          "timestamp": "2026-10-17T07:34:51",
+          "table_id": "table-0159-0x5a7",
+          "table_title": "Fuel Scalar",
+          "operation": "add_constant",
+          "selection": {
+            "row_start": 8,
+            "row_end": 15,
+            "col_start": 10,
+            "col_end": 15,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 0.01
+          },
+          "summary": {
+            "changed_cell_count": 48,
+            "min_delta": 0.0050084936199999985,
+            "max_delta": 0.014999946240000006
+          }
+        }
+      ],
+      "exported_at": "2026-10-17T07:35:41"
+    }
+  ]
+}

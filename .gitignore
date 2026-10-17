@@ -24,3 +24,6 @@ Thumbs.db
 
 # MHD Logs
 E85/MHDLogs/
+
+# Local Codex audit reports, scripts, evidence and review artifacts
+/Tools/CodexAudits/
