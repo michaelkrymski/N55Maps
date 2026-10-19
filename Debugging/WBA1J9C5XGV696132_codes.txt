@@ -1228,3 +1228,22 @@ None
 None
 
 
+++++10/16/2026 10:40:09 PM
+- DME active codes:
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+- DME inactive (shadow) codes:
+21A023 - Combustion engine: Unsuccessful start or engine stopped without driver influence.
+
+- Transmission active codes:
+None
+
+
+++++10/16/2026 10:40:18 PM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+
