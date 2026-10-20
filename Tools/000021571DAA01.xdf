@@ -7088,11 +7088,11 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15, 18, 19, 2
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1942F2" mmedelementsizebits="16" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
-      <decimalpl>2</decimalpl>
+      <decimalpl>8</decimalpl>
       <min>0.500000</min>
       <max>1.600000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.00003051758">
+      <MATH equation="X/32768">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -18384,8 +18384,8 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x6A0" flags="0x0">
-    <title>Max fuel scalar</title>
-    <description>FRKMAX_UM. Absolute max for fuel scalar values.</description>
+    <title>Fuel mass monitor upper multiplier (FRKMAX_UM)</title>
+    <description>FRKMAX_UM at 0x1B84BF: upper multiplier in the fuel-mass safety monitor. Unsigned byte, raw/128. It is not a direct maximum for Fuel Scalar table cells. The monitor combines reference quantities, an additive allowance, saturation and additional consistency checks. Definition only; no protection value change selected. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
     <CATEGORYMEM index="0" category="5" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -18413,9 +18413,9 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1B84BF" mmedelementsizebits="8" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <decimalpl>2</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <decimalpl>7</decimalpl>
+      <min>0</min>
+      <max>1.9921875</max>
       <outputtype>1</outputtype>
       <MATH equation="X/128">
         <VAR id="X" />
@@ -24070,11 +24070,11 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D16DA" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
-      <decimalpl>5</decimalpl>
+      <decimalpl>3</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -24116,30 +24116,30 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D16F2" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>1/min</units>
-      <decimalpl>3</decimalpl>
+      <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.25">
+      <MATH equation="X/4">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x723" flags="0x0">
     <title>Injection Time Correction factor</title>
-    <description>FKKVS</description>
+    <description>FKKVS: global injection-time correction factor map, indexed by linear injection time and engine speed. Outputs unsigned 16-bit little-endian Q15, factor = raw/32768. Time axis uses raw microseconds /1000 ms; speed axis uses raw/4 RPM. Unity raw 32768. This is separate from requested-fuel Fuel Scalar. Existing storage orientation is retained: rows time, columns RPM. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="63" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D16F2" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>1/min</units>
       <indexcount>8</indexcount>
-      <decimalpl>3</decimalpl>
+      <decimalpl>2</decimalpl>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X*0.25">
+      <MATH equation="X/4">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -24147,23 +24147,23 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D16DA" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
       <indexcount>12</indexcount>
-      <decimalpl>5</decimalpl>
+      <decimalpl>3</decimalpl>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D1702" mmedelementsizebits="16" mmedrowcount="12" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
-      <decimalpl>6</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <decimalpl>8</decimalpl>
+      <min>0</min>
+      <max>1.999969482421875</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.00003051758">
+      <MATH equation="X/32768">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -24227,30 +24227,30 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D17D2" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="30" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
-      <decimalpl>5</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <decimalpl>3</decimalpl>
+      <min>0</min>
+      <max>65.535</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x725" flags="0x0">
     <title>Inverted linear injector characteristics</title>
-    <description>InjVvG_tiIvsCvo_T</description>
+    <description>Inverse characteristic: input is the characteristic-stage duration; output is the corresponding linear input time. InjVvG_tiIvsCvo_T. Unsigned 16-bit little-endian microseconds; displayed ms = raw/1000. Keep the forward/inverse curves coordinated. The inverse helper does not undo every later CVO, coding, FKKVS, pause or scheduling correction. Global hardware model; not a map-slot/FF copy. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="63" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D17D2" mmedelementsizebits="16" mmedcolcount="30" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
       <indexcount>30</indexcount>
-      <decimalpl>5</decimalpl>
+      <decimalpl>3</decimalpl>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -24270,11 +24270,11 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D180E" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="30" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
-      <decimalpl>5</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <decimalpl>3</decimalpl>
+      <min>0</min>
+      <max>65.535</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -24338,30 +24338,30 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D1976" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="30" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
-      <decimalpl>5</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <decimalpl>3</decimalpl>
+      <min>0</min>
+      <max>65.535</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x727" flags="0x0">
     <title>Linear injector characteristics</title>
-    <description>KLTELIN</description>
+    <description>Forward absolute characteristic: input is linear injection time; output is characteristic-stage time, not an additive HDEV correction. KLTELIN. Unsigned 16-bit little-endian microseconds; displayed ms = raw/1000. Keep the forward/inverse curves coordinated. The inverse helper does not undo every later CVO, coding, FKKVS, pause or scheduling correction. Global hardware model; not a map-slot/FF copy. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="63" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D1976" mmedelementsizebits="16" mmedcolcount="30" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
       <indexcount>30</indexcount>
-      <decimalpl>5</decimalpl>
+      <decimalpl>3</decimalpl>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -24381,30 +24381,30 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D19B2" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="30" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
-      <decimalpl>5</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <decimalpl>3</decimalpl>
+      <min>0</min>
+      <max>65.535</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x728" flags="0x0">
     <title>Ti correction with variable fuel pressure</title>
-    <description>KLTIKRPR</description>
+    <description>KLTIKRPR: multiplicative pressure factor in normal mass/time conversion. Outputs unsigned 16-bit little-endian Q12, factor = raw/4096. Shared 20-point differential-pressure axis at 0x1D1A94 is raw/2000 MPa = raw/200 bar. 1 MPa = 10 bar. KLTVTSV reads the same axis bytes: changing breakpoints affects BOTH curves. A donor-axis replacement requires coordinated factor and delay outputs. Global hardware model, not an ethanol multiplier. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="63" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D1A94" mmedelementsizebits="16" mmedcolcount="20" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>MPa</units>
       <indexcount>20</indexcount>
-      <decimalpl>5</decimalpl>
+      <decimalpl>4</decimalpl>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X*0.0005">
+      <MATH equation="X/2000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -24424,11 +24424,11 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D19EE" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="20" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
-      <decimalpl>5</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <decimalpl>8</decimalpl>
+      <min>0</min>
+      <max>15.999755859375</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.0002441406">
+      <MATH equation="X/4096">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -24486,12 +24486,12 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D1A18" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
       <indexcount>6</indexcount>
-      <decimalpl>4</decimalpl>
+      <decimalpl>3</decimalpl>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X*0.04">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -24511,30 +24511,30 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x1D1A24" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
-      <decimalpl>5</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <decimalpl>3</decimalpl>
+      <min>-32.768</min>
+      <max>32.767</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x72B" flags="0x0">
     <title>Pressure-dependent injector delay time</title>
-    <description>KLTVTSV</description>
+    <description>KLTVTSV: signed pressure-dependent additive injector delay in the traced normal conversion. Signed 16-bit little-endian microseconds, ms = raw/1000; negative values are representable and occur in N55 calibration. Shares differential-pressure axis 0x1D1A94 with KLTIKRPR: raw/2000 MPa = raw/200 bar. This is not the HPFP MSV battery-voltage table. Transfer only with a coherent characteristic, coefficient and pressure-factor convention. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="63" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D1A94" mmedelementsizebits="16" mmedcolcount="20" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>MPa</units>
       <indexcount>20</indexcount>
-      <decimalpl>5</decimalpl>
+      <decimalpl>4</decimalpl>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X*0.0005">
+      <MATH equation="X/2000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -24554,18 +24554,18 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x1D1A4A" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="20" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
-      <decimalpl>5</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <decimalpl>3</decimalpl>
+      <min>-32.768</min>
+      <max>32.767</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x72C" flags="0x0">
     <title>Conversion factor for fuel mass to injection time</title>
-    <description>MK2TE</description>
+    <description>MK2TE: normal requested-fuel-mass to linear injection-time coefficient. Unsigned 16-bit little-endian, physical value = raw/96000 ms*Hub/mg. Current N55 raw 8803; reviewed EU5 reference raw 5800. This is not K_DMC_MK2TE or K_INJAD_MK2TE. Changing it alone does not transfer the complete injector model. Global model; not a map-specific fuel-property scalar. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="63" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -24597,17 +24597,17 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D1A8C" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms * Hub/mg</units>
-      <decimalpl>6</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <decimalpl>9</decimalpl>
+      <min>0</min>
+      <max>0.68265625</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.00001041667">
+      <MATH equation="X/96000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x72D" flags="0x0">
-    <title>Ti correction with variable fuel pressure X (autogen)</title>
+    <title>Shared injector pressure axis (KLTIKRPR / KLTVTSV)</title>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="63" />
     <CATEGORYMEM index="2" category="71" />
@@ -24655,18 +24655,19 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D1A94" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="20" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>MPa</units>
-      <decimalpl>5</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <decimalpl>4</decimalpl>
+      <min>0</min>
+      <max>32.7675</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.0005">
+      <MATH equation="X/2000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
+    <description>Shared 20-point differential-pressure breakpoints at 0x1D1A94, unsigned 16-bit little-endian. MPa = raw/2000; bar = raw/200. Both Ti correction with variable fuel pressure (KLTIKRPR) and Pressure-dependent injector delay time (KLTVTSV) use these exact bytes. Replacing this axis changes both functions; coordinate both dependent output curves. Existing 20-point shape retained. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x72E" flags="0x0">
     <title>Switch between KLTELIN (1) and KLHDEV (0)</title>
-    <description>CWKLTELIN</description>
+    <description>CWKLTELIN for the traced NORMAL duration path: unsigned byte at 0x1D16D5. Stored 1 selects absolute KLTELIN; stored 0 selects additive KLHDEV. Verified current J00B accesses supersede this entry's former 0x1D1ADB candidate. The older byte is not established as this normal selector. The proposed review retains value 1. Global branch selection; do not toggle merely to make a copied curve active. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="63" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -24696,10 +24697,10 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15.</descript
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x1D1ADB" mmedelementsizebits="8" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <decimalpl>2</decimalpl>
-      <min>0.000000</min>
-      <max>255.000000</max>
+      <EMBEDDEDDATA mmedaddress="0x1D16D5" mmedelementsizebits="8" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <decimalpl>0</decimalpl>
+      <min>0</min>
+      <max>255</max>
       <outputtype>1</outputtype>
       <MATH equation="X">
         <VAR id="X" />
@@ -30362,11 +30363,11 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15, 18, 19, 2
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D8372" mmedelementsizebits="16" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
-      <decimalpl>2</decimalpl>
+      <decimalpl>8</decimalpl>
       <min>0.500000</min>
       <max>1.600000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.00003051758">
+      <MATH equation="X/32768">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -30412,11 +30413,11 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15, 18, 19, 2
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D85B4" mmedelementsizebits="16" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
-      <decimalpl>2</decimalpl>
+      <decimalpl>8</decimalpl>
       <min>0.500000</min>
       <max>1.600000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.00003051758">
+      <MATH equation="X/32768">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -30462,11 +30463,11 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15, 18, 19, 2
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D87F6" mmedelementsizebits="16" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
-      <decimalpl>2</decimalpl>
+      <decimalpl>8</decimalpl>
       <min>0.500000</min>
       <max>1.600000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.00003051758">
+      <MATH equation="X/32768">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -30512,11 +30513,11 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15, 18, 19, 2
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D8A38" mmedelementsizebits="16" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
-      <decimalpl>2</decimalpl>
+      <decimalpl>8</decimalpl>
       <min>0.500000</min>
       <max>1.600000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.00003051758">
+      <MATH equation="X/32768">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -30562,11 +30563,11 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 14, 15, 18, 19, 2
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D8C7A" mmedelementsizebits="16" mmedrowcount="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>-</units>
-      <decimalpl>2</decimalpl>
+      <decimalpl>8</decimalpl>
       <min>0.500000</min>
       <max>1.600000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.00003051758">
+      <MATH equation="X/32768">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -53780,7 +53781,7 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 38.</description>
   </XDFFLAG>
   <XDFTABLE uniqueid="0x5F5B" flags="0x0">
     <title>HDEV master correction curve</title>
-    <description>KLHDEV</description>
+    <description>KLHDEV: additive correction curve, not an absolute duration curve. Inputs unsigned microseconds, outputs signed microseconds; both displayed as ms = raw/1000. This curve is not selected in the audited normal path while CWKLTELIN at 0x1D16D5 is 1. Its presence or donor values do not prove it is active. Other adaptation-specific characteristics are separate. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="63" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -53792,7 +53793,7 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 38.</description>
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -53813,10 +53814,10 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 38.</description>
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x1D18CC" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="48" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
       <decimalpl>3</decimalpl>
-      <min>-32.768002</min>
-      <max>32.766998</max>
+      <min>-32.768</min>
+      <max>32.767</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -53830,12 +53831,12 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 38.</description>
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D1A32" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
       <indexcount>6</indexcount>
-      <decimalpl>4</decimalpl>
+      <decimalpl>3</decimalpl>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="X*0.04">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -53855,18 +53856,18 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 38.</description>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x1D1A3E" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
-      <decimalpl>5</decimalpl>
-      <min>-32.768002</min>
-      <max>32.766998</max>
+      <decimalpl>3</decimalpl>
+      <min>-32.768</min>
+      <max>32.767</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5F5D" flags="0x0">
     <title>Minimum injection time</title>
-    <description>TIMINP</description>
+    <description>TIMINP: unsigned 16-bit little-endian microseconds, displayed ms = raw/1000. This minimum participates conditionally in the traced injector calculation; it is not an unconditional lower clamp on every final electrical pulse. The review candidate retains this calibration. Do not infer that an isolated donor minimum-time copy validates the hardware model. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
     <CATEGORYMEM index="0" category="5" />
     <CATEGORYMEM index="1" category="63" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -53899,17 +53900,17 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 38.</description>
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1D16D0" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>ms</units>
       <decimalpl>3</decimalpl>
-      <min>0.000000</min>
-      <max>65.535004</max>
+      <min>0</min>
+      <max>65.535</max>
       <outputtype>1</outputtype>
-      <MATH equation="X*0.001">
+      <MATH equation="X/1000">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x5f5e" flags="0x0">
     <title>Fuel mass monitor lower multiplier (FRKMIN_UM)</title>
-    <description>FRKMIN_UM: lower multiplier for the fuel-mass safety monitor. Verified in the supplied J00B code at file offset 0x1B84C0. Unsigned 8-bit storage, physical value = raw / 128. The positive-reference lower-bound stage is approximately trunc(reference_raw * raw / 128) - RKO_UM_raw * 16, with saturation and other checks. This is not a direct minimum for Fuel Scalar table cells. Lowering it widens the permitted lower deviation in the monitored fuel quantity; it does not repair injector characterization or directly command fueling. Current audited raw value 113 = 0.8828125. No threshold change has been validated by this definition. Resolution is 0.0078125; exactly 0.85 is not representable.</description>
+    <description>FRKMIN_UM at 0x1B84C0: lower multiplier in the fuel-mass safety monitor. Unsigned byte, raw/128. For positive reference, the lower-bound stage includes approximately trunc(reference_raw*raw/128)-RKO_UM_raw*16, with saturation and other checks. It is not a direct minimum Fuel Scalar cell value. Lowering it widens allowed deviation and does not repair the injector model. Resolution 0.0078125; exactly 0.85 is not representable. Definition only; no threshold change selected. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
     <CATEGORYMEM index="0" category="5" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -53938,7 +53939,7 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 38.</description>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1B84C0" mmedelementsizebits="8" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <decimalpl>7</decimalpl>
-      <min>0.0000000</min>
+      <min>0</min>
       <max>1.9921875</max>
       <outputtype>1</outputtype>
       <MATH equation="X/128">
@@ -53947,4 +53948,133 @@ Source: MHD+ Suite Tuning Guide, N55/MEVD applicability, pages 38.</description>
     </XDFAXIS>
   </XDFTABLE>
   
+  <XDFTABLE uniqueid="0x5f5f" flags="0x0">
+    <title>Injector correction routing (CWBMWINJAD)</title>
+    <description>CWBMWINJAD: global unsigned-byte correction-routing codeword at 0x1D16D4. With current value 2, ordinary normal pulses select coding/cylinder-factor versus CVO contribution according to runtime cylinder eligibility mask D000381C; special pulse conditions can differ. This is not a simple CVO on/off or injector-size selector. The review retains 2. Live eligibility and learned values are not stored in this byte. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
+    <CATEGORYMEM index="0" category="5" />
+    <CATEGORYMEM index="1" category="63" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>-1</decimalpl>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.000000" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>-1</decimalpl>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.000000" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1d16d4" mmedelementsizebits="8" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" mmedcolcount="1" />
+      <units>bitfield</units>
+      <decimalpl>0</decimalpl>
+      <min>0</min>
+      <max>255</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x5f60" flags="0x0">
+    <title>Minimum injection time without CVO (TIMINNOCVO)</title>
+    <description>TIMINNOCVO: code-referenced conditional minimum-time parameter at 0x1D16CE, unsigned 16-bit little-endian microseconds. Audited N55 raw 400 = 0.400 ms. Its branch/output handling matters; do not interpret it as the final minimum for every pulse or copy it in isolation. Retained in the review candidate. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
+    <CATEGORYMEM index="0" category="5" />
+    <CATEGORYMEM index="1" category="63" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>-1</decimalpl>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.000000" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>-1</decimalpl>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.000000" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1d16ce" mmedelementsizebits="16" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" mmedcolcount="1" />
+      <units>ms</units>
+      <decimalpl>3</decimalpl>
+      <min>0</min>
+      <max>65.535</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X/1000">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x5f61" flags="0x0">
+    <title>Fuel density correction versus fuel temperature (KLFTFUEL)</title>
+    <description>Normal conversion fuel-temperature density factor, 3-point byte curve: count at 0x1D1862; temperature axes at 0x1D1863; outputs at 0x1D1866. Axis degC = raw*0.75-48; outputs = raw/128. Actual normal-code references and identical N55/EU5 source bytes support this curve. It is separate from stoichiometric AFR and from FF blend selection. No change selected. Definition audit: J00B, 2026-10-20. Defining a parameter does not select a replacement calibration value.</description>
+    <CATEGORYMEM index="0" category="5" />
+    <CATEGORYMEM index="1" category="63" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" mmedaddress="0x1D1863" mmedtypeflags="0x02" mmedcolcount="3" />
+      <units>degC</units>
+      <indexcount>3</indexcount>
+      <decimalpl>2</decimalpl>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X*0.75-48">
+        <VAR id="X" />
+      </MATH>
+      <embedinfo type="1" />
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>-</units>
+      <indexcount>1</indexcount>
+      <decimalpl>-1</decimalpl>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.000000" />
+      <MATH equation="X">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x1d1866" mmedelementsizebits="8" mmedrowcount="1" mmedmajorstridebits="0" mmedminorstridebits="0" mmedcolcount="3" />
+      <units>factor</units>
+      <decimalpl>7</decimalpl>
+      <min>0</min>
+      <max>1.9921875</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X/128">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
 </XDFFORMAT>

@@ -1,0 +1,392 @@
+{
+  "session": {
+    "session_id": "44c7fd2661ce4036af6ababdb22921e4",
+    "created_at": "2026-10-20T06:58:01",
+    "source_xdf_name": "000021571DAA01.xdf",
+    "source_bin_name": "FlexFuelv8(FuelInjectorBigUpdate).bin",
+    "reference_bin_name": null,
+    "has_reference_bin": false,
+    "pending_change_count": 3,
+    "dirty_table_count": 3,
+    "dirty_table_ids": [
+      "table-0541-0x725",
+      "table-0543-0x727",
+      "table-0544-0x728"
+    ],
+    "export_ready": true,
+    "can_undo": true,
+    "fuel_banks_linked": true,
+    "fuel_bank_patch_available": true
+  },
+  "pending_edits": [
+    {
+      "timestamp": "2026-10-20T07:07:06",
+      "table_id": "table-0543-0x727",
+      "table_title": "Linear injector characteristics",
+      "operation": "import_table",
+      "selection": {
+        "rows": 1,
+        "cols": 30
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Linear injector characteristics",
+        "x_axis_changed": 28,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 0,
+        "min_delta": 0.0,
+        "max_delta": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-10-20T07:07:21",
+      "table_id": "table-0541-0x725",
+      "table_title": "Inverted linear injector characteristics",
+      "operation": "import_table",
+      "selection": {
+        "rows": 1,
+        "cols": 30
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Inverted linear injector characteristics",
+        "x_axis_changed": 30,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 0,
+        "min_delta": 0.0,
+        "max_delta": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-10-20T07:07:46",
+      "table_id": "table-0544-0x728",
+      "table_title": "Ti correction with variable fuel pressure",
+      "operation": "import_table",
+      "selection": {
+        "rows": 1,
+        "cols": 20
+      },
+      "parameters": {
+        "mode": "values_and_axes",
+        "parsed_title": "Ti correction with variable fuel pressure",
+        "x_axis_changed": 19,
+        "y_axis_changed": 0
+      },
+      "summary": {
+        "changed_cell_count": 0,
+        "min_delta": 0.0,
+        "max_delta": 0.0
+      }
+    }
+  ],
+  "exports": [
+    {
+      "session": {
+        "session_id": "44c7fd2661ce4036af6ababdb22921e4",
+        "created_at": "2026-10-20T06:58:01",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "FlexFuelv7(TestPermittedLowerFuelMassCalc).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 9,
+        "dirty_table_count": 7,
+        "dirty_table_ids": [
+          "table-0159-0x5a7",
+          "table-0539-0x723",
+          "table-0541-0x725",
+          "table-0543-0x727",
+          "table-0544-0x728",
+          "table-0547-0x72b",
+          "table-0548-0x72c"
+        ],
+        "export_ready": true,
+        "can_undo": true,
+        "fuel_banks_linked": true,
+        "fuel_bank_patch_available": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-10-20T06:59:59",
+          "table_id": "table-0548-0x72c",
+          "table_title": "Conversion factor for fuel mass to injection time",
+          "operation": "import_table",
+          "selection": {
+            "rows": 1,
+            "cols": 1
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Conversion factor for fuel mass to injection time",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 1,
+            "min_delta": -0.031281250000000003,
+            "max_delta": -0.031281250000000003
+          }
+        },
+        {
+          "timestamp": "2026-10-20T07:00:33",
+          "table_id": "table-0539-0x723",
+          "table_title": "Injection Time Correction factor",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 11,
+            "col_start": 0,
+            "col_end": 7,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 1
+          },
+          "summary": {
+            "changed_cell_count": 80,
+            "min_delta": -0.0517578125,
+            "max_delta": 0.06011962890625
+          }
+        },
+        {
+          "timestamp": "2026-10-20T07:00:39",
+          "table_id": "table-0539-0x723",
+          "table_title": "Injection Time Correction factor",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 11,
+            "col_start": 0,
+            "col_end": 7,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 1
+          },
+          "summary": {
+            "changed_cell_count": 0,
+            "min_delta": 0.0,
+            "max_delta": 0.0
+          }
+        },
+        {
+          "timestamp": "2026-10-20T07:01:38",
+          "table_id": "table-0159-0x5a7",
+          "table_title": "Fuel Scalar",
+          "operation": "set_cells",
+          "selection": {
+            "row_start": 0,
+            "row_end": 15,
+            "col_start": 0,
+            "col_end": 15,
+            "is_rectangular": true
+          },
+          "parameters": {
+            "value": 1
+          },
+          "summary": {
+            "changed_cell_count": 252,
+            "min_delta": -0.1400146484375,
+            "max_delta": 0.209991455078125
+          }
+        },
+        {
+          "timestamp": "2026-10-20T07:02:06",
+          "table_id": "table-0548-0x72c",
+          "table_title": "Conversion factor for fuel mass to injection time",
+          "operation": "import_table",
+          "selection": {
+            "rows": 1,
+            "cols": 1
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Conversion factor for fuel mass to injection time",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 0,
+            "min_delta": 0.0,
+            "max_delta": 0.0
+          }
+        },
+        {
+          "timestamp": "2026-10-20T07:02:24",
+          "table_id": "table-0543-0x727",
+          "table_title": "Linear injector characteristics",
+          "operation": "import_table",
+          "selection": {
+            "rows": 1,
+            "cols": 30
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Linear injector characteristics",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 30,
+            "min_delta": -0.8849999999999998,
+            "max_delta": 0.04800000000000004
+          }
+        },
+        {
+          "timestamp": "2026-10-20T07:02:33",
+          "table_id": "table-0541-0x725",
+          "table_title": "Inverted linear injector characteristics",
+          "operation": "import_table",
+          "selection": {
+            "rows": 1,
+            "cols": 30
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Inverted linear injector characteristics",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 28,
+            "min_delta": -0.9000000000000004,
+            "max_delta": 0.112
+          }
+        },
+        {
+          "timestamp": "2026-10-20T07:02:59",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "import_table",
+          "selection": {
+            "rows": 1,
+            "cols": 20
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Ti correction with variable fuel pressure",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 20,
+            "min_delta": -1.840087890625,
+            "max_delta": 0.00341796875
+          }
+        },
+        {
+          "timestamp": "2026-10-20T07:03:34",
+          "table_id": "table-0547-0x72b",
+          "table_title": "Pressure-dependent injector delay time",
+          "operation": "import_table",
+          "selection": {
+            "rows": 1,
+            "cols": 20
+          },
+          "parameters": {
+            "mode": "values_only",
+            "parsed_title": "Pressure-dependent injector delay time",
+            "x_axis_changed": 0,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 20,
+            "min_delta": 0.063,
+            "max_delta": 0.107
+          }
+        }
+      ],
+      "exported_at": "2026-10-20T07:04:18"
+    },
+    {
+      "session": {
+        "session_id": "44c7fd2661ce4036af6ababdb22921e4",
+        "created_at": "2026-10-20T06:58:01",
+        "source_xdf_name": "000021571DAA01.xdf",
+        "source_bin_name": "FlexFuelv8(FuelInjectorBigUpdate).bin",
+        "reference_bin_name": null,
+        "has_reference_bin": false,
+        "pending_change_count": 3,
+        "dirty_table_count": 3,
+        "dirty_table_ids": [
+          "table-0541-0x725",
+          "table-0543-0x727",
+          "table-0544-0x728"
+        ],
+        "export_ready": true,
+        "can_undo": true,
+        "fuel_banks_linked": true,
+        "fuel_bank_patch_available": true
+      },
+      "pending_edits": [
+        {
+          "timestamp": "2026-10-20T07:07:06",
+          "table_id": "table-0543-0x727",
+          "table_title": "Linear injector characteristics",
+          "operation": "import_table",
+          "selection": {
+            "rows": 1,
+            "cols": 30
+          },
+          "parameters": {
+            "mode": "values_and_axes",
+            "parsed_title": "Linear injector characteristics",
+            "x_axis_changed": 28,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 0,
+            "min_delta": 0.0,
+            "max_delta": 0.0
+          }
+        },
+        {
+          "timestamp": "2026-10-20T07:07:21",
+          "table_id": "table-0541-0x725",
+          "table_title": "Inverted linear injector characteristics",
+          "operation": "import_table",
+          "selection": {
+            "rows": 1,
+            "cols": 30
+          },
+          "parameters": {
+            "mode": "values_and_axes",
+            "parsed_title": "Inverted linear injector characteristics",
+            "x_axis_changed": 30,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 0,
+            "min_delta": 0.0,
+            "max_delta": 0.0
+          }
+        },
+        {
+          "timestamp": "2026-10-20T07:07:46",
+          "table_id": "table-0544-0x728",
+          "table_title": "Ti correction with variable fuel pressure",
+          "operation": "import_table",
+          "selection": {
+            "rows": 1,
+            "cols": 20
+          },
+          "parameters": {
+            "mode": "values_and_axes",
+            "parsed_title": "Ti correction with variable fuel pressure",
+            "x_axis_changed": 19,
+            "y_axis_changed": 0
+          },
+          "summary": {
+            "changed_cell_count": 0,
+            "min_delta": 0.0,
+            "max_delta": 0.0
+          }
+        }
+      ],
+      "exported_at": "2026-10-20T07:08:13"
+    }
+  ]
+}
