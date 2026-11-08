@@ -1,0 +1,617 @@
+++++5/16/2025 12:58:22 PM
+ - DME active codes -
+120308 - Charging pressure control, plausibility Pressure too low.
+
+++++5/16/2025 12:58:22 PM
+ - DME active codes -
+120308 - Charging pressure control, plausibility Pressure too low.
+
+ - Transmission active codes -
+None
+
+++++5/20/2025 5:34:09 PM
+ - DME active codes -
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+120308 - Charging pressure control, plausibility Pressure too low.
+
+ - DME shadow (inactive) codes -
+108932 unknown
+
+++++5/20/2025 5:34:09 PM
+ - DME active codes -
+108001 - Intake air temperature sensor, electrical: Short circuit to B+.
+120308 - Charging pressure control, plausibility Pressure too low.
+
+ - DME shadow (inactive) codes -
+108932 unknown
+
+ - Transmission active codes -
+None
+
+++++6/14/2025 8:13:17 PM
+ - DME active codes -
+120308 - Charging pressure control, plausibility Pressure too low.
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+++++6/14/2025 8:13:17 PM
+ - DME active codes -
+120308 - Charging pressure control, plausibility Pressure too low.
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+ - Transmission active codes -
+None
+
+++++6/14/2025 8:41:53 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121202 - Boost pressure sensor, plausibility, coastdown: Pressure too low.
+121533 - Charging pressure - ambient pressure, comparison: Charging pressure too low.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+
+++++6/14/2025 8:41:53 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121202 - Boost pressure sensor, plausibility, coastdown: Pressure too low.
+121533 - Charging pressure - ambient pressure, comparison: Charging pressure too low.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+
+ - Transmission active codes -
+None
+
+++++6/14/2025 8:42:03 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121533 - Charging pressure - ambient pressure, comparison: Charging pressure too low.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+
+++++6/14/2025 8:42:03 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121533 - Charging pressure - ambient pressure, comparison: Charging pressure too low.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+
+ - Transmission active codes -
+None
+
+++++6/14/2025 8:42:12 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121533 - Charging pressure - ambient pressure, comparison: Charging pressure too low.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+
+++++6/14/2025 8:42:12 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121533 - Charging pressure - ambient pressure, comparison: Charging pressure too low.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+
+ - Transmission active codes -
+None
+
+++++6/14/2025 8:42:25 PM
+ - DME active codes -
+None
+
+++++6/14/2025 8:42:25 PM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++6/14/2025 8:47:04 PM
+ - DME active codes -
+None
+
+++++6/14/2025 8:47:04 PM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++6/15/2025 9:37:01 PM
+ - DME active codes -
+11A002 - High pressure fuel, plausibility Pressure too low.
+
+++++6/15/2025 9:37:01 PM
+ - DME active codes -
+11A002 - High pressure fuel, plausibility Pressure too low.
+
+ - Transmission active codes -
+CF16D1 - Message (group fault 3 - effect on driving: none): receiver EGS, transmitter DSC .
+
+++++6/15/2025 9:37:16 PM
+ - DME active codes -
+None
+
+++++6/15/2025 9:37:16 PM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++6/15/2025 9:37:29 PM
+ - DME active codes -
+11A002 - High pressure fuel, plausibility Pressure too low.
+
+++++6/15/2025 9:37:29 PM
+ - DME active codes -
+11A002 - High pressure fuel, plausibility Pressure too low.
+
+ - Transmission active codes -
+None
+
+++++6/15/2025 9:37:37 PM
+ - DME active codes -
+None
+
+++++6/15/2025 9:37:37 PM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++6/15/2025 9:58:05 PM
+ - DME active codes -
+120308 - Charging pressure control, plausibility Pressure too low.
+
+++++6/15/2025 9:58:05 PM
+ - DME active codes -
+120308 - Charging pressure control, plausibility Pressure too low.
+
+ - Transmission active codes -
+CF16D1 - Message (group fault 3 - effect on driving: none): receiver EGS, transmitter DSC .
+
+++++6/15/2025 9:58:17 PM
+ - DME active codes -
+None
+
+++++6/15/2025 9:58:17 PM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++6/22/2025 8:41:40 PM
+ - DME active codes -
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+++++6/22/2025 8:41:40 PM
+ - DME active codes -
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+ - Transmission active codes -
+None
+
+++++6/22/2025 8:41:48 PM
+ - DME active codes -
+None
+
+++++6/22/2025 8:41:48 PM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++6/22/2025 8:47:55 PM
+ - DME active codes -
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+++++6/22/2025 8:47:55 PM
+ - DME active codes -
+1F0525 - DME, internal fault, safety function: Plausibility check, relative fuel mass.
+
+ - Transmission active codes -
+None
+
+++++6/22/2025 8:49:39 PM
+ - DME active codes -
+None
+
+++++6/22/2025 8:49:39 PM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++6/22/2025 8:54:47 PM
+ - DME active codes -
+None
+
+++++6/22/2025 8:54:47 PM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++7/11/2025 7:30:08 AM
+ - DME active codes -
+110001 - Cylinder injection cutout: Pressure too low in high-pressure fuel system.
+
+++++7/11/2025 7:30:08 AM
+ - DME active codes -
+110001 - Cylinder injection cutout: Pressure too low in high-pressure fuel system.
+
+ - Transmission active codes -
+CF16D1 - Message (group fault 3 - effect on driving: none): receiver EGS, transmitter DSC .
+
+++++7/11/2025 7:30:21 AM
+ - DME active codes -
+None
+
+++++7/11/2025 7:30:21 AM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++7/18/2025 9:14:31 AM
+ - DME active codes -
+None
+
+++++7/18/2025 9:14:31 AM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++7/27/2025 6:55:11 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121530 - Charging pressure, plausibility: Pressure too high.
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140401 - Combustion misfire, cylinder 4: Fuel injection is switched off.
+140410 - Combustion misfire, cylinder 4: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+++++7/27/2025 6:55:11 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121530 - Charging pressure, plausibility: Pressure too high.
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140401 - Combustion misfire, cylinder 4: Fuel injection is switched off.
+140410 - Combustion misfire, cylinder 4: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+ - Transmission active codes -
+None
+
+++++7/27/2025 6:55:27 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+
+++++7/27/2025 6:55:27 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+
+ - Transmission active codes -
+None
+
+++++7/27/2025 6:57:01 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+
+++++7/27/2025 6:57:01 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+
+ - Transmission active codes -
+None
+
+++++7/27/2025 7:16:49 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+
+++++7/27/2025 7:16:49 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+
+ - Transmission active codes -
+None
+
+++++7/27/2025 7:16:58 PM
+ - DME active codes -
+None
+
+++++7/27/2025 7:16:58 PM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++7/29/2025 1:48:49 AM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121530 - Charging pressure, plausibility: Pressure too high.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+
+++++7/29/2025 1:48:49 AM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121530 - Charging pressure, plausibility: Pressure too high.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+
+ - Transmission active codes -
+CF16D1 - Message (group fault 3 - effect on driving: none): receiver EGS, transmitter DSC .
+
+++++7/29/2025 1:48:57 AM
+ - DME active codes -
+None
+
+++++7/29/2025 1:48:57 AM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++8/14/2025 9:15:17 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121530 - Charging pressure, plausibility: Pressure too high.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+
+++++8/14/2025 9:15:17 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121530 - Charging pressure, plausibility: Pressure too high.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+
+ - Transmission active codes -
+CF16D1 - Message (group fault 3 - effect on driving: none): receiver EGS, transmitter DSC .
+
+++++8/14/2025 9:16:02 PM
+ - DME active codes -
+None
+
+++++8/14/2025 9:16:02 PM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++8/14/2025 9:16:07 PM
+ - DME active codes -
+None
+
+++++8/14/2025 9:16:07 PM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++8/14/2025 11:27:09 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121530 - Charging pressure, plausibility: Pressure too high.
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140301 - Combustion misfire, cylinder 3: Fuel injection is switched off.
+140310 - Combustion misfire, cylinder 3: detected.
+140401 - Combustion misfire, cylinder 4: Fuel injection is switched off.
+140410 - Combustion misfire, cylinder 4: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+++++8/14/2025 11:27:09 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+121530 - Charging pressure, plausibility: Pressure too high.
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140301 - Combustion misfire, cylinder 3: Fuel injection is switched off.
+140310 - Combustion misfire, cylinder 3: detected.
+140401 - Combustion misfire, cylinder 4: Fuel injection is switched off.
+140410 - Combustion misfire, cylinder 4: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+
+ - DME shadow (inactive) codes -
+121521 - Boost pressure sensor. Multiple fault.
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+ - Transmission active codes -
+None
+
+++++8/14/2025 11:27:27 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+
+++++8/14/2025 11:27:27 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+
+ - Transmission active codes -
+None
+
+++++8/14/2025 11:36:15 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+
+++++8/14/2025 11:36:15 PM
+ - DME active codes -
+120408 - Charging pressure control: Switch-off as consequential reaction.
+
+ - Transmission active codes -
+None
+
+++++8/14/2025 11:38:24 PM
+ - DME active codes -
+None
+
+++++8/14/2025 11:38:24 PM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++9/13/2025 5:03:19 PM
+ - DME active codes -
+102002 - Air volume, plausibility: Air volume too low.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+++++9/13/2025 5:03:19 PM
+ - DME active codes -
+102002 - Air volume, plausibility: Air volume too low.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+ - Transmission active codes -
+None
+
+++++9/14/2025 6:23:52 AM
+ - DME active codes -
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140401 - Combustion misfire, cylinder 4: Fuel injection is switched off.
+140410 - Combustion misfire, cylinder 4: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+ - DME shadow (inactive) codes -
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+++++9/14/2025 6:23:52 AM
+ - DME active codes -
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140401 - Combustion misfire, cylinder 4: Fuel injection is switched off.
+140410 - Combustion misfire, cylinder 4: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+ - DME shadow (inactive) codes -
+140011 - Misfire: Fuel injection deactivation.
+231501 - Fault entry: Send buffer full.
+
+ - Transmission active codes -
+CF16D1 - Message (group fault 3 - effect on driving: none): receiver EGS, transmitter DSC .
+
+++++9/14/2025 6:24:02 AM
+ - DME active codes -
+None
+
+++++9/14/2025 6:24:02 AM
+ - DME active codes -
+None
+
+ - Transmission active codes -
+None
+
+++++4/19/2026 1:17:41 AM
+- DME active codes:
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- DME inactive (shadow) codes:
+140011 - Misfire: Fuel injection deactivation.
+
+++++4/19/2026 1:17:41 AM
+- DME active codes:
+140001 - Combustion misfires, several cylinders: Fuel injection is switched off.
+140010 - Combustion misfires, several cylinders: detected.
+140501 - Combustion misfire, cylinder 5: Fuel injection is switched off.
+140510 - Combustion misfire, cylinder 5: detected.
+191C02 - Fuel tank ventilation system, 2nd inlet point: Malfunction.
+195014 - Differential pressure sensor, tank vent valve, signal: Permanently stuck.
+
+- DME inactive (shadow) codes:
+140011 - Misfire: Fuel injection deactivation.
+
+- Transmission active codes:
+None
+
+++++4/19/2026 1:17:49 AM
+- DME active codes:
+None
+
+++++4/19/2026 1:17:49 AM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++4/19/2026 1:18:21 AM
+- DME active codes:
+None
+
+++++4/19/2026 1:18:21 AM
+- DME active codes:
+None
+
+- Transmission active codes:
+None
+
+++++4/19/2026 1:36:24 AM
+- DME active codes:
+102002 - Air volume, plausibility: Air volume too low.
+
+++++4/19/2026 1:36:24 AM
+- DME active codes:
+102002 - Air volume, plausibility: Air volume too low.
+
+- Transmission active codes:
+None
+

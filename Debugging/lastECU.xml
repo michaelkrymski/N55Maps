@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ECUInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Vin>WBA1J9C5XGV696132</Vin>
+  <Vin_CASFRM>WBA1J9C5XGV696132</Vin_CASFRM>
+  <Vin_DSC>-</Vin_DSC>
+  <LatestSoftware>000021571DAA01</LatestSoftware>
+  <mECUMdl>COUNT</mECUMdl>
+  <currentUIF>
+    <svktype>1</svktype>
+    <svkVersion>1</svkVersion>
+    <progDependency>1</progDependency>
+    <xweCount>5</xweCount>
+    <xwes>
+      <XWE>
+        <Prozessklasse>HWEL</Prozessklasse>
+        <SGBM_NR>6622</SGBM_NR>
+        <Hauptversion>1</Hauptversion>
+        <Unterversion>19</Unterversion>
+        <Patchversion>1</Patchversion>
+      </XWE>
+      <XWE>
+        <Prozessklasse>BTLD</Prozessklasse>
+        <SGBM_NR>6620</SGBM_NR>
+        <Hauptversion>1</Hauptversion>
+        <Unterversion>69</Unterversion>
+        <Patchversion>1</Patchversion>
+      </XWE>
+      <XWE>
+        <Prozessklasse>SWFL</Prozessklasse>
+        <SGBM_NR>8535</SGBM_NR>
+        <Hauptversion>29</Hauptversion>
+        <Unterversion>170</Unterversion>
+        <Patchversion>1</Patchversion>
+      </XWE>
+      <XWE>
+        <Prozessklasse>SWFL</Prozessklasse>
+        <SGBM_NR>8411</SGBM_NR>
+        <Hauptversion>29</Hauptversion>
+        <Unterversion>170</Unterversion>
+        <Patchversion>3</Patchversion>
+      </XWE>
+      <XWE>
+        <Prozessklasse>CAFD</Prozessklasse>
+        <SGBM_NR>2826</SGBM_NR>
+        <Hauptversion>0</Hauptversion>
+        <Unterversion>80</Unterversion>
+        <Patchversion>1</Patchversion>
+      </XWE>
+    </xwes>
+  </currentUIF>
+  <lastKnownBTLD>
+    <Prozessklasse>BTLD</Prozessklasse>
+    <SGBM_NR>6620</SGBM_NR>
+    <Hauptversion>1</Hauptversion>
+    <Unterversion>69</Unterversion>
+    <Patchversion>1</Patchversion>
+  </lastKnownBTLD>
+  <lastKnownPRG>
+    <Prozessklasse>SWFL</Prozessklasse>
+    <SGBM_NR>8535</SGBM_NR>
+    <Hauptversion>29</Hauptversion>
+    <Unterversion>170</Unterversion>
+    <Patchversion>1</Patchversion>
+  </lastKnownPRG>
+  <lastKnownCAL>
+    <Prozessklasse>SWFL</Prozessklasse>
+    <SGBM_NR>8411</SGBM_NR>
+    <Hauptversion>29</Hauptversion>
+    <Unterversion>170</Unterversion>
+    <Patchversion>3</Patchversion>
+  </lastKnownCAL>
+  <ECUBuilddate>2015.11.21</ECUBuilddate>
+  <ECUflashdate>2026.10.24</ECUflashdate>
+  <BTLD>-</BTLD>
+  <PRG>-</PRG>
+  <CAL>-</CAL>
+  <femtoUnlockedStatus>-1</femtoUnlockedStatus>
+  <needFemtoUnlock>false</needFemtoUnlock>
+  <HWNR>000021571DAA01</HWNR>
+  <ZBNR>HWEL SGBM 19DE 001_019_001
+BTLD SGBM 19DC 001_069_001
+SWFL SGBM 2157 029_170_001
+SWFL SGBM 20DB 029_170_003
+CAFD SGBM 0B0A 000_080_001
+</ZBNR>
+  <factoryZBNR>HWEL SGBM 19DE 001_019_001
+BTLD SGBM 19DC 001_069_001
+SWFL SGBM 2157 029_160_001
+SWFL SGBM 20DB 029_160_003
+</factoryZBNR>
+  <unknown>Unknown</unknown>
+  <lastFlashName>FlexFuelv8FuelInjectorBigUpdate.bin</lastFlashName>
+  <MHDplusHooksVersion>0</MHDplusHooksVersion>
+  <MHDplus_Version>16</MHDplus_Version>
+  <mWaterMark>TUhEMgEAAAAAAAAQVCXNLQ==</mWaterMark>
+  <DateTime>2026-11-08T01:52:24.346273Z</DateTime>
+  <ECUtype>mevd172y</ECUtype>
+</ECUInfo>
